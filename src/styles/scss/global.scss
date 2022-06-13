@@ -1,0 +1,491 @@
+@import "helpers/theme-media-query";
+@import "bs-theming/bs-theming";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "bs-theming/bs-theming";
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+// @import "./react-header";
+@import "bs-theming/fonts";
+span,
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+body {
+  > div {
+  overflow: hidden;
+}
+}
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Animations Sonar */
+.sonar-emitter {
+  position: relative;
+}
+
+.sonar-emitter::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: "";
+  background-color: $primary;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.sonar-emitter::after {
+  animation: sonarWave 2s linear infinite;
+}
+
+.sonar-emitter-2 {
+  position: relative;
+}
+
+.sonar-emitter-2::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: "";
+  background-color: $white;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.sonar-emitter-2::after {
+  animation: sonarWave 2s linear infinite;
+}
+@-webkit-keyframes sonarWave {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+@keyframes sonarWave {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+
+.btn-rest{
+  box-shadow: none;
+  border:0px;
+  background:transparent;
+  &:focus{
+    outline: none;
+  }
+}
+
+
+
+.card{
+  &-title{
+    font-size: 18px;
+    color:red;
+  }
+  &-text{
+    color:green;
+    font-size: 14px;
+  }
+  &.card-active{
+    background:pink
+  }
+  &.text-center{
+    text-align: center;
+  }
+}
+
+.intern-features{
+  padding: -50px 0;
+}
+
+
+@media only screen and (max-width:1600px) {
+	.welcome-image--group-01__img-5 {
+		left: -140% !important;
+	}
+}
+@media only screen and (max-width:1399px) {
+	.welcome-image--group-01__img-5 {
+		left: -140% !important;
+	}
+}
+
+@media only screen and (max-width:1240px) {
+	.welcome-image--group-01__img-5 {
+	     left: -830px !important;
+    		top: 90px !important;
+	}
+}
+
+
+// ---- homepage--------------------------
+
+
+@media only screen and (max-width:1399px) {
+  .homepage-hero h1.hero-main-title{
+    font-size: 60px;
+  }
+  .homepage-hero p{
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  .homepage-hero .hero-form .hero-btn1{
+    font-size: 14px !important;
+    margin-right: 20px;
+  }
+  .homepage-hero .hero-form .hero-btn2{
+    font-size: 14px !important;
+  }
+  .header-logo{
+    width: 80%;
+  }
+  .site-menu-main .main-nav-item > .nav-link{
+    font-size: 16px !important;
+  }
+  .service-sec .service-header{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 0;
+  }
+  .service-title{
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+  .service-widget-sec p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .service-widget-sec .link-text{
+    font-size: 18px !important;
+    line-height: 27px !important;
+  }
+
+  .feature-sec .feature-title{
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 0;
+  }
+  .feature-sec .feature-title2{
+    font-size: 45px;
+    line-height: 40px;
+  }
+
+  .feature-sec p{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .feature-tabs span{
+    font-size: 16px;
+  }
+
+  .feature-tabs.nav .nav-widget{
+    width: 260px;
+  }
+
+  .tab-contents h5{
+    font-size: 18px;
+  }
+
+  .tab-contents p{
+    font-size: 16px;
+  }
+
+  .service-section h2{
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+
+  .service-card p{
+    font-size: 14px;
+  }
+
+  .partners-logo-heading{
+    font-size: 50px !important;
+  }
+
+  .top-footer-sec h2{
+    font-size: 50px;
+  }
+
+
+  .imagegroup .welcome-image--group-01__img-6{
+    left: 114% !important;
+    top: 44% !important;
+    width: 27% !important;
+  }
+
+  .imagegroup .welcome-image--group-01__img-7{
+    right: -39% !important;
+    bottom: 0% !important;
+  }
+
+  .imagegroup .welcome-image--group-01__img-3{
+    right: -17% !important;
+    bottom: -4% !important;
+  }
+
+  .hero-imagegroup-sec .main-imagegroup{
+    width: 40%;
+    right: 18%;
+    top: 59%;
+  }
+  // ---- homepage end --------------------------
+
+  //-----------------Buisness Page --------------------
+
+  .business-hero .business-btn1{
+    margin-right: 32px !important;
+  }
+
+  .service-card-business{
+    padding-bottom: 0px !important;
+    min-height: 261px !important;
+
+  }
+
+  .business-content-sec{
+   font-size: 50px !important; 
+  }
+
+
+
+  .business-sec-altcards .white-back{
+    background: #fff !important;
+  }
+
+  .business-sec-altcards .alt-image{
+    padding-left: 15px;
+  }
+
+
+
+  //----------------- Agences -------------------------
+
+  .agencie-hero p{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .agencies-content-sec2 h1{
+    font-size: 60px;
+  }
+
+  .agencies-content-sec2 h2{
+    font-size: 42px !important;
+    line-height: 60px !important;
+  }
+
+
+  //----------------Marketplace ----------------------------
+
+    .agency-btn1, .agency-btn2{
+      font-size: 14px !important;
+    }
+
+    .ai-heading-sec2 h1{
+    font-size: 50px !important;
+    line-height: 75px !important;
+    text-align: center !important;
+    }
+
+    .ai-left-para-sec h2{
+      font-size: 40px !important;
+      line-height: 60px !important;
+    }
+
+    .ai-left-para-sec p{
+      font-size: 16px;
+      line-height: 27px;
+    }
+
+
+    .main-section2 .ai-para-sec2 .ai-right-para p {
+      font-size: 18px !important;
+      line-height: 27px !important;
+      padding-right: 96px;
+  }
+
+    .ai-para-sec2 .colored-bg{
+      padding-top: 50px !important;
+    }
+
+    .bg-colored2{
+    padding: 0px 149px !important;
+    padding-bottom: 130px!important;
+    padding-top: 54px !important;
+    }
+
+    .ai-skew-image1{
+      left: -46%;
+      transform: skewX(11deg);
+    }
+
+    .ai-skew-image2{
+      left: -98%;
+      transform: skewX(11deg);
+    }
+
+    .ai-para3{
+      font-size: 16px !important;
+    line-height: 27px !important;
+
+    }
+
+
+    .ai-last-para-colored h2{
+      font-size: 30px !important;
+      line-height: 45px;
+      }
+    
+    .ai-last-para-colored p{
+      font-size: 18px;
+      line-height: 27px;
+    }
+    .ai-main-last-image{
+      top: 35px;
+    }
+  //----------------Marketplace end ------------------------
+
+  //---------------Hire intern -----------------------------
+    .hire-intern-hero h2{
+      font-size: 50px;
+      line-height:75px;
+    }
+
+    .hire-intern-hero p{
+      font-size: 18px;
+      list-style: 27px;
+    }
+
+    .hire-intern-hero .business-btn1{
+      font-size: 16px !important;
+      width: 200px !important;
+      height: 55px !important;
+    }
+
+    .intern-promo-sec{
+      padding-left: 50px !important;
+    }
+
+    .intern-promo-sec p{
+      font-size: 14px;
+    line-height: 26px;
+    margin-top: 20px;
+    }
+
+    .hire-intern-card p{
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    .hire-inter-process-sec .hrie-intern-process-head{
+      font-size: 46px !important;
+      line-height: 69px;
+    }
+
+    .hire-intern-sub-head{
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .hire-inter-process-sec .ai-integrations .hire-intern-sub-para{
+      font-size: 14px !important;
+    }
+
+    .get-started-heading{
+      font-size: 40px !important;
+      font-weight: 500px !important;
+    }
+
+    .get-started-sec p{
+      font-size: 18px !important;
+      line-height: 27px !important;
+    }
+  //---------------Hire intern end -------------------------
+
+  //---------------Pricing Page ----------------------------
+    
+    .pricing-head{
+      font-size: 40px !important;
+    }
+
+    .bottom-dash{
+      margin-left: 50px !important;
+    }
+
+    .pricing-card-top .bottom-dash{
+      margin-bottom: 70px !important;
+    }
+
+    .pricing-card-top{
+      min-height: 286px !important;
+    }
+  //---------------Pricing page end ------------------------
+  //---------------Contact Page ----------------------------
+    .form-check-label{
+      font-size: 12px !important;
+    }
+
+  //---------------Contact Page end ------------------------
+
+
+  .business-altcard {
+    left:5px !important;
+  }
+
+  .flex-row-reverse.row .business-altcard p{
+    right: -5px !important;
+  }
+
+
+  .PVC-section-title h2{
+    font-size: 40px !important;
+  }
+
+  .PVC-section-title p{
+    font-size: 18px !important;
+    line-height: 27px !important;
+  }
+
+  .PVC-hero-sec h2{
+    font-size: 50px !important;
+  }
+
+  .PVC-hero-sec p{
+    font-size: 18px;
+  }
+  
+
+}
+
+
+
