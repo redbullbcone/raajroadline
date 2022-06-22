@@ -117,9 +117,11 @@ Hero.Button = styled(Button)`
   border-radius: 10px!important;
 
   @media(min-width:1400px){
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    width: 234px;
+    height: 70px;
   }
 
   &:hover {

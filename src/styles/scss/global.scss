@@ -120,7 +120,6 @@ body {
     text-align: center;
   }
 }
-
 .intern-features{
   padding: -50px 0;
 }
@@ -128,22 +127,21 @@ body {
 
 @media only screen and (max-width:1600px) {
 	.welcome-image--group-01__img-5 {
-		left: -140% !important;
+		left: -120% !important;
 	}
 }
 @media only screen and (max-width:1399px) {
 	.welcome-image--group-01__img-5 {
-		left: -140% !important;
+    left: -122% !important;
+    top: 90% !important;
 	}
 }
-
 @media only screen and (max-width:1240px) {
 	.welcome-image--group-01__img-5 {
-	     left: -830px !important;
-    		top: 90px !important;
+    left: -830px !important;
+    top: 90px !important;
 	}
 }
-
 
 // ---- homepage--------------------------
 
@@ -251,12 +249,6 @@ body {
   .imagegroup .welcome-image--group-01__img-3{
     right: -17% !important;
     bottom: -4% !important;
-  }
-
-  .hero-imagegroup-sec .main-imagegroup{
-    width: 40%;
-    right: 18%;
-    top: 59%;
   }
   // ---- homepage end --------------------------
 
@@ -392,9 +384,6 @@ body {
       height: 55px !important;
     }
 
-    .intern-promo-sec{
-      padding-left: 50px !important;
-    }
 
     .intern-promo-sec p{
       font-size: 14px;
@@ -405,11 +394,6 @@ body {
     .hire-intern-card p{
       font-size: 14px;
       line-height: 26px;
-    }
-
-    .hire-inter-process-sec .hrie-intern-process-head{
-      font-size: 46px !important;
-      line-height: 69px;
     }
 
     .hire-intern-sub-head{
@@ -452,15 +436,13 @@ body {
   //---------------Pricing page end ------------------------
   //---------------Contact Page ----------------------------
     .form-check-label{
-      font-size: 12px !important;
+      font-size: 11px !important;
     }
 
   //---------------Contact Page end ------------------------
 
 
-  .business-altcard {
-    left:5px !important;
-  }
+  
 
   .flex-row-reverse.row .business-altcard p{
     right: -5px !important;
@@ -479,13 +461,280 @@ body {
   .PVC-hero-sec h2{
     font-size: 50px !important;
   }
-
   .PVC-hero-sec p{
     font-size: 18px;
   }
+}
+.link-page{
+  display:block !important;
+}
+.link-page:hover{
+  color:#fff;
+  box-shadow: none;
+}
+.link-page p, img, h4 :hover{
+  background: transparent;
+}
+.link-page{
+  border-radius: 15px;
+}
+.purple, .pink, .mustard, .cyan   {
+  transition: 1.0s all ease; /* vendorless fallback */
+  -o-transition: 1.0s all ease; /* opera */
+  -ms-transition: 1.0s all ease; /* IE 10 */
+  -moz-transition: 1.0s all ease; /* Firefox */
+  -webkit-transition: 1.0s all ease; /*safari and chrome */
+}
+.purple:hover{
+  background-color: #6001d399;
+  -webkit-transition: 1.0s all ease;    
+  transition: 1.0s all ease;  
+}
+
+.pink:hover {
+  background-color: #fc346e9e;
+  -webkit-transition: 1.0s all ease;    
+  transition: 1.0s all ease;  
+}
+
+.mustard:hover {
+  background-color: #ffd700ad;
+  -webkit-transition: 1.0s all ease;    
+  transition: 1.0s all ease;  
+}
+
+.cyan:hover {
+  background-color: #1de2cfb8;
+  -webkit-transition: 1.0s all ease;    
+  transition: 1.0s all ease;  
+}
+.card-img:hover {
+  background: transparent;
+}
+.card-img {
+  width: auto;
+  transition: 1.0s all ease; /* vendorless fallback */
+  -o-transition: 1.0s all ease; /* opera */
+  -ms-transition: 1.0s all ease; /* IE 10 */
+  -moz-transition: 1.0s all ease; /* Firefox */
+  -webkit-transition: 1.0s all ease; /*safari and chrome */
+}
+.arrow{
+  position: relative;
+  left: 75px;
+  margin-top: 20px;
+  width: 33px;
+  height: 32px;
+}
+
+
+.white-arrow{
+  position: absolute;
+  right: 62px;
+  bottom: 33px;
+  display: none;
+}
+
+.link-page:hover{
+  .white-arrow{
+    display: block;
+  }
+  p{
+    opacity: 1;
+  }
+}
+
+
+.arrow, .white-arrow:hover{
+  background: transparent;
+}
+
+
+
+.link-page:hover{
+  .card-img-white{
+    position: absolute;
+    background: transparent;
+    display: block;
+    top: 41px;
+  }
+  .market{
+    left:65px;
+  }
+  .auditor{
+    left:48px;
+  }
+  .pvc-cls{
+    left:56px;
+  }
+}
+
+.card-img-white{
+  display: none;
+}
+
+.close-btn:hover{
+  color: #fff !important;
+}
+
+.close2-btn:hover{
+  color: #fff !important;
+}
+
+.blueclose-btn:hover{
+  color:#fff !important;
+}
+.header-close-btn:hover{
+  color:#fff !important;
+}
+@media(min-width:992px){
+  .market {
+    left: 65px;
+    top: 40px;
+  }
+  .auditor {
+    left: 48px;
+    top: 40px;
+  }
+  .pvc-cls {
+    left: 56px;
+  }
+
+  .employee-cls {
+    left: 50px;
+  }
+
+  .white-arrow{
+    right: 46px;
+    bottom: 87px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .arrow{
+    left: 49px;
+    margin-top: 20px;
+    width: 26px;
+    height: 26px;
+  }
+
+
+
+
+
+}
+
+@media(min-width:1170px){
+  .link-page:hover{
+    .white-arrow{
+      right: 40px;
+      bottom: 59px;
+    }
+  }
+  .arrow{
+    bottom:0;
+  }
+
+  .link-page:hover{
+    .market{
+      left:88px;
+    }
+    .auditor{
+      left:70px;
+    }
+    .pvc-cls{
+      left:78px;
+    }
+    .employee-cls{
+      left: 73px;
+    }
+  }
+
+  .arrow{
+    position: relative;
+    left: 75px;
+    margin-top: 20px;
+    width: 33px;
+    height: 32px;
+  }
+  
+  .link-page:hover{
+    .white-arrow{
+      display: block;
+      bottom: 59px;
+      right: 39px;
+      width: 33px;
+      height: 32px; 
+    }
+  }
+
+
   
 
 }
 
+@media(min-width:1400px){
+  .arrow{
+    position: relative;
+    left: 75px;
+    margin-top: 20px;
+    width: 33px;
+    height: 32px;
+  }
+  
+  .link-page:hover{
+    .white-arrow{
+      display: block;
+      bottom: 33px;
+      right: 62px; 
+      width: 33px;
+      height: 32px; 
+    }
+  }
+  
+  
+  .arrow, .white-arrow:hover{
+    background: transparent;
+  }
+  
+  
+  
+  .link-page:hover {
+    .card-img-white {
+      position: absolute;
+      background: transparent;
+      display: block;
+      top: 41px;
+    }
+    .market{
+      left:110px;
+    }
+    .auditor{
+      left:93px;
+    }
+    .pvc-cls{
+      left:100px;
+    }
+    .employee-cls{
+      left: 94px;
+    }
+  }
+  
+  .card-img-white{
+    display: none;
+    transition: 1.0s all ease; /* vendorless fallback */
+      -o-transition: 1.0s all ease; /* opera */
+      -ms-transition: 1.0s all ease; /* IE 10 */
+      -moz-transition: 1.0s all ease; /* Firefox */
+      -webkit-transition: 1.0s all ease; /*safari and chrome */
+  }
+}
+.shadow-blue {
+  box-shadow: -4px 4px 20px rgba(26, 117, 255, 0.7);
+}
+
+.orange-shadow {
+  box-shadow: -4px 4px 20px rgba(255, 87, 34, 0.7);
+}
 
 

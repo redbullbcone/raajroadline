@@ -21,10 +21,10 @@ return(
           {/* Newsletter */}
           <Hero.Newsletter mt="40px">
             <Form className="hero-form d-flex justify-content-between flex-row">
-              <Hero.Box>
+              <Hero.Box className="d-flex">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="btn-primary text-white  business-btn1"textTransform="capitalized">Start Now</Button>
-                      <Button className="btn-light-blue text-white  business-btn1"textTransform="capitalized">Book a Demo</Button>
+                      <Button className="close-btn close" textTransform="capitalized">Start Now</Button>
+                      <Button className="close2 close2-btn" textTransform="capitalized">Book a Demo</Button>
                     
               </Hero.Box>
               {/* <Hero.NewsletterButton className="btn-torch-red" as={Link} to="/">Start for free</Hero.NewsletterButton> */}

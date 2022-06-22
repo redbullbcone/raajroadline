@@ -13,6 +13,55 @@ const Cta = styled(Box)`
     @media (min-width:992px) {
     }
 
+    .cta-close{
+        border: 3px solid #ff5722;
+        outline: none;
+        color: #2a2833;
+        position: relative;
+        overflow:hidden;
+        transition:1s all ease;
+        z-index:1;
+        width:300px;
+    }
+
+    .cta-close::before{
+        width:100%;
+        height:100%;  
+    }
+
+    .cta-close-btn::before{
+        background:#ff5722;
+        content:"";
+        position:absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.6s ease;   
+        width:0;
+        z-index:-1;
+    }
+
+    .cta-close-btn::after{
+        background:#ff5722;
+        height:100%;
+        content:"";
+        position:absolute;
+        top: 0;
+        right: 0;
+        transition: all 0.6s ease;   
+        width:0;
+        z-index:-1;
+    }
+
+    .cta-close:hover::before{
+        width:50%;
+        color: #fff;
+    }
+    .cta-close:hover::after{
+        width:50%;
+        color: #fff;
+    }
+
+
     
 `
 
@@ -95,10 +144,7 @@ Cta.NewsletterFromGroup = styled(Box)`
         }
     }
     .btn{
-        min-width: 172px;
         height: 70px;
-        background-color: #ff7043;
-        border-color: #ff6838;
         border-radius:10px;
         color:#fff;
         margin-top:10px;

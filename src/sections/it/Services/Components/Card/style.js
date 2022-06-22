@@ -20,9 +20,7 @@ const Card = styled(Box).attrs({className:"card"})`
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
-    &:hover{
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    }
+   
 
     @media(min-width:1400px){
         padding-left: 25px;

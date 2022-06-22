@@ -8,7 +8,7 @@ export default function Layout({
   return (
     <>
       <Head>
-            <title>MRKT365 | AI Marketing Platform & Talent Marketplace</title>
+            {/* <title>MRKT365 | AI Marketing Platform & Talent Marketplace</title> */}
             <link rel="icon" type="image/png" href={favicon.src} />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
       </Head>

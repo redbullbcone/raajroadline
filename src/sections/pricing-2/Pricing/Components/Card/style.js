@@ -112,21 +112,7 @@ Card.Button = styled(Button)`
     props.backgroundColor ? props.backgroundColor : "#5034fc"} !important;
   background: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "#442cd6"} !important;
-  box-shadow: ${(props) =>
-    "0 4px 4px " + propToColor(props.backgroundColor)} !important;
-  &:hover {
-    transform: translateY(-5px);
-    border-color: ${(props) =>
-      props.hoverBackgroundColor
-        ? props.hoverBackgroundColor
-        : "#442cd6"} !important;
-    background: ${(props) =>
-      props.hoverBackgroundColor
-        ? props.hoverBackgroundColor
-        : "#442cd6"} !important;
-    box-shadow: ${(props) =>
-      "0 4px 4px " + propToColor(props.hoverBackgroundColor)} !important;
-  }
+  
 `;
 Card.Amount = styled(Box)`
   font-size: 70px;

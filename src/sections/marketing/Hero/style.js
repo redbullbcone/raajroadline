@@ -1,52 +1,154 @@
-import styled from "styled-components"
+ import styled from "styled-components"
 import { Box, Heading, Paragraph } from "~styled"
 
 const Hero = styled(Box)`
-  padding-top: 180px;
-
+    padding-top: 100px;
     padding-bottom: 78px;
     @media (min-width:575px) {
-        padding-top: 273px;
+        padding-top: 50px;
     }
     @media (min-width:768px) {
-        padding-top: 270px;
-        
+        padding-top: 50px;   
     }
-    @media (min-width:1240px) {
-        padding-top: 210px;
-        
+    @media (min-width:992px) {
+        padding-top: 80px;   
     }
-
-    @media (min-width:1366px) {
-        padding-top: 216px;
-       
+    @media (min-width:1170px) {
+        padding-top: 100px;
     }
-    /* .newsletter-form {
-        max-width: 521px;
-    } */
-
-    .hero-btn1{
-        margin-right:47px;
+    @media (min-width:1270px) {
+        padding-top: 140px;
+    }
+    @media (min-width:1400px) {
+        padding-top: 140px;
+    }
+    @media (min-width:1600px) {
+        padding-top: 180px;
+    }
+    .close{
+        margin-right:30px;
         font-size:16px !important;
-        box-shadow:none !important;
+        box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
     }
-    .hero-btn2{
+    .close2{
         font-size:16px !important;
-        box-shadow:none !important;
-
-
+        box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
     }
 
     @media (max-width:1239px){
-        .hero-btn1{
+        .close{
             margin-right:47px;
-            font-size:14px !important;
+            font-size:14px;
         }
-        .hero-btn2{
-            font-size:14px !important;
-    
+        .close2{
+            font-size:14px;
         }
     }
+
+    .close {
+        border: 2px solid #ff5722;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: #2a2833;
+        padding: 15px 0;
+        border-radius: 50px ;
+        position: relative;
+        overflow:hidden;
+        transition:0.5s all ease;
+        z-index:1;
+        width:300px;
+    }
+    .close:hover {
+        color:#fff;
+        background:#ff5722;
+    }
+    .close::before{
+        width:100%;
+        height:100%;  
+    }
+    .close-btn::before{
+        background:#ff5722;
+        content:"";
+        position:absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.6s ease;   
+        width:0;
+        z-index:-1;
+    }
+    .close-btn::after{
+        background:#ff5722;
+        height:100%;
+        content:"";
+        position:absolute;
+        top: 0;
+        right: 0;
+        transition: all 0.6s ease;   
+        width:0;
+        z-index:-1;
+    }
+    .close:hover::before{
+        width:50%;
+        color: #fff;
+    }
+    .close:hover::after{
+        width:50%;
+        color: #fff;
+    }
+    .close2 {
+        border: 2px solid #1A75FF;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: #2a2833;
+        padding: 14px 0;
+        border-radius: 50px ;
+        position: relative;
+        overflow:hidden;
+        transition: 0.5s all ease;
+        z-index:1;
+        width:300px;
+    }
+    .close2:hover {
+        color:#fff;
+        background:#1A75FF;
+    }
+    .close2::before{
+        width:100%;
+        height:100%;  
+    }
+    .close2-btn::before{
+        background:#1A75FF;
+        content:"";
+        position:absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.6s ease;   
+        width:0;
+        z-index:-1;
+    }
+    .close2-btn::after{
+        background:#1A75FF;
+        height:100%;
+        content:"";
+        position:absolute;
+        top: 0;
+        right: 0;
+        transition: all 0.6s ease;   
+        width:0;
+        z-index:-1;
+    }
+    .close2:hover::before{
+        width:50%;
+        color: #fff;
+    }
+    .close2:hover::after{
+        width:50%;
+        color: #fff;
+    }
+    
+
 
 `
 Hero.Title = styled(Heading)`
@@ -57,20 +159,30 @@ Hero.Title = styled(Heading)`
     margin-bottom: 35px;
 
     @media (min-width:480px) {
-        font-size: 60px;
+        font-size: 48px;
+        line-height: 54px;
     }
-   
-
-
     @media (min-width:768px) {
-        font-size: 70px;
+        font-size: 48px;
+        line-height: 54px;
     }
-
-    @media (min-width:1024px) {
-        font-size: 70px;
+    @media (min-width:992px) {
+        font-size: 60px;
+        line-height: 72px;
         font-weight: 700;
         width: 529.85px;
-    
+    }
+    @media (min-width:1170px) {
+        line-height: 72px;
+        line-height: 72px;
+    }
+    @media (min-width:1270px) {
+    }
+    @media (min-width:1400px) {
+    }
+    @media (min-width:1600px) {
+    }
+    @media (min-width:1820px) {
     }
     .typed-cursor {
         display: none !important;
@@ -88,16 +200,8 @@ Hero.Text = styled(Paragraph)`
     }
     @media (min-width:1200px) {
         // padding-right: 150px;
-    }
-
-    
+    }    
 `
-// @media (max-width:375px){
-//     font-size: 18px;
-//     width: 74%;
-//     margin-top: -21px;
-//     margin-bottom: 18px;
-// }
 Hero.Content = styled(Box)`
      margin-top: 80px;
      width: 532px;
@@ -109,8 +213,6 @@ Hero.Content = styled(Box)`
         width: 80%;
 
     }
-   
-
 `
 
 // @media (max-width:375px) {
@@ -144,15 +246,7 @@ Hero.Newsletter = styled(Box)`
             margin-bottom: 0;
         }
     }
-    .btn {
-        width: 172px;
-        height: 70px;
-        border-radius: 10px;
-        @media (min-width:480px) {
-            min-width: 172px;
-        }
-        
-    }
+    
 
 
 
