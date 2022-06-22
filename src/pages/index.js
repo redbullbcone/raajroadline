@@ -61,8 +61,10 @@ var reverserow = [
    "text3":"Perform AI audits, check your website health and connect any digital marketing channel",
    "imagePosition":"left",
    "src":"image/homepage/businesses.png",
+   "imageclass":"bigImage",
    "gifsrc":"image/homepage/dot-animation.gif",
-   "alt":"Home Section 1",
+   "gifimageclass":"dotImage",
+   "alt":"Businesses",
    "bgclass":"home-section-1",
   },
    {
@@ -72,7 +74,10 @@ var reverserow = [
     "text3":"Work when, wherever, and on what you like",
     "imagePosition":"right",
     "src":"image/homepage/freelancers.png",
-    "alt":"",
+    "imageclass":"bigImage",
+    "gifsrc":"image/homepage/dot-animation.gif",
+   "gifimageclass":"dotImage",
+    "alt":"Freelancers",
     "bgclass":"home-section-2",
    },
    {
@@ -82,7 +87,10 @@ var reverserow = [
     "text3":"Find quality talent to add to your team and take your business to the next level",
     "imagePosition":"left",
     "src":"image/homepage/agencies.png",
-    "alt":"",
+    "imageclass":"bigImage",
+    "gifsrc":"image/homepage/dot-animation.gif",
+   "gifimageclass":"dotImage",
+    "alt":"Agencies",
     "bgclass":"home-section-3",
    },
    {
@@ -92,7 +100,10 @@ var reverserow = [
     "text3":"Work at the comfort of your home making it easier to continue your studies with an internship",
     "imagePosition":"right",
     "src":"image/homepage/interns.png",
-    "alt":"",
+    "imageclass":"bigImage",
+    "gifsrc":"image/homepage/dot-animation.gif",
+   "gifimageclass":"dotImage",
+    "alt":"Interns",
     "bgclass":"home-section-4",
    },
    {
@@ -102,7 +113,10 @@ var reverserow = [
     "text3":"Manage Freelancers with our Employee Monitoring System",
     "imagePosition":"left",
     "src":"image/homepage/recuritment-agencies.png",
-    "alt":"",
+    "imageclass":"bigImage",
+    "gifsrc":"image/homepage/dot-animation.gif",
+   "gifimageclass":"dotImage",
+    "alt":"Recruitment Agencies",
     "bgclass":"home-section-5",
    },
    {
@@ -112,7 +126,10 @@ var reverserow = [
     "text3":"Monitor multiple products with a single easy-to-use marketing dashboard",
     "imagePosition":"right",
     "src":"image/homepage/affiliate.png",
-    "alt":"",
+    "imageclass":"bigImage",
+    "gifsrc":"image/homepage/dot-animation.gif",
+   "gifimageclass":"dotImage",
+    "alt":"Affiliates",
     "bgclass":"home-section-6",
    }
 ];
@@ -196,7 +213,7 @@ export default function Marketing() {
         <meta name="twitter:url" content="https://mrkt365.com" />
         </Helmet>
         <HeroSection/>
-        <ContentSectionOne heading="Who is Market365 for?" content={reverserow}/>
+        <ContentSectionOne heading="Who is MRKT365 for?" content={reverserow}/>
         {/* <ServiceSection/> */}
         <FeatureSection/>
         {/* <ContentSectionTwo/> */}

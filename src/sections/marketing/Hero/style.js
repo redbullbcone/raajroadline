@@ -14,13 +14,16 @@ const Hero = styled(Box)`
         padding-top: 80px;   
     }
     @media (min-width:1170px) {
-        padding-top: 210px;
+        padding-top: 100px;
     }
     @media (min-width:1270px) {
-        padding-top: 210px;
+        padding-top: 140px;
     }
-    @media (min-width:1366px) {
-        padding-top: 220px;
+    @media (min-width:1400px) {
+        padding-top: 140px;
+    }
+    @media (min-width:1600px) {
+        padding-top: 180px;
     }
     .close{
         margin-right:30px;
@@ -156,20 +159,30 @@ Hero.Title = styled(Heading)`
     margin-bottom: 35px;
 
     @media (min-width:480px) {
-        font-size: 60px;
+        font-size: 48px;
+        line-height: 54px;
     }
-   
-
-
     @media (min-width:768px) {
-        font-size: 70px;
+        font-size: 48px;
+        line-height: 54px;
     }
-
-    @media (min-width:1024px) {
-        font-size: 70px;
+    @media (min-width:992px) {
+        font-size: 60px;
+        line-height: 72px;
         font-weight: 700;
         width: 529.85px;
-    
+    }
+    @media (min-width:1170px) {
+        line-height: 72px;
+        line-height: 72px;
+    }
+    @media (min-width:1270px) {
+    }
+    @media (min-width:1400px) {
+    }
+    @media (min-width:1600px) {
+    }
+    @media (min-width:1820px) {
     }
     .typed-cursor {
         display: none !important;
@@ -187,16 +200,8 @@ Hero.Text = styled(Paragraph)`
     }
     @media (min-width:1200px) {
         // padding-right: 150px;
-    }
-
-    
+    }    
 `
-// @media (max-width:375px){
-//     font-size: 18px;
-//     width: 74%;
-//     margin-top: -21px;
-//     margin-bottom: 18px;
-// }
 Hero.Content = styled(Box)`
      margin-top: 80px;
      width: 532px;
@@ -208,8 +213,6 @@ Hero.Content = styled(Box)`
         width: 80%;
 
     }
-   
-
 `
 
 // @media (max-width:375px) {

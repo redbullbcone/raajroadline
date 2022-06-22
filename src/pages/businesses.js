@@ -137,28 +137,28 @@ var businesscontent = [
 const ServiceData =[
   {
     id:"ss1",
-    image:"image/homepage/ai-auditor.svg",
-    whiteImage:"image/homepage/ai-auditor-white.svg",
+    image:"image/businesses/ai-auditor.svg",
+    whiteImage:"image/businesses/ai-auditor-white.svg",
     title: "AI SEO Auditor &",
     title2:"Freelancer Recommendation",
     linkPage:"marketplace",
-    cardbg:"purple",
+    cardbg:"blue",
     whiteImageClass:"market",
   },
   {
     id:"ss2",
-    image:"image/homepage/marketplace.svg",
-    whiteImage:"image/homepage/marketplace-white.svg",
+    image:"image/businesses/online-marketing.svg",
+    whiteImage:"image/businesses/online-marketing-white.svg",
     title: "Online Marketing",
     title2:"Budget Optimization",
-    cardbg:"pink",
+    cardbg:"red",
     whiteImageClass:"auditor",
 
   },
   {
     id:"ss3",
-    image:"image/homepage/pvc.svg",
-    whiteImage:"image/homepage/pvc-white.svg",
+    image:"image/businesses/freelancer-employee.svg",
+    whiteImage:"image/businesses/freelancer-employee-white.svg",
     title:"Freelancer & Employee",
     title2:"Monitoring",
     cardbg:"mustard",
@@ -167,17 +167,17 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/homepage/employee.svg",
-    whiteImage:"image/homepage/employee-white.svg",
+    image:"image/businesses/KYC.svg",
+    whiteImage:"image/businesses/KYC-white.svg",
     title: "AML & KYC Verified",
     title2: "Freelancers",
-    cardbg:"cyan",
+    cardbg:"orange",
     whiteImageClass:"employee-cls",
   },
   {
     id:"ss4",
-    image:"image/homepage/employee.svg",
-    whiteImage:"image/homepage/employee-white.svg",
+    image:"image/businesses/payment.svg",
+    whiteImage:"image/businesses/payment-white.svg",
     title: "Easy International",
     title2:"Payment Processing",
     cardbg:"cyan",
@@ -185,11 +185,11 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/homepage/employee.svg",
-    whiteImage:"image/homepage/employee-white.svg",
+    image:"image/businesses/add-college.svg",
+    whiteImage:"image/businesses/add-college-white.svg",
     title: "Add College-Educated",
     title2: "interns to your Team",
-    cardbg:"cyan",
+    cardbg:"purple",
     whiteImageClass:"employee-cls",
   }
 
@@ -232,7 +232,7 @@ export default function Services() {
       </Helmet>
       <HeroSection/>
       <ServicesSectionOne title="Everything You Need to Make Work Happen" content={ServiceData} />
-      <ServicesSection/>
+      {/* <ServicesSection/> */}
       <ContentSectionOne heading="Why Work With Us"/>
       {/* <AboutSection/> */}
       <ProcessSection content={intergrations} />

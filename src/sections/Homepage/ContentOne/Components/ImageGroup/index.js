@@ -4,7 +4,7 @@ import Images from "./style"
 export default function ImageGroup(props,{...rest}) {
   return (
     <>
-      <Images  className={`${props.imageclass}`} {...rest}>
+      <Images  className={`${props.imageclass} ${props.gifimageclass}`} {...rest}>
         {/* Content Image */} 
         <img
           alt={props.imageAlt}
@@ -12,8 +12,8 @@ export default function ImageGroup(props,{...rest}) {
           className="w-100"
         />
         <img 
-        alt={props.gifimageAlt}
-        src={props.gifimageSrc}
+          alt={props.gifimageAlt}
+          src={props.gifimageSrc}
         />
       </Images>
     </>

@@ -19,11 +19,11 @@ export default function ContentSectionOne({heading,content},{...rest}){
      return(
        <div className={`${row.bgclass}`}>
     <Container>
-    <Row className={`${row.newclass} align-items-center justify-content-center white-image ${(row.imagePosition == 'right') ? 'row d-flex flex-row-reverse'  : ''} `}>
-      <Col xs="10" className="col-xl-5 col-lg-5 col-md-5 col-xs-5 ">
+    <Row className={`${row.newclass} justify-content-center white-image ${(row.imagePosition == 'right') ? 'row d-flex flex-row-reverse'  : ''} `}>
+      <Col xs="10" className="col-xl-5 col-lg-5 col-md-5 col-xs-5">
         <div className="gif-ImageGroup">
-        <ImageGroup imageclass={row.imageclass} imageSrc={row.src} imageAlt={row.alt} mb="60px" mbLG="0"/>
-        <ImageGroup gifimageclass={row.gifimageclass} gifimageSrc={row.gifsrc} gifimageAlt={row.gifalt} mb="60px" mbLG="0"/>
+        <ImageGroup imageclass={row.imageclass} imageSrc={row.src} imageAlt={row.alt} mb="60px" mbLG="0" />
+        <ImageGroup gifimageclass={row.gifimageclass} gifimageSrc={row.gifsrc} gifimageAlt={row.gifalt} mb="60px" mbLG="0" />
         </div>
       </Col>
       <Col className="col-md-2"></Col>

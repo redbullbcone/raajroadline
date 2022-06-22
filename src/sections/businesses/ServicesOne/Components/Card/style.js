@@ -93,6 +93,10 @@ const Card = styled(Box).attrs({className:"link-page"})`
     .nonid-icon-left-arrow:before{
         content: "\e903";
     }
+
+    .blue:hover{
+        background-color:#1a75fea6;
+    }
    
    
 `
