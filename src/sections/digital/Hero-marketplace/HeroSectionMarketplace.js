@@ -6,10 +6,13 @@ import Hero from "./style";
 export default function HeroSectionMarketplace() {
     const goToMarketPlace = () => {
         var current_location = window.location;
-        var final_url = current_location.protocol + "//" + current_location.host + "/marketplace/search";
+
+        var final_url = "https://platform.mrkt365.com/marketplace/search";
 
         if (current_location.hostname.startsWith("localhost")) {
             final_url = "http://localhost:3000/marketplace/search";
+        } else if (current_location.hostname.startsWith("qa")) {
+            final_url = "https://qa.platform.mrkt365.com/marketplace/search";
         }
 
         window.open(final_url);
