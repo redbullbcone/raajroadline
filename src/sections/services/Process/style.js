@@ -45,7 +45,7 @@ Process.Title = styled(Heading)
     line-height: 1.3;
     margin-bottom:83px;
     
-    color:${props => props.iconDark? "#000" : "#fff" };
+    color:#1A75FF;
     @media (min-width:768px) {
     font-size: 38px;
     }

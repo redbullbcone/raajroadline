@@ -470,7 +470,7 @@ const SiteHeader = styled.div.attrs({
       &.reveal-header{
         @media (min-width:992px){
           padding-top: 10px;
-          z-index: 999;
+          z-index: 9999;
           padding-bottom: 10px;
         }
       }

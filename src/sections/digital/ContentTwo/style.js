@@ -165,6 +165,12 @@ Content.ImageOneInner = styled(Box)`
   @media(min-width:992px){
     left: -86%;
   }
+  @media(min-width:992px){
+    left: -86%;
+  }
+  @media(min-width:1400px){
+    left: -64%;
+  }
 `;
 Content.ImageTwo = styled(Box)`
   width: 100%;
@@ -194,6 +200,12 @@ Content.ImageTwoInner = styled(Box)`
   }
   @media(min-width:992px){
     left: -42%;
+  }
+  @media(min-width:1170px){
+    left: -42%;
+  }
+   @media(min-width:1400px){
+    left: -27%;
   }
 `;
 Content.Imageup = styled(Box)`

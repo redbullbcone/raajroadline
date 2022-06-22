@@ -36,7 +36,7 @@ return(
             <Pricing.Title className="pricing-head">Pricing Plans</Pricing.Title>
           </Pricing.Box>
         </Col>
-        <Col xs="12" className="col-xl-4 col-lg-5">
+        {/* <Col xs="12" className="col-xl-4 col-lg-5">
           <Pricing.Button className="pricing-btn">
             <label className="mb-3 mb-lg-0">Monthly</label>
             <div className="toggle-btn form-switch mb-3 mb-lg-0">
@@ -45,7 +45,7 @@ return(
             <label className="mb-3 mb-lg-0">Yearly</label>
             <Pricing.Badge className="badge bg-yellow mb-3 mb-lg-0" as="h3" >SAVE 20%</Pricing.Badge>
           </Pricing.Button>
-        </Col>
+        </Col> */}
     </Row>
     </Pricing.Box>
     <Row className="justify-content-center">

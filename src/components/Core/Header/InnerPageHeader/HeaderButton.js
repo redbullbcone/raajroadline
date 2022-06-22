@@ -5,9 +5,9 @@ import { Box } from '~styled'
 
 const HeaderButtonWrapper = styled(Box).attrs({className:"header-btn-block"})`
     .btn{
-        min-width:125px;
-        height: 42px;
-        border-radius: 3px;
+        min-width:142px;
+        height: 45px;
+        border-radius: 50px;
         color: var(--bs-white);
         font-size: 13px;
         font-weight: 500;

@@ -51,7 +51,11 @@ const Service = styled(Box)`
             font-size:14px;
         }
         @media (min-width:1400px) {
-            font-size:15px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
         }
     }
     .recruitment-agency-section h2 {

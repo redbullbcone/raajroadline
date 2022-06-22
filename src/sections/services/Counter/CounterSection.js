@@ -8,15 +8,15 @@ import { SuperTag } from "~components";
 export default function CounterSection() {
   return (
       <Counter>
-         <h2 className="get-started-heading">How to Get Started</h2>
         <Container>
+         <h2 className="get-started-heading">How to Get Started</h2>
             <Row className="row justify-content-center text-center">
               <Col xs="6" className="col-6 col-lg-3 col-md-4 col-xs-6">
                 <LazyLoad>
                   <Counter.Single>
                   <Counter.Text className="d-flex get-started-sec">
                     <img className="counter-icons" src="image/home-services/get-started-count-1.png" alt="content" />
-                    <p className="counter-para">Sign up for free as an agency or client</p>
+                    <p className="counter-para">Sign up for free as an<br /> agency or client</p>
                     </Counter.Text>
                  
                   </Counter.Single>
@@ -27,7 +27,7 @@ export default function CounterSection() {
                   <Counter.Single>
                     <Counter.Text className="d-flex get-started-sec">
                     <img className="counter-icons" src="image/home-services/get-started-count-2.png" alt="content" />
-                    <p className="counter-para">Create an internship and publish it</p>
+                    <p className="counter-para">Create an internship<br /> and publish it</p>
                     </Counter.Text>
                   </Counter.Single>
                 </LazyLoad>
@@ -37,7 +37,7 @@ export default function CounterSection() {
                   <Counter.Single>
                   <Counter.Text className="d-flex get-started-sec">
                   <img className="counter-icons" src="image/home-services/get-started-count-3.png" alt="content" />
-                    <p className="counter-para">Watch video interviews and view profiles</p>
+                    <p className="counter-para">Watch video interviews <br />and view profiles</p>
                     </Counter.Text>
                   </Counter.Single>
                 </LazyLoad>
@@ -48,7 +48,7 @@ export default function CounterSection() {
                   <Counter.Text className="d-flex get-started-sec">
                   <img className="counter-icons" src="image/home-services/get-started-count-4.png" alt="content" />
                     <p className="counter-para">
-                    Choose the intern that is right for you
+                    Choose the intern that<br /> is right for you
                     </p>
                     </Counter.Text>
                   </Counter.Single>
