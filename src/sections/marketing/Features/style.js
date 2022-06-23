@@ -14,13 +14,94 @@ const Feature = styled(Box)`
         padding-top: 125px;
         padding-bottom: 105px;
     }
-    /* .newsletter-form {
-        max-width: 521px;
-    } */
-
     background-position: right top;
     background-size: contain;
     background-repeat: no-repeat;
+    .feature-sec .feature-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 0;
+        @media (min-width:768px) {
+            font-size: 36px;
+            line-height: 48px;
+        }
+        @media (min-width:992px) {
+            font-size: 36px;
+            line-height: 48px;
+        }
+        @media (min-width:1170px) {
+            font-size: 42px;
+            line-height: 54px;
+        }
+        @media (min-width:1270px) {
+            font-size: 48px;
+            line-height: 60px;
+        }   
+    }
+    .feature-sec .feature-title2 {
+        font-size: 24px;
+        line-height: 30px;
+        @media (min-width:768px) {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        @media (min-width:992px) {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        @media (min-width:1170px) {
+            font-size: 42px;
+            line-height: 42px;
+        }
+        @media (min-width:1270px) {
+            font-size: 48px;
+            line-height: 60px;
+        }  
+    }
+    .feature-sec p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .feature-tabs span {
+        font-size: 14px;
+        @media (min-width:1170px) {
+            font-size: 16px;
+        }
+        @media (min-width:1270px) {
+            font-size: 16px;
+        }
+    }
+    .feature-tabs.nav .nav-widget {
+        width: 220px;
+        padding: 0px 5px 0 5px;
+        margin-bottom: 15px;
+        height:40px;
+        @media (min-width:1170px) {
+            width:260px;
+            height:60px;
+            padding:0px 10px 0 15px;
+            margin-bottom:40px;
+        }
+        @media (min-width:1270px) {
+            width: 260px;
+            padding: 0px 10px 0 15px;
+        }
+    }
+    .tab-contents h5 {
+        font-size: 18px;
+    }
+    .tab-contents p {
+        font-size: 16px;
+    }
+    .feature-sec.col-auto > div {
+        margin-bottom:50px;
+        @media (min-width:768px) {
+            margin-bottom:80px;
+        }
+        @media (min-width:1170px) {
+            margin-bottom:150px;
+        }
+    }
 `
 Feature.Shapes = styled(Box)`
     position: absolute;

@@ -16,47 +16,20 @@ import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
 // import HeaderButton from '~sections/services/Header'
 import ServicesSectionOne from "~sections/businesses/ServicesOne";
-import HeaderButton from "~sections/marketing/Header"
-
+import HeaderButton from '~sections/services/Header'
 
 const header = {
-  headerClasses: "site-header site-header--menu-start light-header site-header--sticky ",
-  containerFluid:true,
-  // customLogo: Images.HeaderLogo,
+  headerClasses: "site-header site-header--menu-center site-header--services dark-header site-header--sticky site-header--service",
+  containerFluid:false,
+  darkLogo:false,
   buttonBlock: (
-    <HeaderButton
-      className="ms-auto d-none d-xs-inline-flex"
-      btnOneText="Login"
-      btnTwoText="Sign Up Now"
-      mr="15px"
-      mrLG="0"
-    />
+    <HeaderButton className="ms-auto d-none d-xs-inline-flex"
+    btnOneText="Login"
+    btnTwoText="Sign Up Now"
+    mr="15px"
+    mrLG="0"/>
   ),
 }
-
-
-
-
-
-
- 
-
-
-// const header = {
-//   headerClasses: " site-header--menu-center site-header--services dark-header site-header--sticky site-header--service",
-//   containerFluid:false,
-//   darkLogo:false,
-//   // customLogo: Images.HeaderLogo,
-//   buttonBlock: (
-//     <HeaderButton
-//     className="ms-auto d-none d-xs-inline-flex"
-//     btnOneText="Login"
-//     btnTwoText="Sign Up Now"
-//     mr="15px"
-//     mrLG="0"
-//     />
-//   ),
-// }
 
 var reverserow = [
   {
@@ -141,9 +114,9 @@ const ServiceData =[
     whiteImage:"image/businesses/ai-auditor-white.svg",
     title: "AI SEO Auditor &",
     title2:"Freelancer Recommendation",
-    linkPage:"marketplace",
+    linkPage:"ai-auditor",
     cardbg:"blue",
-    whiteImageClass:"market",
+    whiteImageClass:"business-ai",
   },
   {
     id:"ss2",
@@ -152,7 +125,8 @@ const ServiceData =[
     title: "Online Marketing",
     title2:"Budget Optimization",
     cardbg:"red",
-    whiteImageClass:"auditor",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
 
   },
   {
@@ -162,7 +136,9 @@ const ServiceData =[
     title:"Freelancer & Employee",
     title2:"Monitoring",
     cardbg:"mustard",
-    whiteImageClass:"pvc-cls",
+    whiteImageClass:"business-freelancer",
+    linkPage:"employee-monitoring",
+
 
   },
   {
@@ -172,7 +148,9 @@ const ServiceData =[
     title: "AML & KYC Verified",
     title2: "Freelancers",
     cardbg:"orange",
-    whiteImageClass:"employee-cls",
+    whiteImageClass:"business-kyc",
+    linkPage:"freelancers",
+
   },
   {
     id:"ss4",
@@ -181,7 +159,8 @@ const ServiceData =[
     title: "Easy International",
     title2:"Payment Processing",
     cardbg:"cyan",
-    whiteImageClass:"employee-cls",
+    whiteImageClass:"business-payment",
+    linkPage:'prepared-virtual-card',
   },
   {
     id:"ss4",
@@ -190,7 +169,8 @@ const ServiceData =[
     title: "Add College-Educated",
     title2: "interns to your Team",
     cardbg:"purple",
-    whiteImageClass:"employee-cls",
+    whiteImageClass:"business-college",
+    linkPage:"prepared-virtual-card",
   }
 
 ]

@@ -5,7 +5,7 @@ import Cta from './style';
 const CtaSection = () => {
 return(
 <>
-<Cta className="cta-section cta-section--l1 bg-purple-heart dark-mode-texts">
+<Cta className="cta-section cta-section--l1 bg-blue-ribbon dark-mode-texts">
   <Cta.Shape className="footer__shape-1">
     <img src="image/marketing/footer-shape.png"  alt="cta shape" className="w-100"/>
   </Cta.Shape>

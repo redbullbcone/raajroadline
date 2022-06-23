@@ -61,6 +61,10 @@ const Cta = styled(Box)`
         color: #fff;
     }
 
+    .cta-close:hover{
+        background-color:#ff5722;
+    }
+
 
     
 `
@@ -88,7 +92,7 @@ Cta.Title = styled(Heading)`
     letter-spacing: -2px;
     line-height: 1.1;
     font-size: 35px;
-
+    
     @media (min-width:575px) {
       font-size: 40px;
     }
@@ -145,7 +149,7 @@ Cta.NewsletterFromGroup = styled(Box)`
     }
     .btn{
         height: 70px;
-        border-radius:10px;
+        border-radius:50px;
         color:#fff;
         margin-top:10px;
         font-size:16px;

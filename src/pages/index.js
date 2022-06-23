@@ -188,7 +188,6 @@ const ServiceData =[
 
 
 
-
 export default function Marketing() {
   return (
       <PageWrapper headerConfig={header}>
@@ -218,6 +217,7 @@ export default function Marketing() {
         <FeatureSection/>
         {/* <ContentSectionTwo/> */}
         {/* <TestimonialSection heading="Provided Feature" data={Testimonialdata}/> */}
+
         <ServicesSectionOne title="Provided Features" content={ServiceData}/>
         <CounterSection/>
         <CtaSection />

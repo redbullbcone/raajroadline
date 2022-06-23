@@ -13,7 +13,7 @@ const FeatureSection = ({ ...rest }) => {
       <Container>
         <Row>
           <Col xs="auto" className="col-xl-8 col-lg-10 feature-sec">
-            <Feature.Box mb="35px" mbMD="80px" mbLG="148px">
+            <Feature.Box mb="35px">
               <Feature.Title className="mb-2 feature-title" as="h2" fontColor="#fff">
                 The Complete Business 
               </Feature.Title>

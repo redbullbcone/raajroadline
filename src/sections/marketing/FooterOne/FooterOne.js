@@ -6,13 +6,13 @@ import Footer from "./style"
 import LogoWhite from "~image/logo/logo-white.png";
 export default function FooterOne(){
 return(
-    <Footer backgroundColor="#6a26da">
+    <Footer className='bg-blue-ribbon'>
 
         
     <Container>
         <Footer.Box pbXL="95px" >
         <Row>
-        <Col xs="12" className="col-lg-4 col-md-8 col-xs-10">
+        <Col xs="12" className="col-lg-12 col-md-8 col-xs-10 col-12 col-xl-4">
             <Footer.Widgets className="footer-widgets footer-widgets--l7">
             <Footer.Title>About Us</Footer.Title>
                 <Footer.Text mb="36px">

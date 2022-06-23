@@ -79,6 +79,48 @@ const Service = styled(Box)`
             margin-bottom:60px;
         }
     }
+
+    .blue:hover{
+        background-color:#1a75fef7;
+    }
+
+    .red:hover{
+        background: #ff0000d9;
+    }
+
+    .orange:hover{
+        background:#ff5200;
+    }
+
+    .link-page:hover{
+        icon-group{
+            margin-top:50px;
+        }
+    }
+
+    .link-page:hover{
+        .card-img.business-card-img{
+            display:none;
+        }
+        .business-white-card{
+            display:block;
+            left: 145px;
+            position: relative;
+        }
+    }
+
+    .business-white-card{
+        display:none;
+    }
+
+
+    .icon-group{
+        margin-top:50px;
+    }
+
+    .icon-group:hover{
+        margin-top:50px;
+    }
 `
 
 

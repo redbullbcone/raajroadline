@@ -16,7 +16,7 @@ export default function ContentVideoSectionOne({...rest}){
           <Row className="align-items-center justify-content-center white-image first-business-sec">
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
-              <Content.Title as="h2">We <b>Manage</b>Your Team with our<br /><b>Employee Monitoring </b>App</Content.Title>
+              <Content.Title as="h2"><b>Manage</b>Your Team with our<br /><b>Employee Monitoring </b>App</Content.Title>
               <Content.Text>Measure the productivity of freelancers you hire and your existing employees. Our services include an easy to install tracking program. All activities completed by your team can be monitored and documented through our employee tracker.</Content.Text>
               <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}

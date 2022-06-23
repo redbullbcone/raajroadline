@@ -34,10 +34,7 @@ return(
                   cardbg={cardbg}
                   whiteImage={whiteImage}
                   whiteImageClass={whiteImageClass}
-                  
                 />
-
-
               </Col>
               )
             })}

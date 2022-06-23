@@ -26,7 +26,7 @@ export default function ContentSectionOne({heading,content},{...rest}){
         <ImageGroup gifimageclass={row.gifimageclass} gifimageSrc={row.gifsrc} gifimageAlt={row.gifalt} mb="60px" mbLG="0" />
         </div>
       </Col>
-      <Col className="col-md-2"></Col>
+      <Col className="col-xl-2 col-lg-1 col-md-1 col-xs-1"></Col>
       {/* Content Widgets */}
       <Col xs="auto" className="col-xxl-5 col-xl-5  col-lg-5  col-md-5 col-xs-5 business-altcard">
         <Content.Title as="h2">{row.title}</Content.Title>

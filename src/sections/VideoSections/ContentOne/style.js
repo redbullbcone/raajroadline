@@ -121,6 +121,19 @@ margin-top: -116px;
     .hire-virtual{
         padding:82px 0;
         background-color: #F6FBFF;
+        margin-bottom: 90px;
+
+        @media(min-width:1170px){
+            padding:82px 0;
+            background-color: #F6FBFF;
+            margin-bottom: 90px;
+        }
+
+        @media(min-width:1400px){
+            padding:82px 0;
+            background-color: #F6FBFF;
+            margin-bottom: 90px;
+        }
     }
     .manage{
         padding:82px 0;

@@ -3,20 +3,26 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Content = styled(Box)`
     padding-bottom:80px;
-    margin-top: 116px;
-   .business-btn{
+    margin-top: 0px;
+        @media (min-width:768px) {
+        }
+        @media (min-width:992px) {
+        }
+        @media (min-width:1170px) {
+            margin-top: 120px;
+        }
+    .business-btn{
        border-radius:10px !important;
-
        @media(min-width:992px){
         width: 143px;
         height: 46px !important;
         font-size: 13px;
        }
-   }
-   .home-section-1 {
+    }
+    .home-section-1 {
         padding-top:0px;
         padding-bottom:100px;
-   }
+    }
    .home-section-2 {
         padding-top:100px;
         padding-bottom:100px;
@@ -37,10 +43,30 @@ const Content = styled(Box)`
         padding-top:100px;
         padding-bottom:100px;
     }
+    @media (min-width:320px) and (max-width:767px) {
+        .home-section-1 {
+            padding-top:0px;
+            padding-bottom:0px;
+        }
+        .home-section-2,.home-section-3,.home-section-4,.home-section-5,.home-section-6 {
+            padding-top:100px;
+            padding-bottom:0px;
+        }
+    }
+    @media (min-width:768px) and (max-width:1024px) {
+        .home-section-1 {
+            padding-top:0px;
+            padding-bottom:0px;
+        }
+        .home-section-2,.home-section-3,.home-section-4,.home-section-5,.home-section-6 {
+            padding-top:50px;
+            padding-bottom:50px;
+        }
+    }
     .gif-ImageGroup {
         position:relative;
-        width: 85%;
-        top: 55px;
+        width: 100%;
+        top: 0px;
         @media (min-width:768px) {
             width: 85%;
             top: 55px;
@@ -63,22 +89,31 @@ const Content = styled(Box)`
         }
     }
     .gif-ImageGroup .bigImage {
-        position:absolute;
+        position:relative;
         z-index:99;
         top:0px;
-        left:0px;
+        left:20px;
+        @media (min-width:768px) {
+            position:absolute;
+            left:0px;
+        }
     }
     .gif-ImageGroup .dotImage {
         position:absolute;
         z-index:90;
-        top:0px;
+        top:-45px;
         left:0px;
+        @media (min-width:768px) {
+            position:absolute;
+            left:0px;
+            top:0px;
+        }
     }
     .business-altcard {
         align-items: center !important;
     }
     .home-section-1 .business-altcard {
-        padding-top:200px;
+        padding-top:50px;
         @media (min-width:768px) {
             padding-top:60px;
         }
@@ -102,7 +137,7 @@ const Content = styled(Box)`
         }
     }
     .home-section-2 .business-altcard {
-        padding-top:260px;
+        padding-top:50px;
         @media (min-width:768px) {
             padding-top:60px;
         }
@@ -126,12 +161,12 @@ const Content = styled(Box)`
         }
     }
     .home-section-3 .business-altcard {
-        padding-top:200px;
+        padding-top:50px;
         @media (min-width:768px) {
             padding-top:60px;
         }
         @media (min-width:992px) {
-            padding-top:150px;
+            padding-top:80px;
         }
         @media (min-width:1170px) {
             padding-top:150px;
@@ -150,12 +185,12 @@ const Content = styled(Box)`
         }
     }
     .home-section-4 .business-altcard {
-        padding-top:200px;
+        padding-top:50px;
         @media (min-width:768px) {
             padding-top:60px;
         }
         @media (min-width:992px) {
-            padding-top:150px;
+            padding-top:50px;
         }
         @media (min-width:1170px) {
             padding-top:150px;
@@ -174,12 +209,12 @@ const Content = styled(Box)`
         }
     }
     .home-section-5 .business-altcard {
-        padding-top:230px;
+        padding-top:50px;
         @media (min-width:768px) {
             padding-top:60px;
         }
         @media (min-width:992px) {
-            padding-top:180px;
+            padding-top:150px;
         }
         @media (min-width:1170px) {
             padding-top:180px;
@@ -198,12 +233,12 @@ const Content = styled(Box)`
         }
     }
     .home-section-6 .business-altcard {
-        padding-top:200px;
+        padding-top:50px;
         @media (min-width:768px) {
             padding-top:60px;
         }
         @media (min-width:992px) {
-            padding-top:80px;
+            padding-top:50px;
         }
         @media (min-width:1170px) {
             padding-top:180px;
@@ -221,15 +256,33 @@ const Content = styled(Box)`
             padding-top:180px;
         }
     }
+    @media (min-width:320px) and (max-width:767px) {
+        .home-section-2 .gif-ImageGroup,
+        .home-section-4 .gif-ImageGroup,
+        .home-section-6 .gif-ImageGroup {
+            left:-60px;
+        }
+    }
+    
     .top-head {
         font-weight: 700;
-        line-height: 60px;
-        font-size: 60px;
-        margin-bottom: 117px;
+        line-height: 36px;
+        font-size: 28px;
         position: relative;
-        top: 52px;
-        padding-top:20px;
-        @media (min-width:1270px){
+        padding-top:50px;
+        @media (min-width:992px) {
+            font-weight: 700;
+            line-height: 60px;
+            font-size: 60px;
+            margin-bottom: 0px;
+            top: 0px;
+            padding-top:20px;
+        }
+        @media (min-width:1170px) {
+            margin-bottom: 120px;
+            top: 52px;
+        }
+        @media (min-width:1270px) {
             font-size:50px;
         }
         @media (min-width:1400px) {
@@ -353,11 +406,14 @@ const Content = styled(Box)`
 `
 Content.Title = styled(Heading)`
 font-weight: 700;
-font-size: 45px;
-line-height: 62px;
+font-size: 28px;
+line-height: 42px;
+margin-bottom:20px;
 letter-spacing: -1px;
     @media (min-width:768px) {
-      font-size: 38px;
+      font-size: 36px;
+      line-height: 60px;
+      margin-bottom:0px;
     }
     @media (min-width:992px){
         font-size: 36px;

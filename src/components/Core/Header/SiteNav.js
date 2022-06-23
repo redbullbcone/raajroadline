@@ -11,8 +11,8 @@ const SiteNavbar = ({buttonBlock,darkLogo,customLogo,defaultLogo}) => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="white"
-        variant="light"
+        bg="dark"
+        variant="dark"
         className="site-navbar"
       >
         <Navbar.Brand href="/">

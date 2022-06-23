@@ -44,15 +44,18 @@ export default function ContentSectionOne({heading},{...rest}){
       <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
       {/* <Content.Button></Content.Button> */}
     </Col>
-    <Col className="col-md-2"></Col>
+    {/* <Col className="col-md-2"></Col> */}
 
-    <Col xs="10" className="col-xl-4 col-lg-4 col-md-4 col-xs-4 ">
-      <video loop autoPlay className='cc-video'>
+    <Col xs="10" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 ">
+      {/* <video loop autoPlay className='cc-video'>
         <source
           src="video/mrkt-cc.mp4"
           type="video/mp4"
         />
-      </video>
+      </video> */}
+      <ImageGroup imageclass="" imageSrc="image/businesses/virtual-card.png" imageAlt="" mb="60px" mbLG="0"/>
+
+
     </Col>
   </Row>
 </Container>

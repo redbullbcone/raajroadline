@@ -38,11 +38,13 @@ HeroImageGroup.Inner = styled.div`
         display:none;
     }
     @media (min-width:992px) {
-        top: 50px;
+        top: 115px;
+        left: -50px;
         display:block;
     }
     @media (min-width:1170px) {
         top: 50px;
+        left: 0px;
     }
     @media (min-width:1270px) {
         top: -50px;

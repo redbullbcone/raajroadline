@@ -22,7 +22,11 @@ const Footer = styled(Box)`
   @media (min-width: 1270px) {
     padding-top:94px;
   }
-
+  .footer-widgets p br {
+    @media (max-width: 1024px) {
+      display:none;
+    }
+  }
 
 `
 Footer.Widgets = styled(Box)``

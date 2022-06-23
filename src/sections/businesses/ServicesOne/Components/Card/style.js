@@ -94,9 +94,9 @@ const Card = styled(Box).attrs({className:"link-page"})`
         content: "\e903";
     }
 
-    .blue:hover{
-        background-color:#1a75fea6;
-    }
+    
+ 
+
    
    
 `
@@ -143,7 +143,6 @@ Card.Title = styled(Heading)`
         font-size:21px;
     }
     @media (min-width:1400px) {
-        margin-top: 34px;
         font-weight: 700;
         font-size: 24px;
         line-height: 40px;

@@ -20,13 +20,20 @@ body {
 }
 }
 
-.btn{
+.btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600 !important;
+  font-family: 'Rubik', sans-serif !important;
 }
-
-
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-family: 'Rubik', sans-serif;
+}
+.site-menu-main .main-nav-item > .nav-link {
+  font-weight: 600 !important;
+  font-family: 'Rubik', sans-serif;
+}
 
 /* Animations Sonar */
 .sonar-emitter {
@@ -147,10 +154,7 @@ body {
 
 
 @media only screen and (max-width:1399px) {
-  .homepage-hero h1.hero-main-title{
-    font-size: 60px;
-  }
-  .homepage-hero p{
+  .homepage-hero p {
     font-size: 18px;
     margin-bottom: 35px;
   }
@@ -184,50 +188,12 @@ body {
     font-size: 18px !important;
     line-height: 27px !important;
   }
-
-  .feature-sec .feature-title{
-    font-size: 50px;
-    line-height: 75px;
-    margin-bottom: 0;
-  }
-  .feature-sec .feature-title2{
-    font-size: 45px;
-    line-height: 40px;
-  }
-
-  .feature-sec p{
-    font-size: 18px;
-    line-height: 27px;
-  }
-
-  .feature-tabs span{
-    font-size: 16px;
-  }
-
-  .feature-tabs.nav .nav-widget{
-    width: 260px;
-  }
-
-  .tab-contents h5{
-    font-size: 18px;
-  }
-
-  .tab-contents p{
-    font-size: 16px;
-  }
-
   .service-section h2{
     font-size: 50px;
     font-weight: 700;
   }
-
-
   .service-card p{
     font-size: 14px;
-  }
-
-  .partners-logo-heading{
-    font-size: 50px !important;
   }
 
   .top-footer-sec h2{
@@ -263,11 +229,6 @@ body {
     min-height: 261px !important;
 
   }
-
-  .business-content-sec{
-   font-size: 50px !important; 
-  }
-
 
 
   .business-sec-altcards .white-back{
@@ -484,9 +445,10 @@ body {
   -ms-transition: 1.0s all ease; /* IE 10 */
   -moz-transition: 1.0s all ease; /* Firefox */
   -webkit-transition: 1.0s all ease; /*safari and chrome */
+  margin-bottom:30px;
 }
 .purple:hover{
-  background-color: #6001d399;
+  background-color: #6001d3d1;
   -webkit-transition: 1.0s all ease;    
   transition: 1.0s all ease;  
 }
@@ -498,13 +460,13 @@ body {
 }
 
 .mustard:hover {
-  background-color: #ffd700ad;
+  background-color: #ffd700fa;
   -webkit-transition: 1.0s all ease;    
   transition: 1.0s all ease;  
 }
 
 .cyan:hover {
-  background-color: #1de2cfb8;
+  background-color: #1ee1cefa;
   -webkit-transition: 1.0s all ease;    
   transition: 1.0s all ease;  
 }
@@ -551,15 +513,15 @@ body {
 
 
 
-.link-page:hover{
+.link-page:hover {
   .card-img-white{
     position: absolute;
     background: transparent;
     display: block;
     top: 41px;
   }
-  .market{
-    left:65px;
+  .market {
+    left:37%;
   }
   .auditor{
     left:48px;
@@ -737,4 +699,110 @@ body {
   box-shadow: -4px 4px 20px rgba(255, 87, 34, 0.7);
 }
 
-
+@media only screen and (max-width:991px) {
+  .link-page:hover .market {
+    left: 37.30%;
+  }
+  .link-page:hover .auditor {
+    left: 32%;
+  }
+  .link-page:hover .pvc-cls {
+    left: 34.3%;
+  }
+  .link-page:hover .employee-cls {
+    left: 33%;
+  }
+  .link-page:hover .arrow {
+    display:none;
+  }
+  .link-page:hover .white-arrow {
+    right: 76px;
+    bottom: 89px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .light-header .hamburgur {
+    position: absolute;
+    left: 0px;
+    padding:0.25rem 0.25rem;
+  }
+  .navbar-light .navbar-brand {
+    margin-left: 60px;
+  }
+  .site-navbar.navbar > div:last-child {
+    display: flex !important;
+    flex-direction: row;
+    position: absolute;
+    right: 0px;
+    padding: 0;
+    margin: 0;
+  }
+  .site-navbar.navbar > div:last-child > a {
+    font-size: 14px;
+    box-shadow: none;
+    border:0px;
+    margin: 0;
+    height: auto;
+    padding: 0 4px;
+    border-radius: 0px;
+    min-width: auto;
+  }
+  .top-footer-sec h2 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 80px 0 0;
+  }
+  .link-page:hover .white-arrow {
+    right: 31px;
+  }
+}
+@media only screen and (max-width:576px) {
+  .link-page:hover .white-arrow {
+    right: 82px;
+  }
+}
+@media only screen and (max-width:545px) {
+  .link-page:hover .white-arrow {
+    right: 62px;
+  }
+}
+@media only screen and (max-width:568px) {
+  .link-page:hover .white-arrow {
+    right: 89px;
+  }
+}
+@media only screen and (max-width:481px) {
+  .link-page:hover .white-arrow {
+    right: 127px;
+  }
+}
+@media only screen and (max-width:479px) {
+  .site-navbar.navbar > div:last-child > a {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:420px) {
+  .link-page:hover .white-arrow {
+    right: 104px;
+  }
+}
+@media only screen and (max-width:413px) {
+  .link-page:hover .white-arrow {
+    right: 102px;
+  }
+}
+@media only screen and (max-width:395px) {
+  .link-page:hover .white-arrow {
+    right: 92px;
+  }
+}
+@media only screen and (max-width:380px) {
+  .link-page:hover .white-arrow {
+    right: 83px;
+  }
+}
+@media only screen and (max-width:365px) {
+  .link-page:hover .white-arrow {
+    right: 76px;
+  }
+}

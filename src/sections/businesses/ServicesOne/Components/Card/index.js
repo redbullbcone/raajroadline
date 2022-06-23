@@ -9,9 +9,10 @@ return(
   {/* <Card.Icon as="div">
     <i className={icon} />
   </Card.Icon> */}
-  
+  <div className='icon-group'>
   <img src={image} className="card-img business-card-img"/>
-  <img src={whiteImage} className={`${whiteImageClass} card-img-white`}/>
+  <img src={whiteImage} className={`${whiteImageClass} business-white-card`}/>
+  </div>
   <Card.Title as="h4">{title}<br />{title2}</Card.Title>
   {/* <Card.Text >{text}</Card.Text> */}
   {/* <Card.Text >{text2}</Card.Text>
