@@ -14,6 +14,7 @@ import CounterSection from "~sections/services/Counter"
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
 import HeaderButton from "~sections/marketing/Header"
+import { Helmet } from "react-helmet"
 
 
 const header = {
@@ -70,17 +71,17 @@ var reverserow = [
 
 var interns=[
   {
-    "image":"image/marketing/count.png",
+    "image":"image/hire-interns/exchange-mentorship-icon-1.jpg",
     "text":"Empower Emerging Talent",
     "paragraph":"Assist talented students in mastering their skills, adding to their resumé, and lifting their confidence. "
   },
   {
-    "image":"image/marketing/count-2.png",
+    "image":"image/hire-interns/exchange-mentorship-icon-2.jpg",
     "text":"Freshen-up your Team",
     "paragraph":"Grow your team without breaking the bank. Finish your projects faster with unpaid interns."
   },
   {
-    "image":"image/marketing/count-3.png",
+    "image":"image/hire-interns/exchange-mentorship-icon-3.jpg",
     "text":"Certificate Program",
     "paragraph":"We will generate a certificate for interns upon program completion based on the skills they gained."
   }
@@ -91,6 +92,27 @@ var interns=[
 export default function HireInterns() {
   return (
     <PageWrapper headerConfig={header}>
+      <Helmet>
+      <title>Find Skilled Interns Globally | Hire an Intern Today</title>
+      <meta name="description" content="Hire the best interns from all over the world. Post jobs & find qualified candidates fast. Hire skilled interns with virtual internships on MRKT365 today!" />
+      <meta name="geo.region" content="CA-ON" />
+      <meta name="geo.placename" content="Vaughan" />
+      <meta name="geo.position" content="43.815431;-79.526403" />
+      <meta name="ICBM" content="43.815431, -79.526403" />
+      <meta property="og:locale" content="en_CA" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Find Skilled Interns Globally | Hire an Intern Today" />
+      <meta property="og:description" content="Hire the best interns from all over the world. Post jobs & find qualified candidates fast. Hire skilled interns with virtual internships on MRKT365 today!" />
+      <meta property="og:url" content="https://mrkt365.com/hire-interns" />
+      <meta property="og:site_name" content="MRKT365" />
+      <meta property="og:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Find Skilled Interns Globally | Hire an Intern Today" />
+      <meta name="twitter:description" content="Hire the best interns from all over the world. Post jobs & find qualified candidates fast. Hire skilled interns with virtual internships on MRKT365 today!" />
+      <meta name="twitter:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
+      <meta name="twitter:url" content="https://mrkt365.com/hire-interns" />
+
+      </Helmet>
       <HeroHireInterns/>
       <PromoSection/>
       {/* <ServicesSection/> */}

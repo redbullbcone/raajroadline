@@ -6,11 +6,11 @@ import ProcessData from "~data/services/Process"
 import { Container, Row, Col } from 'react-bootstrap'
 export default function ProcessSection({content},{ ...rest }){
 return(
-<Process backgroundColor="#6001d3" {...rest}>
+<Process backgroundColor="#F6FBFF" {...rest}>
   <Container>
      <Row>
       <Col className="col-lg-12 col-md-12 text-center">
-          <Process.Title as="h2" fontColor="#fff">AI Integration</Process.Title>
+          <Process.Title as="h2" fontColor="#1A75FF">AI Integration</Process.Title>
           <Row>
           {content.map(({image,text }) => {
                   return( <Col className="ai-integrations">

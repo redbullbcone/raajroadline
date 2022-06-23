@@ -20,7 +20,7 @@ const SiteNavbar = ({buttonBlock,darkLogo,customLogo,defaultLogo}) => {
           {defaultLogo ? (<img src={defaultLogo} alt="site-brand"/>) : customLogo ? (
             <img src={customLogo} alt="site-brand" />
           ) : (
-            <img src={darkLogo? "/image/logo/mkrt-logo.png" : "/image/logo/logo-white.png"} alt="site-brand" className="header-logo"/>
+            <img src={darkLogo? "/image/logo/newlogo.png" : "/image/logo/newlogo.png"} alt="site-brand" className="header-logo"/>
           )}
         </Navbar.Brand>
         <Navbar.Toggle

@@ -3,7 +3,7 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 import {transparentize,rgba} from "polished"
 const propToColor = (arg = "#1787FC" ) => transparentize(0.70, arg);
-const Card = styled(Box).attrs({className:"service-card"})`
+const Card = styled(Box).attrs({className:"link-page"})`
     background-color: transparent;
     border: none;
     padding-top: 40px;
@@ -17,6 +17,13 @@ const Card = styled(Box).attrs({className:"service-card"})`
     align-items:center;
     flex-direction:column;
     text-align:center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    min-height:426px;
+    position:relative;
+    overflow:hidden;
+
+
     @media (min-width:575px) {
         padding-left: 5px;
         padding-right: 5px;
@@ -38,6 +45,52 @@ const Card = styled(Box).attrs({className:"service-card"})`
         padding-right: 20px;
     }
 
+   
+    &::before{
+        content: '';
+        width: 191px;
+        height: 191px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: .1;
+        position: absolute;
+        -webkit-transition: all .4s ease .2s;
+        transition: all 1.4s ease .2s;
+        bottom: -120px;
+        left: -140px;
+    }
+    &::after{
+        content: '';
+        width: 191px;
+        height: 191px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: .1;
+        position: absolute;
+        -webkit-transition: all .4s ease .2s;
+        transition: all 1.4s ease .2s;
+        top: -130px;
+        right: -103px;
+       
+    }
+
+    &:hover::after{
+        top: -54px;
+        right: -101px;
+        overflow: hidden;
+
+    }
+
+    &:hover::before{
+        bottom: -54px;
+        left: -38px;
+        overflow: hidden;
+    }
+
+  
+    .nonid-icon-left-arrow:before{
+        content: "\e903";
+    }
    
    
 `
@@ -72,8 +125,9 @@ Card.Title = styled(Heading)`
         font-size:12px;
     }
     @media (min-width:992px) {
-        font-size:12px;
+        font-size:18px;
         margin-bottom:0px;
+        min-height: 90px;
     }
     @media (min-width:1170px) {
         font-size:18px;
@@ -83,8 +137,18 @@ Card.Title = styled(Heading)`
         font-size:21px;
     }
     @media (min-width:1400px) {
-        font-size:21px;
+        margin-top: 34px;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 40px;
+        margin-bottom: 23px;
+        min-height: 100px;
     }
+    
+    &:hover{
+        background: transparent;
+    }
+
 
 
 `
@@ -96,6 +160,20 @@ Card.Text = styled(Paragraph)`
         margin-bottom: 0px;
         opacity:.7;
         color:inherit;
+        background: transparent;
+        &:hover{
+            background: transparent;
+        }
+
+        @media(min-width:992px){
+            font-size:12px;
+        }
+        @media(min-width:1170px){
+            font-size:14px;
+        }
+        @media(min-width:1400px){
+            font-size:16px;
+        }
 `
 
 export default Card;

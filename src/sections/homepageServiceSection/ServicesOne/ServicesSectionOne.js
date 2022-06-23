@@ -20,18 +20,24 @@ return(
     </Row>
     <Row className="justify-content-center aos-init aos-animate homepage-provide-feature" data-aos="fade-up" data-aos-duration={500} data-aos-delay={500} data-aos-once="true">
       {/* Single Services */}
-      {content.map(({ title, icon, image, text2, text3, text, id, iconBackground }) => {
+      {content.map(({ title, icon, image, text2, text3, text,cardbg,whiteImage,whiteImageClass,id,linkPage,  }) => {
               return (
               <Col xs="h2" className="col-xl-3 col-lg-3 col-sm-6 col-xs-8" key={id}>
-                <ServicesCard
+                <ServicesCard 
                   title={title}
                   text={text}
                   text2={text2}
                   text3={text3}
                   icon={icon}
                   image={image}
-                  // iconBackground={iconBackground}
+                  linkPage={linkPage}
+                  cardbg={cardbg}
+                  whiteImage={whiteImage}
+                  whiteImageClass={whiteImageClass}
+                  
                 />
+
+
               </Col>
               )
             })}

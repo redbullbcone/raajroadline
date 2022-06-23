@@ -12,7 +12,6 @@ s}
 .get-started-heading{
   text-align:left;
   margin-top:50px;
-  padding-left: 118px;
   padding-top:100px;
   font-size:48px;
 }
@@ -23,6 +22,10 @@ s}
   color: black;
   text-align: left;
   padding-top: 45px;
+
+  @media(min-width:1400px){
+    font-weight:600px;
+  }
 }
 .get-started-sec{
   flex-direction: column;
@@ -30,6 +33,13 @@ s}
 .counter-icons{
   width: 75.28px;
 height: 72.69px;
+margin-left: 20px;
+
+@media(min-width:1400px){
+  width: 75.28px;
+  height: 72.69px;
+  margin-left: 20px;
+}
 }
 
 `

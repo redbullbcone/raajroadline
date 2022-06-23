@@ -17,7 +17,7 @@ export const Button = styled.button.attrs(props => ({
   padding-right: ${props => (props.pr ? props.pr : "10px")};
   text-transform: ${props =>
     props.textTransform ? props.textTransform : "capitalized"};
-  border-radius: ${props => (props.radius ? props.radius : "5px")};
+  border-radius: ${props => (props.radius ? props.radius : "50px")};
   margin-top: ${props => props.mt};
   margin-bottom: ${props => props.mb};
   color: ${props => props.textColor};

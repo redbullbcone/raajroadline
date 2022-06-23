@@ -15,6 +15,19 @@ const Promo = styled(Box)`
     }
     .intern-promo-sec{
         text-align: left;
+
+        @media (min-width:992px) {
+            margin-left:0;
+         }
+
+        @media (min-width:1170px) {
+            margin-left:90px;
+         }
+
+        @media (min-width:1400px) {
+           margin-left:90px;
+        }
+
     }
 `
 Promo.Title = styled(Heading)`
@@ -27,8 +40,23 @@ Promo.Title = styled(Heading)`
       font-size: 38px;
     }
 
+    @media (min-width:992px) {
+        font-size: 36px;
+        font-weight:400px;
+      }
+    
     @media (min-width:1024px) {
-      font-size: 48px;
+      font-size: 36px;
+    }
+
+    @media (min-width:1170px) {
+        font-size: 46px;
+        margin-bottom:32px;
+    }
+
+    @media (min-width:1400px) {
+        font-size: 48px;
+        margin-bottom:32px;
     }
 `
 Promo.Subtitle = styled(Heading)`

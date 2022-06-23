@@ -11,7 +11,7 @@ return(
          <Container>
             {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
            <Col className="col-md-7 intern-promo-sec">
-           <Promo.Title as="h2" fontColor="#fff" >Why Create an Internship with Us?</Promo.Title>
+           <Promo.Title as="h2" fontColor="#fff" >Why Create an Internship<br /> with Us?</Promo.Title>
             <Promo.Text fontColor="#fff">We are world leaders in providing virtual internships to<br className="d-none d-sm-block" /> companies and we partner with leading international<br className="d-none d-sm-block" />  universities to source the best candidates for you.
              
             </Promo.Text>

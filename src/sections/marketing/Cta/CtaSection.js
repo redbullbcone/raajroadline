@@ -20,7 +20,7 @@ return(
             <Form>
               <Cta.NewsletterFromGroup mt="45px">
                 {/* <Form.Input className="form-control " type="email" placeholder="Enter your email" required />  */}
-                <Form.Button type="submit" value="Start For Free"/>
+                <Form.Button className="cta-close cta-close-btn" type="submit" value="Start For Free"/>
               </Cta.NewsletterFromGroup>
             </Form>
           </Cta.Newsletter>

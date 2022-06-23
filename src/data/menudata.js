@@ -5,24 +5,24 @@ export const menuItems = [
            name: "",
            label: "How it Works",
            items: [
-             { name: "/businesses", label: " Businesses" },
-             { name: "/freelancers", label: " Freelancers " },
-             { name: "/agencies", label: " Agencies " },
-             { name: "/interns", label: " Interns " },
-             { name: "/recruitment-agency", label: " Recruitment Agencies  " },
-             { name: "/affiliate-program", label: " Affiliate Program " },
+             { name: "businesses", label: " Businesses" },
+             { name: "freelancers", label: " Freelancers " },
+             { name: "agencies", label: " Agencies " },
+             { name: "interns", label: " Interns " },
+             { name: "recruitment-agency", label: " Recruitment Agencies  " },
+             { name: "affiliate-program", label: " Affiliate Program " },
              ],
          },
          {
            name: "pages",
            label: "Features",
            items: [
-            { name: "/marketplace", label: " Marketplace " },
-            { name: "/ai-auditor", label: " AI Auditor " },
-            { name: "/hire-interns", label: " Hire Interns " },
-            { name: "/employee-monitoring", label: " Employee Monitoring " },
-            { name: "/prepared-virtual-card", label: "  Prepaid Virtual Cards " },
-            { name: "/microsoft-ads", label: "Microsoft Ads  " },
+            { name: "marketplace", label: " Marketplace " },
+            { name: "ai-auditor", label: " AI Auditor " },
+            { name: "hire-interns", label: " Hire Interns " },
+            { name: "employee-monitoring", label: " Employee Monitoring " },
+            { name: "prepared-virtual-card", label: "  Prepaid Virtual Cards " },
+            { name: "microsoft-ads", label: "Microsoft Ads  " },
 
             //  { name: "about-us", label: "  " },
             //  {
@@ -220,12 +220,12 @@ export const menuItems = [
         //    }
         //  },
          {
-           name: "/pricing",
+           name: "pricing",
            label: "Pricing",
           //  isExternal: true,
          },
          {
-          name: "/contact",
+          name: "contact",
           label: "Contact",
           // isExternal: true,
         },

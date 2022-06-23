@@ -30,11 +30,14 @@ export const HeaderButtonWrapper = styled(Box)`
         }
     }
 `
-const HeaderButton = ({btnLink,btnText,...rest})=>{
+const HeaderButton = ({btnLink,btnOneText,btnTwoText,...rest})=>{
     return(
         <HeaderButtonWrapper {...rest}>
             <Link target="_blank" className="btn" to={btnLink ? btnLink : "/"}>
-                {btnText}
+                {btnOneText}
+            </Link>
+            <Link target="_blank" className="btn" to={btnLink ? btnLink : "/"}>
+                {btnTwoText}
             </Link>
         </HeaderButtonWrapper>
     )

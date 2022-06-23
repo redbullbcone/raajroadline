@@ -3,13 +3,11 @@ import styled from 'styled-components';
 
 const HeroImageGroup = styled.div`
  position: relative;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
-   
     @media (min-width:768px) {
-        width: 80%;
+        width: 100%;
     }
-
     @media (min-width:1240px) {
         position: absolute;
         top: 55%;
@@ -17,112 +15,114 @@ const HeroImageGroup = styled.div`
         transform: translateY(-50%);
         width: 46%;
     }
-
     @media (min-width:1368px) {
         width: 46% !important;
         top: 50%;
         transform: translateY(-50%);
     }
-
     @media (min-width:1366px) {
         right: 5%;
-        top: 65%;
+        top: 61%;
+        z-index: 999;
     }
-
-
 `
 
 HeroImageGroup.Inner = styled.div`
     position: relative;
-    
     margin: 0 auto;
     z-index: 1;
     margin-bottom: 21px;
-
-    img {
-        /* width: 110%; */
+    top: -50px;
+    display:none;
+    @media (min-width:768px) {
+        display:none;
     }
-
-    @media (min-width:1240px) {
-        margin-left: auto;
-        width: 656px;
-        height: 504px;
+    @media (min-width:992px) {
+        top: 50px;
+        display:block;
     }
-
-    @media (min-width:1200px) {
-        margin-left: auto;
-        width: 90%;
+    @media (min-width:1170px) {
+        top: 50px;
     }
-
+    @media (min-width:1270px) {
+        top: -50px;
+    }
+    @media (min-width:1400px) {
+        top: -15px;
+    }
     @media (min-width:1600px) {
-        width: 731px;
-        object-fit: contain;
+        top: 0px;
     }
-
-
-
-    .welcome-image--group-01__img-1 {
-        position: absolute;
-        left: -2%;
-        top: -7%;
-        width: 28%;
-        box-shadow: 0 44px 54px rgba(37, 55, 63, 0.16);
-        border-radius: 50%;
+    @media (min-width:1820px) {
+        top: 50px;
     }
-
-    .welcome-image--group-01__img-2 {
-        position: absolute;
-        left: 26%;
-        top: -25%;       
-        width: 33%;
-        z-index: -1;
-    }
-
-    .welcome-image--group-01__img-3 {
-        position: absolute;
-        right: 9%;
-        bottom: -10%;
-        width: 26%;
-        transform: translateX(-50%);
-        z-index: -1;
-    }
-
-    .welcome-image--group-01__img-4{
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 23%;
-        z-index: -1;
-        transform: translateY(-50%);
-    }
-
     .welcome-image--group-01__img-5 {
         position: absolute;
-        left: -126%;
+        left: -115%;
         top: 83%;
         width: auto;
         transform: rotateZ(270deg);    
     }
-
-    .welcome-image--group-01__img-6 {
-        position: absolute;
-        right: -9%;
-        top: 50%;
-        width: 27%;
-        transform: translateY(-50%);
-        z-index: -1;
+    .welcome-image--group-01__main {
+        width: 100%;
+        height: auto;
+        position:relative;
+        z-index:999;
     }
-
-    .welcome-image--group-01__img-7 {
-        position: absolute;
-        right: -11%;
-        bottom: -2%;
-        width: 32%;
-        z-index: -1;
+    .welcome-image--group-01__img-1 {
+        height: auto;
+        position:absolute;
+        top:-110px;
+        left:40%;
+        z-index:99;
+        display:none;
+        @media (min-width:768px) {
+            top:-70px;
+            display:none;
+        }
+        @media (min-width:992px) {
+            top:-55px;
+            display:block;
+        }
+        @media (min-width:1170px) {
+            top:-80px;
+        }
+        @media (min-width:1270px) {
+            top:-90px;
+        }
+        @media (min-width:1400px) {
+            top:-90px;
+        }
+        @media (min-width:1600px) {
+            top:-92px;
+        }
+        @media (min-width:1820px) {
+            top:-105px;
+        }
     }
-    .welcome-image--group-01__main{
-        width: 656px;
-        height: 504px;
+    .welcome-image--group-01__img-1 img {
+        width:40%;
+        @media (min-width:768px) {
+            width:55%;
+        }
+        @media (min-width:992px) {
+            width:42%;
+        }
+        @media (min-width:1170px) {
+            width:60%;
+        }
+        @media (min-width:1270px) {
+            width:70%;
+        }
+        @media (min-width:1400px) {
+            width:74%;
+        }
+        @media (min-width:1600px) {
+            width:77%;
+        }
+        @media (min-width:1820px) {
+            width:85%;
+        }
     }
 `
 // npm 

@@ -13,6 +13,7 @@ import FooterOne from "~sections/marketing/FooterOne";
 import HeaderButton from "~sections/marketing/Header"
 import CtaSection from "~sections/marketing/Cta"
 import CounterSection from "~sections/marketing/Counter"
+import { Helmet } from "react-helmet";
 
 
 
@@ -71,6 +72,26 @@ const ServiceData = [
 export default function Startup() {
   return (
     <PageWrapper headerConfig={header}>
+      <Helmet>
+      <title>Become a MRKT365 Affiliate Partner</title>
+      <meta name="description" content="Become an affiliate on our platform & earn income on every job your network completes. Earn money while helping your network hire or be hired."/>
+      <meta name="geo.region" content="CA-ON" />
+      <meta name="geo.placename" content="Vaughan" />
+      <meta name="geo.position" content="43.815431;-79.526403" />
+      <meta name="ICBM" content="43.815431, -79.526403" />
+      <meta property="og:locale" content="en_CA" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Become a MRKT365 Affiliate Partner" />
+      <meta property="og:description" content="Become an affiliate on our platform & earn income on every job your network completes. Earn money while helping your network hire or be hired." />
+      <meta property="og:url" content="https://mrkt365.com/affiliates" />
+      <meta property="og:site_name" content="MRKT365" />
+      <meta property="og:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Become a MRKT365 Affiliate Partner" />
+      <meta name="twitter:description" content="Become an affiliate on our platform & earn income on every job your network completes. Earn money while helping your network hire or be hired." />
+      <meta name="twitter:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
+      <meta name="twitter:url" content="https://mrkt365.com/affiliates" />
+      </Helmet>
       <HeroSection
         headerimage="image/home-startup/header-image.jpg"
         herotitle="MRKT365"

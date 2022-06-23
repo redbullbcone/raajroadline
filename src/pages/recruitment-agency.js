@@ -11,6 +11,7 @@ import FooterFive from "~sections/agency/FooterFive";
 import HeaderButton from "~sections/marketing/Header";
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
+import { Helmet } from "react-helmet";
 
 
 const header = {
@@ -68,6 +69,27 @@ const ServiceData =[
 export default function Agency() {
   return (
     <PageWrapper headerConfig={header}>
+      <Helmet>
+      <title>Affiliate Recruiting Services | Earn More With MRKT365</title>
+      <meta name="description" content="Take your recruitment agency global! Connect your network to our marketplace & earn affiliate income when they receive jobs. We pay affiliates the most!" />
+      <meta name="geo.region" content="CA-ON" />
+      <meta name="geo.placename" content="Vaughan" />
+      <meta name="geo.position" content="43.815431;-79.526403" />
+      <meta name="ICBM" content="43.815431, -79.526403" />
+      <meta property="og:locale" content="en_CA" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Affiliate Recruiting Services | Earn More With MRKT365" />
+      <meta property="og:description" content="Take your recruitment agency global! Connect your network to our marketplace & earn affiliate income when they receive jobs. We pay affiliates the most!" />
+      <meta property="og:url" content="https://mrkt365.com/recruitment-agencies" />
+      <meta property="og:site_name" content="MRKT365" />
+      <meta property="og:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Affiliate Recruiting Services | Earn More With MRKT365" />
+      <meta name="twitter:description" content="Take your recruitment agency global! Connect your network to our marketplace & earn affiliate income when they receive jobs. We pay affiliates the most!" />
+      <meta name="twitter:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
+      <meta name="twitter:url" content="https://mrkt365.com/recruitment-agencies" />
+
+      </Helmet>
       <HeroSection />
       <ServicesSectionOne className='earn-affiliate-title' title="Earn Affiliate Income with MRKT365"content={ServiceData}/>
       <ContentSectionOne />
