@@ -10,13 +10,13 @@ return(
     <Row>
       <Col className="col-xl-12 col-lg-12 text-center">
         <Feature.Box>
-          <SectionTitle title="Our Support" titleProps={{mb:"33px"}}/>
+          <SectionTitle title="Our" title2="Support" titleProps={{mb:"33px"}}/>
         </Feature.Box>
       </Col>
     </Row>
-    <Row>
+    {/* <Row>
       <Col xs="12" className="col-lg-6 col-md-12 mb-5 mb-lg-7">
-        {/* <Feature.Box>
+        <Feature.Box>
           <Feature.Text mrLG="30px">
             Business advisory service advises current and future businesses
             prospects of a client, with the aim of advancing their business or
@@ -24,10 +24,10 @@ return(
             involve examining the legal, tax, finance, market and risks factors
             involved to start up a business.
           </Feature.Text>
-        </Feature.Box> */}
+        </Feature.Box>
       </Col>
       <Col xs="12" className="col-lg-6 col-md-12 mb-5 mb-lg-7">
-        {/* <Feature.Box>
+        <Feature.Box>
           <Feature.Text mrLG="30px">
             Business advisory service advises current and future businesses
             prospects of a client, with the aim of advancing their business or
@@ -35,9 +35,9 @@ return(
             involve examining the legal, tax, finance, market and risks factors
             involved to start up a business.
           </Feature.Text>
-        </Feature.Box> */}
+        </Feature.Box>
       </Col>
-    </Row>
+    </Row> */}
     <Row className="align-items-center justify-content-center">
       <Col xs="12" className="col-lg-6 col-md-12">
         <Feature.Image mb="30px">

@@ -2,7 +2,9 @@ import styled from 'styled-components'
 import { Heading, Box, Paragraph } from '~styled'
 
 const SectionTitle = styled(Box)`
-
+.blue-txt{
+    color:#1A75FF;
+}
 `
 SectionTitle.Text = styled(Paragraph)`
 
@@ -30,7 +32,7 @@ color:#262729;
 }
 
 @media (min-width:1400px) {
-    font-size: 45px;
+    font-size: 70px;
 }
 
 `

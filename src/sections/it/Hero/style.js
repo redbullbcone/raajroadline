@@ -18,6 +18,12 @@ const Hero = styled(Box)`
 
     @media (min-width:1200px) {
         padding-top: 220px;
+        height:975px;
+    }
+
+    .orange-text{
+        color:#FF5722;
+
     }
 
 `
@@ -38,8 +44,14 @@ Hero.Title = styled(Heading)`
     }
 
     @media (min-width:1170px){
-        font-weight:700;
-        font-size:50px;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    @media (min-width:1400px){
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 70px;
     }
 `
 Hero.Subtitle = styled(Heading)`
@@ -50,28 +62,22 @@ Hero.Subtitle = styled(Heading)`
     margin-bottom: 28px;
 `
 Hero.Text = styled(Paragraph)`
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 400;
     letter-spacing: normal;
-    line-height: 1.875;
-    margin-bottom: 10px;
+    line-height: 34px;
+    margin-top: 56px;
 `
 
 
 Hero.Button = styled(Button) `
-    min-width: 180px;
+    width: 266px;
     height: 56px;
-    border-radius: 500px!important;
     margin-bottom: 20px;
     margin-right: 15px;
-    border-radius:10px !important;
-    &.btn-1{
-    
-    border-raidus:10px !important;
-    }
-    &>btn-2{
-        box-shadow: -12px 12px 50px rgb(96 1 211 / 30%);
-    }
+    border-radius:50px;
+    box-shadow: -8px 8px 50px rgb(255 87 34 / 50%);
+    font-size:21px;
 
 `
 Hero.BtnGroup = styled(Box)`

@@ -2,19 +2,12 @@ import React from "react"
 import { PageWrapper } from "~components/Core"
 import { Helmet } from 'react-helmet'
 import HeroSection from '~sections/services/Hero'
-import ServicesSection from '~sections/services/Services'
-import AboutSection from '~sections/services/About'
 import ContentSectionOne from '~sections/services/ContentOne/ContentSectionOne'
 import ContentVideoSectionOne from '~sections/VideoSections/ContentOne/ContentVideoSectionOne'
 import ProcessSection from '~sections/services/Process'
-import PromoSection from '~sections/services/Promo'
-import PricingSection from '~sections/services/Pricing'
-import TestimonialSection from '~sections/services/Testimonial'
-import ContactSection from '~sections/services/Contact'
 import CounterSection from "~sections/marketing/Counter"
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
-// import HeaderButton from '~sections/services/Header'
 import ServicesSectionOne from "~sections/businesses/ServicesOne";
 import HeaderButton from '~sections/services/Header'
 

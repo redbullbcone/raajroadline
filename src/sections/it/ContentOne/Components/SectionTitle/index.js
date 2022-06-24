@@ -1,14 +1,15 @@
 import React from 'react';
 import { SuperTag } from '~components';
 import SectionTitle from "./style";
-export default function SectionTitleBlock({subTitleProps,titleProps,textProps,subTitle,title,text,...rest}){
+export default function SectionTitleBlock({subTitleProps,titleProps,textProps,subTitle,title,title2,title3,text,...rest}){
 return(
 <SectionTitle {...rest}>
         {/* <SectionTitle.Subtitle  {...subTitleProps}>
              <SuperTag value={subTitle}/>
         </SectionTitle.Subtitle> */}
         <SectionTitle.Main {...titleProps}>
-             <SuperTag value={title}/>
+        <span className="blue-txt"> {title3}</span><SuperTag value={title}/> 
+          &nbsp;<SuperTag value={title2} className="blue-txt" />
         </SectionTitle.Main>
         {text ? <SectionTitle.Text {...textProps}>
 

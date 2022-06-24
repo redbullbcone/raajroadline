@@ -2,14 +2,11 @@ import React from "react";
 import { PageWrapper } from "~components/Core"
 import HeaderButton from "~sections/marketing/Header"
 import HeroSection from '~sections/it/Hero'
-import ServicesSection from '~sections/it/Services'
 import FeatureSection from '~sections/it/Feature'
 import ContentSectionOne from '~sections/it/ContentOne'
-import ProcessSection from '~sections/it/Process'
 import CtaSection from "~sections/marketing/Cta"
-import TestimonialSection from '~sections/it/Testimonial'
-import ContactSection from '~sections/it/Contact'
 import FooterOne from "~sections/marketing/FooterOne"
+import ServicesSectionOne from "~sections/freelancers/ServicesOne";
 import { Helmet } from "react-helmet";
 
 const header = {
@@ -28,27 +25,54 @@ const header = {
 }
 
 
-const ServiceCard =[
-{
-  image:"image/freelancers/globe.png",
-  title:"Increase your Reach to a Global Marketplace",   
-},
-{
-  image:"image/freelancers/clock.png",
-  title:"Choose When, Where & How You Want to Work",   
-},
-{
-  image:"image/freelancers/foldar.png",
-  title:"Receive Payments Quickly & Securely",   
-},
-{
-  image:"image/freelancers/heart.png",
-  title:"Work on Projects that You're Passionate About",   
-}
+const ServiceData =[
+  {
+    id:"ss1",
+    image:"image/freelancers/globe.svg",
+    whiteImage:"image/freelancers/globe-white.svg",
+    title: "Increase your",
+    title2:"Reach to a Global",
+    title3:"Marketplace",
+    linkPage:"ai-auditor",
+    cardbg:"cyan",
+    whiteImageClass:"business-ai",
+  },
+  {
+    id:"ss2",
+    image:"image/freelancers/heart.svg",
+    whiteImage:"image/freelancers/heart-white.svg",
+    title: "Work on Projects",
+    title2:"that You are",
+    title3:"Passionate About",
+    cardbg:"red",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
+  },
+  {
+    id:"ss1",
+    image:"image/freelancers/foldar.svg",
+    whiteImage:"image/freelancers/foldar-white.svg",
+    title: "Receive Payments",
+    title2:"Quickly & Securely",
+    linkPage:"ai-auditor",
+    cardbg:"blue",
+    whiteImageClass:"business-ai",
+  },
+  {
+    id:"ss2",
+    image:"image/freelancers/clock.svg",
+    whiteImage:"image/freelancers/clock-white.svg",
+    title: "Choose When, Where",
+    title2:"& How You Want to",
+    title3:"Work",
+    cardbg:"purple",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
+  },
 
 ]
-
-
 
 
 
@@ -76,7 +100,7 @@ export default function HomeIt() {
         <meta name="twitter:url" content="https://mrkt365.com/freelancers" />
         </Helmet>
         <HeroSection/>
-        <ServicesSection ServiceDataIt={ServiceCard} />
+        <ServicesSectionOne title="Discover Freelance Opportunities" content={ServiceData} />
         <FeatureSection/>
         <ContentSectionOne/>
         {/* <ProcessSection/> */}

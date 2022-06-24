@@ -15,9 +15,9 @@ a {
   text-decoration: none;
 }
 body {
-  > div {
-  overflow: hidden;
-}
+    > div {
+    overflow: hidden;
+  }
 }
 
 .btn {
@@ -34,12 +34,38 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 600 !important;
   font-family: 'Rubik', sans-serif;
 }
-
+.navbar-brand {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  margin-right: 0;
+  font-size: 0rem;
+  white-space: nowrap;
+}
+.site-navbar.navbar .btn.btn-2.header-close {
+  background-color: #ff5722;
+  color:#fff;
+}
+.site-navbar.navbar .btn.btn-2.header-close:hover,
+.site-navbar.navbar .header-close-btn::before,
+.site-navbar.navbar .header-close-btn::after {
+  background-color: #ff5722;
+}
+.top-footer-sec .cta-close.btn {
+  width: auto;
+  padding: 15px 20px;
+  height: auto;
+  background-color: #ff5722;
+  box-shadow: 0px 0px 30px #696868;
+  margin: 30px 30px;
+}
+.top-footer-sec .cta-close.btn:hover {
+  background-color: #fb815b;
+  border:3px solid #fb815b;
+}
 /* Animations Sonar */
 .sonar-emitter {
   position: relative;
 }
-
 .sonar-emitter::after {
   position: absolute;
   top: 0;
@@ -195,11 +221,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   .service-card p{
     font-size: 14px;
   }
-
   .top-footer-sec h2{
     font-size: 50px;
   }
-
 
   .imagegroup .welcome-image--group-01__img-6{
     left: 114% !important;
@@ -754,6 +778,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   }
   .link-page:hover .white-arrow {
     right: 31px;
+  }
+  .header-logo {
+    padding-left:50px;
   }
 }
 @media only screen and (max-width:576px) {

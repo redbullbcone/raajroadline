@@ -1,7 +1,7 @@
 import React from 'react';
 import { SuperTag } from '~components';
 import SectionTitle from "./style";
-export default function SectionTitleBlock({subTitleProps,titleProps,textProps,subTitle,title,text,...rest}){
+export default function SectionTitleBlock({subTitleProps,titleProps,textProps,subTitle,title,title2,text,...rest}){
 return(
 <SectionTitle {...rest}>
         {/* <SectionTitle.Subtitle  {...subTitleProps}>
@@ -9,6 +9,8 @@ return(
         </SectionTitle.Subtitle> */}
         <SectionTitle.Main {...titleProps}>
              <SuperTag value={title}/>
+             &nbsp;
+             <SuperTag value={title2} className="blue-txt" />
         </SectionTitle.Main>
         {text ? <SectionTitle.Text {...textProps}>
 

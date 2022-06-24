@@ -2,7 +2,9 @@ import styled from 'styled-components'
 import { Heading, Box, Paragraph } from '~styled'
 
 const SectionTitle = styled(Box)`
-
+.blue-txt{
+    color:#1A75FF;
+}
 `
 SectionTitle.Text = styled(Paragraph)`
 font-size: 18px;
@@ -10,6 +12,8 @@ font-weight: 400;
 letter-spacing: normal;
 line-height: 1.77777;
 color:inherit;
+
+
 
 @media(min-width:992px){
     font-size:16px;
@@ -21,8 +25,8 @@ color:inherit;
 
 @media(min-width:1400px){
     font-weight: 400;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 21px;
 }
 
 `
@@ -63,7 +67,8 @@ line-height: 1.38095;
 }
 
 @media (min-width:1400px) {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 45px;
     line-height: 54px;
     font-size: 45px;
     margin-bottom:44px;

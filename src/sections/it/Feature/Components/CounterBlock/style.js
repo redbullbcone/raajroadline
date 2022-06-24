@@ -15,7 +15,6 @@ const Counter = styled(Box)`
 Counter.Wrapper = styled(Box)`
 box-shadow: 0 24px 50px rgba(96, 1, 211, 0.2);
 border-radius: 15px;
-background-color: rgba(80, 52, 252, 0.9);
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -24,6 +23,7 @@ padding-top: 50px;
 padding-bottom: 20px;
 padding-left: 0px;
 padding-right: 0px;
+width: 803px;
 
 `
 

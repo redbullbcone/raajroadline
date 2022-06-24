@@ -42,6 +42,7 @@ Feature.Text = styled(Paragraph)`
 Feature.Image = styled(Box)`
 @media (min-width: 992px) {
     margin-right: 30px;
+    width: 631px;
 }
 
 `

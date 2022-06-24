@@ -6,6 +6,8 @@ const HeroImageGroup = styled(Box).attrs({className:"welcome-image-group-wrapper
         bottom: 0;
         right: 19%;
         width: 35%;
+        height:100%;
+
     @media (min-width:768px) {
         position: absolute;
         width: 25%;
@@ -40,6 +42,7 @@ HeroImageGroup.ImageOne = styled(Box)`
     bottom: 0;
     width: 100%;
     z-index: -1;
+    top: 124px;
 `
 HeroImageGroup.ImageTwo = styled(Box)`
    
@@ -59,7 +62,7 @@ HeroImageGroup.ImageThree = styled(Box)`
     left: -10%;
     bottom: 8%;
     width: 61%;
-    z-index: 1;
+    z-index: -1;
     max-width:140px;
     @media (min-width:1200px) {
         max-width: 500px;
@@ -72,6 +75,7 @@ HeroImageGroup.ImagesList = styled(Box)`
     position: relative;
     max-width: 100%;
     z-index: 1;
+    top: 164px;
     @media (min-width:992px) {
         max-width: 350px;
     }
