@@ -13,7 +13,7 @@ export default function ContentVideoSectionOne({...rest}){
 <div>
         <div className='manage'>
         <Container>
-          <Row className="align-items-center justify-content-center white-image first-business-sec">
+          <Row className="justify-content-center white-image first-business-sec">
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
               <Content.Title as="h2"><b>Manage</b>Your Team with our<br /><b>Employee Monitoring </b>App</Content.Title>
@@ -34,7 +34,7 @@ export default function ContentVideoSectionOne({...rest}){
 
         <div className='hire-virtual'>
         <Container>
-          <Row className="align-items-center justify-content-center white-image first-business-sec">
+          <Row className="justify-content-center white-image first-business-sec">
             <Col xs="10" className="col-xl-5 col-lg-5 col-md-5 col-xs-5 ">
               <ImageGroup imageclass="" imageSrc="image/marketing/business-5.png" imageAlt="" mb="60px" mbLG="0"/>
             </Col>
