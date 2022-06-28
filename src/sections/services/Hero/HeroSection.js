@@ -7,17 +7,14 @@ import Hero from './style'
 
 export default function HeroSection(){
 return(
-<Hero overlay="image/home-services/hero-overlay.png" style={{backgroundImage: `url("image/home-services/hero-l4-image.png")`}}>
+<Hero style={{backgroundImage: `url("image/home-services/business-slider-new.jpg")`}}>
   <Container>
     <Row className="align-items-center justify-content-center justify-content-md-start">
       {/* Welcome content Area */}
       <Col className="col-xxl-7 col-xl-7 col-lg-9 col-md-10">
         <Hero.Content className="business-hero">
-          <Hero.Title as="h2" fontColor="#fff">All-in-one <br className="d-none d-sm-block"/> Business Solution</Hero.Title>
+          <Hero.Title as="h2" fontColor="#ff5722">All-in-one <br className="d-none d-sm-block" /><span className="black-text" > Business Solution </span></Hero.Title>
           <Hero.Text fontColor="#fff"> Find Great <b>TALENT.</b> Automate your <b>MARKETING.</b> <br className="d-none d-sm-block" />Take your Business to the <b>NEXT LEVEL</b></Hero.Text>
-           
-
-
           {/* Newsletter */}
           <Hero.Newsletter mt="40px">
             <Form className="hero-form d-flex justify-content-between flex-row">

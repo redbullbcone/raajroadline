@@ -3,8 +3,8 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Service = styled(Box)`
     padding-top: 60px;
-    padding-bottom: 60px;
-   background-color: rgba(169,210,255,0.1) !important;
+    padding-bottom: 120px;
+    background-color: rgba(169,210,255,0.1) !important;
     @media (min-width:768px) {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -31,7 +31,7 @@ const Service = styled(Box)`
         line-height:30px;
         font-weight:700;
     }
-    .homepage-provide-feature .service-card p{
+    .homepage-provide-feature .service-card p {
         color:#000;
         padding-top:0px;
         margin-top:0px;
@@ -92,13 +92,13 @@ const Service = styled(Box)`
         background:#ff5200;
     }
 
-    .link-page:hover{
+    .link-page:hover {
         icon-group{
             margin-top:50px;
         }
     }
 
-    .link-page:hover{
+    .link-page:hover {
         .card-img.business-card-img{
             display:none;
         }
@@ -108,17 +108,243 @@ const Service = styled(Box)`
             position: relative;
         }
     }
-
-    .business-white-card{
+    .business-white-card {
         display:none;
     }
 
-
-    .icon-group{
-        margin-top:50px;
+    .link-page .business-white-card,
+    .link-page .business-card-img {
+        width:50px;
+        @media (min-width:768px) {
+            width:60px;
+        }
+    }
+    .link-page:hover .business-white-card {
+        left: 88px;
+        width:60px;
+        top:25px;
+        @media (min-width:360px) {
+            left: 106px;
+        }
+        @media (min-width:375px) {
+            left: 115px;
+        }
+        @media (min-width:390px) {
+            left: 124px;
+        }
+        @media (min-width:410px) {
+            left: 136px;
+        }
+        @media (min-width:480px) {
+            left: 88px;
+        }
+        @media (min-width:520px) {
+            left: 105px;
+        }
+        @media (min-width:568px) {
+            left: 120px;
+        }
+        @media (min-width:576px) {
+            left: 90px;
+        }
+        @media (min-width:768px) {
+            left: 110px;
+        }
+        @media (min-width:992px) {
+            left: 88px;
+        }
+        @media (min-width:1170px) {
+            left: 143px;
+        }
+        @media (min-width:1270px) {
+            left: 145px;
+        }
+        @media (min-width:1400px) {
+            left: 175px;
+            top:25px;
+        }
+        @media (min-width:1600px) {
+            left: 158px;
+        }
+        @media (min-width:1820px) {
+            left: 158px;
+        }
     }
 
-    .icon-group:hover{
+    .icon-group {
+        margin-top:50px;
+        position: relative;
+        min-height: 150px;
+    }
+    .icon-group > div:nth-child(1) {
+        border-radius: 100%;
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        position:absolute;
+        left:58px;
+        @media (min-width:360px) {
+            left: 76px;
+        }
+        @media (min-width:375px) {
+            left: 84px;
+        }
+        @media (min-width:390px) {
+            left: 94px;
+        }
+        @media (min-width:410px) {
+            left: 106px;
+        }
+        @media (min-width:480px) {
+            left: 58px;
+        }
+        @media (min-width:520px) {
+            left: 75px;
+        }
+        @media (min-width:568px) {
+            left: 90px;
+        }
+        @media (min-width:576px) {
+            left: 60px;
+        }
+        @media (min-width:768px) {
+            left: 80px;
+        }
+        @media (min-width:992px) {
+            left: 58px;
+        }
+        @media (min-width:1170px) {
+            left: 113px;
+        }
+        @media (min-width:1270px) {
+            left: 115px;
+        }
+        @media (min-width:1400px) {
+            left: 145px;
+        }
+        @media (min-width:1600px) {
+            left: 128px;
+        }
+        @media (min-width:1820px) {
+            left: 128px;
+        }
+    }
+    .link-page:hover .icon-group > div:nth-child(1) {
+        box-shadow:none;
+    }
+
+    
+
+
+    .icon-group > .blueBg {
+        background: #1b75fe;
+        box-shadow: 0 8px 16px 0 rgb(190 214 249), 0 6px 20px 0 rgb(190 214 249);
+    }
+    .icon-group > .blueBg .business-card-img {
+        width:60px;
+        padding-top:25px;
+    }
+
+
+    .icon-group > .pinkBg {
+        background: #f97ea4;
+        box-shadow: 0 8px 16px 0 #fed1df, 0 6px 20px 0 #fed1df;
+    }
+    .icon-group > .pinkBg .business-card-img {
+        width:50px;
+        padding-top:32px;
+    }
+    .pink.link-page:hover .icon-group .business-white-card {}
+
+
+    .icon-group > .mustardBg {
+        background: #fcdc00;
+        box-shadow: 0 8px 16px 0 #f7ea8e, 0 6px 20px 0 #f7ea8e;
+    }
+    .icon-group > .mustardBg .business-card-img {
+        width:50px;
+        padding-top:32px;
+    }
+    
+
+
+    .icon-group > .orangeBg {
+        background: #ff5200;
+        box-shadow: 0 8px 16px 0 #feccb4, 0 6px 20px 0 #feccb4;
+    }
+    .icon-group > .orangeBg .business-card-img {
+        width:50px;
+        padding-top:32px;
+    }
+    .pink.link-page:hover .icon-group .business-white-card,
+    .mustard.link-page:hover .icon-group .business-white-card,
+    .orange.link-page:hover .icon-group .business-white-card {
+        width:50px;
+        left: 93px;
+        top:32px;
+        @media (min-width:360px) {
+            left: 111px;
+        }
+        @media (min-width:375px) {
+            left: 119px;
+        }
+        @media (min-width:390px) {
+            left: 129px;
+        }
+        @media (min-width:410px) {
+            left: 141px;
+        }
+        @media (min-width:480px) {
+            left: 93px;
+        }
+        @media (min-width:520px) {
+            left: 110px;
+        }
+        @media (min-width:568px) {
+            left: 125px;
+        }
+        @media (min-width:576px) {
+            left: 95px;
+        }
+        @media (min-width:768px) {
+            left: 115px;
+        }
+        @media (min-width:992px) {
+            left: 93px;
+        }
+        @media (min-width:1170px) {
+            left: 148px;
+        }
+        @media (min-width:1270px) {
+            left: 150px;
+        }
+        @media (min-width:1400px) {
+            left: 180px;
+        }
+        @media (min-width:1600px) {
+            left: 163px;
+        }
+    }
+
+    .icon-group > .cyanBg {
+        background: #1de2cf;
+        box-shadow: 0 8px 16px 0 #aff9f2, 0 6px 20px 0 #aff9f2;
+    }
+    .icon-group > .cyanBg .business-card-img {
+        width:60px;
+        padding-top:25px;
+    }
+
+
+    .icon-group > .purpleBg {
+        background: #7b2edb;
+        box-shadow: 0 8px 16px 0 #d5b5fb, 0 6px 20px 0 #d5b5fb;
+    }
+    .icon-group > .purpleBg .business-card-img {
+        width:60px;
+        padding-top:25px;
+    }
+    .icon-group:hover {
         margin-top:50px;
     }
 `

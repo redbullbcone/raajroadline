@@ -5,6 +5,8 @@ const Hero = styled(Box)`
     padding-top: 100px;
     padding-bottom: 0;
     position: relative;
+    margin-bottom: -111px;
+
 
     @media (min-width: 768px) {
         padding-top: 120px;
@@ -153,16 +155,25 @@ Hero.Button = styled(Button)`
     text-align: center;
     left: 36%;
     right: auto;
-    border-radius: 10px !important;
+    border-radius: 50px !important;
     top: 0px;
     padding: 16px 20px !important;
     margin-top:10px;
+    width: 230px;
+    font-size: 21px;
+    box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+
+    &:hover {
+        color: #fff;
+        background: #4e92f9;
+        border: 2px solid #4e92f9;
+    }
 `
 Hero.Image = styled(Box)`
     position: relative;
     right: 0;
     left: 360px;
-    bottom: 132px;
+    bottom: 110px;
     @media (min-width: 480px) {
         
     }
@@ -181,7 +192,7 @@ Hero.Image = styled(Box)`
         left:340px;
     }
     @media (min-width: 1400px) {
-        left:360px;
+        left:373px;
     }
 `
 Hero.ImageShape01 = styled(Box)`
@@ -195,9 +206,9 @@ Hero.ImageShape01 = styled(Box)`
 Hero.ImageShape02 = styled(Box)`
     position: absolute;
     left: -4%;
-    bottom: 30%;
+    bottom: 10%;
     z-index: 0;
-    width: 10%;
+    width: auto;
 `
 
 Hero.ImageShape03 = styled(Box)`

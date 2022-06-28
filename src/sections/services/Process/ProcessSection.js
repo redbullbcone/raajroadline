@@ -9,7 +9,7 @@ return(
 <Process backgroundColor="#F6FBFF" {...rest}>
   <Container>
      <Row>
-      <Col className="col-lg-12 col-md-12 text-center">
+      <Col className="col-lg-12 col-md-12 text-center ai-logo-sections">
           <Process.Title as="h2" fontColor="#1A75FF">AI Integration</Process.Title>
           <Row>
           {content.map(({image,text }) => {

@@ -119,16 +119,15 @@ Card.Icon = styled(Box).attrs({className:"card-icon"})`
         
 `
 Card.Title = styled(Heading)`
-    font-size: 12px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 500;
     letter-spacing: normal;
-    line-height: 30px;
     color:inherit;
     margin-bottom: 10px;
     padding-top: 20px;
-
     @media (min-width:768px) {
-        font-size:12px;
+        font-size:18px;
     }
     @media (min-width:992px) {
         font-size:18px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from '~components'
 import Card from './style'
-export default function ServicesCard({icon,title,title2, image, text, text2,whiteImageClass,text3,cardbg,whiteImage, to,linkPage,iconBackground,...rest}){
+export default function ServicesCard({icon,title,title2, bgImageClass, image, text, text2,whiteImageClass,text3,cardbg,whiteImage, to,linkPage,iconBackground,...rest}){
 return(
 <a href={`/${linkPage}`} className={`${cardbg} link-page`}>
 <Card className="featurecard" itemCenter={true} backgroundColor="#fff"  {...rest}>
@@ -10,7 +10,7 @@ return(
     <i className={icon} />
   </Card.Icon> */}
   <div className='icon-group'>
-  <img src={image} className="card-img business-card-img"/>
+  <div className={`${bgImageClass}`}><img src={image} className="card-img business-card-img"/></div>
   <img src={whiteImage} className={`${whiteImageClass} business-white-card`}/>
   </div>
   <Card.Title as="h4">{title}<br />{title2}</Card.Title>

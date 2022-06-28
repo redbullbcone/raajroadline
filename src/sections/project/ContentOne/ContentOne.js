@@ -22,7 +22,7 @@ return(
       </Col>
       <Col xs="12" className="col-xl-7 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-2">
         <Content.Image>
-          <img src="image/project-management/interns-1.jpg" />
+          <img src="image/intern/Convenience.png" className='w-100'/>
         </Content.Image>
       </Col>
     </Row>

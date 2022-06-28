@@ -11,12 +11,13 @@ import FooterOne from "~sections/marketing/FooterOne"
 import HeaderButton from "~sections/marketing/Header"
 import ServicesSectionOne from "~sections/intern/ServicesOne";
 import { Helmet } from "react-helmet";
+import PromoSection from '~sections/intern/Promo';
 
 
 
 const header = {
   headerClasses: "site-header site-header--menu-start light-header site-header--sticky",
-  containerFluid:false,
+  containerFluid:true,
   buttonBlock: (
     <HeaderButton
       className="ms-auto d-none d-xs-inline-flex"
@@ -31,36 +32,47 @@ const header = {
 const ServiceData =[
   {
     id:"ss1",
-    image:"image/intern/step1.svg",
-    title: "Step 1",
-    text: "Sign up for free",
-    text2: "as an intern",
-    iconBackground:"#6001d3"
+    image:"image/intern/notepad.svg",
+    whiteImage:"image/intern/notepad-white.svg",
+    title: "Sign up for free",
+    title2:"as an intern",
+    linkPage:"ai-auditor",
+    cardbg:"purple",
+    whiteImageClass:"business-ai",
   },
   {
     id:"ss2",
-    image:"image/intern/step2.svg",
-    title: "Step 2",
-    text: "Create an amazing",
-    text2: "profile",
-    iconBackground:"#fd346e"
+    image:"image/intern/person.svg",
+    whiteImage:"image/intern/person-white.svg",
+    title: "Create an ",
+    title2:"amazing profile",
+    cardbg:"pink",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
   },
   {
-    id:"ss3",
-    image:"image/intern/step3.svg",
-    title:"Step 3",
-    text:"Browse our marketplace to ",
-    text2:"find your dream job",
-    iconBackground:"#1de2cf"
+    id:"ss1",
+    image:"image/intern/search.svg",
+    whiteImage:"image/intern/search-white.svg",
+    title: "Browse our ",
+    title2:"marketplace",
+    linkPage:"ai-auditor",
+    cardbg:"mustard",
+    whiteImageClass:"business-ai",
   },
   {
-    id:"ss4",
-    image:"image/intern/step4.svg",
-    title: "Step 4",
-    text:"Apply for your dream internship",
-    text2:"and kick-start your career",
-    iconBackground:"#ffd700"
-  }
+    id:"ss2",
+    image:"image/intern/heart.svg",
+    whiteImage:"image/intern/heart-white.svg",
+    title: "Apply for your ",
+    title2:"dream internship",
+    cardbg:"cyan",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
+  },
+
 ]
 
 
@@ -90,6 +102,7 @@ export default function Project() {
         </Helmet>
         <HeroSection/>
         {/* <FeatureSection/> */}
+        <PromoSection/>
         <ContentOne/>
         <ContentTwo/>
         <ServicesSectionOne ClassName="intern-features" title="How to get started" content={ServiceData}/>

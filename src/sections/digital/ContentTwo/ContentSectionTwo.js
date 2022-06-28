@@ -17,7 +17,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 Why Work With us?
               </Content.Title>
               <Content.Title as="h2">
-              Sell your services in<br /> our marketplace
+              <span className="blue-text">Sell</span> your services in <br /> our marketplace
               </Content.Title>
               <Content.Text>
               MRKT365 is the only resource you need to find the businesses prospects of a right company, freelancer or intern. With Reviews,Ratings and Verification, MRKT365 gives you the tools zyou need to hire with confidence. Get matched with our users directly or research yourself from a list of verified and reviewed options.
@@ -94,7 +94,7 @@ export default function ContentSectionTwo({ ...rest }) {
             {/* Section Title */}
             <Content.Box className="right-side-para">
             <Content.Title as="h2">
-            Manage your Team with our Employee Monitoring App
+            <span className="blue-text">Manage</span> your Team with our Employee Monitoring App
               </Content.Title>
               <Content.Text>
               Measure the productivity of freelancers you hire and your existing employees. Our services include an easy to install tracking program. All activities completed by your team can be monitored and documented through our employee tracker.
@@ -127,7 +127,7 @@ export default function ContentSectionTwo({ ...rest }) {
             <Content.Box className="left-para2">
            
               <Content.Title as="h2">
-              Take advantage of our Virtual Prepaid Card
+              <span className="blue-text">Take advantage</span> of our Virtual Prepaid Card
               </Content.Title>
               <Content.Text>
               We have partnered with Visa and Amex to provide pre-paid virtual cards which you can use for online marketing, features, and its services without submitting your debit or credit card details. Spend only the money you’ve uploaded to your card and monitor how much you’re spending online.
@@ -150,8 +150,9 @@ export default function ContentSectionTwo({ ...rest }) {
             xs="12"
             className="col-xl-6 col-lg-5 col-sm-8 col-xs-10 order-1 order-lg-2"
           >
+              <img src="image/businesses/virtual-card.png" alt="virtual-card" className="w-100" />
             <Content.Images>
-              <Content.Imagedown>
+              {/* <Content.Imagedown>
                 
                   <img
                     src="image/home-digital-agency/typing-hand.png"
@@ -164,8 +165,8 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/mobile-screen.png"
                     alt="content"
-                  />
-              </Content.Imageup>
+                  /> */}
+              {/* </Content.Imageup> */}
             </Content.Images>
           </Col>
         </Row>
@@ -204,7 +205,7 @@ export default function ContentSectionTwo({ ...rest }) {
             {/* Section Title */}
             <Content.Box className="right-side-para">
             <Content.Title as="h2">
-              Hire Interns from all over the globe
+            <span className="blue-text">Hire Interns</span> from all over the globe
               </Content.Title>
               <Content.Text>
               Add young talent to your team. Find university-educated interns to work remotely on your projects. Our interns are ready to their trade hard work for experience Interns can be students, recent graduates, or professionals who want to kick start their careers with you from all over the world.

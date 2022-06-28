@@ -48,6 +48,12 @@ line-height: 1.38095;
 @media (min-width:1200px) {
     font-size: 60px;
 }
+@media (min-width:1170px) {
+    font-size: 60px;
+}
+@media (min-width:1400px) {
+    font-size: 70px;
+}
 
 `
 export default SectionTitle;

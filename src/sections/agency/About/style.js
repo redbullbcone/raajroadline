@@ -13,8 +13,84 @@ const About = styled(Box)`
     padding-bottom: 110px;
   }
 
+  .blue-text{
+    color: #1A75FF;
+  }
+
+  .para1{
+    p{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 40px;
+      opacity: 0.7;
+      width: 70%;
+      margin-top: 24px;
+
+      @media(min-width:1170px){
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+      @media(min-width:1270px){
+        font-size: 16px;
+        line-height: 32px;
+      }
+      @media(min-width:1400px){
+        font-size: 21px;
+        line-height: 40px;
+      }
+    }
+
+    h1{
+      font-weight:500;
+
+      @media(min-width:1170px){
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @media(min-width:1270px){
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @media(min-width:1400px){
+        font-size: 50px;
+        line-height: 60px;
+      }
+      
+    }
+
+    b{
+      color:#1A75FF;
+    }
+  }
+    
+  
   .about-text-card2 {
-    background: rgba(96,1,211,0.1);
+
+    h1{
+      font-size:50px;
+      font-weight:500;
+
+      @media(min-width:1170px){
+        font-size:40px;
+        line-height:50px;
+      }
+      @media(min-width:1270px){
+        font-size:40px;
+        line-height:50px;
+
+      }
+      @media(min-width:1400px){
+        font-size:50px;
+        line-height:60px;
+
+      }
+    }
+    background:#F4F9FC;
     border-radius: 15px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -65,8 +141,9 @@ const About = styled(Box)`
   }
   .about-text-card2 p {
     width:90%;
-    line-height:1.5;
     font-weight: 400;
+    font-size: 21px;
+    line-height: 40px;
     @media (min-width: 992px) {
       width:85%;
       font-size: 14px;
@@ -81,7 +158,7 @@ const About = styled(Box)`
     }
     @media (min-width: 1400px) {
       width:75%;
-      font-size: 18px;
+      font-size: 21px;
     }
   }
 
@@ -91,7 +168,7 @@ const About = styled(Box)`
     left:-80px;
   }
   .about-text-card {
-    background: rgba(253,52,110,0.1);
+    background: #F4F9FC;
     border-radius: 15px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -119,10 +196,22 @@ const About = styled(Box)`
       padding-bottom: 200px;
     }
   }
-  .about-text-card p {
+  .about-text-card
+  h1{
+    font-weight:500;
+  }
+  b{
+    color:#1A75FF;
+    font-weight:600;
+  }
+
+  p {
     width:90%;
-    line-height:1.5;
+    font-size: 21px;
+    opacity: 0.7;
     font-weight: 400;
+    line-height: 40px;
+    margin-top: 28px;
     @media (min-width: 992px) {
       width:85%;
       font-size: 14px;
@@ -136,8 +225,8 @@ const About = styled(Box)`
       font-size: 16px;
     }
     @media (min-width: 1400px) {
-      width:75%;
-      font-size: 18px;
+      width:70%;
+      font-size: 21px;
     }
   }
 
@@ -152,7 +241,6 @@ const About = styled(Box)`
   }
 
   .about-text-card3 {
-    background: rgba(29, 226, 207, 0.1);
     border-radius: 15px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -179,10 +267,37 @@ const About = styled(Box)`
       padding-bottom: 150px;
     }
   }
-  .about-text-card3 p {
+  .about-text-card3
+  h1{
+    font-weight:500;
+    font-size:50px;
+
+    @media(min-width:1170px){
+      font-size:40px;
+      line-height:50px;
+    }
+    @media(min-width:1270px){
+      font-size:40px;
+      line-height:50px;
+
+    }
+    @media(min-width:1400px){
+      font-size:50px;
+      line-height:60px;
+
+    }
+  }
+  b{
+    font-weight:600;
+    color:#1A75FF;
+
+  }
+  p {
     width:90%;
-    line-height:1.5;
     font-weight: 400;
+    font-size: 21px;
+    line-height: 40px;
+    opacity: 0.7;
     @media (min-width: 992px) {
       width:85%;
       font-size: 14px;
@@ -194,10 +309,14 @@ const About = styled(Box)`
     @media (min-width: 1270px) {
       width:80%;
       font-size: 16px;
+      line-height:32px;
+
     }
     @media (min-width: 1400px) {
-      width:75%;
-      font-size: 18px;
+      width: 73%;
+      font-size: 21px;
+      line-height:42px;
+
     }
   }
 

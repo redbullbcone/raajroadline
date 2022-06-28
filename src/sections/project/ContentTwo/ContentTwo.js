@@ -7,7 +7,7 @@ export default function ContentSectionTwo(){
 return(
 <Content backgrounColor="#fff">
   {/* <Content.ContentShape>
-    <img src="image/project-management/l2-content-2-shape.png" alt="content"/>
+    <img src="image/intern/l2-content-2-shape.png" alt="content"/>
   </Content.ContentShape> */}
     <Content.Block>
     <div className='DotShape'>
@@ -19,7 +19,7 @@ return(
    
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-12">
         <Content.Image>
-           <img src="image/project-management/interns-2.jpg" className='international-image' />
+           <img src="image/intern/International-Reach.png" className='international-image' />
         </Content.Image>
       </Col>
       <Col className='col-xl-1 col-lg-1 col-md-1 col-xs-0'></Col> 
@@ -48,7 +48,7 @@ return(
         </Col>
         <Col xs="12" className="col-xl-7 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-2">
           <Content.Image className='interns-3-image'>
-            <img src="image/project-management/interns-3.png" />
+            <img src="image/intern/freelancer.png" />
           </Content.Image>
         </Col>    
       </Row>

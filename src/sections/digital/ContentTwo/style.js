@@ -40,6 +40,8 @@ padding-top: 77px;
 
 @media(min-width:1400px){
   margin-bottom:20px;
+  font-weight: 700;
+  font-size: 45px;
 }
   }
 
@@ -63,6 +65,10 @@ padding-top: 77px;
 
   .off-blue-background{
     background-color:#F4F9FC;
+  }
+
+  .blue-text{
+    color:#1A75FF;
   }
 `;
 Content.Title = styled(Heading)`
@@ -90,7 +96,7 @@ Content.Title = styled(Heading)`
   }
 
   @media(min-width:1400px){
-    font-size:60px;
+    font-size:70px;
   }
 `;
 Content.Subtitle = styled(Heading)`
@@ -115,7 +121,8 @@ opacity: 0.7;
 Content.Button = styled(Button)`
   color: #fff !important;
   background-color: #1974FF !important;
-  border-radius: 10px !important;
+  border-radius: 50px !important;
+  box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
   
 
 `;

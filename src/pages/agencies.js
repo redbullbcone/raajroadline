@@ -1,31 +1,14 @@
 import React from "react";
 import { PageWrapper } from "~components/Core";
 import HeroSection from "~sections/digital/Hero";
-import ServicesSection from '~sections/digital/Services'
-import AboutSection from "~sections/digital/About";
-import ContentSectionOne from "~sections/digital/ContentOne";
 import ContentSectionTwo from "~sections/digital/ContentTwo";
-import TeamSection from "~sections/digital/Team";
-import PortfolioSection from "~sections/digital/Portfolio";
-import PromoSection from "~sections/digital/Promo";
 import CounterSection from "~sections/marketing/Counter";
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne";
 import HeaderButton from "~sections/marketing/Header"
 import { Helmet } from "react-helmet";
+import ServicesSectionOne from "~sections/businesses/ServicesOne";
 
-
-// import FooterSix from "~sections/digital/FooterSix";
-
-// const header = {
-//   headerClasses:
-//     "site-header site-header--menu-end dark-header site-header--sticky",
-//   containerFluid: false,
-//   buttonBlock: (
-//     <HeaderButton className="d-none d-sm-flex" children="Free SEO Analysis" />
-//   ),
-//   darkLogo: false,
-// };
 const header = {
   headerClasses: "site-header site-header--menu-start light-header site-header--sticky ",
   containerFluid:true,
@@ -40,6 +23,74 @@ const header = {
     />
   ),
 }
+
+const ServiceData =[
+  {
+    id:"ss1",
+    image:"image/businesses/ai-auditor.svg",
+    whiteImage:"image/businesses/ai-auditor-white.svg",
+    title: "AI SEO Auditor &",
+    title2:"Freelancer Recommendation",
+    linkPage:"ai-auditor",
+    cardbg:"blue",
+    whiteImageClass:"business-ai",
+  },
+  {
+    id:"ss2",
+    image:"image/businesses/online-marketing.svg",
+    whiteImage:"image/businesses/online-marketing-white.svg",
+    title: "Online Marketing",
+    title2:"Budget Optimization",
+    cardbg:"red",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
+  },
+  {
+    id:"ss3",
+    image:"image/businesses/freelancer-employee.svg",
+    whiteImage:"image/businesses/freelancer-employee-white.svg",
+    title:"Freelancer & Employee",
+    title2:"Monitoring",
+    cardbg:"mustard",
+    whiteImageClass:"business-freelancer",
+    linkPage:"employee-monitoring",
+
+
+  },
+  {
+    id:"ss4",
+    image:"image/businesses/KYC.svg",
+    whiteImage:"image/businesses/KYC-white.svg",
+    title: "AML & KYC Verified",
+    title2: "Freelancers",
+    cardbg:"orange",
+    whiteImageClass:"business-kyc",
+    linkPage:"freelancers",
+
+  },
+  {
+    id:"ss4",
+    image:"image/businesses/payment.svg",
+    whiteImage:"image/businesses/payment-white.svg",
+    title: "Easy International",
+    title2:"Payment Processing",
+    cardbg:"cyan",
+    whiteImageClass:"business-payment",
+    linkPage:'prepared-virtual-card',
+  },
+  {
+    id:"ss4",
+    image:"image/businesses/add-college.svg",
+    whiteImage:"image/businesses/add-college-white.svg",
+    title: "Add College-Educated",
+    title2: "interns to your Team",
+    cardbg:"purple",
+    whiteImageClass:"business-college",
+    linkPage:"prepared-virtual-card",
+  }
+
+]
 
 export default function Digital() {
   return (
@@ -65,7 +116,7 @@ export default function Digital() {
       <meta name="twitter:url" content="https://mrkt365.com/agencies" />
       </Helmet>
       <HeroSection />
-      <ServicesSection />
+      <ServicesSectionOne title="Everything You Need to Make Work Happen" content={ServiceData} />
       {/* <AboutSection /> */}
       {/* <ContentSectionOne /> */}
       <ContentSectionTwo />

@@ -9,7 +9,7 @@ return(
 <Service className="custom-background">
   <Container>
     <Row className="justify-content-center ">
-      <Col className="col-xl-12 text-center service-section">
+      <Col className="col-xl-12 text-center service-section recruitment-agency-section">
         <SectionTitle 
         // subTitle="Our Services" 
         title={title}
@@ -18,20 +18,28 @@ return(
         />
       </Col>
     </Row>
-    <Row className="justify-content-center aos-init aos-animate how-to-get-started-section" data-aos="fade-up" data-aos-duration={500} data-aos-delay={500} data-aos-once="true">
+    <Row className="justify-content-center aos-init aos-animate homepage-provide-feature" data-aos="fade-up" data-aos-duration={500} data-aos-delay={500} data-aos-once="true">
       {/* Single Services */}
-      {content.map(({ title, icon, image, text2, text3, text, id, iconBackground }) => {
+      {content.map(({ title,title2,title3, icon, image, text2, text3, text,cardbg,whiteImage,whiteImageClass,id,linkPage,  }) => {
               return (
               <Col xs="h2" className="col-xl-3 col-lg-3 col-sm-6 col-xs-8" key={id}>
-                <ServicesCard
+                <ServicesCard 
                   title={title}
+                  title2={title2}
+                  title3={title3}
                   text={text}
                   text2={text2}
                   text3={text3}
                   icon={icon}
                   image={image}
-                  // iconBackground={iconBackground}
+                  linkPage={linkPage}
+                  cardbg={cardbg}
+                  whiteImage={whiteImage}
+                  whiteImageClass={whiteImageClass}
+                  
                 />
+
+
               </Col>
               )
             })}

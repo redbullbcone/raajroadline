@@ -86,6 +86,11 @@ export const HeaderButtonWrapper = styled(Box)`
         width:50%;
         color: #fff;
     }
+
+    .header-close:hover {
+        background-color: #fb815b;
+        border: 3px solid #fb815b;
+    }
 `
 const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnTwoText,...rest})=>{
     return(

@@ -9,18 +9,20 @@ import CounterSection from "~sections/marketing/Counter"
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
 import ServicesSectionOne from "~sections/businesses/ServicesOne";
-import HeaderButton from '~sections/services/Header'
+import HeaderButton from "~sections/marketing/Header"
 
 const header = {
-  headerClasses: "site-header site-header--menu-center site-header--services dark-header site-header--sticky site-header--service",
-  containerFluid:false,
-  darkLogo:false,
+  headerClasses: "site-header site-header--menu-start light-header site-header--sticky ",
+  containerFluid:true,
+  // customLogo: Images.HeaderLogo,
   buttonBlock: (
-    <HeaderButton className="ms-auto d-none d-xs-inline-flex"
-    btnOneText="Login"
-    btnTwoText="Sign Up Now"
-    mr="15px"
-    mrLG="0"/>
+    <HeaderButton
+      className="ms-auto d-none d-xs-inline-flex"
+      btnOneText="Login"
+      btnTwoText="Sign Up Now"
+      mr="15px"
+      mrLG="0"
+    />
   ),
 }
 
@@ -173,15 +175,7 @@ const ServiceData =[
 
 export default function Services() {
 
-    // document.title ='MRKT365 | AI Marketing Platform & Talent Marketplace';
-    
-
   return (
-
-    
-      
-        
-    
     <PageWrapper headerConfig={header}>
       <Helmet>
         <title>Hire Freelancers & Agencies on One AI Marketing Platform</title>

@@ -10,10 +10,7 @@ export default function ContentSectionOne({heading},{...rest}){
   return(
 <>
 <Content backgroundColor="#fff" className='business-sec-altcards'>
-  
     <h2 className='top-head text-center business-content-sec'>{heading}</h2>
-
-
       <div>
         <Container>
           <Row className="align-items-center justify-content-center white-image first-business-sec">
@@ -64,7 +61,12 @@ export default function ContentSectionOne({heading},{...rest}){
         <Container>
           <Row className="align-items-center justify-content-center white-image first-business-sec">
             <Col xs="10" className="col-xl-5 col-lg-5 col-md-5 col-xs-5 ">
-              <ImageGroup imageclass="" imageSrc="image/marketing/pic.png" imageAlt="" mb="60px" mbLG="0"/>
+            <video loop autoPlay className='cc-video'>
+              <source
+                src="video/brain.mp4"
+                type="video/mp4"
+              />
+            </video>
             </Col>
             <Col className="col-md-1"></Col>
             {/* Content Widgets */}

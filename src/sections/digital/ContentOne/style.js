@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Content = styled(Box)`
+.blue-txt{
+    color:#1A75FF;
+}
+
 `
 Content.InnerBlock = styled(Box)`
     padding-top: 60px;
@@ -34,13 +38,13 @@ Content.Title = styled(Heading)`
       font-size: 30px;
     }
     @media (min-width:1170px) {
-        font-size: 36px;
+        font-size: 56px;
     }
     @media (min-width:1270px) {
-        font-size: 40px;
+        font-size: 56px;
     }
     @media (min-width:1400px) {
-        font-size: 48px;
+        font-size: 60px;
     }
 `
 Content.Subtitle = styled(Heading)`
@@ -54,7 +58,11 @@ Content.Text = styled(Paragraph)`
     font-size: 16px;
     font-weight: 400;
     letter-spacing: normal;
-    line-height: 1.6;
+    opacity: 0.7;
+
+    b{
+        color:#1A75FF;
+    }
     @media (min-width:768px) {
         font-size: 14px;
       }
@@ -62,13 +70,17 @@ Content.Text = styled(Paragraph)`
         font-size: 14px;
       }
       @media (min-width:1170px) {
-          font-size: 15px;
+        font-size: 16px;
+        line-height: 32px;
       }
       @media (min-width:1270px) {
-          font-size: 16px;
+        font-size: 16px;
+        line-height: 32px;
       }
       @media (min-width:1400px) {
-          font-size: 18px;
+          font-size: 20px;
+          line-height: 40px;
+
       }
 `
 Content.Button = styled(Button)`

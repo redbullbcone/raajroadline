@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Content = styled(Box)`
-margin-top: -116px;
-   .business-btn{
+    margin-top: 0px;
+   .business-btn {
        border-radius:50px !important;
 
        @media(min-width:992px){
@@ -20,22 +20,22 @@ margin-top: -116px;
        }
    }
 
-    .top-head{
-    font-weight: 700;
-    line-height: 60px;
-    font-size: 60px;
-    margin-bottom: 117px;
-    position: relative;
-    top: 52px;
-    padding-top:20px;
-    @media (min-width:1270px){
-        font-size:50px;
-    }
+    .top-head {
+        font-weight: 700;
+        line-height: 60px;
+        font-size: 60px;
+        margin-bottom: 117px;
+        position: relative;
+        top: 52px;
+        padding-top:20px;
+        @media (min-width:1270px){
+            font-size:50px;
+        }
 
-    @media (min-width:1400px){
-        font-weight:700;
-        font-size: 70px;
-    }
+        @media (min-width:1400px){
+            font-weight:700;
+            font-size: 70px;
+        }
 
     }
 
@@ -113,11 +113,11 @@ margin-top: -116px;
         color: #1A75FF;
     }
 
-    .business-text-sec{
+    .business-text-sec {
         position: relative;
-        top: -58px;
+        top: 0px;
     }
-
+    
     .hire-virtual{
         padding:82px 0;
         background-color: #F6FBFF;
@@ -139,7 +139,7 @@ margin-top: -116px;
         padding:82px 0;
     }
 
-    .blue-close{
+    .blue-close {
         border: 3px solid #1A75FF;
         outline: none;
         font-size: 16px;
@@ -151,10 +151,12 @@ margin-top: -116px;
         overflow:hidden;
         transition:1s all ease;
         z-index:1;
-        margin-top:51px;
-        width:153px;
+        margin-top:0px;
+        width:150px;
     }
-
+    .blue-close:hover {
+        background:#1A75FF;
+    }
     .blue-close::before{
         width:100%;
         height:100%;  
@@ -198,40 +200,35 @@ margin-top: -116px;
 
 `
 Content.Title = styled(Heading)`
-font-weight: 500;
-font-size: 45px;
-line-height: 62px;
-letter-spacing: -1px;
-
-
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1px;
     @media (min-width:768px) {
-      font-size: 38px;
+      font-size: 36px;
+      line-height: 42px;
     }
-
     @media (min-width:992px){
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 42px;
+        line-height: 54px;
         font-weight: 700;
         margin-bottom: 30px;
-
     }
 
     @media (min-width:1170px){
         font-size:42px;
-        margin-bottom:44px;
-        line-height: 60px;
+        margin-bottom:40px;
+        line-height: 54px;
     }
 
     @media (min-width:1270px){
         font-size:42px;
         margin-bottom:44px;
-        line-height: 60px;
-
+        line-height: 54px;
     }
-
     @media (min-width:1400px){
         font-weight: 500;
-        font-size: 44px;
+        font-size: 42px;
         letter-spacing: -1px;
     }
 

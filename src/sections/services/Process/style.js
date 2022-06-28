@@ -8,15 +8,15 @@ import {
 const propToColor = (arg = "#1787FC" ) => transparentize(0.70, arg);
 const Process = styled(Box)
 `
-    padding-top: 68px;
-    padding-bottom: 67px;
+    padding-top: 70px;
+    padding-bottom: 40px;
     @media (min-width:768px) {
         padding-top: 70px;
         padding-bottom: 55px;
     }
     @media (min-width:992px) {
         padding-top: 110px;
-        padding-bottom: 170px;
+        padding-bottom: 60px;
     }
     @media(min-width:1170px){
         padding-top:68px;
@@ -24,7 +24,9 @@ const Process = styled(Box)
     @media(min-width:1270px){
         padding-top:68px;
     }
-
+    .ai-logo-sections img {
+        margin-bottom:40px;
+    }
 
 `
 Process.Subtitle = styled(Heading)
@@ -39,18 +41,19 @@ Process.Subtitle = styled(Heading)
 `
 Process.Title = styled(Heading)
 `
-    font-size: 32px;
+    font-size: 24px;
+    line-height: 36px;
     font-weight: 500;
     letter-spacing: normal;
-    line-height: 1.3;
-    margin-bottom:83px;
-    
+    margin-bottom:80px;
     color:#1A75FF;
     @media (min-width:768px) {
-    font-size: 38px;
+        font-size: 36px;
+        line-height: 42px;
     }
     @media (min-width:992px) {
-    font-size: 48px;
+        font-size: 48px;
+        line-height:60px;
     }
 `
 Process.Button = styled(Button)

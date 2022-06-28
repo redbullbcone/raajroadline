@@ -1,6 +1,6 @@
 import React from "react";
 import { PageWrapper } from "~components/Core";
-import HeroSection from "~sections/startup/Hero";
+import HeroSection from "~sections/AffiliatePlatform/Hero";
 import ServicesSectionOne from "~sections/startup/ServicesOne";
 import ServicesSectionTwo from "~sections/startup/ServicesTwo";
 import AboutSection from "~sections/startup/About";
@@ -92,18 +92,7 @@ export default function Startup() {
       <meta name="twitter:image" content="https://mrkt365.com/assets/images/mrkt365-logo.svg" />
       <meta name="twitter:url" content="https://mrkt365.com/affiliates" />
       </Helmet>
-      <HeroSection
-        headerimage="image/home-startup/header-image.jpg"
-        herotitle="MRKT365"
-        herotitle2="Affiliate Program"
-        herotext1={`Increase your `}
-        herotextBold={`EARNINGS`}
-        herotext2={`Help others `}
-        herotextBold2={`GROW THEIR BRAND`}
-        herotext3={`Become a `}
-        herotextBold3={`MRKT365 AFFILIATE`}
-        imageClass="box-shadow"
-      />
+      <HeroSection/>
       <ServicesSectionOne
         title="How Does It Work?"
         content={ServiceData}

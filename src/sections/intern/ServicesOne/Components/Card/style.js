@@ -3,12 +3,12 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 import {transparentize,rgba} from "polished"
 const propToColor = (arg = "#1787FC" ) => transparentize(0.70, arg);
-const Card = styled(Box).attrs({className:"service-card"})`
+const Card = styled(Box).attrs({className:"link-page"})`
     background-color: transparent;
     border: none;
     padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
     padding-bottom: 33px;
     border-radius: 15px;
     transition: 0.4s;
@@ -17,6 +17,15 @@ const Card = styled(Box).attrs({className:"service-card"})`
     align-items:center;
     flex-direction:column;
     text-align:center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    min-height:426px;
+    position:relative;
+    overflow:hidden;
+
+
+    margin-bottom:50px;
+
     @media (min-width:575px) {
         padding-left: 5px;
         padding-right: 5px;
@@ -30,28 +39,70 @@ const Card = styled(Box).attrs({className:"service-card"})`
         padding-right: 10px;
     }
     @media (min-width:1200px) {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
     @media (min-width:1600px) {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
+
+   
+    &::before{
+        content: '';
+        width: 191px;
+        height: 191px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: .1;
+        position: absolute;
+        -webkit-transition: all .4s ease .2s;
+        transition: all 1.4s ease .2s;
+        bottom: -120px;
+        left: -140px;
+    }
+    &::after{
+        content: '';
+        width: 191px;
+        height: 191px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: .1;
+        position: absolute;
+        -webkit-transition: all .4s ease .2s;
+        transition: all 1.4s ease .2s;
+        top: -130px;
+        right: -103px;
+       
+    }
+
+    &:hover::after{
+        top: -54px;
+        right: -101px;
+        overflow: hidden;
+
+    }
+
+    &:hover::before{
+        bottom: -54px;
+        left: -38px;
+        overflow: hidden;
+    }
+
+  
+    .nonid-icon-left-arrow:before{
+        content: "\e903";
+    }
+
+    
+    .icon-group{
+        text-align:left;
+        min-height: 113px;
+    }
+
+   
    
 `
-// .card-icon{
-//     box-shadow:  ${props => props.iconBackground ? "-12px 12px 50px " + rgba(props.iconBackground,0): "none"};
-//     background:${props => rgba(props.iconBackground,.1)};
-//     color:${props => props.iconBackground };
-//     transition:.4s;
-// }
-// &:hover{
-//     .card-icon{
-//             box-shadow:  ${props => props.iconBackground ? "-12px 12px 50px " + rgba(props.iconBackground,.3): "none"};
-//             background:${props => rgba(props.iconBackground,1)};
-//             color:#fff;
-//     }
-// }
 
 Card.Icon = styled(Box).attrs({className:"card-icon"})`
         min-width: 65px;
@@ -71,13 +122,43 @@ Card.Icon = styled(Box).attrs({className:"card-icon"})`
         
 `
 Card.Title = styled(Heading)`
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 30px;
     color:inherit;
-    margin-bottom: 15px;
-    padding-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    text-align:left;
+
+    @media (min-width:768px) {
+        font-size:12px;
+    }
+    @media (min-width:992px) {
+        font-size:18px;
+        margin-bottom:0px;
+        min-height: 90px;
+    }
+    @media (min-width:1170px) {
+        font-size:18px;
+        margin-bottom: 10px;
+    }
+    @media (min-width:1270px) {
+        font-size:21px;
+    }
+    @media (min-width:1400px) {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 23px;
+        min-height: 100px;
+        margin-top: 24px;
+    }
+    
+    &:hover{
+        background: transparent;
+    }
+
 
 
 `
@@ -89,6 +170,20 @@ Card.Text = styled(Paragraph)`
         margin-bottom: 0px;
         opacity:.7;
         color:inherit;
+        background: transparent;
+        &:hover{
+            background: transparent;
+        }
+
+        @media(min-width:992px){
+            font-size:12px;
+        }
+        @media(min-width:1170px){
+            font-size:14px;
+        }
+        @media(min-width:1400px){
+            font-size:16px;
+        }
 `
 
 export default Card;

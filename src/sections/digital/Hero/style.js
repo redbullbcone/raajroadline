@@ -14,8 +14,12 @@ const Hero = styled(Box)`
   }
 
   @media (min-width: 1024px) {
-    padding-top: 260px;
-    padding-bottom: 195px;
+    padding-top: 226px;
+    padding-bottom: 264px;
+  }
+
+  .black-text{
+    color:#000;
   }
 
 
@@ -26,8 +30,8 @@ const Hero = styled(Box)`
     height: 100%;
     left: 0;
     top: 0;
-    background:black;
-    opacity: 0.7;
+    background:white;
+    opacity: 0.5;
     position: absolute;
     z-index: -1;
   }
@@ -36,10 +40,12 @@ const Hero = styled(Box)`
 Hero.Content = styled(Box)`
 .agency-btn1{
   background:#ff5722 !important;
-  margin-right:16px;
+  margin-right:69px;
+  box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
 }
 .agency-btn2{
   background:#3183ff !important;
+  box-shadow: -8px 8px 50px rgba(26, 117, 255, 0.5);
 }
 .opac-word{
   opacity:1;
@@ -53,13 +59,30 @@ Hero.Text = styled(Paragraph)`
   line-height: 1.619;
   margin-bottom: 55px;
   opacity: 0.7;
+  text-align:left;
   @media (min-width: 768px) {
     font-size: 18px;
+    text-align:left;
   }
 
   @media (min-width: 1024px) {
     font-size: 21px;
+    text-align:left;
+
   }
+  @media (min-width: 1170px) {
+    font-size: 16px;
+    text-align:left;
+
+  }
+  
+  @media (min-width: 1400px) {
+    font-size: 21px;
+    text-align:left;
+
+  }
+  
+
 `;
 Hero.Title = styled(Heading)`
   font-size: 35px;
@@ -67,6 +90,8 @@ Hero.Title = styled(Heading)`
   letter-spacing: normal;
   line-height: 1.2;
   margin-bottom: 25px;
+  text-align:left;
+
 
   @media (min-width: 480px) {
     font-size: 40px;
@@ -82,6 +107,12 @@ Hero.Title = styled(Heading)`
 
   @media (min-width: 1170px){
     font-size:60px;
+    font-weight:700;
+    line-height:72px;
+  }
+
+  @media (min-width: 1400px){
+    font-size:70px;
     font-weight:700;
     line-height:72px;
   }
@@ -111,11 +142,22 @@ Hero.Button = styled(Button)`
   color: #fff !important;
   box-shadow: 0 20px 20px rgb(253 52 110 / 0%);
   transition: 0.4s;
-  border-radius: 10px!important;
+  border-radius: 50px!important;
 
-  &:hover {
-    
-    
+  @media (min-width: 1024px) {
+    width: 180px;
+    height: 57.37px;
+
+  }
+  @media (min-width: 1170px) {
+    width: 160px;
+    height: 50.37px;
+
+  }
+  @media (min-width: 1400px) {
+    width: 180px;
+    height: 57.37px;
+
   }
   
 `;
