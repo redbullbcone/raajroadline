@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Box, Heading,Button,Paragraph } from '~styled';
 const Feature = styled(Box)`
 padding-top: 55px;
-padding-bottom: 40px;
 @media (min-width:768px) {
   padding-top: 61px;
   padding-bottom: 60px;
@@ -10,7 +9,7 @@ padding-bottom: 40px;
 
 @media (min-width:992px) {
   padding-top: 61px;
-  padding-bottom: 60px;
+  width:100%;
 }
 
 @media (min-width:1170px) {
@@ -42,7 +41,7 @@ Feature.Text = styled(Paragraph)`
 Feature.Image = styled(Box)`
 @media (min-width: 992px) {
     margin-right: 30px;
-    width: 631px;
+    width:100%;
 }
 
 `

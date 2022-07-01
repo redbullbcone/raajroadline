@@ -93,10 +93,7 @@ const Hero = styled(Box)`
         background:#f98c6a;
         border: 2px solid #f98c6a;
     }
-    .close::before{
-        width:100%;
-        height:100%;  
-    }
+
     
     .close2 {
         border: 2px solid #1A75FF;
@@ -118,10 +115,7 @@ const Hero = styled(Box)`
         background:#4e92f9;
         border: 2px solid #4e92f9;
     }
-    .close2::before{
-        width:100%;
-        height:100%;  
-    }
+    
     .business-hero h2 span {
         color:#000;
     }

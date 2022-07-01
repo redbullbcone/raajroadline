@@ -44,6 +44,9 @@ line-height: 1.38095;
 @media (min-width:768px) {
     font-size: 33px;
 }
+@media (min-width:992px) {
+    font-size: 60px;
+}
 
 @media (min-width:1200px) {
     font-size: 60px;

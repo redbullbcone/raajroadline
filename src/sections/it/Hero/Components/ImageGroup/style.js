@@ -76,16 +76,22 @@ HeroImageGroup.ImagesList = styled(Box)`
     max-width: 100%;
     z-index: 1;
     top: 164px;
+
+    
     @media (min-width:992px) {
-        max-width: 350px;
+        max-width: 350px;        
+        top: 118px;
     }
 
-    @media (min-width:1200px) {
-        max-width: 450px;
+    @media (min-width:1170px) {
+        max-width: 407px;
+        top: 96px;
     }
 
     @media (min-width:1400px) {
         max-width: 525px;
+        top: 164px;
+
     }
         
 `

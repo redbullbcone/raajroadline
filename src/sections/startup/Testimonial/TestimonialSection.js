@@ -46,7 +46,7 @@ export default function   TestimonialSection(){
     ],
   }
 return(
-<Testimonial backgroundColor="#f4f9fc">
+<Testimonial backgroundColor="#fff">
   <Container>
     <Row className="align-items-center justify-content-center ">
       <Col xs="12" className="col-lg-12 col-xl-12 col-xxl-12 text-center">

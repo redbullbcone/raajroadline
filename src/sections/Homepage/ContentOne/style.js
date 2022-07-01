@@ -355,7 +355,7 @@ const Content = styled(Box)`
         outline: none;
         font-size: 16px;
         font-weight: 500;
-        color: #2a2833;
+        color: #fff;
         padding: 14px 0;
         border-radius: 50px ;
         position: relative;
@@ -365,44 +365,14 @@ const Content = styled(Box)`
         margin-top:50px;
         width:150px;
         box-shadow:0px 0px 30px #96bcf6;
+        background:#1A75FF;
     }
     .blue-close:hover {
-        background:#1A75FF;
-        color:#ffffff;
+        background: #4e92f9;
+        border: 2px solid #4e92f9;
     }
-    .blue-close::before{
-        width:100%;
-        height:100%;  
-    }
-    .blueclose-btn::before {
-        background:#1A75FF;
-        content:"";
-        position:absolute;
-        top: 0;
-        left: 0;
-        transition: all 0.5s ease;   
-        width:0;
-        z-index:-1;
-    }
-    .blueclose-btn::after {
-        background:#1A75FF;
-        height:100%;
-        content:"";
-        position:absolute;
-        top: 0;
-        right: 0;
-        transition: all 0.5s ease;   
-        width:0;
-        z-index:-1;
-    }
-    .blue-close:hover::before {
-        width:50%;
-        color: #fff;
-    }
-    .blue-close:hover::after {
-        width:50%;
-        color: #fff;
-    }
+    
+    
 `
 Content.Title = styled(Heading)`
 font-weight: 700;

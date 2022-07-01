@@ -25,37 +25,57 @@ const Content = styled(Box)`
   }
 
   h2{
+
+
     font-weight: 700;
-font-size: 45px;
-line-height: 62px;
-letter-spacing: -1px;
-width: 516px;
-padding-right: 11px;
-padding-top: 77px;
+    font-size: 32px !important;
+    line-height: 42px !important;
+    letter-spacing: -1px;
+    padding-top: 20px;
 
 @media(min-width:992px){
   font-size:40px;
   line-height:60px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  width: 516px;
+  padding-right: 11px;
+  padding-top: 77px;
 }
 
 @media(min-width:1400px){
   margin-bottom:20px;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 45px !important;
 }
   }
 
 
+  .background1{
+    flex-direction: column-reverse;
+
+    @media(min-width:992px){
+      flex-direction:row;
+    }
+
+  }
   .background2{
     padding-bottom:90px;
+    flex-direction: column-reverse;
+
+    @media(min-width:992px){
+      flex-direction:row;
+      padding-bottom:90px;
+
+    }
   }
 
   .right-side-para{
-    left:91px;
-    top: 40px;
 
     @media(min-width:992px){
       left: 69px;
+      top: 40px;
+
     }
 
   }
@@ -70,11 +90,103 @@ padding-top: 77px;
   .blue-text{
     color:#1A75FF;
   }
+
+  .virtual-card{
+    margin-top:100px;
+
+    @media(min-width:992px){
+      margin-top:0;
+    }
+  }
+
+  .image1{
+    
+    position: relative;
+    left: -171px;
+
+    @media(min-width:992px){
+      left: -144px;
+    }
+    @media(min-width:1170px){
+    left: -57px;
+    }
+
+  }
+
+  .image2{
+    position:relative;
+    left: -54px;
+ 
+
+      @media(min-width:992px){
+        left: 0;
+      }
+      @media(min-width:1170px){
+      left: 0;
+      }
+
+  }
+
+  .image3{
+    
+    position: relative;
+    left: -81px;
+
+    @media(min-width:992px){
+      left: 0;
+    }
+    @media(min-width:1170px){
+    left: 0;
+    }
+
+  }
+
+  .image4{
+    
+    position: relative;
+    left: -59px;
+
+    @media(min-width:992px){
+      left: 0;
+    }
+    @media(min-width:1170px){
+    left: 0;
+    }
+
+  }
+  .image5{
+    
+    position: relative;
+    left: -47px;
+
+    @media(min-width:992px){
+      left: 0;
+    }
+    @media(min-width:1170px){
+    left: 0;
+    }
+
+  }
+  .image6{
+    
+    position: relative;
+    left: -50px;
+
+    @media(min-width:992px){
+      left: 0;
+    }
+    @media(min-width:1170px){
+    left: 0;
+    }
+
+  }
+
+
 `;
 Content.Title = styled(Heading)`
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 70px !important;
   position: relative;
   @media (min-width: 768px) {
     font-weight: 700;
@@ -104,7 +216,6 @@ Content.Subtitle = styled(Heading)`
 `;
 Content.Text = styled(Paragraph)`
  
-width: 471px;
 font-weight: 400;
 font-size: 18px;
 line-height: 32px;
@@ -116,6 +227,17 @@ opacity: 0.7;
   @media(min-width:992px){
     font-size:16px;
   }
+  @media(min-width:1170px){
+    font-size:21px;
+  }
+  @media(min-width:1270px){
+    font-size:21px;
+  }
+
+  @media(min-width:1400px){
+    font-size:21px;
+    line-height:40px;
+  }
   
 `;
 Content.Button = styled(Button)`
@@ -123,7 +245,11 @@ Content.Button = styled(Button)`
   background-color: #1974FF !important;
   border-radius: 50px !important;
   box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
+  transition: 0.5s all ease;
   
+  &:hover{
+    background:#4e92f9 !important;
+  }
 
 `;
 
@@ -221,20 +347,45 @@ height: 577px;
 overflow: hidden;
 height:100%;
 border-radius:10px;
-right: 75px;
 top: -18px;
+
+@media(min-width:992px){
+  width: 330px;
+  height: 577px;
+  overflow: hidden;
+  height:100%;
+  border-radius:10px;
+  right: 75px;
+  top: -18px;
+}
 `
 Content.Imagedown = styled(Box)`
-width: 330px;
-height: 100%;
+
+
+
+width: 331px;
 overflow: hidden;
-height:100%;
-border-radius:10px;
-right: 109px;
+height: 100%;
+border-radius: 10px;
 top: 73px;
+right:0;
+
+@media(min-width:992px){
+  width: 330px;
+  height: 100%;
+  overflow: hidden;
+  height:100%;
+  border-radius:10px;
+  right: 109px;
+  top: 73px;
+}
 `
 Content.Box = styled(Box)`
+padding-bottom: 60px;
+
+@media(min-width:992px){
 padding-bottom: 179px;
+}
 
 `;
 

@@ -14,9 +14,20 @@ const Content = styled(Box)`
     padding-bottom: 0px;
   }
   .backcolor2{
-    padding: 100px 0px;
+    padding: 50px 0px;
     margin-top: -165px;
     position:relative;
+
+    @media (min-width: 992px) {
+      padding: 100px 0px;
+      margin-top: -165px;
+      position:relative;
+    }
+    @media (min-width: 1170px) {
+      padding: 100px 0px;
+      margin-top: -165px;
+      position:relative;
+    }
   }
   .DotShape{
     position: absolute;
@@ -31,7 +42,11 @@ const Content = styled(Box)`
   }
   .international-image {
     width:100%;
-    margin-left:10%;
+
+    @media(min-width:992px){
+      margin-left:10%;
+
+    }
   }
   h2.international-reach-heading {
     font-size: 58px;
@@ -87,7 +102,7 @@ Content.Block = styled(Box)`
   }
 `
 Content.Title = styled(Heading)`
-  font-size: 24px;
+  font-size: 32px;
   line-height: 24px;
   font-weight: 700;
   letter-spacing: -2px;
@@ -106,33 +121,34 @@ Content.Title = styled(Heading)`
         line-height: 48px;
     }
     @media (min-width: 1440px){
-        font-size: 58px;
+        font-size: 45px;
         line-height: 58px;
     }
 `
 Content.Text = styled(Paragraph)`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 30px;
+  line-height: 24px;
   margin-bottom: 12px;
   width:100%;
     @media (min-width: 992px) {
       width:80%;
-      font-size: 15px;
-      line-height: 21px;
+      font-size: 18px;
+      line-height: 27px;
     }
     @media (min-width: 1170px) {
       width:85%;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 21px;
+      line-height: 40px;
     }
     @media (min-width: 1270px) {
       width:85%;
-      font-size: 18px;
-      line-height: 30px;
+      font-size: 21px;
+      line-height: 40px;
     }
+
 `
 
 Content.Image = styled(Box)`

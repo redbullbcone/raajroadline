@@ -23,7 +23,7 @@ export default function ContentSectionOne({heading},{...rest}){
               <div className='business-text-sec'>
               <Content.Title as="h2">We <b>Ensure</b> that the <br />freelancers you <b>Hire</b> are<br />the Ones <b>Doing</b> the Project</Content.Title>
               <Content.Text>Our mission is to create a marketplace with top vendors at all price points. Domestic agencies often outsource their contracts overseas. We cut out the middle man for you and deliver the freelancers you need at the rate you want! We review all freelancers’ profiles before letting our AI suggest them to you.</Content.Text>
-              <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
+              <Button className="blue-close" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}
               </div>
             </Col>

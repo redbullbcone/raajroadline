@@ -2,27 +2,33 @@ import React from "react"
 import { PageWrapper } from "~components/Core"
 import { Helmet } from 'react-helmet'
 import HeroSection from '~sections/services/Hero'
+import ServicesSection from '~sections/services/Services'
+import AboutSection from '~sections/services/About'
 import ContentSectionOne from '~sections/services/ContentOne/ContentSectionOne'
 import ContentVideoSectionOne from '~sections/VideoSections/ContentOne/ContentVideoSectionOne'
 import ProcessSection from '~sections/services/Process'
+import PromoSection from '~sections/services/Promo'
+import PricingSection from '~sections/services/Pricing'
+import TestimonialSection from '~sections/services/Testimonial'
+import ContactSection from '~sections/services/Contact'
 import CounterSection from "~sections/marketing/Counter"
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
+// import HeaderButton from '~sections/services/Header'
 import ServicesSectionOne from "~sections/businesses/ServicesOne";
 import HeaderButton from "~sections/marketing/Header"
+
 
 const header = {
   headerClasses: "site-header site-header--menu-start light-header site-header--sticky ",
   containerFluid:true,
-  // customLogo: Images.HeaderLogo,
+  darkLogo:false,
   buttonBlock: (
-    <HeaderButton
-      className="ms-auto d-none d-xs-inline-flex"
-      btnOneText="Login"
-      btnTwoText="Sign Up Now"
-      mr="15px"
-      mrLG="0"
-    />
+    <HeaderButton className="ms-auto d-none d-xs-inline-flex"
+    btnOneText="Login"
+    btnTwoText="Sign Up Now"
+    mr="15px"
+    mrLG="0"/>
   ),
 }
 
@@ -105,8 +111,9 @@ var businesscontent = [
 const ServiceData =[
   {
     id:"ss1",
-    image:"image/businesses/ai-auditor.svg",
+    image:"image/businesses/ai-auditor-white.svg",
     whiteImage:"image/businesses/ai-auditor-white.svg",
+    bgImageClass:"blueBg",
     title: "AI SEO Auditor &",
     title2:"Freelancer Recommendation",
     linkPage:"ai-auditor",
@@ -115,19 +122,21 @@ const ServiceData =[
   },
   {
     id:"ss2",
-    image:"image/businesses/online-marketing.svg",
+    image:"image/businesses/online-marketing-white.svg",
     whiteImage:"image/businesses/online-marketing-white.svg",
+    bgImageClass:"pinkBg",
     title: "Online Marketing",
     title2:"Budget Optimization",
-    cardbg:"red",
+    cardbg:"pink",
     whiteImageClass:"business-online",
     linkPage:"marketplace",
 
   },
   {
     id:"ss3",
-    image:"image/businesses/freelancer-employee.svg",
+    image:"image/businesses/freelancer-employee-white.svg",
     whiteImage:"image/businesses/freelancer-employee-white.svg",
+    bgImageClass:"mustardBg",
     title:"Freelancer & Employee",
     title2:"Monitoring",
     cardbg:"mustard",
@@ -138,8 +147,9 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/KYC.svg",
+    image:"image/businesses/KYC-white.svg",
     whiteImage:"image/businesses/KYC-white.svg",
+    bgImageClass:"orangeBg",
     title: "AML & KYC Verified",
     title2: "Freelancers",
     cardbg:"orange",
@@ -149,8 +159,9 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/payment.svg",
+    image:"image/businesses/payment-white.svg",
     whiteImage:"image/businesses/payment-white.svg",
+    bgImageClass:"cyanBg",
     title: "Easy International",
     title2:"Payment Processing",
     cardbg:"cyan",
@@ -159,8 +170,9 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/add-college.svg",
+    image:"image/businesses/add-college-white.svg",
     whiteImage:"image/businesses/add-college-white.svg",
+    bgImageClass:"purpleBg",
     title: "Add College-Educated",
     title2: "interns to your Team",
     cardbg:"purple",
@@ -175,7 +187,15 @@ const ServiceData =[
 
 export default function Services() {
 
+    // document.title ='MRKT365 | AI Marketing Platform & Talent Marketplace';
+    
+
   return (
+
+    
+      
+        
+    
     <PageWrapper headerConfig={header}>
       <Helmet>
         <title>Hire Freelancers & Agencies on One AI Marketing Platform</title>

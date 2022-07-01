@@ -12,6 +12,20 @@ const About = styled(Box)`
     .section-affiliate-alt {
         padding:0 0px;
     }
+
+    .para-background-color1 {
+        h1{
+            font-weight: 500;
+            font-size: 45px;
+            line-height: 54px;
+        }
+
+        b{
+            color: #1A75FF;
+        }
+    }
+
+
     .section-affiliate-alt h2 {
         font-size: 21px;
         line-height: 1.2;
@@ -64,22 +78,6 @@ const About = styled(Box)`
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .section-affiliate {
         margin:40px 0 40px;
         @media (min-width: 576px) {
@@ -105,12 +103,14 @@ const About = styled(Box)`
 
 
     .button-affiliate {
-        color:#fff;
-        width: auto;
+        color: #fff;
         background: #1A75FF;
-        border-radius: 10px;
-        padding:15px 30px;
-        border-color:#1A75FF !important;
+        border-radius: 50px;
+        padding: 15px 30px;
+        border-color: #1A75FF !important;
+        box-shadow: -8px 8px 50px rgb(80 52 252 / 50%);
+        width: 180px;
+        height: 56px;
     }
     .button-affiliate:hover {
         border-color:#1A75FF !important;
@@ -130,7 +130,7 @@ const About = styled(Box)`
         margin-bottom:40px;
     }
     .para-background-color1 {
-        background: rgba(254, 232, 86, 0.38);
+        background: #F4F9FC;
     }
     .para-background-color1 h2,
     .para-background-color2 h2 {
@@ -163,8 +163,13 @@ const About = styled(Box)`
     .para-background-color1 p,
     .para-background-color2 p {
         width:100%;
-        font-size:14px;
-        line-height:1.5;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 40px;
+        opacity: 0.7;
+        margin-bottom: 55px;
+        margin-top: 48px;
+    
         @media (min-width: 576px) {
             width:95%;
         }
@@ -175,18 +180,18 @@ const About = styled(Box)`
             width:85%;
         }
         @media (min-width: 1170px) {
-            width:81%;
-            font-size:16px;
+            font-size: 18px;
+            line-height: 32px;
         }
         @media (min-width: 1270px) {
-            width:81%;
+            font-size: 18px;
+            line-height: 32px;
         }
         @media (min-width: 1400px) {
-            width:67%;
+            width:75%;
+            font-size:21px;
         }
     }
-
-
 
 
     .para-background-color2 {
@@ -201,7 +206,7 @@ const About = styled(Box)`
         overflow: hidden;
         transform-origin: top left;
         margin: 0 10px;
-        border-radius: 5px;
+        border-radius: 15px;
         margin-bottom: 40px;
         height: 100%;
         bottom: 0px;
@@ -214,9 +219,14 @@ const About = styled(Box)`
           margin-bottom: 0;
           width: 38%;
         }
+        @media (min-width: 1400px) {
+            margin-bottom: 0;
+            width: 41%;
+        }
       
      }
     .ImageOneInner {
+
         transform-origin: top left;
         height: 100%;
         position: relative;
@@ -227,17 +237,65 @@ const About = styled(Box)`
           left: -40%;
           width: 200%;
         }
+
+        @media (min-width: 1400px) {
+            left: -36%;
+          }
+
+        img{
+            height: 466.58px;
+        }
+
       }
       .tilt-image-sec{
         display: flex;
         position: relative;
         right: 0;
         left: 80px;
+        width: 700px;
+        left: 1px;
       }
 
       .image-one-down{
         top: 30px;
         height: 100%;
+      }
+
+      .second-sec {
+        width: 632px;
+        height: 662px;
+        background: #F4F9FC;
+        border-radius: 15px;
+        padding-top: 58px;
+        padding-left: 48px;
+
+        h1{
+            font-weight: 500;
+            font-size: 45px;
+            line-height: 54px;
+
+            @media (min-width: 1170px) {
+            font-size: 45px;
+
+            }
+
+            @media (min-width: 1400px) {
+                font-size: 45px;
+
+            }
+
+        }
+        b{
+            color: #1A75FF;
+        }
+        p{
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 40px;
+            opacity: 0.7;
+            margin-top: 48px;
+            margin-bottom: 55px;
+        }
       }
 `;
 

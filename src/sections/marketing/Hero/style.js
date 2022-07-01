@@ -28,11 +28,20 @@ const Hero = styled(Box)`
     .close{
         margin-right:30px;
         font-size:16px !important;
+        color:#fff;
         box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
+        background:#ff5722;
+        transition: 0.5s all ease;
+        width:220px;
     }
     .close2{
         font-size:16px !important;
         box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
+        transition: 0.5s all ease;
+        color:#fff;
+        width:215px;
+        background: #1A75FF;
+
     }
     @media (max-width:1240px) {
         .close {
@@ -48,108 +57,16 @@ const Hero = styled(Box)`
             margin-right:10px;
         }
     }
-    .close {
-        border: 2px solid #ff5722;
-        outline: none;
-        font-size: 16px;
-        font-weight: 500;
-        color: #2a2833;
-        padding: 15px 0;
-        border-radius: 50px ;
-        position: relative;
-        overflow:hidden;
-        transition:0.5s all ease;
-        z-index:1;
-        width:300px;
-    }
+    
     .close:hover {
-        color:#fff;
-        background:#ff5722;
+        background: #f98c6a;
     }
-    .close::before{
-        width:100%;
-        height:100%;  
+
+    .close2:hover{
+    background: #4e92f9;
     }
-    .close-btn::before{
-        background:#ff5722;
-        content:"";
-        position:absolute;
-        top: 0;
-        left: 0;
-        transition: all 0.6s ease;   
-        width:0;
-        z-index:-1;
-    }
-    .close-btn::after{
-        background:#ff5722;
-        height:100%;
-        content:"";
-        position:absolute;
-        top: 0;
-        right: 0;
-        transition: all 0.6s ease;   
-        width:0;
-        z-index:-1;
-    }
-    .close:hover::before{
-        width:50%;
-        color: #fff;
-    }
-    .close:hover::after{
-        width:50%;
-        color: #fff;
-    }
-    .close2 {
-        border: 2px solid #1A75FF;
-        outline: none;
-        font-size: 16px;
-        font-weight: 500;
-        color: #2a2833;
-        padding: 14px 0;
-        border-radius: 50px ;
-        position: relative;
-        overflow:hidden;
-        transition: 0.5s all ease;
-        z-index:1;
-        width:300px;
-    }
-    .close2:hover {
-        color:#fff;
-        background:#1A75FF;
-    }
-    .close2::before{
-        width:100%;
-        height:100%;  
-    }
-    .close2-btn::before{
-        background:#1A75FF;
-        content:"";
-        position:absolute;
-        top: 0;
-        left: 0;
-        transition: all 0.6s ease;   
-        width:0;
-        z-index:-1;
-    }
-    .close2-btn::after{
-        background:#1A75FF;
-        height:100%;
-        content:"";
-        position:absolute;
-        top: 0;
-        right: 0;
-        transition: all 0.6s ease;   
-        width:0;
-        z-index:-1;
-    }
-    .close2:hover::before{
-        width:50%;
-        color: #fff;
-    }
-    .close2:hover::after{
-        width:50%;
-        color: #fff;
-    }
+    
+    
     
 
 
@@ -160,6 +77,7 @@ Hero.Title = styled(Heading)`
     font-weight: 600;
     letter-spacing: -1px;
     margin-bottom: 35px;
+    
     @media (min-width:480px) {
         font-size: 42px;
     }

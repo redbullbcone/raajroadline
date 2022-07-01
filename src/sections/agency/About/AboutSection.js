@@ -24,7 +24,7 @@ return(
       </Col>
     </Row>
 
-    <Row className="align-items-center section-cards">
+    <Row className="align-items-center section-cards section2">
       
       <Col col="12" className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
         <About.Content mt="40px" mtLG="0" mb="50px" mbLG="0" mlLG="30px" className="about-text-card2">
@@ -43,7 +43,7 @@ return(
     <Row className="align-items-center section-cards">
       <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-12">
         <About.Image className="image-about-1">
-          <img className="w-100" src="image/recruitment-agency/desktop-screen.png" alt="about"/>
+          <img className="w-100" src="image/recruitment-agency/screen1.png" alt="about"/>
           {/* <Video id="LWZ7iytIA6k" className="video-btn sonar-emitter"> <i className="fa fa-play" /> </Video> */}
         </About.Image>
       </Col>

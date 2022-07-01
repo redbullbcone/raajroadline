@@ -21,7 +21,7 @@ export const HeaderButtonWrapper = styled(Box)`
         color:#262729;
         margin-left:10px;
         &:hover{
-            /* box-shadow: 0 0px 0px rgba(241, 139, 98, 0.3); */
+           
         }
         &-2{
             min-width: 129px;
@@ -40,57 +40,22 @@ export const HeaderButtonWrapper = styled(Box)`
         &-2{
             border: 2px solid #ff5722;
             outline: none;
-            color: #2a2833;
+            color: #fff;
             position: relative;
             overflow:hidden;
             transition:1s all ease;
             z-index:1;
+            background:#FF5722;
+        }
+
+        &-2:hover{
+            background: #f98c6a;
+            border: 2px solid #f98c6a;
         }
     
-        
     }
 
-    .header-close::before{
-        width:100%;
-        height:100%;  
-    }
-
-    .header-close-btn::before{
-        background:#ff5722;
-        content:"";
-        position:absolute;
-        top: 0;
-        left: 0;
-        transition: all 0.6s ease;   
-        width:0;
-        z-index:-1;
-    }
-
-    .header-close::after{
-        background:#ff5722;
-        height:100%;
-        content:"";
-        position:absolute;
-        top: 0;
-        right: 0;
-        transition: all 0.6s ease;   
-        width:0;
-        z-index:-1;
-    }
-
-    .header-close:hover::before{
-        width:50%;
-        color: #fff;
-    }
-    .header-close:hover::after{
-        width:50%;
-        color: #fff;
-    }
-
-    .header-close:hover {
-        background-color: #fb815b;
-        border: 3px solid #fb815b;
-    }
+    
 `
 const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnTwoText,...rest})=>{
     return(
@@ -98,7 +63,7 @@ const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnTwoText,...rest})=>{
             <Link target="_blank" className="btn" to={btnOneLink ? btnOneLink : "https://platform.mrkt365.com/"}>
                 {btnOneText}
             </Link>
-            <Link target="_blank" className="btn btn-2 header-close header-close-btn" to={btnTwoLink ? btnTwoLink : "https://platform.mrkt365.com/register"}>
+            <Link target="_blank" className="btn btn-2" to={btnTwoLink ? btnTwoLink : "https://platform.mrkt365.com/register"}>
                 {btnTwoText}
             </Link>
         </HeaderButtonWrapper>

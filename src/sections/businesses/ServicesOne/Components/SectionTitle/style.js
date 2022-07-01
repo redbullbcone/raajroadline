@@ -41,8 +41,12 @@ font-size: 60px;
 font-weight: 700;
 letter-spacing: normal;
 line-height: 1.38095;
+
 @media (min-width:768px) {
     font-size: 33px;
+}
+@media (min-width:768px) {
+    font-size: 42px;
 }
 
 @media (min-width:1200px) {

@@ -7,26 +7,28 @@ const SectionTitle = styled(Box)`
 }
 `
 SectionTitle.Text = styled(Paragraph)`
-font-size: 18px;
+font-size: 14px;
 font-weight: 400;
 letter-spacing: normal;
-line-height: 1.77777;
+line-height:24px;
 color:inherit;
 
 
 
 @media(min-width:992px){
-    font-size:16px;
+    font-size:14px;
 }
 
 @media(min-width:1120px){
-    font-size:16px;
+    font-size: 16px;
+    line-height: 30px;
+
 }
 
 @media(min-width:1400px){
+    line-height: 32px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 40px;
-    font-size: 21px;
 }
 
 `
@@ -58,12 +60,12 @@ line-height: 1.38095;
 
 @media (min-width:1170px){
     font-weight:700;
-    margin-bottom: 34px;
+    margin-bottom: 24px;
 }
 
 @media (min-width:1270px){
     font-weight:700;
-    margin-bottom: 34px;
+    margin-bottom: 24px;
 }
 
 @media (min-width:1400px) {
@@ -71,7 +73,7 @@ line-height: 1.38095;
     font-size: 45px;
     line-height: 54px;
     font-size: 45px;
-    margin-bottom:44px;
+    margin-bottom:30px;
 }
 
 `

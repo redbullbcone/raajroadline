@@ -3,7 +3,6 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Service = styled(Box)`
     padding-top: 60px;
-    padding-bottom: 120px;
     background-color: rgba(169,210,255,0.1) !important;
     @media (min-width:768px) {
         padding-top: 80px;
@@ -59,8 +58,8 @@ const Service = styled(Box)`
         }
     }
     .recruitment-agency-section h2 {
-        font-size:24px;
-        line-height:1;
+        font-size: 28px;
+        line-height: 40px;
         margin-bottom:40px;
         @media (min-width:992px) {
             font-size:36px;

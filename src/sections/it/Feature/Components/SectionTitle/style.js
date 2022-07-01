@@ -23,12 +23,24 @@ SectionTitle.Subtitle = styled(Heading)`
 `
 SectionTitle.Main = styled(Heading)`
 font-weight: 700;
-font-size: 60px !important;
+font-size: 45px;
 line-height: 54px;
 color:#262729;
 
 @media (min-width:768px) {
     font-size: 33px;
+}
+
+@media (min-width:992px) {
+    font-size:60px;
+}
+
+@media (min-width:1170px) {
+    font-size:60px;
+}
+
+@media (min-width:1270px) {
+    font-size:60px;
 }
 
 @media (min-width:1400px) {

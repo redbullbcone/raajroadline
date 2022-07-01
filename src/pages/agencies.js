@@ -27,8 +27,9 @@ const header = {
 const ServiceData =[
   {
     id:"ss1",
-    image:"image/businesses/ai-auditor.svg",
+    image:"image/businesses/ai-auditor-white.svg",
     whiteImage:"image/businesses/ai-auditor-white.svg",
+    bgImageClass:"blueBg",
     title: "AI SEO Auditor &",
     title2:"Freelancer Recommendation",
     linkPage:"ai-auditor",
@@ -37,19 +38,21 @@ const ServiceData =[
   },
   {
     id:"ss2",
-    image:"image/businesses/online-marketing.svg",
+    image:"image/businesses/online-marketing-white.svg",
     whiteImage:"image/businesses/online-marketing-white.svg",
+    bgImageClass:"pinkBg",
     title: "Online Marketing",
     title2:"Budget Optimization",
-    cardbg:"red",
+    cardbg:"pink",
     whiteImageClass:"business-online",
     linkPage:"marketplace",
 
   },
   {
     id:"ss3",
-    image:"image/businesses/freelancer-employee.svg",
+    image:"image/businesses/freelancer-employee-white.svg",
     whiteImage:"image/businesses/freelancer-employee-white.svg",
+    bgImageClass:"mustardBg",
     title:"Freelancer & Employee",
     title2:"Monitoring",
     cardbg:"mustard",
@@ -60,8 +63,9 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/KYC.svg",
+    image:"image/businesses/KYC-white.svg",
     whiteImage:"image/businesses/KYC-white.svg",
+    bgImageClass:"orangeBg",
     title: "AML & KYC Verified",
     title2: "Freelancers",
     cardbg:"orange",
@@ -71,8 +75,9 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/payment.svg",
+    image:"image/businesses/payment-white.svg",
     whiteImage:"image/businesses/payment-white.svg",
+    bgImageClass:"cyanBg",
     title: "Easy International",
     title2:"Payment Processing",
     cardbg:"cyan",
@@ -81,8 +86,9 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/add-college.svg",
+    image:"image/businesses/add-college-white.svg",
     whiteImage:"image/businesses/add-college-white.svg",
+    bgImageClass:"purpleBg",
     title: "Add College-Educated",
     title2: "interns to your Team",
     cardbg:"purple",
@@ -91,7 +97,6 @@ const ServiceData =[
   }
 
 ]
-
 export default function Digital() {
   return (
     <PageWrapper headerConfig={header}>

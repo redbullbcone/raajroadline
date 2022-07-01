@@ -1,7 +1,7 @@
 import React from "react";
 import { PageWrapper } from "~components/Core";
 import HeroSection from "~sections/AffiliatePlatform/Hero";
-import ServicesSectionOne from "~sections/startup/ServicesOne";
+import ServicesSectionOne from "~sections/intern/ServicesOne";
 import ServicesSectionTwo from "~sections/startup/ServicesTwo";
 import AboutSection from "~sections/startup/About";
 import ProcessSection from "~sections/startup/Process";
@@ -32,39 +32,57 @@ const header = {
     />
   ),
 }
-const ServiceData = [
+const ServiceData =[
   {
-    id: "ss1",
+    id:"ss1",
     // icon:"fas fa-layer-group",
-    image: "image/home-startup/affiliate-1.svg",
-    text: "Sign Up as a",
-    text2: "Partner",
-    iconBackground: "#6001d3"
+    image:"image/affiliate-program/handshake.svg",
+    whiteImage:"image/affiliate-program/handshake-white.svg",
+    title: "Sign Up as a",
+    title2:"partner",
+    linkPage:"ai-auditor",
+    whiteImageClass:"business-ai",
+    cardbg:'purple',
   },
   {
-    id: "ss2",
+    id:"ss2",
     // icon:"fas fa-bell",
-    image: "image/home-startup/affiliate-2.svg",
-    text: "Receive Links & ",
-    text2: "Promotional Material",
-    iconBackground: "#fd346e"
+    image:"image/affiliate-program/files.svg",
+    whiteImage:"image/affiliate-program/files-white.svg",
+    title: "Receive links ",
+    title2:"and promotional ",
+    title3:"material",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+    cardbg:'pink',
+    
   },
   {
-    id: "ss3",
+    id:"ss3",
     // icon:"fas fa-envelope",
-    image: "image/home-startup/affiliate-3.svg",
-    text: "Refer Freelancers,",
-    text2: "Businesses & Friends",
-    iconBackground: "#1de2cf"
+    image:"image/affiliate-program/message.svg",
+    whiteImage:"image/affiliate-program/message-white.svg",
+    title: "Refer ",
+    title2:"freelancers &",
+    title3:"businesses",
+    linkPage:"ai-auditor",
+    cardbg:"mustard",
+    whiteImageClass:"business-ai",
+
+    
   },
   {
-    id: "ss4",
-    icon: "fa-solid fa-dollar-sign",
-    // <i class="fa-solid fa-dollar-sign"></i>
-    image: "image/home-startup/affiliate-4.svg",
-    text: "Earn Passive",
-    text2: "Income",
-    iconBackground: "#ffd700"
+    id:"ss4",
+    // icon:"fas fa-chart-pie",
+    image:"image/affiliate-program/dollar.svg",
+    whiteImage:"image/affiliate-program/dollar-white.svg",
+    title: "Earn passive",
+    title2:"income",
+    cardbg:"cyan",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
+    
   }
 ]
 
@@ -93,10 +111,7 @@ export default function Startup() {
       <meta name="twitter:url" content="https://mrkt365.com/affiliates" />
       </Helmet>
       <HeroSection/>
-      <ServicesSectionOne
-        title="How Does It Work?"
-        content={ServiceData}
-      />
+      <ServicesSectionOne ClassName="intern-features" title="Earn Affiliate Income with MRKT365" content={ServiceData}/>
       <TestimonialSection />
       <ServicesSectionTwo />
       <AboutSection />

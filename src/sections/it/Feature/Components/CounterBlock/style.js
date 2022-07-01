@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Counter = styled(Box)`
+margin-top:0; 
 
 @media (min-width: 992px){
     left: -25%;
@@ -9,6 +10,7 @@ const Counter = styled(Box)`
     padding-top:35px;
     padding-bottom:0;
     bottom: 37px;
+    top: -12px;
 }
 
 `
@@ -23,7 +25,42 @@ padding-top: 50px;
 padding-bottom: 20px;
 padding-left: 0px;
 padding-right: 0px;
-width: 803px;
+
+@media (min-width: 768px) {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    left: -143px;
+    top: -54px;
+    padding-bottom:0;
+    top: -41px;
+}
+
+@media (min-width: 992px) {
+    
+    width: 100%;
+    left: -2px;
+    top: 1px;
+
+}
+
+
+@media (min-width: 1170px) {
+    width: 758px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left:15px;
+    top: 20px;
+
+}
+
+
+@media (min-width: 1400px) {
+    width: 803px;
+}
 
 `
 
@@ -36,7 +73,6 @@ border: none !important;
         margin-bottom: 30px;
         text-align: center;
         width: 100%;
-        margin-bottom: 30px;
         flex: 0 0 100%;
 
         @media (min-width: 480px) {
@@ -45,7 +81,7 @@ border: none !important;
         }
 
         @media (min-width: 768px){
-            padding: 0 45px;
+            padding: 0 10px;
             width: calc(33.3333% - 10px);
             flex: 0 0 calc(33.3333% - 10px);
         }
@@ -105,10 +141,10 @@ font-weight: 500;
 letter-spacing: normal;
 line-height: 1.4761;
 @media (min-width: 768px) {
-    font-size: 32px;
+    font-size: 15px;
 }
 @media (min-width: 992px) {
-    font-size: 35px;
+    font-size: 24px;
 }
 
 @media (min-width: 1200px) {
@@ -122,10 +158,12 @@ letter-spacing: normal;
 line-height: 30px;
 margin-bottom: 0;
 @media (min-width: 768px){
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
 }
 @media (min-width: 992px) {
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 22px;
 }
 @media(min-width:1170px){
     font-size: 16px;

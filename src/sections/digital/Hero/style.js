@@ -39,13 +39,34 @@ const Hero = styled(Box)`
 
 Hero.Content = styled(Box)`
 .agency-btn1{
+
   background:#ff5722 !important;
-  margin-right:69px;
+  margin-right:20px;
   box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+  transition: 0.5s all ease;
+
+  @media(min-width:992px){
+  margin-right:43px;
+  }
+
+  @media(min-width:1400px){
+    margin-right:69px;
+  }
+
+
+}
+
+.agency-btn1 :hover{
+  background: #f98c6a !important;
 }
 .agency-btn2{
-  background:#3183ff !important;
+  background:#1A75FF !important;
   box-shadow: -8px 8px 50px rgba(26, 117, 255, 0.5);
+  transition: 0.5s all ease;
+}
+
+.agency-btn2 :hover{
+  background: #4e92f9 !important;
 }
 .opac-word{
   opacity:1;
@@ -64,12 +85,11 @@ Hero.Text = styled(Paragraph)`
     font-size: 18px;
     text-align:left;
   }
-
-  @media (min-width: 1024px) {
-    font-size: 21px;
+  @media (min-width: 992px) {
+    font-size: 18px;
     text-align:left;
-
   }
+
   @media (min-width: 1170px) {
     font-size: 16px;
     text-align:left;
@@ -134,8 +154,8 @@ Hero.Icon = styled(Box)`
 `;
 
 Hero.Button = styled(Button)`
-  width: 180px;
-  height: 57.37px;
+  width: 127px;
+  height: 45.37px;
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;

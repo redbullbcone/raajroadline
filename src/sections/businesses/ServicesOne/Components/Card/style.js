@@ -130,7 +130,7 @@ Card.Title = styled(Heading)`
         font-size:18px;
     }
     @media (min-width:992px) {
-        font-size:18px;
+        font-size:16px;
         margin-bottom:0px;
         min-height: 90px;
     }

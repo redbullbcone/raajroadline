@@ -9,8 +9,8 @@ const About = styled(Box)`
     padding-bottom: 40px;
   }
   @media (min-width: 1024px) {
-    padding-top: 100px;
-    padding-bottom: 110px;
+    padding-top: 50px;
+    padding-bottom:50px;
   }
 
   .blue-text{
@@ -18,19 +18,36 @@ const About = styled(Box)`
   }
 
   .para1{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+
+    @media(min-width:768px){
+      padding:0;
+    }
     p{
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 40px;
+      font-size: 18px;
+      line-height: 27px;
       opacity: 0.7;
-      width: 70%;
-      margin-top: 24px;
+      width: 100%;
+      margin-top: 10px;
+
+      @media(min-width:992px){
+        font-size: 18px;
+        line-height: 27px;
+        width: 100%;
+        margin-top: 10px;
+      }
 
       @media(min-width:1170px){
         font-size: 16px;
         line-height: 32px;
+        width:70%;
+        margin-top:24px;
       }
 
       @media(min-width:1270px){
@@ -45,10 +62,20 @@ const About = styled(Box)`
 
     h1{
       font-weight:500;
+      font-size:28px;
+
+      @media(min-width:992px){
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 20px;
+
+      }
 
       @media(min-width:1170px){
         font-size: 40px;
         line-height: 50px;
+        margin-bottom: 0;
+
       }
 
       @media(min-width:1270px){
@@ -68,12 +95,23 @@ const About = styled(Box)`
     }
   }
     
+  .section2{
+    flex-direction: column-reverse;
+     @media(min-width:992px){
+      flex-direction: row;
+     }
+  }
   
   .about-text-card2 {
 
     h1{
-      font-size:50px;
+      font-size:28px;
       font-weight:500;
+      
+      @media(min-width:992px){
+        font-size:36px;
+        line-height:40px;
+      }
 
       @media(min-width:1170px){
         font-size:40px;
@@ -92,21 +130,27 @@ const About = styled(Box)`
     }
     background:#F4F9FC;
     border-radius: 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 100px;
-    width: 110%;
-    height: auto;
-    left: -80px;
     position: relative;
-    padding-right: 23px;
+    padding:30px;
+
     @media (min-width: 992px) {
+      width: calc(100% + 70px);
       padding-top: 110px;
       padding-bottom: 110px;
+      position: relative;
+      left: 0;
+      padding-left:30px;
+      padding-right:40px;
     }
     @media (min-width: 1170px) {
+      width: calc(100% + 70px);
       padding-top: 130px;
       padding-bottom: 130px;
+      padding-left: 60px;
+      padding-right: 23px;
+      left: -80px;
+      position: relative;
+      left: -30px;
     }
     @media (min-width: 1270px) {
       padding-top: 140px;
@@ -140,32 +184,42 @@ const About = styled(Box)`
     }
   }
   .about-text-card2 p {
-    width:90%;
+    width: 90%;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 27px;  
     @media (min-width: 992px) {
-      width:85%;
-      font-size: 14px;
+      width: 72%;
+      font-size: 18px;
+      line-height: 27px;
     }
     @media (min-width: 1170px) {
       width:80%;
-      font-size: 16px;
+      font-size: 18px;
+      line-height:38px;
+
     }
     @media (min-width: 1270px) {
       width:80%;
-      font-size: 16px;
+      font-size: 18px;
+      line-height:38px;
+
     }
     @media (min-width: 1400px) {
       width:75%;
       font-size: 21px;
+      line-height:40px;
     }
   }
 
   .image2 {
-    width: 115%;
     position: relative;
-    left:-80px;
+    left:0;
+
+    @media(min-width:992px){
+      left:-80px;
+
+    }
   }
   .about-text-card {
     background: #F4F9FC;
@@ -227,13 +281,19 @@ const About = styled(Box)`
     @media (min-width: 1400px) {
       width:70%;
       font-size: 21px;
+      line-height:40px;
     }
   }
 
 
   .section-cards {
-    padding-bottom:100px;
+    padding-bottom:0;
     position:relative;
+
+    @media(min-width:992px){
+      padding-bottom:100px;
+      position:relative;
+    }
   }
 
   .image-about-1 {
@@ -241,18 +301,15 @@ const About = styled(Box)`
   }
 
   .about-text-card3 {
+
     border-radius: 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 100px;
-    width: 110%;
+    width: 100%;
     height: auto;
-    left: -80px;
     position: relative;
-    padding-right: 23px;
+    padding:20px;
     @media (min-width: 992px) {
       padding-top: 110px;
-      padding-bottom: 110px;
+      padding-bottom: 0;
     }
     @media (min-width: 1170px) {
       padding-top: 130px;
@@ -270,7 +327,13 @@ const About = styled(Box)`
   .about-text-card3
   h1{
     font-weight:500;
-    font-size:50px;
+    font-size:28px;
+
+    @media(min-width:992px){
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 40px;
+    }
 
     @media(min-width:1170px){
       font-size:40px;
@@ -295,12 +358,13 @@ const About = styled(Box)`
   p {
     width:90%;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 27px;
     opacity: 0.7;
     @media (min-width: 992px) {
       width:85%;
-      font-size: 14px;
+      font-size: 18px;
+      line-height:27px;
     }
     @media (min-width: 1170px) {
       width:80%;
@@ -315,7 +379,7 @@ const About = styled(Box)`
     @media (min-width: 1400px) {
       width: 73%;
       font-size: 21px;
-      line-height:42px;
+      line-height:40px;
 
     }
   }
@@ -324,6 +388,8 @@ const About = styled(Box)`
     position: relative;
     left: 11px;
   }
+
+  
  
 `;
 
@@ -363,21 +429,21 @@ About.ButtonGroup = styled(Box)`
 
 About.Image = styled(Box)`
 z-index: 99;
-width: 115%;
+width: 100%;
 @media (min-width: 768px) {
-  width: 104%;
+  width: 100%;
 }
 @media (min-width: 992px) {
-  width: 104%;
+  width: 100%;
 }
 @media (min-width: 1170px) {
-  width: 104%;
+  width: 100%;
 }
 @media (min-width: 1270px) {
-  width: 104%;
+  width: 100%;
 }
 @media (min-width: 1400px) {
-  width: 104%;
+  width: 100%;
 }
   .video-btn {
     display: flex;

@@ -17,7 +17,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 Why Work With us?
               </Content.Title>
               <Content.Title as="h2">
-              <span className="blue-text">Sell</span> your services in <br /> our marketplace
+              <span className="blue-text">Sell</span> your services in <br /> our <span className="blue-text">marketplace</span>
               </Content.Title>
               <Content.Text>
               MRKT365 is the only resource you need to find the businesses prospects of a right company, freelancer or intern. With Reviews,Ratings and Verification, MRKT365 gives you the tools zyou need to hire with confidence. Get matched with our users directly or research yourself from a list of verified and reviewed options.
@@ -30,7 +30,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 sizeX="168px"
                 className="btn"
                 href="#"
-                mt="40px"
+                mt="20px"
               >
                 Learn More
               </Content.Button>
@@ -46,6 +46,7 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/service1.png"
                     alt="content"
+                    className="image1"
                   />
                 
                
@@ -54,6 +55,7 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/service2.png"
                     alt="content"
+                    className="image2"
                   />
               </Content.Imageup>
             </Content.Images>
@@ -73,6 +75,7 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/1.jpg"
                     alt="content"
+                    className="image3"
                   />
                 </Content.ImageOneInner>
                
@@ -82,6 +85,8 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/2.jpg"
                     alt="content"
+                    className="image4"
+
                   />
                 </Content.ImageTwoInner>
               </Content.ImageTwo>
@@ -149,8 +154,10 @@ export default function ContentSectionTwo({ ...rest }) {
           <Col
             xs="12"
             className="col-xl-6 col-lg-5 col-sm-8 col-xs-10 order-1 order-lg-2"
-          >
+          >    
+          <div className="virtual-card">
               <img src="image/businesses/virtual-card.png" alt="virtual-card" className="w-100" />
+          </div>
             <Content.Images>
               {/* <Content.Imagedown>
                 
@@ -184,6 +191,8 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/22.png"
                     alt="content"
+                    className="image5"
+
                   />
                 </Content.ImageOneInner>
                
@@ -193,6 +202,8 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/33.png"
                     alt="content"
+                    className="image6"
+
                   />
                 </Content.ImageTwoInner>
               </Content.ImageTwo>

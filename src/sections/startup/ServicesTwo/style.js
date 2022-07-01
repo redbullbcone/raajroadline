@@ -3,7 +3,6 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Service = styled(Box)`
     padding-top: 40px;
-    background: #fbfdff;
     padding-bottom:100px;
     @media (min-width: 768px) {
         padding-top: 40px;
@@ -11,15 +10,28 @@ const Service = styled(Box)`
     @media (min-width: 1024px) {
         padding-top: 40px;
     }
-    .earn-from-section h2 {
-        font-size: 60px;
-        font-weight: 700;
-        letter-spacing: normal;
-        font-size:24px;
-        line-height: 1;
-        position:relative;
-        padding-bottom: 0px;
-        margin-bottom:30px;
+
+    .earn-from-section{
+        width: 632px;
+        height: 670px;
+        background: #F4F9FC;
+        border-radius: 15px;
+        position: relative;
+        top: 50px;
+        right: 40px;
+        padding-left: 45px;
+        padding-top: 52px;
+        padding-bottom: 63px;
+    }
+
+    .earn-from-section{
+     h1 {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 45px;
+            line-height: 54px;
+        }
         @media (min-width:992px) {
             font-size:36px;
             margin-bottom:36px;
@@ -36,29 +48,62 @@ const Service = styled(Box)`
             font-size:48px;
             margin-bottom:48px;
         }
+
+        b{
+            color: #1A75FF;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 54px;
+        }
+
     }
     .earn-from-section p {
-        font-size:14px;
-        line-height:1.5;
-        color:#000;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 40px;
+        opacity: 0.7;
         width:100%;
+        margin-top:45px;
+        margin-bottom: 45px;
         @media (min-width:992px) {
             font-size:14px;
             width:95%;
         }
         @media (min-width:1170px) {
-            font-size:15px;
-            width:85%;
+            font-size:16px;
+            line-height:32px;
+            width:61%;
         }
         @media (min-width:1270px) {
             font-size:16px;
-            width:92%;
+            line-height:32px;
+            width:61%;
         }
         @media (min-width:1400px) {
-            font-size:18px;
-            width:90%;
+            font-size:21px;
+            line-height: 40px;
+            width:87%;
         }
-    }   
+    }
+    
+    .blue-button-affi{
+        background: #1A75FF;
+        box-shadow: -8px 8px 50px rgb(80 52 252 / 50%);
+        border-radius: 50px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        border: none;
+        width: 180px;
+        height: 56px;
+    }
+
+    .img-height{
+        height: 577px;
+    }
 `;
 
 Service.Image = styled(Box)`

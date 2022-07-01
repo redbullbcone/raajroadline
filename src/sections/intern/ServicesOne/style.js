@@ -59,11 +59,11 @@ const Service = styled(Box)`
         }
     }
     .recruitment-agency-section h2 {
-        font-size:24px;
-        line-height:1;
-        margin-bottom:40px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 40px;
         @media (min-width:992px) {
-            font-size:36px;
+            font-size:50px;
             margin-bottom:36px;
         }
         @media (min-width:1170px) {

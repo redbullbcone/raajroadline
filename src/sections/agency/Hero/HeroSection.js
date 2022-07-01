@@ -23,7 +23,7 @@ return(
             <Form className="hero-form d-flex justify-content-between flex-row">
               <Hero.Box className="d-flex">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="close-btn close" textTransform="capitalized">Become a Partner</Button>
+                      <Button className="close" textTransform="capitalized">Become a Partner</Button>
                       {/* <Button className="close2 close2-btn" textTransform="capitalized">Book a Demo</Button> */}
                     
               </Hero.Box>

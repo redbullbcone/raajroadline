@@ -28,30 +28,6 @@ const header = {
   ),
 }
 
-const Testimonialdata = [
-  {
-      image:"image/marketing/provided-feature-icon-1.svg",
-      title:"Marketplace",
-      text:"Get connected to Global Freelancers, Agencies, & Interns.", 
-     
-  },
-  {
-      image:"image/marketing/provided-feature-2.svg",
-      title:"AI Auditor",
-      text:"All your Marketing Data, \n Analytics, and AI in One \n Dashboard",
-  },
-  {
-      image:"image/marketing/provided-feature-3.svg", 
-     title:"Prepaid Virtual Cards",
-      text:"Earn up to 1.5% Cashback on Online \n Marketing Spend with MRKT365",
-  },
-  {
-      image:"image/marketing/provided-feature-4.svg",
-      title:"Employee Monitoring",
-      text:"Bring out the Best in your Remote Team with Productivity Tools that gets Work done.",
-     
-  }
-]
 
 var reverserow = [
   {

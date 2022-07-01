@@ -40,15 +40,39 @@ const Hero = styled(Box)`
         }
     }
 
-    .close{
-        margin-right:30px;
-        font-size:16px !important;
-        box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
+    .cta-close{
+        border: 3px solid #ff5722;
+        outline: none;
+        color: #2a2833;
+        position: relative;
+        overflow:hidden;
+        transition:1s all ease;
+        z-index:1;
+        width:220px;
+        margin-right:69px;
+
     }
-    .close2{
-        font-size:16px !important;
-        box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
+
+    .cta-close:hover{
+        background-color:#ff5722;
     }
+
+    .cta-close2{
+        border: 3px solid #1A75FF;
+        outline: none;
+        color: #2a2833;
+        position: relative;
+        overflow:hidden;
+        transition:1s all ease;
+        z-index:1;
+        width:220px;
+    }
+
+    .cta-close2:hover{
+        background-color:#1A75FF;
+    }
+
+    
 
     @media (max-width:1239px){
         .close{
@@ -60,25 +84,6 @@ const Hero = styled(Box)`
         }
     }
 
-    .close {
-        border: 2px solid #ff5722;
-        outline: none;
-        font-size: 16px;
-        font-weight: 500;
-        color: #2a2833;
-        padding: 15px 0;
-        border-radius: 50px ;
-        position: relative;
-        overflow:hidden;
-        transition:0.5s all ease;
-        z-index:1;
-        width: 200px;
-    }
-    .close:hover {
-        color: #fff;
-        background: #ff5722;
-        border: 2px solid #ff5722;
-    }
 
     .business-hero span {
         color:#FF5722;
@@ -253,7 +258,8 @@ Hero.Newsletter =styled(Box)`
     }
     .btn{
         height: 56px;
-        color:#fff;
+        color:#000;
+        font-size: 21px;    
         margin-top:8px;
         border-radius:500px;
         left: 2px;

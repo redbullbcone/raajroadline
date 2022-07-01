@@ -9,24 +9,23 @@ const Content = styled(Box)`
 `
 Content.InnerBlock = styled(Box)`
     padding-top: 60px;
-    padding-bottom: 55px;
 
     @media (min-width:768px) {
         padding-top: 80px;
         padding-bottom: 75px;
     }
 
-    @media (min-width:1024px) {
+    @media (min-width:992px) {
         padding-top: 130px;
-        padding-bottom: 130px;
+        padding-bottom:0px;
     }
-    @media (min-width:1200px) {
+    @media (min-width:1170px) {
         padding-top: 130px;
-        padding-bottom: 135px;
+        padding-bottom:0;
     }
 `
 Content.Title = styled(Heading)`
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: normal;
     line-height: 1.1;
@@ -35,7 +34,7 @@ Content.Title = styled(Heading)`
       font-size: 24px;
     }
     @media (min-width:992px) {
-      font-size: 30px;
+      font-size: 42px;
     }
     @media (min-width:1170px) {
         font-size: 56px;

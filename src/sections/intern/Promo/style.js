@@ -5,7 +5,8 @@ import {rgba} from "polished"
 const Promo = styled(Box)`
   padding-top: 50px;
   padding-bottom: 50px;
-  height: 570px;
+  height: 526px;
+
   @media (min-width:768px) {
     padding-top: 75px;
     padding-bottom: 80px;
@@ -14,34 +15,61 @@ const Promo = styled(Box)`
   @media (min-width:992px) {
     padding-top: 100px;
     padding-bottom: 120px;
+    height: 492px;
+
+  }
+  @media(min-width:1170px){
+    padding-top:101px;
+    padding-bottom:137px;
+    height: 573px;
+
   }
 
   @media(min-width:1400px){
     padding-top:101px;
     padding-bottom:137px;
+    height: 573px;
+
   }
 
   .promo-para{
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     opacity: 0.7;
+    margin-top: -39px;
+
+    @media(min-width:992px){
+      margin-top:0
+    }
+    @media(min-width:1170px){
+      font-size: 21px;
+      line-height: 28px;
+    }
+
+    @media(min-width:1400px){
+      font-size: 21px;
+      line-height: 28px;
+      margin-top: 95px;
+
+    }
   }
 `
 Promo.Title = styled(Heading)`
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     letter-spacing: normal;
-    line-height: 1.3;
+    line-height:30px;
     @media (min-width:768px) {
     font-size: 38px;
     }
     @media (min-width:992px) {
     font-size: 48px;
     }
-    @media (min-width:117px) {
+    @media (min-width:1170px) {
       font-size: 48px;
     }
     @media (min-width:1400px) {

@@ -34,11 +34,19 @@ const Card = styled(Box).attrs({className:"link-page"})`
         padding-left: 30px;
         padding-right: 30px;
     }
-    @media (min-width:1240px) {
-        padding-left: 10px;
-        padding-right: 10px;
+    @media (min-width:998px) {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    @media (min-width:1200px) {
+    @media (min-width:1170px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    @media (min-width:1270px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    @media (min-width:1400px) {
         padding-left: 45px;
         padding-right: 45px;
     }
@@ -122,7 +130,7 @@ Card.Icon = styled(Box).attrs({className:"card-icon"})`
         
 `
 Card.Title = styled(Heading)`
-    font-size: 12px;
+    font-size: 21px;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 30px;
@@ -132,10 +140,10 @@ Card.Title = styled(Heading)`
     text-align:left;
 
     @media (min-width:768px) {
-        font-size:12px;
+        font-size:21px;
     }
     @media (min-width:992px) {
-        font-size:18px;
+        font-size:16px;
         margin-bottom:0px;
         min-height: 90px;
     }
@@ -144,7 +152,7 @@ Card.Title = styled(Heading)`
         margin-bottom: 10px;
     }
     @media (min-width:1270px) {
-        font-size:21px;
+        font-size:18px;
     }
     @media (min-width:1400px) {
         font-weight: 700;

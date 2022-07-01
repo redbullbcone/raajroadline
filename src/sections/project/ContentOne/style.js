@@ -5,6 +5,19 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 const Content = styled(Box)`
     position: relative;
     margin-top: -131px;
+    margin-bottom: 70px;
+
+    @media(min-width:992px){
+        margin-top: -131px;
+    }
+
+    @media(min-width:1170px){
+        margin-top: -131px;
+    }
+
+    @media(min-width:1400px){
+        margin-top: -131px;
+    }
 
     .backcolor{
         background:#fffaf7;
@@ -57,12 +70,22 @@ font-weight:700;
     }
 `
 Content.Text = styled(Paragraph)`
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
 font-style: normal;
 letter-spacing: normal;
-line-height: 1.66666;
+line-height: 24px;
 margin-bottom: 12px;
+
+@media (min-width: 992px){
+    font-size: 18px;
+    line-height:32px;
+}
+
+@media(min-width:1170px){
+    font-size: 21px;
+    line-height: 40px;
+}
 
 `
 

@@ -64,13 +64,13 @@ const FeatureSection = ({ ...rest }) => {
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget count="01." title="Activity Tracking" text={'Always know how employees &<br class="d-none d-lg-block" /> freelancers are using the time you<br class="d-none d-lg-block" /> paid for.'}/>
+                    <TabContentWidget  title="As a Freelancer" text={'Sign up as a freelancer & use<br class="d-none d-lg-block" />our platform to find the<br class="d-none d-lg-block" />perfect job for you'}/>
                   </Col>
                   <Col
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget count="02." title="Daily email reports" text={"Verify that the person doing the work is<br class='d-none d-lg-block' />the one you hired, don't pay extra for<br class='d-none d-lg-block' /> subcontractors."}/>
+                    <TabContentWidget  title="As  Business" text={"Browse our marketplace to find<br class='d-none d-lg-block' />amazing talents that are going to<br class='d-none d-lg-block' /> help you tackle your projects"}/>
                   </Col>
                 </Row>
               </Tab.Pane>
@@ -80,13 +80,13 @@ const FeatureSection = ({ ...rest }) => {
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget count="03." title="Real data access" text={'Create custom landing pages with<br class="d-none d-lg-block" /> Fastland that converts more visitors <br class="d-none d-lg-block" /> than any website.'}/>
+                    <TabContentWidget  title="As a Freelancer" text={' Sign up as a freelancer & <br class="d-none d-lg-block" />use our platform to find the perfect<br class="d-none d-lg-block" /> job for you'}/>
                   </Col>
                   <Col
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget count="04." title="Data access real " text={'Create custom landing pages with<br class="d-none d-lg-block" /> Fastland that converts more visitors <br class="d-none d-lg-block" /> than any website.'}/>
+                    <TabContentWidget  title="As a Business " text={'Browse our marketplace to find<br class="d-none d-lg-block" /> amazing talents that are going <br class="d-none d-lg-block" /> to help you tackle your projects'}/>
                   </Col>
                 </Row>
               </Tab.Pane>
@@ -96,14 +96,14 @@ const FeatureSection = ({ ...rest }) => {
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget count="05." title="Real data access" text={'Create custom landing pages with<br class="d-none d-lg-block" /> Fastland that converts more visitors <br class="d-none d-lg-block" /> than any website.'}/>
+                    <TabContentWidget  title="Reports & Data" text={'Optimize your business with<br class="d-none d-lg-block" /> reports and analytics from all <br class="d-none d-lg-block" /> of your social media channels'}/>
                   </Col>
                   <Col
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                     
                   >
-                    <TabContentWidget count="06." title="Real access data " text={'Create custom landing pages with<br class="d-none d-lg-block" /> Fastland that converts more visitors <br class="d-none d-lg-block" /> than any website.'}/>
+                    <TabContentWidget  title="Lorem Ipsum " text={'simply dummy text of the printing<br class="d-none d-lg-block" />and typesetting industry. Lorem Ipsum has <br class="d-none d-lg-block" /> been the industry standard'}/>
                   </Col>
                 </Row>
               </Tab.Pane>

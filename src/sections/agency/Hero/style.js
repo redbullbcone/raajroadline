@@ -32,7 +32,7 @@ const Hero = styled(Box)`
         top: 0;
         height: 100%;
         z-index: -1;
-        width: 100%;
+        width: 100% !important;
         background-repeat:no-repeat;
         background-size: cover;
         @media (min-width:575px){
@@ -41,14 +41,9 @@ const Hero = styled(Box)`
     }
 
     .close{
-        margin-right:30px;
-        font-size:16px !important;
         box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
     }
-    .close2{
-        font-size:16px !important;
-        box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
-    }
+    
 
     @media (max-width:1239px){
         .close{
@@ -61,23 +56,25 @@ const Hero = styled(Box)`
     }
 
     .close {
-        border: 2px solid #ff5722;
-        outline: none;
-        font-size: 16px;
+        background: #ff5722;
+        font-size: 14px;
         font-weight: 500;
-        color: #2a2833;
+        color: #fff;
         padding: 15px 0;
         border-radius: 50px ;
         position: relative;
-        overflow:hidden;
         transition:0.5s all ease;
         z-index:1;
-        width: 200px;
+        width: 150px;
+
+        @media(min-width:768px){
+            font-size: 16px;
+            width: 200px;
+
+        }
     }
     .close:hover {
-        color: #fff;
-        background: #ff5722;
-        border: 2px solid #ff5722;
+        background:#f98c6a;
     }
 
     .business-hero span {
@@ -102,10 +99,10 @@ Hero.Subtitle = styled(Heading)`
 
 `
 Hero.Title = styled(Heading)`
-        font-size: 70px;
+        font-size: 36px;
         font-weight: 700;
         letter-spacing: normal;
-        line-height: 75px;
+        line-height: 40px;
         margin-bottom: 25px;
         color:black;
         @media (min-width:480px) {
@@ -119,19 +116,17 @@ Hero.Title = styled(Heading)`
         @media (min-width:992px){
             font-size: 60px;
             line-height: 60px;
+            font-weight:600;
+
         }
         
-
-        @media (min-width: 1024px) {
-           font-weight:600;
-           font-size:70px;
-           line-height:70px;
-          }
 
          @media (min-width: 1170px) {
             font-weight:600;
             font-size:60px;
             line-height:70px;
+            margin-bottom: 40px;
+
           }
           
          @media (min-width: 1400px) {
@@ -144,10 +139,10 @@ Hero.Title = styled(Heading)`
         
 `
 Hero.Text = styled(Paragraph)`
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: normal;
-    line-height: 30px;
+    line-height: 24px;
     margin-bottom: 10px;
     color:black;
 
@@ -212,7 +207,7 @@ Hero.Video = styled(Box)`
         }
 `
 Hero.Button = styled(Button)`
-    height: 56px;
+    height: 50px;
     font-size: 16px;
     transition:.4s;
    
@@ -222,6 +217,12 @@ Hero.Button = styled(Button)`
                 box-shadow: -12px 12px 50px rgb(96 1 211 / 0%)
             }
         }
+
+    @media(min-width:992px){
+        height: 56px;
+        font-size: 16px;
+        transition:.4s;
+    }
 `
 Hero.NewsletterText =styled(Box)`
     color:rgba(255,255,255,.7);
@@ -252,15 +253,19 @@ Hero.Newsletter =styled(Box)`
         padding-left:55px;
     }
     .btn{
-        height: 56px;
+        height: 50px;
         color:#fff;
-        margin-top:8px;
         border-radius:500px;
         left: 2px;
         @media (min-width:480px){
             position:relative;
             top: 0px;
             right: 8px;
+        }
+        @media (min-width:768px){
+            height: 56px;
+            margin-top:8px;
+            left: 2px;
         }
 
        

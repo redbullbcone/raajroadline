@@ -14,9 +14,21 @@ const Hero = styled(Box)`
     @media (min-width:992px){
         padding-top: 185px;
         padding-bottom: 180px;
+        height:659px;
+
     }
 
-    @media (min-width:1200px) {
+    @media (min-width:1170px) {
+        padding-top: 152px;
+        height:724px;
+    }
+
+    @media (min-width:1270px) {
+        padding-top: 152px;
+        height:724px;
+    }
+
+    @media (min-width:1400px) {
         padding-top: 220px;
         height:975px;
     }
@@ -29,13 +41,15 @@ const Hero = styled(Box)`
 `
 Hero.Title = styled(Heading)`
     font-size: 38px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: -0.5px;
     line-height: 1.2068;
     margin-bottom: 21px;
     color: #25373f;
+
     @media (min-width:768px) {
-      font-size: 48px;
+        font-size: 45px;
+        font-weight: 700;
     }
 
     @media (min-width:992px) {
@@ -45,13 +59,19 @@ Hero.Title = styled(Heading)`
 
     @media (min-width:1170px){
         font-weight: 700;
-        font-size: 70px;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    @media (min-width:1270px){
+        font-weight: 700;
+        font-size: 60px;
         line-height: 70px;
     }
     @media (min-width:1400px){
         font-weight: 700;
         font-size: 70px;
         line-height: 70px;
+        margin-top: 56px;
     }
 `
 Hero.Subtitle = styled(Heading)`
@@ -62,22 +82,76 @@ Hero.Subtitle = styled(Heading)`
     margin-bottom: 28px;
 `
 Hero.Text = styled(Paragraph)`
-    font-size: 21px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: normal;
-    line-height: 34px;
-    margin-top: 56px;
+    line-height: 28px;
+    margin-top: 15px;
+
+    @media (min-width:768px){
+        font-size: 16px;
+        line-height: 32px;
+        margin-top:30px;
+    }
+
+    @media (min-width:992px){
+        font-size: 16px;
+        line-height: 32px;
+        margin-top:30px;
+    }
+
+    @media (min-width:1170px){
+        font-size: 18px;
+        line-height:34px;
+    }
+
+    @media (min-width:1270px){
+        font-size: 18px;
+        line-height:34px;
+    }
+
+    @media (min-width:1400px){
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 34px;
+
+    }
 `
 
 
 Hero.Button = styled(Button) `
-    width: 266px;
+    width: 175px;
     height: 56px;
     margin-bottom: 20px;
     margin-right: 15px;
     border-radius:50px;
     box-shadow: -8px 8px 50px rgb(255 87 34 / 50%);
-    font-size:21px;
+    font-size:14px;
+
+    @media(min-width:768px){
+        font-size: 16px;
+        width: 200px;
+    }
+
+    @media (min-width:992px){
+        width: 199px;
+        font-size: 16px;
+    }
+
+    @media (min-width:1170px){
+        width: 210px;
+        font-size:18px;
+    }
+
+    @media (min-width:1270px){
+        width: 210px;
+        font-size:18px;
+    }
+
+    @media (min-width:1400px){
+        width: 266px;
+        font-size:21px;
+    }
 
 `
 Hero.BtnGroup = styled(Box)`

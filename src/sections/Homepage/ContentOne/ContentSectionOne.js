@@ -33,7 +33,7 @@ export default function ContentSectionOne({heading,content},{...rest}){
         <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text1}</Content.Text></div>
         <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text2}</Content.Text></div>
         <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text3}</Content.Text></div>
-        <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
+        <Button className="blue-close" textTransform="capitalized">Learn More</Button>
         {/* <Content.Button></Content.Button> */}
       </Col>
       

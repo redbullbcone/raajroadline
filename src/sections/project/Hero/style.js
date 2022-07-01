@@ -2,10 +2,11 @@ import styled from 'styled-components';
 import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Hero = styled(Box)`
-    padding-top: 100px;
-    padding-bottom: 0;
-    position: relative;
-    margin-bottom: -111px;
+        padding-top: 100px;
+        padding-bottom: 49px;
+        position: relative;
+        margin-bottom: -59px;
+
 
 
     @media (min-width: 768px) {
@@ -26,6 +27,8 @@ const Hero = styled(Box)`
     @media (min-width: 1366px) {
         padding-top: 120px;
         padding-bottom: 0;
+        margin-bottom: -111px;
+
     }
 
     .green-circle{
@@ -79,7 +82,7 @@ Hero.Title = styled(Heading)`
     font-weight: 500;
     letter-spacing: -2px;
     line-height: 1.1;
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 25px;
     z-index: 1;
     position: relative;
@@ -87,6 +90,8 @@ Hero.Title = styled(Heading)`
     font-weight:700;
     padding-bottom:20px;
     position:relative;
+
+
     @media (min-width: 480px) {
         font-size: 32px;
         line-height:32px;
@@ -97,7 +102,7 @@ Hero.Title = styled(Heading)`
     }
 
     @media (min-width: 992px){
-        font-size: 54px;
+        font-size: 50px;
         line-height:54px;
     }
     @media (min-width: 1170px){
@@ -125,13 +130,25 @@ width: 18.5%;
 
 Hero.Text = styled(Paragraph)`
 color: var(--color-texts-3);
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
 letter-spacing: normal;
-line-height: 34px;
+line-height: 24px;
 margin-bottom:0px;
+
+top: 30px;
+position: relative;
+
+@media (min-width: 768px){
+    font-size: 18px;
+    top: 0;
+    line-height: 27px;
+}
+
 @media (min-width: 768px){
     font-size: 21px;
+    top: 0;
+    line-height: 30px;
 }
 `
 
@@ -153,27 +170,38 @@ position:relative;
 Hero.Button = styled(Button)`
     position: relative;
     text-align: center;
-    left: 36%;
+    left: 26%;
     right: auto;
     border-radius: 50px !important;
     top: 0px;
     padding: 16px 20px !important;
-    margin-top:10px;
-    width: 230px;
-    font-size: 21px;
+    margin-top: 10px;
+    width: 165px;
+    font-size: 14px;
     box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
 
     &:hover {
         color: #fff;
-        background: #4e92f9;
-        border: 2px solid #4e92f9;
+        background: #ff7043;
+    }
+
+    @media(min-width:992px){
+        width: 200px;
+        font-size: 16px;
+        left: 38%;
+    }
+    @media(min-width:1400px){
+        width: 230px;
+        font-size: 21px;
     }
 `
 Hero.Image = styled(Box)`
     position: relative;
     right: 0;
-    left: 360px;
-    bottom: 110px;
+    left: 167px;
+    bottom: 9px;
+    width: 60%;
+}
     @media (min-width: 480px) {
         
     }
@@ -182,11 +210,14 @@ Hero.Image = styled(Box)`
     }
     @media (min-width: 992px) {
         margin-top: 30px;
-        left:240px;
+        left: 295px;
+        bottom: 58px;
+        width: 90%;
     }
     @media (min-width: 1170px) {
         left:320px;
         margin-top: 10px;
+        bottom: 110px;
     }
     @media (min-width: 1270px) {
         left:340px;
@@ -205,10 +236,31 @@ Hero.ImageShape01 = styled(Box)`
 `
 Hero.ImageShape02 = styled(Box)`
     position: absolute;
-    left: -4%;
-    bottom: 10%;
+    left: 0%;
+    bottom: 7%;
     z-index: 0;
-    width: auto;
+    width: 20%;
+
+    @media(min-width:992px){
+        left: -4%;
+        bottom: 7%;
+        z-index: 0;
+        width: auto;
+    }
+
+    @media(min-width:1170px){
+        left: -4%;
+        bottom: 10%;
+        z-index: 0;
+        width: auto;
+    }
+
+    @media(min-width:1400px){
+        left: -4%;
+        bottom: 10%;
+        z-index: 0;
+        width: auto;
+    }
 `
 
 Hero.ImageShape03 = styled(Box)`
