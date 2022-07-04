@@ -8,12 +8,17 @@ const Counter = styled(Box)`
 
 @media (min-width: 1024px){
     padding-bottom: 111px;
-s}
+}
 .partners-logo-heading{
   font-weight: 700;
-font-size: 60px;
-line-height: 54px;
+font-size: 32px;
+line-height: 40px;
 text-align: center;
+
+@media(min-width:992px){
+  font-size: 60px;
+line-height: 54px;
+}
 }
 .new-partner-logo{
   width: auto;

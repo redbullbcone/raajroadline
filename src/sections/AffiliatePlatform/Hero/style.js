@@ -26,7 +26,7 @@ const Hero = styled(Box)`
     &:before {
         content: "";
         background-image: ${props => props.overlay ? `url(${props.overlay})` : null};
-        background-position: center right;
+        background-position: left top;
         position: absolute;
         left: 0;
         top: 0;
@@ -35,41 +35,13 @@ const Hero = styled(Box)`
         width: 100%;
         background-repeat:no-repeat;
         background-size: cover;
+
+
         @media (min-width:575px){
-            width: 50%;
+            width: 100%;
+        background-position: center right;
+
         }
-    }
-
-    .cta-close{
-        border: 3px solid #ff5722;
-        outline: none;
-        color: #2a2833;
-        position: relative;
-        overflow:hidden;
-        transition:1s all ease;
-        z-index:1;
-        width:220px;
-        margin-right:69px;
-
-    }
-
-    .cta-close:hover{
-        background-color:#ff5722;
-    }
-
-    .cta-close2{
-        border: 3px solid #1A75FF;
-        outline: none;
-        color: #2a2833;
-        position: relative;
-        overflow:hidden;
-        transition:1s all ease;
-        z-index:1;
-        width:220px;
-    }
-
-    .cta-close2:hover{
-        background-color:#1A75FF;
     }
 
     
@@ -88,7 +60,53 @@ const Hero = styled(Box)`
     .business-hero span {
         color:#FF5722;
     }
-    
+    .close{
+        margin-right:30px;
+        color:#fff !important;
+        box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
+        background:#ff5722;
+        transition: 0.5s all ease;
+        width:120px;
+
+        @media(min-width:992px){
+            margin-right:30px;
+            color:#fff !important;
+            box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
+            background:#ff5722;
+            transition: 0.5s all ease;
+            width:160px;
+        }
+
+        @media(min-width:1400px){
+            width:220px;
+        }
+    }
+    .close2{
+        box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
+        transition: 0.5s all ease;
+        color:#fff !important;
+        width:115px;
+        background: #1A75FF;
+
+        @media(min-width:992px){
+            box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
+            transition: 0.5s all ease;
+            color:#fff !important;
+            width:150px;
+            background: #1A75FF;
+        }
+       
+        @media(min-width:1400px){
+            width:215px;
+        }
+    }
+    .close:hover {
+        background: #f98c6a;
+    }
+
+    .close2:hover{
+    background: #4e92f9;
+    }
 
 
 `
@@ -107,10 +125,10 @@ Hero.Subtitle = styled(Heading)`
 
 `
 Hero.Title = styled(Heading)`
-        font-size: 70px;
+        font-size: 50px;
         font-weight: 700;
         letter-spacing: normal;
-        line-height: 75px;
+        line-height: 50px;
         margin-bottom: 25px;
         color:black;
         @media (min-width:480px) {
@@ -149,12 +167,13 @@ Hero.Title = styled(Heading)`
         
 `
 Hero.Text = styled(Paragraph)`
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: normal;
-    line-height: 30px;
+    line-height: 24px;
     margin-bottom: 10px;
     color:black;
+    opacity:.7;
 
     b{
         font-weight:700;
@@ -164,6 +183,7 @@ Hero.Text = styled(Paragraph)`
     @media (min-width:992px){
         font-size: 16px;
         line-height: 24px;
+
     }
 
     @media (min-width: 1024px) {
@@ -217,7 +237,7 @@ Hero.Video = styled(Box)`
         }
 `
 Hero.Button = styled(Button)`
-    height: 56px;
+    height: 70px;
     font-size: 16px;
     transition:.4s;
    
@@ -257,16 +277,27 @@ Hero.Newsletter =styled(Box)`
         padding-left:55px;
     }
     .btn{
-        height: 56px;
-        color:#000;
-        font-size: 21px;    
+        height: 50px;
+        color:#fff;
+        font-size: 14px;    
         margin-top:8px;
         border-radius:500px;
         left: 2px;
-        @media (min-width:480px){
+
+        @media (min-width:992px){
             position:relative;
             top: 0px;
             right: 8px;
+            height: 50px;
+            font-size:16px;
+
+        }
+        
+        @media (min-width:1400px){
+            font-size:21px;
+            height: 70px;
+
+
         }
 
        

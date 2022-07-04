@@ -23,8 +23,8 @@ return(
             <Form className="hero-form d-flex justify-content-between flex-row">
               <Hero.Box className="d-flex">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="cta-close" textTransform="capitalized">Apply Now</Button>
-                      <Button className="cta-close2" textTransform="capitalized">Book a Demo</Button>
+                      <Button className="close" textTransform="capitalized">Apply Now</Button>
+                      <Button className="close2" textTransform="capitalized">Book a Demo</Button>
                     
               </Hero.Box>
               {/* <Hero.NewsletterButton className="btn-torch-red" as={Link} to="/">Start for free</Hero.NewsletterButton> */}

@@ -26,7 +26,7 @@ const Hero = styled(Box)`
     &:before {
         content: "";
         background-image: ${props => props.overlay ? `url(${props.overlay})` : null};
-        background-position: center right;
+        background-position: left top;
         position: absolute;
         left: 0;
         top: 0;
@@ -37,6 +37,8 @@ const Hero = styled(Box)`
         background-size: cover;
         @media (min-width:575px){
             width: 50%;
+            background-position: center right;
+
         }
     }
 

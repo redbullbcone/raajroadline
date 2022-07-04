@@ -32,10 +32,9 @@ const Testimonial = styled(Box)`
     }
 `
 Testimonial.Title = styled(Heading)`
-    font-size: 60px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: normal;
-    font-size:24px;
     line-height: 1;
     position:relative;
     padding-bottom: 0px;

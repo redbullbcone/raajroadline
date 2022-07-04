@@ -12,16 +12,34 @@ const Service = styled(Box)`
     }
 
     .earn-from-section{
-        width: 632px;
+        width: 100%;
+        left: 1px;
+        padding: 30px;
         height: 670px;
         background: #F4F9FC;
         border-radius: 15px;
         position: relative;
-        top: 50px;
-        right: 40px;
-        padding-left: 45px;
-        padding-top: 52px;
-        padding-bottom: 63px;
+        
+
+        @media(min-width:992px){
+            font-size: 36px;
+            margin-bottom: 36px;
+            width: calc(100% + 100px);
+            left: 1px;
+            padding-right: 112px;
+            top: 50px;
+            right: 40px;
+
+
+        }
+
+        @media(min-width:1170px){
+            font-size: 36px;
+            margin-bottom: 36px;
+            width: calc(100% + 100px);
+            left: 1px;
+        }
+
     }
 
     .earn-from-section{
@@ -61,25 +79,26 @@ const Service = styled(Box)`
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 21px;
-        line-height: 40px;
+        font-size: 16px;
+        line-height: 32px;
         opacity: 0.7;
         width:100%;
         margin-top:45px;
         margin-bottom: 45px;
         @media (min-width:992px) {
-            font-size:14px;
-            width:95%;
+            font-size: 16px;
+            width: 100%;
+            line-height: 30px;
         }
         @media (min-width:1170px) {
             font-size:16px;
             line-height:32px;
-            width:61%;
+            width:88%;
         }
         @media (min-width:1270px) {
             font-size:16px;
             line-height:32px;
-            width:61%;
+            width:88%;
         }
         @media (min-width:1400px) {
             font-size:21px;
@@ -94,11 +113,24 @@ const Service = styled(Box)`
         border-radius: 50px;
         color: #fff;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height:32px;
         border: none;
-        width: 180px;
-        height: 56px;
+        width: 125px;
+        padding: 15px 30px;
+        transition: 1s all ease;
+
+        @media(min-width:992px){
+            width:160px;
+        }
+
+        @media(min-width:1400px){
+            width:180px;
+        }
+    }
+
+    .blue-button-affi:hover{
+        background:#4e92f9;
     }
 
     .img-height{

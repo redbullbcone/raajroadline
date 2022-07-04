@@ -28,11 +28,10 @@ const Content = styled(Box)`
 
 
     font-weight: 700;
-    font-size: 32px !important;
-    line-height: 42px !important;
+    font-size: 28px !important;
+    line-height: 32px !important;
     letter-spacing: -1px;
-    padding-top: 20px;
-
+    margin-top:20px;
 @media(min-width:992px){
   font-size:40px;
   line-height:60px;
@@ -185,11 +184,12 @@ const Content = styled(Box)`
 `;
 Content.Title = styled(Heading)`
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 70px !important;
   position: relative;
+
   @media (min-width: 768px) {
-    font-weight: 700;
+  font-weight: 700;
   font-size: 70px;
   line-height: 66px;
   }
@@ -217,8 +217,8 @@ Content.Subtitle = styled(Heading)`
 Content.Text = styled(Paragraph)`
  
 font-weight: 400;
-font-size: 18px;
-line-height: 32px;
+font-size: 16px;
+line-height: 30px;
 opacity: 0.7;
   @media (min-width: 768px) {
     font-size: 18px;
@@ -246,6 +246,20 @@ Content.Button = styled(Button)`
   border-radius: 50px !important;
   box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
   transition: 0.5s all ease;
+  font-size: 14px;
+  padding: 10px 10px;
+  min-width: 122px;
+  height: 50px;
+
+  @media(min-width:992px){
+    min-width: 168px;
+    height: 56px;
+    color: #fff !important;
+    background-color: #1974FF !important;
+    border-radius: 50px !important;
+    box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
+    transition: 0.5s all ease;
+  }
   
   &:hover{
     background:#4e92f9 !important;

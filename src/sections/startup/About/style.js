@@ -79,7 +79,7 @@ const About = styled(Box)`
     }
 
     .section-affiliate {
-        margin:40px 0 40px;
+        margin-top: -120px;
         @media (min-width: 576px) {
             margin:40px 0 40px;
         }
@@ -87,6 +87,7 @@ const About = styled(Box)`
             margin:50px 0 50px;
         }
         @media (min-width: 992px) {
+            margin:40px 0 40px;
             margin:60px 0 60px;
         }
         @media (min-width: 1170px) {
@@ -102,22 +103,37 @@ const About = styled(Box)`
     .affi-image {}
 
 
-    .button-affiliate {
-        color: #fff;
+    .blue-button-affi:hover{
+        background:#4e92f9 !important;
+      
+      }
+
+
+    .blue-button-affi {
         background: #1A75FF;
-        border-radius: 50px;
-        padding: 15px 30px;
-        border-color: #1A75FF !important;
         box-shadow: -8px 8px 50px rgb(80 52 252 / 50%);
-        width: 180px;
-        height: 56px;
+        border-radius: 50px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:32px;
+        border: none;
+        width: 125px;
+        padding: 15px 30px;
+        transition: 1s all ease;
+
+        @media(min-width:992px){
+            width:160px;
+        }
+
+        @media(min-width:1400px){
+            width:180px;
+        }
+
     }
-    .button-affiliate:hover {
-        border-color:#1A75FF !important;
-    }
-    .button-affiliate:active {
-        border-color:#1A75FF !important;
-    }
+    
+
+    
     
 
 
@@ -130,7 +146,13 @@ const About = styled(Box)`
         margin-bottom:40px;
     }
     .para-background-color1 {
-        background: #F4F9FC;
+        background: #F4F9FC;    
+        margin-top: 30px;
+
+        @media(min-width:992px){
+            margin-top:0;
+        }
+
     }
     .para-background-color1 h2,
     .para-background-color2 h2 {
@@ -164,8 +186,8 @@ const About = styled(Box)`
     .para-background-color2 p {
         width:100%;
         font-weight: 400;
-        font-size: 21px;
-        line-height: 40px;
+        font-size: 16px;
+        line-height: 32px;
         opacity: 0.7;
         margin-bottom: 55px;
         margin-top: 48px;
@@ -173,11 +195,13 @@ const About = styled(Box)`
         @media (min-width: 576px) {
             width:95%;
         }
-        @media (min-width: 768x) {
+        @media (min-width: 768px) {
             width:90%;
         }
         @media (min-width: 992px) {
             width:85%;
+            font-size: 16px;
+            line-height: 30px;
         }
         @media (min-width: 1170px) {
             font-size: 18px;
@@ -198,6 +222,11 @@ const About = styled(Box)`
         background: #FFD2CB;
         width: 100%;
         height: auto;
+        margin-top: 30px;
+
+        @media(min-width:992px){
+            margin-top: 0;
+        }
     }
 
     .ImageOne {
@@ -215,13 +244,21 @@ const About = styled(Box)`
           width: 50%;
           transform: skewX(-15deg);
         }
-        @media (min-width: 1024px) {
-          margin-bottom: 0;
-          width: 38%;
+        @media(min-width:992px){
+            width: 30%;
+            left: 100px;
+            top:-57px;
+        }
+        @media (min-width: 1170px) {
+            margin-bottom: 0;
+            width: 35%;
+            left: 133px;
+            top:-47px;
         }
         @media (min-width: 1400px) {
             margin-bottom: 0;
             width: 41%;
+            left:0;
         }
       
      }
@@ -231,57 +268,82 @@ const About = styled(Box)`
         height: 100%;
         position: relative;
         top: 0;
-        left:-40%;
+        left:-53%;
         transform: skewX(9deg);
         @media (min-width: 575px) {
           left: -40%;
-          width: 200%;
         }
 
         @media (min-width: 1400px) {
-            left: -36%;
+            left: -24%;
           }
 
         img{
             height: 466.58px;
+
+            @media(min-width:992px){
+                height: 351.58px;
+            }
+            @media(min-width:1170px){
+                height: 438.58px;
+
+            }
         }
 
       }
       .tilt-image-sec{
         display: flex;
         position: relative;
-        right: 0;
-        left: 80px;
-        width: 700px;
-        left: 1px;
+        left: -50px;
+        
+
+        @media(min-width:992px){
+            right: 0;
+            left: 80px;
+            width: 700px;
+            left: 1px;
+        }
       }
 
       .image-one-down{
         top: 30px;
         height: 100%;
+    
+
       }
 
       .second-sec {
-        width: 632px;
-        height: 662px;
+        padding: 30px;
         background: #F4F9FC;
         border-radius: 15px;
-        padding-top: 58px;
-        padding-left: 48px;
+        
+
+        @media(min-width:992px){
+            width: 632px;
+            height: 662px;
+            padding-top: 58px;
+            padding-left: 48px;
+        }
 
         h1{
             font-weight: 500;
             font-size: 45px;
             line-height: 54px;
 
+            @media(min-width:992px){
+                font-size: 32px;
+                line-height: 45px;
+            }
+
             @media (min-width: 1170px) {
-            font-size: 45px;
+                font-size: 45px;
+                line-height: 54px;
 
             }
 
             @media (min-width: 1400px) {
                 font-size: 45px;
-
+                line-height: 54px;
             }
 
         }
@@ -290,11 +352,25 @@ const About = styled(Box)`
         }
         p{
             font-weight: 400;
-            font-size: 21px;
-            line-height: 40px;
+            font-size: 18px;
+            line-height: 32px;
             opacity: 0.7;
             margin-top: 48px;
             margin-bottom: 55px;
+
+            @media(min-width:992px){
+                font-size: 16px;
+                line-height: 30px;
+                width: 63%;
+            }
+
+            @media(min-width:1170px){
+                font-size: 18px;
+                line-height: 32px;
+                margin-top: 48px;
+                margin-bottom: 55px;
+                width: 75%;
+            }
         }
       }
 `;
@@ -305,15 +381,23 @@ About.SubTitle = styled(Heading)`
 About.Title = styled(Heading)`
 `;
 
+About.Button = styled(Button)`
+ 
+& hover:{
+    background:#4e92f9;
+}
+
+`;
+
 About.Content = styled(Heading)`
-    padding: 80px 30px 80px 100px;
+    padding: 30px;
     z-index:-1;
     border-radius: 15px;
     position: relative;
-    width: 105% !important;
-    left: -30px;
     @media (min-width: 576px) {
         padding:60px 30px 60px 60px;
+        left: -30px;
+
     }
     @media (min-width: 768x) {
         padding:60px 30px 60px 60px;

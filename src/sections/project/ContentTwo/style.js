@@ -33,7 +33,7 @@ const Content = styled(Box)`
     position: absolute;
     width: 7.4%;
     top: 88px;
-    left: -0.8%;
+    left: -1.8%;
   }
   .backcolor3 {
     padding: 100px 0px;

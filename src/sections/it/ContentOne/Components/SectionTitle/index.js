@@ -8,7 +8,7 @@ return(
              <SuperTag value={subTitle}/>
         </SectionTitle.Subtitle> */}
         <SectionTitle.Main {...titleProps}>
-        <span className="blue-txt"> {title3}</span><SuperTag value={title}/> 
+        <span className="blue-txt"> {title3} &nbsp;</span><SuperTag value={title}/> 
           &nbsp;<SuperTag value={title2} className="blue-txt" />
         </SectionTitle.Main>
         {text ? <SectionTitle.Text {...textProps}>

@@ -29,22 +29,22 @@ return(
     <Footer.Title>How it works: </Footer.Title>
     <Footer.List>
         <Footer.ListItems>
-            <Link to="/">Businesses</Link>
+            <Link to="/businesses">Businesses</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Freelancers</Link>
+            <Link to="/freelancers">Freelancers</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Agencies</Link>
+            <Link to="/agencies">Agencies</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Interns</Link>
+            <Link to="/interns">Interns</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Recruitment Agencies</Link>
+            <Link to="/recruitment-agency">Recruitment Agencies</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Affiliate Program</Link>
+            <Link to="/affiliate-program">Affiliate Program</Link>
         </Footer.ListItems>
     </Footer.List>
 </Footer.Widgets>
@@ -54,22 +54,22 @@ return(
     <Footer.Title>Features</Footer.Title>
     <Footer.List>
         <Footer.ListItems>
-            <Link to="/">Marketplace</Link>
+            <Link to="/marketplace">Marketplace</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">AI Auditor</Link>
+            <Link to="/ai-auditor">AI Auditor</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Hire Interns</Link>
+            <Link to="/hire-interns">Hire Interns</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Employee Monitoring</Link>
+            <Link to="/employee-monitoring">Employee Monitoring</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Prepaid Virtual Cards</Link>
+            <Link to="/prepared-virtual-card">Prepaid Virtual Cards</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Microsoft Advertising</Link>
+            <Link to="/microsoft-ads">Microsoft Advertising</Link>
         </Footer.ListItems>
     </Footer.List>
 </Footer.Widgets>
@@ -79,7 +79,7 @@ return(
         <Footer.Title>Resources</Footer.Title>
         <Footer.List>
         <Footer.ListItems>
-            <Link to="/">Pricing</Link>
+            <Link to="/pricing">Pricing</Link>
         </Footer.ListItems>
         <Footer.ListItems>
             <Link to="/">Privacy Policy</Link>
@@ -88,7 +88,7 @@ return(
             <Link to="/">Terms and Conditions</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
         </Footer.ListItems>
         <Footer.ListItems>
             <Link to="/">Tutorial Videos</Link>
