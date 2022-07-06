@@ -28,7 +28,7 @@ return(
     <img className="w-100" src="image/intern/green-half-circle.png" alt="inner shape" />
   </Promo.Shape>
 
-  <div>
+  <div className='yellow-shape'>
     <img src="image/intern/yellow-shape.png" alt="inner shape"  />
   </div>
 

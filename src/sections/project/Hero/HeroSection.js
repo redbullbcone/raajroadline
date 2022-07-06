@@ -17,7 +17,7 @@ export default function HeroSection(){
       <Col xs="12" className="col-xl-8 col-lg-11">
         <Hero.ContentBlock mb="0px">
           <span className='bigcircle'></span>
-          <Hero.Title as="h1"> Global Virtual <br /> Internships</Hero.Title>
+          <Hero.Title as="h1"><span className="orange">Global Virtual</span> <br /> Internships</Hero.Title>
           <Hero.Text> <SuperTag value="We Match Global Companies to your profile so you can get<br><b> Valuable Experience & a Certificate of Completion.</b>"/>
           <div className='green-circle'></div>
           </Hero.Text>

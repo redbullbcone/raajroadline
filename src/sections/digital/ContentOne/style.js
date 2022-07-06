@@ -6,6 +6,17 @@ const Content = styled(Box)`
     color:#1A75FF;
 }
 
+.image-one{
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: 10px;
+
+    &:hover{
+        box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+       margin-top:0;
+    }
+}
+
 `
 Content.InnerBlock = styled(Box)`
     padding-top: 60px;
@@ -100,6 +111,9 @@ Content.ContentTextBlock = styled(Box)`
 `
 Content.ImageOne= styled(Box)`
     position:relative;
+  
+
+ 
 `
 Content.ImageTwo = styled(Box)`
     position:relative;

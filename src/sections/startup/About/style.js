@@ -100,7 +100,37 @@ const About = styled(Box)`
             margin:80px 0 80px;
         }
     }
-    .affi-image {}
+    .affi-image2 {
+        position: relative;
+        width: 100%;
+        top: 51px;
+
+        @media (min-width: 992px) {
+            left: -57px;
+            top: 24px;
+            position: relative;
+            width: calc(100% + 129px);
+
+        }
+        @media (min-width: 1170px) {
+            width: calc(100% + 83px);
+            left: 5px;
+            top: 0;
+        }
+        @media (min-width: 1270px) {
+            left: 5px;
+            top: 0;
+        }
+        @media (min-width: 1400px) {
+            left: -68px;
+            top: 8px;
+            width: calc(100% + 153px);
+            position: relative;
+
+        }
+
+       
+    }
 
 
     .blue-button-affi:hover{
@@ -116,13 +146,15 @@ const About = styled(Box)`
         color: #fff;
         font-weight: 500;
         font-size: 16px;
-        line-height:32px;
+        line-height: 24px;
         border: none;
-        width: 125px;
+        width: 148px;
         padding: 15px 30px;
         transition: 1s all ease;
 
         @media(min-width:992px){
+            font-size: 16px;
+            line-height:32px;
             width:160px;
         }
 
@@ -132,12 +164,6 @@ const About = styled(Box)`
 
     }
     
-
-    
-    
-
-
-
 
     .section-affiliate2 {
         background: #F6FBFF;
@@ -219,7 +245,7 @@ const About = styled(Box)`
 
 
     .para-background-color2 {
-        background: #FFD2CB;
+        background: #F4F9FC;;
         width: 100%;
         height: auto;
         margin-top: 30px;
@@ -227,7 +253,63 @@ const About = styled(Box)`
         @media(min-width:992px){
             margin-top: 0;
         }
+
+        h1{
+            font-weight: 500;
+            font-size: 45px;
+            line-height: 54px;
+
+            @media(min-width:992px){
+                font-size: 32px;
+                line-height: 45px;
+            }
+
+            @media (min-width: 1170px) {
+                font-size: 45px;
+                line-height: 54px;
+
+            }
+
+            @media (min-width: 1400px) {
+                font-size: 45px;
+                line-height: 54px;
+            }
+
+        }
+        b{
+            color: #1A75FF;
+        }
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            opacity: 0.7;
+            margin-top: 48px;
+            margin-bottom: 55px;
+
+            @media(min-width:992px){
+                font-size: 16px;
+                line-height: 30px;
+                width: 63%;
+            }
+
+            @media(min-width:1170px){
+                font-size: 18px;
+                line-height: 32px;
+                margin-top: 48px;
+                margin-bottom: 55px;
+                width: 75%;
+            }
+        }
     }
+
+     h1{
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 54px;
+    }
+
+    
 
     .ImageOne {
         width: 100%;
@@ -314,7 +396,7 @@ const About = styled(Box)`
 
       .second-sec {
         padding: 30px;
-        background: #F4F9FC;
+        background: #fff;
         border-radius: 15px;
         
 
@@ -441,6 +523,10 @@ About.Image = styled(Box)`
     }
     @media (min-width: 1400px) {
         width:100%;
+    }
+
+    img{
+        border-radius: 15px;
     }
 `;
 

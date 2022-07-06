@@ -7,7 +7,10 @@ const Hero = styled(Box)`
         position: relative;
         margin-bottom: -59px;
 
-
+    .orange{
+        color:#FF5722;
+        margin-bottom: 0;
+    }
 
     @media (min-width: 768px) {
         padding-top: 120px;

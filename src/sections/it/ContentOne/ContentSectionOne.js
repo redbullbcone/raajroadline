@@ -10,7 +10,7 @@ return(
       <div className='d-flex section1'>
       <Col className="col-xl-7 col-lg-7 col-md-7 col-xs-7 order-2 order-lg-1 ">
         <Content.Box className="txt-card1">
-        <SectionTitle title="Stand" title2="out" text="Building an amazing profile is your most valuable resource. Present yourself the best way possible so business have a strong reason to go after you. Share your career experience, define your skills and use your portfolio to show examples of your work and to draw more attention to your profile!"
+        <SectionTitle title="Stand" title2="Out" text="Building an amazing profile is your most valuable resource. Present yourself the best way possible so business have a strong reason to go after you. Share your career experience, define your skills and use your portfolio to show examples of your work and to draw more attention to your profile!"
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />
         </Content.Box>
@@ -90,9 +90,8 @@ return(
     <div className=" d-flex main-section3" >
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
         <Content.Box className="txt-card5">
-        <SectionTitle title3="Proof" title="of Work"  text="Your work hours are automatically tracked to make sure you are paid accordingly to the effort and time spent on the project. Keep the clients constantly updated while meeting their expectations. Never be underpaid again and be properly compensated for your work!"
-        titleProps={{mb:"10px",as:"h2"}}
-        mb="69px" />
+        <h3><span className='blue-h3'>Proof</span> of Work</h3>
+        <p>Your work hours are automatically tracked to make sure you are paid accordingly to the effort and time spent on the project. Keep the clients constantly updated while meeting their expectations. Never be underpaid again and be properly compensated for your work!</p>
         </Content.Box>
         
       </Col>

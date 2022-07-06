@@ -189,7 +189,7 @@ Hero.Text = styled(Paragraph)`
         line-height: 24px;
     }
     @media (min-width: 1024px) {
-        font-weight:600;
+        font-weight:4 00;
         font-size:18px;
         line-height:27px;
        }

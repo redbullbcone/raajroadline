@@ -10,7 +10,7 @@ return(
     <Row>
       <Col className="col-xl-12 col-lg-12 text-center">
         <Feature.Box>
-          <SectionTitle title="Our" title2="Support" titleProps={{mb:"33px"}}/>
+          <SectionTitle title="Our Support" titleProps={{mb:"33px"}}/>
         </Feature.Box>
       </Col>
     </Row>

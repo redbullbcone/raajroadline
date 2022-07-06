@@ -20,8 +20,17 @@ text-align: center;
 line-height: 54px;
 }
 }
-.new-partner-logo{
+.partner-logo{
   width: auto;
+  height: 56px;
+}
+
+.partner-logo:focus{
+  border:0;
+}
+
+.slider{
+  width: auto !important;
   height: 56px;
 }
 
@@ -29,6 +38,8 @@ line-height: 54px;
 Counter.Single=styled(Box).attrs({className:"counter-single"})`
 margin-bottom: 30px;
 flex-direction: column;
+
+margin-top:50px;
 
 @media (min-width: 1024px){
   margin-bottom: 0;
@@ -60,7 +71,6 @@ font-weight: 400;
 letter-spacing: normal;
 line-height: 1.5;
 color:inherit;
-
 
   padding-top:50px;
 

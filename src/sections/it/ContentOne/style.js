@@ -111,6 +111,37 @@ const Container = styled(Box)
         position: relative;
         padding: 20px;
         margin-top: -30px;
+
+        h3{
+            margin-bottom: 24px;
+        }
+        p{
+            font-size: 14px;
+font-weight: 400;
+letter-spacing: normal;
+line-height:24px;
+color:inherit;
+padding-left: 6px;
+
+
+
+@media(min-width:992px){
+    font-size:14px;
+}
+
+@media(min-width:1120px){
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+@media(min-width:1400px){
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+        }
     }
 
 
@@ -242,6 +273,10 @@ const Container = styled(Box)
             padding-top: 60px;
             padding-right: 106px;
         }
+    }
+
+    .blue-h3{
+        color:#1A75FF;
     }
 
 

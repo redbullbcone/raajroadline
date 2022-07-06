@@ -4,6 +4,10 @@ import { Heading, Box, Paragraph } from '~styled'
 const SectionTitle = styled(Box)`
 .blue-txt{
     color:#1A75FF;
+    margin-left: 5px;
+}
+.blue-txt1{
+    color:#1A75FF;
 }
 `
 SectionTitle.Text = styled(Paragraph)`
@@ -12,6 +16,7 @@ font-weight: 400;
 letter-spacing: normal;
 line-height:24px;
 color:inherit;
+padding-left: 6px;
 
 
 

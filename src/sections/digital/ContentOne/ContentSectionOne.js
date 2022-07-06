@@ -21,8 +21,11 @@ export default function ContentSectionOne() {
                   <img
                     src="image/home-digital-agency/young-business.png"
                     alt="content"
-                    className="w-100"
+                    className="w-100 image-one"
                   />
+                  <div class="glow-wrap">
+                      <i class="glow"></i>
+                  </div>
                 </Content.ImageOne>
               </Content.Box>
             </Col>

@@ -246,7 +246,7 @@ const Service = styled(Box)`
 
 
     .icon-group > .pinkBg {
-        background: #f97ea4;
+        background: #FD346E;
         box-shadow: 0 8px 16px 0 #fed1df, 0 6px 20px 0 #fed1df;
     }
     .icon-group > .pinkBg .business-card-img {

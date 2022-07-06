@@ -13,7 +13,7 @@ return(
       <Col xs="12" className="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-xs-11">
         <div className="welcome-content welcome-content--l3">
         
-          <Hero.Title>Find the <span className='orange-text'>perfect</span><br className="d-none d-xs-block" /> freelance projects<br className="d-none d-xs-block" /><span  className='orange-text'>for you!</span></Hero.Title>
+          <Hero.Title>Find the <span className='orange-text'>Perfect</span><br className="d-none d-xs-block" /> Freelance Projects<br className="d-none d-xs-block" /><span  className='orange-text'>For You!</span></Hero.Title>
           <Hero.Text>Join the elite <b>NETWORK</b> where <b>GREAT<br className="d-none d-sm-block" />
           FREELANCERS</b> connect with <b>GREAT COMPANIES</b></Hero.Text>
             

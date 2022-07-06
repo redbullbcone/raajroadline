@@ -20,12 +20,12 @@ export default function ServicesSectionTwo() {
               <Row>
                 <Col xs="12" className="col-lg-6 pt-lg-7 mb-5 mb-lg-0">
                   <Service.Image>
-                    <img src="image/home-startup/services-img-1.png" alt="content" className="w-100 img-height"/>
+                    <img src="image/home-startup/affiliate-image2.png" alt="content" className="w-100 "/>
                   </Service.Image>
                 </Col>
                 <Col xs="12" className="col-lg-6 mb-5 mb-lg-0">
                   <Service.Image>
-                    <img src="image/home-startup/services-img-2.png" alt="content" className="w-100 img-height"/>
+                    <img src="image/home-startup/cheerful-young-women.png" alt="content" className="w-100 "/>
                   </Service.Image>
                 </Col>
               </Row>

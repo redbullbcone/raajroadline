@@ -32,6 +32,7 @@ const Content = styled(Box)`
     line-height: 32px !important;
     letter-spacing: -1px;
     margin-top:20px;
+
 @media(min-width:992px){
   font-size:40px;
   line-height:60px;
@@ -42,10 +43,22 @@ const Content = styled(Box)`
   padding-top: 77px;
 }
 
+@media(min-width:1170px){
+  margin-bottom:20px;
+  font-weight: 700;
+  font-size: 42px !important;
+  line-height: 50px !important;
+  width: 100%;
+
+}
+
 @media(min-width:1400px){
   margin-bottom:20px;
   font-weight: 700;
-  font-size: 45px !important;
+  font-size: 42px !important;
+  line-height: 50px !important;
+  width: 100%;
+
 }
   }
 
@@ -88,6 +101,7 @@ const Content = styled(Box)`
 
   .blue-text{
     color:#1A75FF;
+    font-weight:700;
   }
 
   .virtual-card{
@@ -101,13 +115,10 @@ const Content = styled(Box)`
   .image1{
     
     position: relative;
-    left: -171px;
 
     @media(min-width:992px){
-      left: -144px;
     }
     @media(min-width:1170px){
-    left: -57px;
     }
 
   }
@@ -187,6 +198,7 @@ Content.Title = styled(Heading)`
   font-size: 32px;
   line-height: 70px !important;
   position: relative;
+  letter-spacing: -2px;
 
   @media (min-width: 768px) {
   font-weight: 700;
@@ -228,10 +240,12 @@ opacity: 0.7;
     font-size:16px;
   }
   @media(min-width:1170px){
-    font-size:21px;
+    font-size:18px;
+    width: 90%;
   }
   @media(min-width:1270px){
-    font-size:21px;
+    font-size:18px;
+    width: 90%;
   }
 
   @media(min-width:1400px){
@@ -259,6 +273,12 @@ Content.Button = styled(Button)`
     border-radius: 50px !important;
     box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
     transition: 0.5s all ease;
+    font-size: 18px;
+  }
+
+  @media(min-width:1400px){
+    min-width:180px;
+    font-size:21px;
   }
   
   &:hover{
@@ -277,7 +297,8 @@ Content.Images = styled(Box)`
     right: -25%;
   }
   @media (min-width: 1200px) {
-    right: -20%;
+    right: -14%;
+
   }
 `;
 
@@ -287,8 +308,10 @@ Content.ImageOne = styled(Box)`
   overflow: hidden;
   transform-origin: top left;
   margin: 0 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-bottom: 40px;
+
+
   @media (min-width: 575px) {
     width: 50%;
     transform: skewX(-15deg);
@@ -296,6 +319,12 @@ Content.ImageOne = styled(Box)`
   @media (min-width: 1024px) {
     margin-bottom: 0;
     width: 40%;
+  }
+
+  @media(min-width:1400px){
+    width: 50%;
+    height: 445px;
+
   }
 `;
 Content.ImageOneInner = styled(Box)`
@@ -316,7 +345,7 @@ Content.ImageOneInner = styled(Box)`
     left: -86%;
   }
   @media(min-width:1400px){
-    left: -64%;
+    left: -45%;
   }
 `;
 Content.ImageTwo = styled(Box)`
@@ -356,7 +385,7 @@ Content.ImageTwoInner = styled(Box)`
   }
 `;
 Content.Imageup = styled(Box)`
-width: 330px;
+width: 100%;
 height: 577px;
 overflow: hidden;
 height:100%;
@@ -364,7 +393,6 @@ border-radius:10px;
 top: -18px;
 
 @media(min-width:992px){
-  width: 330px;
   height: 577px;
   overflow: hidden;
   height:100%;
@@ -377,7 +405,7 @@ Content.Imagedown = styled(Box)`
 
 
 
-width: 331px;
+width: 100%;
 overflow: hidden;
 height: 100%;
 border-radius: 10px;
@@ -385,7 +413,6 @@ top: 73px;
 right:0;
 
 @media(min-width:992px){
-  width: 330px;
   height: 100%;
   overflow: hidden;
   height:100%;

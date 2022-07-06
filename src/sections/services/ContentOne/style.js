@@ -39,13 +39,13 @@ margin-top: -116px;
             margin-bottom: 60px;
         }
         @media (min-width:1170px) {
-            font-size:42px;
-            line-height: 60px;
+            font-size:70px;
+            line-height: 70px;
             margin-bottom: 100px;
         }
         @media (min-width:1270px){
-            font-size:42px;
-            line-height: 54px;
+            font-size:70px;
+            line-height: 70px;
         }
         @media (min-width:1400px){
             font-weight: 500;
@@ -209,10 +209,15 @@ Content.Text = styled(Paragraph)`
     letter-spacing: normal;
     line-height: 30px;
     margin-bottom:54px;
+    opacity:.7;
 
     @media (min-width:992px){
         font-size: 16px;
-        line-height:24px;
+        line-height:30px;
+    }
+    @media (min-width:1170px){
+        font-size: 18px;
+        line-height:36px;
     }
 
     @media(min-width:1400px){

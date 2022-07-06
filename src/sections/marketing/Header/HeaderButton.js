@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Box } from '~styled'
 
 export const HeaderButtonWrapper = styled(Box)`
+  
     .btn{
         min-width:auto;
         height: 45px;
@@ -57,10 +58,10 @@ export const HeaderButtonWrapper = styled(Box)`
 
     
 `
-const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnTwoText,...rest})=>{
+const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnOneClass,btnTwoText,...rest})=>{
     return(
         <HeaderButtonWrapper {...rest}>
-            <Link target="_blank" className="btn" to={btnOneLink ? btnOneLink : "https://platform.mrkt365.com/"}>
+            <Link target="_blank" className={`${btnOneClass} btn`} to={btnOneLink ? btnOneLink : "https://platform.mrkt365.com/"}>
                 {btnOneText}
             </Link>
             <Link target="_blank" className="btn btn-2" to={btnTwoLink ? btnTwoLink : "https://platform.mrkt365.com/register"}>

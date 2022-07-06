@@ -38,6 +38,7 @@ const Service = styled(Box)`
             margin-bottom: 36px;
             width: calc(100% + 100px);
             left: 1px;
+            padding-left:50px;
         }
 
     }
@@ -114,13 +115,15 @@ const Service = styled(Box)`
         color: #fff;
         font-weight: 500;
         font-size: 16px;
-        line-height:32px;
+        line-height: 24px;
         border: none;
-        width: 125px;
+        width: 148px;
         padding: 15px 30px;
         transition: 1s all ease;
 
         @media(min-width:992px){
+            font-size: 16px;
+            line-height:32px;
             width:160px;
         }
 
@@ -139,6 +142,10 @@ const Service = styled(Box)`
 `;
 
 Service.Image = styled(Box)`
+img{
+
+    border-radius:15px;
+}
 `;
 
 Service.List = styled(Box)`

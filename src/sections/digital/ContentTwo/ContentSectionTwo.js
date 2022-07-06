@@ -9,12 +9,12 @@ export default function ContentSectionTwo({ ...rest }) {
         <Row className="align-items-center justify-content-center back background2">
           <Col
             xs="12"
-            className="col-xl-6 col-lg-7 col-md-8 col-xs-9 order-2 order-lg-1 agencies-content-sec2"
+            className="col-xl-6 col-lg-6 col-md-8 col-xs-9 order-2 order-lg-1 agencies-content-sec2"
           >
             {/* Section Title */}
             <Content.Box>
             <Content.Title as="h1">
-                Why Work With us?
+                Why Work With Us?
               </Content.Title>
               <Content.Title as="h2">
               <span className="blue-text">Sell</span> your services in <br /> our <span className="blue-text">marketplace</span>
@@ -38,7 +38,7 @@ export default function ContentSectionTwo({ ...rest }) {
           </Col>
           <Col
             xs="12"
-            className="col-xl-6 col-lg-5 col-sm-8 col-xs-10 order-1 order-lg-2"
+            className="col-xl-6 col-lg-6 col-sm-8 col-xs-10 order-1 order-lg-2"
           >
             <Content.Images>
               <Content.Imagedown>
@@ -46,7 +46,7 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/service1.png"
                     alt="content"
-                    className="image1"
+                    className="image1 w-100"
                   />
                 
                
@@ -55,7 +55,7 @@ export default function ContentSectionTwo({ ...rest }) {
                   <img
                     src="image/home-digital-agency/service2.png"
                     alt="content"
-                    className="image2"
+                    className="image2 w-100"
                   />
               </Content.Imageup>
             </Content.Images>
@@ -67,7 +67,7 @@ export default function ContentSectionTwo({ ...rest }) {
         <Row className="align-items-center justify-content-center background1">
         <Col
             xs="12"
-            className="col-xl-6 col-lg-5 col-sm-8 col-xs-10 order-1 order-lg-1"
+            className="col-xl-6 col-lg-6 col-sm-8 col-xs-10 order-1 order-lg-1"
           >
             <Content.Images>
                <Content.ImageOne>
@@ -94,12 +94,12 @@ export default function ContentSectionTwo({ ...rest }) {
           </Col>
           <Col
             xs="12"
-            className="col-xl-6 col-lg-7 col-md-8 col-xs-9 order-2 order-lg-2"
+            className="col-xl-6 col-lg-6 col-md-8 col-xs-9 order-2 order-lg-2"
           >
             {/* Section Title */}
             <Content.Box className="right-side-para">
             <Content.Title as="h2">
-            <span className="blue-text">Manage</span> your Team with our Employee Monitoring App
+            <b className="blue-text">Manage</b> your Team with<br /> our <b className="blue-text">Employee Monitoring<br /> App</b>
               </Content.Title>
               <Content.Text>
               Measure the productivity of freelancers you hire and your existing employees. Our services include an easy to install tracking program. All activities completed by your team can be monitored and documented through our employee tracker.
@@ -126,7 +126,7 @@ export default function ContentSectionTwo({ ...rest }) {
         <Row className="align-items-center justify-content-center background2">
           <Col
             xs="12"
-            className="col-xl-6 col-lg-7 col-md-8 col-xs-9 order-2 order-lg-1"
+            className="col-xl-6 col-lg-6 col-md-8 col-xs-9 order-2 order-lg-1"
           >
             {/* Section Title */}
             <Content.Box className="left-para2">
@@ -153,7 +153,7 @@ export default function ContentSectionTwo({ ...rest }) {
           </Col>
           <Col
             xs="12"
-            className="col-xl-6 col-lg-5 col-sm-8 col-xs-10 order-1 order-lg-2"
+            className="col-xl-6 col-lg-6 col-sm-8 col-xs-10 order-1 order-lg-2"
           >    
           <div className="virtual-card">
               <img src="image/businesses/virtual-card.png" alt="virtual-card" className="w-100" />
@@ -183,7 +183,7 @@ export default function ContentSectionTwo({ ...rest }) {
         <Row className="align-items-center justify-content-center background1">
         <Col
             xs="12"
-            className="col-xl-6 col-lg-5 col-sm-8 col-xs-10 order-1 order-lg-1"
+            className="col-xl-6 col-lg-6 col-sm-8 col-xs-10 order-1 order-lg-1"
           >
             <Content.Images>
                <Content.ImageOne>
@@ -211,7 +211,7 @@ export default function ContentSectionTwo({ ...rest }) {
           </Col>
           <Col
             xs="12"
-            className="col-xl-6 col-lg-7 col-md-8 col-xs-9 order-2 order-lg-2"
+            className="col-xl-6 col-lg-6 col-md-8 col-xs-9 order-2 order-lg-2"
           >
             {/* Section Title */}
             <Content.Box className="right-side-para">

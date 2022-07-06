@@ -31,7 +31,7 @@ export default function AboutusSection() {
       <div className="section-affiliate2">
       <Container>
         <Row className="align-items-center justify-content-center justify-content-lg-start section-affiliate-alt">
-          <Col xs="12" className="col-xl-6 col-lg-5 col-md-5 col-xs-12">
+          <Col xs="12" className="col-xl-6 col-lg-6 col-md-5 col-xs-12">
             <About.Box className="second-sec">
                   <h1>Earn from<br /><b>Recruitment Agencies</b></h1>
                   <p>Earn more doing what you have already been doing. All it takes is to send promotional material and links to your network of freelancers. Earn from each freelancer who signs up and successfully gets a job which is done easier with our marketplace automation and AI recommendations.</p>
@@ -42,7 +42,7 @@ export default function AboutusSection() {
               {/* <About.Text> <SuperTag value=""/> </About.Text> */}
             </About.Box>
           </Col>
-          <Col className="col-xl-6 col-lg-7 col-md-7 col-xs-12">
+          <Col className="col-xl-6 col-lg-6 col-md-7 col-xs-12">
             <div className="tilt-image-sec">
                <div className="ImageOne">
                    <div className="ImageOneInner">
@@ -74,25 +74,17 @@ export default function AboutusSection() {
         <Row className="align-items-center justify-content-center g-0 section-affiliate">
         <Col xs="12" className="col-xxl-6 col-lg-6 col-md-6">
             <About.Image className="affi-image">
-              <img src="image/home-startup/affiliates-3.jpg" alt="content" className="w-100"/>
+              <img src="image/home-digital-agency/VCC.png" alt="content" className=" affi-image2"/>
             </About.Image>
           </Col>
           <Col className="col-xxl-6 col-lg-6 col-md-6">
             <About.Box>
               {/* Section Title */}
               <About.Content className="para-background-color2">
-                <SectionTitle
-                  // subTitle="About us"
-                  title="Earn from our VPC"
-                  text="Our VPC helps users track their marketing expenses which increases efficient use of resources and prevents overspending. Refer users that will benefit from using a VPC and get rewarded for it. Earn on each dollar spent when your referral uses their VPC."
-                  // subTitleProps={{
-                  //   mb: "10px",
-                  //   className: "subline",
-                  //   fontColor: "#5034fc",
-                  // }}
-                  titleProps={{ mb: "10px", as: "h2" }}
-                  mb="69px"
-                />
+                
+                  <h1>Earn from our<b> VPC</b></h1>
+                  <p>Our VPC helps users track their marketing expenses which increases efficient use of resources and prevents overspending. Refer users that will benefit from using a VPC and get rewarded for it. Earn on each dollar spent when your referral uses their VPC.</p>
+                 
                   <Button className="blue-button-affi"> Learn More</Button>
 
               </About.Content>

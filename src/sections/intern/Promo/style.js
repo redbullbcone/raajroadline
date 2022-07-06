@@ -7,6 +7,12 @@ const Promo = styled(Box)`
   padding-bottom: 50px;
   height: 526px;
 
+  .yellow-shape{
+    position: absolute;
+    bottom: 131px;
+    left: -55px;
+  }
+
   @media (min-width:768px) {
     padding-top: 75px;
     padding-bottom: 80px;

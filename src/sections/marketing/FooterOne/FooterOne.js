@@ -135,7 +135,7 @@ return(
                 </a>
             </Footer.SocialShareItem>
             <Footer.SocialShareItem>
-                <a target="_blank" href="https://www.linkedin.com">
+                <a target="_blank" href="https://snapchat.com/add/mrkt365">
                 <i className="fab fa-snapchat" />
                 </a>
             </Footer.SocialShareItem>

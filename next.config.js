@@ -14,6 +14,8 @@ module.exports = {
     path: "localhost",
   }
 }
+
+
 // module.exports = withImages({
 //   webpack(config, options) {
 //     return config
