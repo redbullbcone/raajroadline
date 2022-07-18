@@ -26,10 +26,21 @@ const Service = styled(Box)`
     .button-service-sec{
         width: 234px;
         background: #FF5722;
-        border-radius: 10px;
+        border-radius: 50px;
         color:#fff;
         border: none;
         padding: 21px 30px;
+        box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+        margin-top: 10px;
+        margin-bottom:30px;
+
+        &:hover {
+            background: #f98c6a;
+        }
+
+        @media(min-width:992px){
+            margin-bottom:0;
+        }
 
         @media(min-width:1170px){
             width: 186px;
@@ -44,6 +55,47 @@ const Service = styled(Box)`
             padding: 21px 30px;
 
         }
+    }
+
+    .blue:hover{
+        background-color:#1a75fef7;
+    }
+
+    .red:hover{
+        background: #ff0000d9;
+    }
+
+    .orange:hover{
+        background:#ff5200;
+    }
+
+    .link-page:hover{
+        icon-group{
+            margin-top:50px;
+        }
+    }
+
+    .link-page:hover{
+        .card-img.business-card-img{
+            display:none;
+        }
+        .business-white-card{
+            display:block;
+            position: relative;
+        }
+    }
+
+    .business-white-card{
+        display:none;
+    }
+
+
+    .icon-group{
+        margin-top:50px;
+    }
+
+    .icon-group:hover{
+        margin-top:50px;
     }
 `
 Service.Button = styled(Box).attrs({className:"Service-btn"})`
@@ -72,7 +124,7 @@ Service.Button = styled(Box).attrs({className:"Service-btn"})`
         position: relative;
         width: 46px !important;
         height: 26px;
-        border-radius: 15px;
+        border-radius: 50px;
         border: none;
         background-color: #fff !important;
         background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");

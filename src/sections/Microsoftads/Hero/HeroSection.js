@@ -13,8 +13,8 @@ export default function HeroSection({headerimage,headerimage2,herotitle,herotitl
             <Hero.Content>
              
               <Hero.Title as="h2">
-              {herotitle}<br />
-              {herotitle2}
+              {herotitle}
+              <span>{herotitle2}</span>
               </Hero.Title>
               <Hero.Text>
               <p>Reach a <b>wider, high-value audience</b> on the <b>fastest growing search </b>network Receive a<b>$250 USD free ad credit.</b>  Get<b> monthly free recommendation reports</b></p>

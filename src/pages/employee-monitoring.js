@@ -1,17 +1,10 @@
 import React from "react";
 import { PageWrapper } from "~components/Core";
 import HeroEmployeeMonitoring from "~sections/digital/Hero-employee-monitoring";
-import ServicesSectionOne from "~sections/EmployeeServicesOne/ServicesThree";
+import ServicesSectionOne from "~sections/intern/ServicesOne";
 import ServicesSectionTwo from "~sections/digital/ServicesTwo";
 import ContentSectionTwo from '~sections/EmployeeServicesOne/ContentTwo/ContentSectionTwo'
-import AboutSection from "~sections/digital/About";
 import ContentSectionFour from "~sections/digital/ContentFour";
-// import ContentSectionTwo from "~sections/digital/ContentTwo";
-import TeamSection from "~sections/digital/Team";
-import TestimonialSection from "~sections/agency/Testimonial"
-import PortfolioSection from "~sections/digital/Portfolio";
-import PromoSection from "~sections/digital/Promo";
-import CounterSection from "~sections/marketing/Counter";
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne";
 import HeaderButton from "~sections/marketing/Header"
@@ -32,28 +25,57 @@ const header = {
   ),
 }
 
-const ServiceData = [
-    {
-      id:"ss1",
-      image:"image/recruitment-agency/icon1.jpg",
-      title: "$10 per hour",
-    },
-    {
-      id:"ss2",
-      image:"image/recruitment-agency/icon2.jpg",
-      title: "Hourly Billing",
-   },
-    {
-      id:"ss3",
-      image:"image/recruitment-agency/icon3.jpg",
-      title:"Ongoing Duration",  
-    },
-    {
-      id:"ss4",
-      image:"image/recruitment-agency/icon4.jpg",
-      title: "30 Day Payment Schedule",
-    }
-  ]
+const ServiceData =[
+  {
+    id:"ss1",
+    // icon:"fas fa-layer-group",
+    image:"image/employee/pad.svg",
+    whiteImage:"image/employee/pad-white.svg",
+    title: "$10 ",
+    title2:"per hour",
+    linkPage:"ai-auditor",
+    whiteImageClass:"business-ai",
+    cardbg:'purple',
+  },
+  {
+    id:"ss2",
+    // icon:"fas fa-bell",
+    image:"image/employee/dollar.svg",
+    whiteImage:"image/employee/dollar-white.svg",
+    title: "Hourly  ",
+    title2:"Billing ",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+    cardbg:'pink',
+    
+  },
+  {
+    id:"ss3",
+    // icon:"fas fa-envelope",
+    image:"image/employee/clock.svg",
+    whiteImage:"image/employee/clock-white.svg",
+    title: "Ongoing ",
+    title2:"Duration",
+    linkPage:"ai-auditor",
+    cardbg:"mustard",
+    whiteImageClass:"business-ai",
+
+    
+  },
+  {
+    id:"ss4",
+    // icon:"fas fa-chart-pie",
+    image:"image/employee/double-tick.svg",
+    whiteImage:"image/employee/double-tick-white.svg",
+    title: "30 day Payment",
+    title2:"Schedule",
+    cardbg:"cyan",
+    whiteImageClass:"business-online",
+    linkPage:"marketplace",
+
+    
+  }
+]
 
   var reverserow = [
     {
@@ -61,23 +83,26 @@ const ServiceData = [
      "title2":"Matching",
      "text":"Our client was matched to multiple developers while posting their brief publicly. They chose Arun S. due to his specific expertise and experience with mobile apps.",
       "imagePosition":"right",
-      "src":"image/home-digital-agency/employee-1.png",
+      "src":"image/employee/screen2.png",
       "alt":"",
+      "lineClass":"blue-line",
     },
      {
       "title":"Computer Screen ",
       "title2":"Monitoring ",
       "text":"Healthy Pass was able to witness periodic screenshots from the monitor of the remote worker they hired. They also utilized our tracker with their employees when they worked home due to the Pandemic. Our system also confirms the identity of the person doing the work, this allows you to avoid middlemen in your freelancer contract.",
        "imagePosition":"left",
-       "src":"image/home-digital-agency/employee-2.png",
+       "src":"image/employee/screen3.png",
        "alt":"",
+      "lineClass":"blue-line",
+
      },
      {
       "title":"Detailed Reporting for your",
       "title2":"Business",
       "text":"Make time tracking easy. Receive time tracking reports with productivity-boosting insights. Pay teams and keep track of billable hours.",
        "imagePosition":"right",
-       "src":"image/home-digital-agency/employee-3.png",
+       "src":"image/employee/screen4.png",
        "alt":"",
   
      },
@@ -85,7 +110,7 @@ const ServiceData = [
       "title":"Plan Projects in Advance",
       "text":"Healthy Pass was able to better organize their team by seeing the work patterns of their freelancers and employees. Their manager used this information to better delegate tasks and keep projects on schedule.",
        "imagePosition":"left",
-       "src":"image/home-digital-agency/employee-4.png",
+       "src":"image/employee/screen5.png",
        "alt":"",
      },
      {
@@ -93,7 +118,7 @@ const ServiceData = [
         "title2":"System",
         "text":"Connect with your freelancers and employees over a secure messaging system controlled by you.",
          "imagePosition":"right",
-         "src":"image/home-digital-agency/employee-5.png",
+         "src":"image/employee/screen6.png",
          "alt":"",
        }
   ];
@@ -124,16 +149,9 @@ export default function Digital() {
       </Helmet>
       <HeroEmployeeMonitoring />
       <ServicesSectionTwo />
-      {/* <AboutSection /> */}
       <ContentSectionFour />
-      <ServicesSectionOne ClassName='healthy-requirements' title="Healthy Pass's Brief Requirement" content={ServiceData} />
-    
+      <ServicesSectionOne ClassName="intern-features" title="How Does it Work?" content={ServiceData}/>
       <ContentSectionTwo content={reverserow}/>
-      {/* <TeamSection /> */}
-      {/* <PortfolioSection /> */}
-      {/* <PromoSection /> */}
-      {/* <CounterSection/> */}
-       <TestimonialSection />
       <CtaSection />
       <FooterOne/>
     </PageWrapper>

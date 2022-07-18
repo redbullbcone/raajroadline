@@ -5,7 +5,7 @@ import Hero from "./style";
 
 export default function HeroSection() {
   return (
-    <Hero backgroundImage="image/home-digital-agency/agencies-hero.png">
+    <Hero>
       <Container>
         <Row className="align-items-center justify-content-center justify-content-md-start row">
           <Col className="col-xxl-7 col-xl-7 col-lg-9 col-md-10 col">

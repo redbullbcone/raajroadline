@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Content = styled(Box)`
+padding-bottom: 50px;
 margin-top: -116px;
    
 
@@ -26,8 +27,11 @@ margin-top: -116px;
         margin-left: 0px;
 
         @media(min-width:992px){
-            position:relative;
-            right:90px;
+            padding-right: 253px !important;
+            left: -10px;
+            padding-left: 40px !important;
+            padding: 110px;
+            top: 1px;
         }
 
         @media(min-width:1170px){
@@ -42,16 +46,106 @@ margin-top: -116px;
     }
     .white-image{
         margin-bottom:26px;
+        flex-direction: column;
+        padding-top: 130px;
+
+        @media(min-width:768px){
+        flex-direction: row;
+        }
 
         @media(min-width:1400px){
             margin-bottom:116px;
         }
     }
+
+    .hire-intern-card{
+        background: #F6FBFF;
+        border-radius: 15px;
+        padding:20px;
+        margin-top: 30px;
+        margin-bottom: -50px;
+
+
+
+   
+        @media(min-width:992px){
+            width: calc(100% + 164px);
+            padding: 86px;
+            padding-left: 228px;
+            position: relative;
+            left: -199px;
+            top: -9px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        @media(min-width:1170px){
+            width: calc(100% + 164px);
+            padding: 128px;
+            padding-left: 247px;
+            position: relative;
+            left: -199px;
+            top: -9px;
+        }
+        
+        @media(min-width:1270px){
+            width: calc(100% + 164px);
+            padding: 128px;
+            padding-left: 247px;
+            position: relative;
+            left: -199px;
+            top:-9px;
+        }
+        
+        @media(min-width:1400px){
+            background: #F6FBFF;
+            border-radius: 15px;
+            width: calc(100% + 164px);
+            padding: 155px;
+            padding-left: 294px;
+            position: relative;
+            left: -199px;
+            top: -4px;
+        }
+    }
+
+    .flex-row-reverse .business-altcard.hire-intern-card{
+        @media(min-width:992px){
+            padding-right: 294px;
+            left: -10px;
+            padding-left: 70px !important;
+            padding:180px;
+        }
+        
+        @media(min-width:1170px){
+            padding-right: 294px;
+            left: -10px;
+            padding-left: 70px !important;
+            padding:160px;
+
+        }
+        
+        @media(min-width:1270px){
+            padding-right: 294px;
+            left: -10px;
+            padding-left: 70px !important;
+            padding:160px;
+
+        }
+        
+        @media(min-width:1400px){
+            padding-right: 294px;
+            left: -10px;
+            padding-left: 70px !important;
+            padding:195px;
+
+        }
+    }
 `
 Content.Title = styled(Heading)`
 font-weight: 600;
-font-size: 58px;
-line-height: 62px;
+font-size: 32px;
+line-height: 42px;
 letter-spacing: -1px;
 width: 570px;
 padding-bottom: 28px;

@@ -7,7 +7,7 @@ import Hero from './style'
 
 export default function HeroSection(){
 return(
-<Hero overlay="image/recruitment-agency/Ellipse.png" style={{backgroundImage: `url("image/recruitment-agency/affiliate-hero-image.png")`}}>
+<Hero overlay="image/recruitment-agency/Ellipse.png" style={{backgroundImage: ``}}>
   <Container>
     <Row className="align-items-center justify-content-center justify-content-md-start">
       {/* Welcome content Area */}

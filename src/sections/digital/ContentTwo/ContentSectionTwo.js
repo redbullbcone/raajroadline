@@ -132,7 +132,7 @@ export default function ContentSectionTwo({ ...rest }) {
             <Content.Box className="left-para2">
            
               <Content.Title as="h2">
-              <span className="blue-text">Take advantage</span> of our Virtual Prepaid Card
+              <span className="blue-text">Take advantage</span> of our<br /> Virtual Prepaid Card
               </Content.Title>
               <Content.Text>
               We have partnered with Visa and Amex to provide pre-paid virtual cards which you can use for online marketing, features, and its services without submitting your debit or credit card details. Spend only the money you’ve uploaded to your card and monitor how much you’re spending online.
@@ -197,7 +197,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 </Content.ImageOneInner>
                
               </Content.ImageOne>
-              <Content.ImageTwo>
+              <Content.ImageTwo className="imgtwodown">
                 <Content.ImageTwoInner>
                   <img
                     src="image/home-digital-agency/33.png"
@@ -216,7 +216,7 @@ export default function ContentSectionTwo({ ...rest }) {
             {/* Section Title */}
             <Content.Box className="right-side-para">
             <Content.Title as="h2">
-            <span className="blue-text">Hire Interns</span> from all over the globe
+            <span className="blue-text">Hire Interns</span> from<br /> All Over the Globe
               </Content.Title>
               <Content.Text>
               Add young talent to your team. Find university-educated interns to work remotely on your projects. Our interns are ready to their trade hard work for experience Interns can be students, recent graduates, or professionals who want to kick start their careers with you from all over the world.

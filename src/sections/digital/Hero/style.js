@@ -11,11 +11,23 @@ const Hero = styled(Box)`
   @media (min-width: 768px) {
     padding-top: 145px;
     padding-bottom: 80px;
+    background-image: url(image/home-digital-agency/agencies-hero.png);
+    background-size: cover;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 992px) {
+    padding-top: 148px;
+    padding-bottom: 200px;
+  }
+
+  @media(min-width:1170px){
+    padding-top: 165px;
+    padding-bottom: 108px;
+  }
+
+  @media(min-width:1400px){
     padding-top: 226px;
-    padding-bottom: 264px;
+    padding-bottom: 224px;
   }
 
   .black-text{

@@ -23,9 +23,9 @@ export default function ContentVideoSectionOne({...rest}){
               </div>
             </Col>
             
-            <Col className="col-md-1"></Col>
+            {/* <Col className="col-md-1"></Col> */}
             {/* Content Widgets */}
-            <Col xs="10" className="col-xl-5 col-lg-5 col-md-5 col-xs-5 ">
+            <Col xs="10" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 ">
               <ImageGroup imageclass="" imageSrc="image/marketing/screen2.png" imageAlt="" mb="60px" mbLG="0"/>
             </Col>
           </Row>

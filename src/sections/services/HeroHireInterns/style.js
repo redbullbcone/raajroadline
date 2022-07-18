@@ -9,19 +9,36 @@ const Hero = styled(Box)`
     position: relative;
     z-index: 1;
 
+
     
     @media (min-width:768px) {
+    background-image:url("image/hire-interns/hire-intern-hero.png");
+    background-size:cover;
         padding-top: 145px;
         padding-bottom: 80px;
     }
 
-    @media (min-width:1024px) {
-        padding-top: 260px;
-        padding-bottom: 195px;
+    @media (min-width:992px) {
+        padding-top: 176px;
+        padding-bottom: 139px;
     }
 
-    @media (min-width:1600px) {
-        padding-top: 290px;
+    @media (min-width:1024px) {
+        padding-top: 176px;
+        padding-bottom: 139px;
+    }
+
+
+
+    @media(min-width:1170px){
+        padding-top: 147px;
+        padding-bottom: 87px;
+    }
+
+    @media (min-width:1400px) {
+        padding-top: 200px;
+        padding-bottom: 207px;
+
     }
     &:before {
         content: "";
@@ -39,12 +56,20 @@ const Hero = styled(Box)`
             width: 50%;
         }
     }
+
+    .hero-btn1{
+        box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+    }
+
+    .hero-btn2{
+        box-shadow: -8px 8px 50px rgba(26, 117, 255, 0.5);
+    }
     .hero-btn1:hover{
-        filter: drop-shadow(-12px 12px 50px rgba(255, 87, 34, 0.3));
+        background: #f98c6a;
 
     }
     .intern-hero-btn-blue:hover{
-        filter: drop-shadow(-12px 12px 50px rgba(26, 117, 255, 0.3));
+        background: #4e92f9;
     }
 `
 
@@ -60,21 +85,47 @@ Hero.Subtitle = styled(Heading)`
     margin-bottom: 20px;
 `
 Hero.Title = styled(Heading)`
-        font-size: 58px;
-        font-weight: 500;
-        letter-spacing: normal;
-        line-height: 70px;
+        
+        font-size: 42px;
+        line-height: 48px;
+        font-weight:700;
+
         margin-bottom: 25px;
+
+        b{
+            font-weight:700;
+            color:#FF5722;
+        }
         @media (min-width:480px) {
             font-size: 40px;
         }
 
         @media (min-width:768px) {
             font-size: 50px;
+            line-height:50px;
+
+        }
+
+        @media(min-width:992px){
+            font-size: 50px;
+            line-height:50px;
         }
 
         @media (min-width:1024px) {
-            font-size: 58px;
+            font-size: 50px;
+            line-height:50px;
+        }
+
+        @media(min-width:1170px){
+            font-size:60px;
+            line-height:60px;
+
+        }
+        @media(min-width:1400px){
+            font-size:70px;
+            font-weight:700;
+            line-height:70px;
+
         }
 `
 Hero.Text = styled(Paragraph)`
@@ -182,12 +233,23 @@ Hero.NewsletterButton = styled(Button)`
 Hero.Box = styled(Box)`
 .business-btn1{
     position: relative;
-    width: 234px;
+    width: 180px;
+    height: 60px !important;
+    border-radius: 50px !important;
+    margin-right: 5px;
+    padding: 18px 1px;
+    font-size: 15px;
+    left: -7px;
+
+    @media(min-width:992px){
+        position: relative;
+    width: 260px;
     height: 70px !important;
-    border-radius: 10px !important;
+    border-radius: 50px !important;
     margin-right: 27px;
     padding: 18px 15px;
     font-size: 20px;
+    }
 }
 `
 

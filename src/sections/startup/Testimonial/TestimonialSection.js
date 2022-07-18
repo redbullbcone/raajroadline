@@ -5,46 +5,6 @@ import Testimonial from './style'
 import TestimonialData from '~data/startup/testimonial'
 import { Container, Row, Col } from 'react-bootstrap'
 export default function   TestimonialSection(){
-  const elSlider = useRef()
-
-  const sliderConfig1 = {
-    dots: false,
-    infinite: true,
-    speed: 900,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    centerPadding:false,
-    autoPlay:true,
-    slide:false,
-    responsive: [
-        {
-            breakpoint: 20000,
-            settings: 'unslick'
-        },
-        {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-          },
-        },
-        {
-            breakpoint: 991,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-            },
-        },
-        {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            },
-        },
-    ],
-  }
 return(
 <Testimonial backgroundColor="#fff">
   <Container>

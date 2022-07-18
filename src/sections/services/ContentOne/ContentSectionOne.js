@@ -14,10 +14,10 @@ export default function ContentSectionOne({heading},{...rest}){
       <div>
         <Container>
           <Row className="align-items-center justify-content-center white-image first-business-sec">
-            <Col xs="10" className="col-xl-5 col-lg-5 col-md-5 col-xs-5 ">
-              <ImageGroup imageclass="" imageSrc="image/marketing/pic2.png" imageAlt="" mb="60px" mbLG="0"/>
+            <Col xs="10" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 ">
+              <ImageGroup imageclass="" imageSrc="image/marketing/screen1.png" imageAlt="" mb="60px" mbLG="0"/>
             </Col>
-            <Col className="col-md-1"></Col>
+            {/* <Col className="col-md-1"></Col> */}
             {/* Content Widgets */}
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
@@ -89,7 +89,3 @@ export default function ContentSectionOne({heading},{...rest}){
 </>
   )
   }
-
-
-
-

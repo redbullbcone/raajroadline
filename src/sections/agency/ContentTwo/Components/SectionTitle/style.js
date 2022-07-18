@@ -38,8 +38,8 @@ display: inline-block;
 `
 SectionTitle.Main = styled(Heading)`
 font-weight: 700;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 50px;
 @media (min-width:768px) {
     font-size: 33px;
 }

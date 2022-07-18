@@ -2,13 +2,9 @@ import React from "react";
 import { PageWrapper } from "~components/Core";
 import HeroSectionMarketplace from "~sections/digital/Hero-marketplace";
 import ServicesSection from "~sections/agency/Services";
+import ServicesSectionTwo from "~sections/marketplace/ServicesTwo";
+import AboutSection from "~sections/marketplace/About";
 import ContentSectionTwo from "~sections/agency/ContentTwo";
-import AboutSection from "~sections/digital/About";
-import ContentSectionOne from "~sections/digital/ContentOne";
-import TeamSection from "~sections/digital/Team";
-import PortfolioSection from "~sections/digital/Portfolio";
-import PromoSection from '~sections/agency/Promo'
-import PromoSectionTwo from '~sections/agency/PromoTwo'
 import CounterSection from "~sections/agency/Counter";
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne";
@@ -91,17 +87,10 @@ export default function Marketplace() {
       </Helmet>
       <HeroSectionMarketplace />
       <ServicesSection />
-      {/* <AboutSection /> */}
-      {/* <ContentSectionOne /> */}
-     
-      <ContentSectionTwo title="Hire Freelancers" title2="for any job" content={ServiceData}/>
-      <PromoSection />
-      
-      {/* <TeamSection /> */}
-      {/* <PortfolioSection /> */}
-     
+      <ContentSectionTwo title="Hire Freelancers for any job" content={ServiceData}/>
+      <ServicesSectionTwo />
       <CounterSection/>
-      <PromoSectionTwo />
+      <AboutSection />
       <CtaSection />
       <FooterOne/>
     </PageWrapper>

@@ -1,19 +1,14 @@
 import React from "react"
 import { PageWrapper } from "~components/Core"
 import HeroHireInterns from '~sections/services/HeroHireInterns'
-import ServicesSection from '~sections/services/Services'
-import AboutSection from '~sections/services/About'
 import ContentSectionTwo from '~sections/services/ContentTwo/ContentSectionTwo'
-import ProcessSection from '~sections/services/Process'
-import ProcessSectionTwo from '~sections/services/ProcessTwo'
 import PromoSection from '~sections/services/Promo'
-import PricingSection from '~sections/services/Pricing'
-import TestimonialSection from '~sections/services/Testimonial'
-import ContactSection from '~sections/services/Contact'
 import CounterSection from "~sections/services/Counter"
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
 import HeaderButton from "~sections/marketing/Header"
+import ServicesSectionOne from "~sections/HireIntern/ServicesOne";
+
 import { Helmet } from "react-helmet"
 
 
@@ -55,7 +50,7 @@ var reverserow = [
     "text":"Our interns are pre-selected by their respective universities before applying to MRKT365's internship program.",
     "text2":"Effortlessly choose from dozens of interns by viewing ready-made video interviews conducted by us and prospective interns.",
     "imagePosition":"left",
-     "src":"image/marketing/top-talent.jpg",
+     "src":"image/hire-interns/image3.png",
      "alt":"",
 
    },
@@ -69,22 +64,47 @@ var reverserow = [
    }
 ];
 
-var interns=[
+const ServiceData =[
   {
-    "image":"image/hire-interns/exchange-mentorship-icon-1.jpg",
-    "text":"Empower Emerging Talent",
-    "paragraph":"Assist talented students in mastering their skills, adding to their resumé, and lifting their confidence. "
+    id:"ss1",
+    // icon:"fas fa-layer-group",
+    image:"image/hire-interns/hands.svg",
+    whiteImage:"image/hire-interns/hands-white.svg",
+    title: "Empower Emerging",
+    title2:"Talent",
+    text:"Assist talented students in mastering their skills, adding to their resumé, and lifting their confidence.",
+    // linkPage:"ai-auditor",
+    whiteImageClass:"business-ai",
+    cardbg:'purple',
   },
   {
-    "image":"image/hire-interns/exchange-mentorship-icon-2.jpg",
-    "text":"Freshen-up your Team",
-    "paragraph":"Grow your team without breaking the bank. Finish your projects faster with unpaid interns."
+    id:"ss2",
+    // icon:"fas fa-bell",
+    image:"image/hire-interns/tick-person.svg",
+    whiteImage:"image/hire-interns/tick-person-white.svg",
+    title: "Freshen-up your",
+    title2:"Team",
+    text:"Grow your team without breaking the bank. Finish your projects faster with unpaid interns.",
+    whiteImageClass:"business-online",
+    // linkPage:"marketplace",
+    cardbg:'pink',
+    
   },
   {
-    "image":"image/hire-interns/exchange-mentorship-icon-3.jpg",
-    "text":"Certificate Program",
-    "paragraph":"We will generate a certificate for interns upon program completion based on the skills they gained."
-  }
+    id:"ss3",
+    // icon:"fas fa-envelope",
+    image:"image/hire-interns/medal.svg",
+    whiteImage:"image/hire-interns/medal-white.svg",
+    title: "Fix Microsoft & Google",
+    title2:"verification issues",
+    text:"We will generate a certificate for interns upon program completion based on the skills they gained.",
+    // title3:"businesses",
+    // linkPage:"ai-auditor",
+    cardbg:"cyan",
+    whiteImageClass:"business-ai",
+
+    
+  },
 
 ]
 
@@ -115,19 +135,11 @@ export default function HireInterns() {
       </Helmet>
       <HeroHireInterns/>
       <PromoSection/>
-      {/* <ServicesSection/> */}
-      
       <ContentSectionTwo content={reverserow}/>
-      {/* <AboutSection/> */}
-      <ProcessSectionTwo heading="Exchange Mentorship for Untapped Potential" content={interns} />
-      {/* <ContentSectionOne content={businesscontent}/> */}
-      
-      {/* <PricingSection/> */}
-      {/* <TestimonialSection/> */}
-    {/* <ContactSection/> */}
-    <CounterSection/>
-    <CtaSection />
-    <FooterOne/>
+      <ServicesSectionOne ClassName="intern-features" title="Exchange Mentorship for " title2="Untapped Potential" content={ServiceData}/>
+      <CounterSection/>
+      <CtaSection />
+      <FooterOne/>
     </PageWrapper>
   )
 }

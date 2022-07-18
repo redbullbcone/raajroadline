@@ -93,6 +93,25 @@ Content.Image = styled(Box)`
 position: relative;
 margin-bottom: 40px;
 float:right;
+
+&:hover{
+animation:bounce 1s liner;
+}
+
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
 @media (min-width: 1024px){
     margin-left: 45px;
     margin-bottom: 0;

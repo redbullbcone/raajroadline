@@ -4,15 +4,15 @@ import { Col, Container, Row } from 'react-bootstrap'
  
 export default function PromoSection({...rest}){
 return(
-<Promo>
+<Promo overlay="image/hire-interns/Ellipse.png">
     <Row className="justify-content-center">
       <Col className="col-xl-12 text-center">
-        <Promo.InnerWrapper style={{backgroundImage: `url("image/home-services/promo-l4-img.png")`}}>
+        <Promo.InnerWrapper style={{backgroundImage: `url("image/hire-interns/hire-intern-promo.png")`}}>
          <Container>
             {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
-           <Col className="col-md-7 intern-promo-sec">
-           <Promo.Title as="h2" fontColor="#fff" >Why Create an Internship<br /> with Us?</Promo.Title>
-            <Promo.Text fontColor="#fff">We are world leaders in providing virtual internships to<br className="d-none d-sm-block" /> companies and we partner with leading international<br className="d-none d-sm-block" />  universities to source the best candidates for you.
+           <Col className="col-md-12 intern-promo-sec">
+           <Promo.Title as="h2">Why <b>Create</b> an <br /><b>Internship</b> with Us?</Promo.Title>
+            <Promo.Text fontColor="#262729">We are world leaders in providing virtual internships to<br className="d-none d-sm-block" /> companies and we partner with leading international<br className="d-none d-sm-block" />  universities to source the best candidates for you.
              
             </Promo.Text>
            </Col>

@@ -21,8 +21,18 @@ const Card = styled(Box).attrs({ className: "card" })`
     width: 190px;
     opacity: 0.3;
     border: 1px solid #FFFFFF;
-    margin-left: 84px;
+    margin-left: 50px;
     margin-bottom: 100px;
+    @media(min-width:992px){
+      margin-left:22px;
+    }
+    @media(min-width:1170px){
+      margin-left:50px;
+    }
+    @media(min-width:1400px){
+      margin-left:88px;
+    }
+
   }
 
   .optional-text{
@@ -132,6 +142,7 @@ Card.Top = styled(Box)`
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   min-height: 322px;
+
 `;
 Card.Box = styled(Box)``;
 export default Card;

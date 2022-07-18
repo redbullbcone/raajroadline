@@ -14,16 +14,76 @@ const Hero = styled(Box)`
   @media (min-width: 1024px) {
     padding-top: 180px;
   }
+
+  @media (min-width: 1024px) {
+    padding-top: 100px;
+  }
+
+
   .hero-img1{
     position: relative;
     z-index: 99;
+    display:none;
+
+    @media(min-width:992px){
+      display:block;
+      left: -30px;
+      width: 80% !important;
+      height: 100%;
+      top: -4px;
+    }
+
+    @media(min-width:1170px){
+      left: 88px;
+      width: 60% !important;
+      height: 100%;
+      top: -25px;
+    }
+    
+    @media(min-width:1270px){
+      left: 88px;
+      width: 60% !important;
+      height: 100%;
+      top: -25px;
+    }
+    @media(min-width:1400px){
+      left: 88px;
+      top:-15px;
+    }
   }
   .hero-img2{
-    position: relative;
-    z-index: 88;
-    left: -43px;
-    height: 577.12px;
-    top: 50px;
+    display:none;
+
+    @media(min-width:992px){
+      display:block;
+      left: -61px;
+      width: 50% !important;
+      height: 100%;
+      top: 50px;
+      position: relative;
+    }
+
+
+    @media(min-width:1170px){
+      width: 40% !important;
+      height: 100%;
+      top: 24px;
+      position: relative;
+      left: 71px;
+
+    }
+    @media(min-width:1270px){
+      width: 40% !important;
+      height: 100%;
+      top: 24px;
+      position: relative;
+      left: 71px;
+    }
+    @media(min-width:1400px){
+      left: 80px;
+      top:53px;
+    }
+
   }
   padding-bottom: 124px;
 `;
@@ -38,12 +98,16 @@ Hero.Subtitle = styled(Heading)`
   margin-bottom: 20px;
 `;
 Hero.Title = styled(Heading)`
-font-size: 70px;
-font-weight:700;
-  letter-spacing: normal;
-  line-height: 1.2;
+  font-size: 45px;
+  font-weight:700;
+  letter-spacing:normal;
+  line-height:50px;
   margin-bottom: 25px;
-  margin-top: -85px;
+
+  span{
+    color: #FF5722;
+  }
+
 
   @media (min-width: 480px) {
     font-size: 40px;
@@ -56,31 +120,88 @@ font-weight:700;
   @media (min-width: 1024px) {
     font-size: 70px;
     font-weight:700;
+    line-height: 70px;
     margin-top: -85px;
   }
+
+  @media(min-width:1170px){
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-top: -85px;
+  }
+
+  @media(min-width:1400px){
+    font-size: 70px;
+    font-weight:700;
+    margin-top: -85px;
+  }
+
+ 
 `;
 Hero.Text = styled(Paragraph)`
 font-weight: 400;
-font-size: 21px;
-line-height: 32px;
-width: 521px;
+font-size: 18px;
+line-height: 28px;
+width: 100%;
+
+@media(min-width:992px){
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 521px;
+}
+@media(min-width:1170px){
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 521px;
+}
+@media(min-width:1270px){
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 521px;
+}
+@media(min-width:1400px){
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    width: 521px;
+}
 `;
 
 Hero.Buttons = styled(Box)`
   .btn-hero-affiliate {
     margin-right: 18px;
-    border-radius:10px!important;
-    width: 388px;
-  }
-  .btn-affi-hero1{
-    background: #FF5722;
-    border-radius: 10px;
-    width: 388px;
+    border-radius:50px!important;
+    width: 310px;
+    box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+    font-size:18px;
+    background:#FF5722;
     color:#fff;
-  }
-  .btn-affi-hero1 :hover{
-    box-shadow: -12px 12px 50px rgba(253, 52, 110, 0.3);
 
+    @media(min-width:992px){
+      width: 324px;
+      font-size:18px;
+    }
+    @media(min-width:1170px){
+      width: 324px;
+      font-size:18px;
+    }
+    @media(min-width:1270px){
+      width: 324px;
+      font-size:18px;
+    }
+    @media(min-width:1400px){
+      font-size:21px;
+      width: 388px;
+
+    }
+  }
+
+  .btn-affi-hero1 :hover{
+    background: #f98c6a;
   }
 
   .btn-affi-hero2{
@@ -96,54 +217,10 @@ Hero.Buttons = styled(Box)`
 `;
 Hero.Video = styled(Box)`
 
-  .box-shadow{
-    box-shadow: 0 10px 56px rgba(0, 0, 0, 0.2);
-  }
   
-  border-radius: 25px;
-  @media (min-width: 1024px) {
-    margin-left: -20px;
-  }
-
-  @media (min-width: 1600px) {
-    margin-left: 67px !important;
-  }
-
-  .video-btn {
-    min-width: 60px;
-    max-width: 60px;
-    min-height: 60px;
-    max-height: 60px;
-    background-color: #5034fc;
-    border-color: #5034fc;
-    color: #fff;
-    box-shadow: 0 0 0 0.2rem rgb(106 82 252 / 50%);
-    outline: none;
-    border-radius: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 0;
-  }
 `;
 Hero.Button = styled(Button)`
-  min-width: 130px;
-  height: 50px;
-  font-size: 14px;
-  transition: 0.4s;
-  border-radius: 500px !important;
-  &.btn-1 {
-    box-shadow: -12px 12px 50px rgb(96 1 211 / 30%) !important;
-    &:hover {
-      box-shadow: -12px 12px 50px rgb(96 1 211 / 0%) !important;
-    }
-  }
-  @media (min-width: 576px) {
-    min-width: 180px;
-    height: 56px;
-    font-size: 15px;
-  }
+ 
 `;
 
 export default Hero;

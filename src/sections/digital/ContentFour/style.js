@@ -7,6 +7,10 @@ Content.InnerBlock = styled(Box)`
     padding-top: 00px;
     padding-bottom: 0px;
 
+    .blue-line{
+        width: 30%;
+        color: #1A75FF;
+    }
 
     .list {
         justify-content: space-between;
@@ -35,7 +39,7 @@ Content.InnerBlock = styled(Box)`
         font-weight: 400;
         font-size: 15px;
         line-height: 1.5;
-        color: #FD346E;
+        color: #1A75FF;
         opacity: 0.7;
         @media (max-width:1024px) {
             font-size: 12px;
@@ -77,14 +81,18 @@ Content.InnerBlock = styled(Box)`
         border-radius: 15px;
     }
     .img-sec{
+        left: -12px;
+
+        @media(min-width:768px){
         left: 15px;
+        }
     }
     .pink-line{
         width: 210px;
         height: 1px;
         position: absolute;
-        right: 0px;
-        background: #FD346E;
+        left: 0px;
+        background: #1A75FF;
     }
     .subtitle-sec{
         padding-top: 30px;
@@ -94,36 +102,53 @@ Content.InnerBlock = styled(Box)`
         left: 0px;
         text-align: left;
     }
+    .background-right-sub-sec{
+
+        @media(min-width:992px){
+            margin-top: 130px;
+        }
+        @media(min-width:1170px){
+            margin-top: 150px;
+        }
+    }
     .background-right-sub-sec p {
         font-size:14px;
         line-height:1.5;
         color:#67686a;
         margin-bottom:30px;
-        opacity:1;
+        opacity:.7;
         @media (min-width: 768x) {
             font-size:14px;
             line-height:1.5;
             margin-bottom:80px;
         }
         @media (min-width: 992px) {
-            font-size:14px;
-            line-height:1.35;
-            margin-bottom:80px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #262729;
+
         }
         @media (min-width: 1170px) {
-            font-size:16px;
-            line-height:1.25;
-            margin-bottom:80px;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 40px; 
+            color: #262729;    
+
         }
         @media (min-width: 1270px) {
-            font-size:16px;
-            line-height:1.4;
-            margin-bottom:60px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #262729;
+
         }
         @media (min-width: 1400px) {
-            font-size:18px;
-            line-height:1.5;
-            margin-bottom:80px;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 40px;
+            color: #262729;
+
         }
     }
     .background-sec h2.background-title {
@@ -132,39 +157,52 @@ Content.InnerBlock = styled(Box)`
     
 `
 Content.Title = styled(Heading)`
-font-weight: 700;
-font-size: 60px;
-line-height: 1.2;
-text-align: right;
-margin-top:90px;
-color: #262729;
+font-weight: 600;
+font-size: 26px;
+line-height: 30px;
+text-align: left;
+margin-top: 20px;
+
+@media (min-width:768px) {
+    margin-top:90px;
+  }
+
+b{
+    color:#1A75FF;
+    font-weight:700;
+}
     @media (min-width:768px) {
       font-size: 22px;
     }
     @media (min-width:992px) {
       font-size: 24px;
+      line-height:30px;
       margin-top:60px;
     }
     @media (min-width:1170px) {
     font-size: 30px;
+    line-height: 40px;
     margin-top:70px;
     }
     @media (min-width:1270px) {
     font-size: 36px;
+    line-height: 40px;
     margin-top:80px;
     }
     @media (min-width:1400px) {
     font-size: 42px;
+    line-height:50px;
     margin-top:90px;
     }
 `;
 Content.Subtitle = styled(Heading)`
     position: relative;
-    text-align: right;
+    text-align: left;
     opacity: 0.7;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    color: #262729;
 `;
 Content.Text = styled(Paragraph)`
     font-size: 18px;
@@ -174,6 +212,11 @@ Content.Text = styled(Paragraph)`
     opacity: 0.7;
     @media (min-width:768px) {
         font-size: 18px;
+    }
+    @media(min-width:1400px){
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 40px;
     }
 `;
 

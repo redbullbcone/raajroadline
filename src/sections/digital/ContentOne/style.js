@@ -5,6 +5,73 @@ const Content = styled(Box)`
 .blue-txt{
     color:#1A75FF;
 }
+.steps{
+    h5{
+        margin-top:20px;
+
+        @media(min-width:992px){
+        font-size: 18px;
+        line-height:24px;
+        }
+        @media(min-width:1170px){
+            font-size: 21px;
+            line-height:30px;
+            }
+    }
+}
+.counter-icons{
+
+    @media (min-width:768px) {
+        width: 60%;
+      }
+      @media (min-width:992px) {
+        width: 70%;
+      }
+      @media (min-width:1170px) {
+          width: 80%;
+      }
+      @media (min-width:1270px) {
+          width: 80%;
+      }
+  
+
+}
+
+.counter-icons2{
+
+    @media (min-width:768px) {
+        width: 60%;
+      }
+      @media (min-width:992px) {
+        width: 52%;
+      }
+      @media (min-width:1170px) {
+          width: 57%;
+      }
+      @media (min-width:1270px) {
+          width: 57%;
+      }
+  
+
+}
+
+.counter-icons3{
+
+    @media (min-width:768px) {
+        width: 60%;
+      }
+      @media (min-width:992px) {
+        width: 50%;
+      }
+      @media (min-width:1170px) {
+          width: 53%;
+      }
+      @media (min-width:1270px) {
+          width: 53%;
+      }
+  
+
+}
 
 .image-one{
     box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
@@ -38,9 +105,18 @@ Content.InnerBlock = styled(Box)`
 Content.Title = styled(Heading)`
     font-size: 30px;
     font-weight: 700;
-    letter-spacing: normal;
+    letter-spacing: -1px;
     line-height: 1.1;
     position:relative;
+    color:#000;
+
+    b{
+        color:#1A75FF;
+        font-weight:700;
+    }
+
+    
+
     @media (min-width:768px) {
       font-size: 24px;
     }
@@ -48,10 +124,10 @@ Content.Title = styled(Heading)`
       font-size: 42px;
     }
     @media (min-width:1170px) {
-        font-size: 56px;
+        font-size: 52px;
     }
     @media (min-width:1270px) {
-        font-size: 56px;
+        font-size: 52px;
     }
     @media (min-width:1400px) {
         font-size: 60px;

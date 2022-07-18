@@ -10,21 +10,57 @@ const Counter = styled(Box)`
     padding-bottom: 111px;
 s}
 .get-started-heading{
-  text-align:left;
-  margin-top:50px;
-  padding-top:100px;
-  font-size:48px;
+  text-align: left;
+  padding-top: 100px;
+  font-size: 50px;
+  font-weight: 700;
+
+  @media(min-width:992px){
+    text-align: left;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  @media(min-width:1170px){
+    text-align: left;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  @media(min-width:1270px){
+    text-align: left;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  @media(min-width:1400px){
+    text-align: left;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 700;
+  }
 }
 .counter-para{
+
+
   font-weight: 500;
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 24px;
   color: black;
   text-align: left;
-  padding-top: 45px;
+  padding-top: 36px;
 
-  @media(min-width:1400px){
-    font-weight:600px;
+
+  @media(min-width:1170px){
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: black;
+    text-align: left;
+    padding-top: 45px;
   }
 }
 .get-started-sec{
@@ -32,13 +68,11 @@ s}
 }
 .counter-icons{
   width: 75.28px;
-height: 72.69px;
-margin-left: 20px;
+  height: 72.69px;
 
 @media(min-width:1400px){
   width: 75.28px;
   height: 72.69px;
-  margin-left: 20px;
 }
 }
 
@@ -57,18 +91,23 @@ Counter.Block = styled(Box)`
 `
 
 Counter.Title = styled(Heading)`
-font-size: 48px;
-font-weight: 500;
-letter-spacing: -1px;
-line-height: 1.13461;
-margin-bottom: 25px;
+text-align: left;
+padding-top: 100px;
+font-size: 45px;
+font-weight: 700;
 
-@media (min-width: 76px){
-  font-size: 42px;
+@media (min-width: 768px){
+  text-align: left;
+  padding-top: 100px;
+  font-size: 70px;
+  font-weight: 700;
 }
 
 @media (min-width: 1024px){
-  font-size: 48px;
+  text-align: left;
+  padding-top: 100px;
+  font-size: 70px;
+  font-weight: 700;
 }
 
 `

@@ -8,9 +8,15 @@ const Hero = styled(Box)`
     background-position: left top;
     position: relative;
     z-index: 1;
+    background-image: none !important;
+    background:transparent;
+
     @media (min-width:768px) {
         padding-top: 100px;
         padding-bottom: 60px;
+        background-image: url("image/home-services/business-slider-new.jpg") !important;
+        background-size: cover;
+
     }
     @media (min-width:992px) {
         padding-top: 150px;
@@ -35,7 +41,7 @@ const Hero = styled(Box)`
     }
     @media (min-width:1820px) {
         padding-top: 300px;
-        padding-bottom: 240px;
+        padding-bottom: 300px;
     }
     &:before {
         content: "";

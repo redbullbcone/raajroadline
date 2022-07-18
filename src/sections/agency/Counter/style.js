@@ -20,8 +20,12 @@ s}
   }
 }
 .counter-icons{
-  width: 75.28px;
-  height: 72.69px;
+  width:50%;
+  height:100%;
+
+  @media(min-width:992px){
+    width:30%;
+  }
 }
 .counter-card img{
   margin-bottom:24px;
@@ -30,7 +34,7 @@ s}
 font-weight: 500;
 font-size: 21px;
 line-height: 30px;
-margin-bottom:38px;
+margin-bottom:15px;
 
   @media(min-width:992px){
     font-weight: 600;
@@ -53,8 +57,8 @@ margin-bottom:38px;
 
 .counter-card p{
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 12px;
+  line-height: 24px;
   color: #262729;
   opacity: 0.7;
 

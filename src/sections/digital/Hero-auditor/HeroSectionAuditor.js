@@ -5,14 +5,17 @@ import Hero from "./style";
 
 export default function HeroSectionAuditor() {
   return (
-    <Hero backgroundImage="image/home-digital-agency/auditor-header.png">
+    <Hero backgroundImage="image/home-digital-agency/ai-auditor-hero.png">
       <Container>
-        <Row className="align-items-center justify-content-center">
-          <Col className="col-xl-9">
-            <Hero.Content className="text-center">
+        <Row>
+          <Col>
+            <Hero.Content>
               <Hero.Title as="h1" fontColor="#000">
-              All your Marketing Data in  <br /> One Dashboard
+              <b>All your Marketing</b><br /> Data in One Dashboard
               </Hero.Title>
+              <Hero.Text>
+              Use our <b>POWERFUL TOOLS</b> to get an overview of your<br /> business's marketing strategy & let our AI match you<br /> with <b>AMAZING TALENTS</b>
+              </Hero.Text>
              
               <Hero.Button className="agency-btn1" as={Link} to="/">
                Start Now

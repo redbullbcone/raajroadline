@@ -12,7 +12,8 @@ return(
       <Col xs="12" className="col-xl-4 col-lg-5 col-md-6 col-sm-9 col-xs-10">
       <SectionTitle
         // subTitle="Our Services" 
-        title="For Businesses"
+        title="For "
+        title2="Businesses"
         text="We have end-to-end solutions that can keep up with you and your standards"
         // subTitleProps={{mb:"27px"}}
         // titleProps={{mb:"10px",as:"h2"}}
@@ -21,20 +22,27 @@ return(
         <button className='button-service-sec'>Become a Client</button>
 
       </Col>
-      {ServiceData.map(({ title,title2, icon, image, id, iconColor }) => {
+      {ServiceData.map(({ title,title2,title3, icon, image, text2, text3, text,cardbg,whiteImage,whiteImageClass,id,linkPage,  }) => {
               return (
                 <Col
                   xs="12"
                   className="col-xl-4 col-lg-5 col-md-6 col-sm-9 col-xs-10"
                   key={id}
                 >
-                <ServicesCard
+                <ServicesCard 
                   title={title}
                   title2={title2}
+                  title3={title3}
+                  text={text}
+                  text2={text2}
+                  text3={text3}
                   icon={icon}
                   image={image}
-                  to="/"
-                  iconBackground={iconColor}
+                  linkPage={linkPage}
+                  cardbg={cardbg}
+                  whiteImage={whiteImage}
+                  whiteImageClass={whiteImageClass}
+                  
                 />
                 
               </Col>

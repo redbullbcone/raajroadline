@@ -9,7 +9,7 @@ return(
 <Service>
   <Container>
     <Row >
-      <Col className="col-xl-6">
+      <Col className="col-xl-12">
         <SectionTitle 
         // subTitle="Our Services" 
         title={title}

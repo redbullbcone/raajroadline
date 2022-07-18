@@ -4,18 +4,35 @@ import { Box, Heading, Button, Paragraph } from "~styled";
 const Hero = styled(Box)`
   padding-top: 125px;
   padding-bottom: 60px;
-  background-size: cover;
-  background-position: right top;
-  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-position: right !important;
+  background-image:none;
   z-index: 0;
   @media (min-width: 768px) {
+    background-image:url("image/home-digital-agency/ai-auditor-hero.png");
     padding-top: 145px;
     padding-bottom: 80px;
   }
 
   @media (min-width: 1024px) {
+    padding-top: 172px;
+    padding-bottom: 227px;
+  }
+
+  @media(min-width:1170px){
+    padding-top: 150px;
+    padding-bottom: 122px;
+  }
+
+  @media(min-width:1270px){
+    padding-top: 150px;
+    padding-bottom: 122px;
+  }
+
+  @media (min-width: 1400px) {
     padding-top: 260px;
-    padding-bottom: 195px;
+    padding-bottom: 182px;
   }
 
 
@@ -25,38 +42,67 @@ Hero.Content = styled(Box)`
 .agency-btn1{
   background:#ff5722 !important;
   margin-right:16px;
+  border-radius:50px !important;
+  box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+
+  &:hover {
+    background: #f98c6a !important;
+  }
 }
 .agency-btn2{
   background:#3183ff !important;
+  border-radius:50px !important;
+  box-shadow: -8px 8px 50px rgba(26, 117, 255, 0.5);
+
+  &:hover{
+    background: #4e92f9 !important;
+  }
+
 }
 .opac-word{
   opacity:1;
 }
 `;
 Hero.Text = styled(Paragraph)`
-  font-size: 16px;
   font-weight: 400;
-  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
   letter-spacing: normal;
-  line-height: 1.619;
-  margin-bottom: 55px;
+  margin-bottom:40px;
   opacity: 0.7;
+  color:#000;
+
   @media (min-width: 768px) {
     font-size: 18px;
   }
 
   @media (min-width: 1024px) {
     font-size: 21px;
+    margin-bottom:55px;
+  }
+
+  @media(min-width;1170px){
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  @media(min-width:1400px){
+    font-size:24px;
+    line-height:36px;
   }
 
 
 `;
 Hero.Title = styled(Heading)`
-  font-size: 70px;
-  font-weight: 500;
-  letter-spacing: normal;
-  line-height: 1.2;
-  margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+
+  b{
+    font-weight:700;
+    color:#FF5722;
+  }
 
   @media (min-width: 480px) {
     font-size: 40px;
@@ -69,35 +115,37 @@ Hero.Title = styled(Heading)`
   }
 
   @media (min-width: 992px) {
-    font-size: 50px;
-    font-weight:700px;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
 
   @media (min-width: 1024px) {
-    font-size: 50px;
-    font-weight:700;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
 
   }
 
   @media (min-width: 1170px) {
-    font-weight: 00;
-    font-size: 60px;
-    line-height: 72px;
-    margin-bottom: 122px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 33px;
   }
 
   @media (min-width: 1270px) {
     font-weight: 600;
-    font-size: 60px;
-    line-height: 72px;
-    margin-bottom: 122px;
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 33px;
   }
   
   @media(min-width:1400px){
     font-weight: 700;
     font-size: 70px;
     line-height: 72px;
-    margin-bottom: 122px;
+    margin-bottom: 33px;
   }
 `;
 Hero.Icon = styled(Box)`
@@ -117,7 +165,7 @@ Hero.Icon = styled(Box)`
 `;
 
 Hero.Button = styled(Button)`
-  width: 180px;
+  width: 155px;
   height: 57.37px;
   font-weight: 600;
   font-size: 20px;
@@ -130,6 +178,10 @@ Hero.Button = styled(Button)`
   &:hover {
     
     
+  }
+
+  @media(min-width:768px){
+    width: 180px;
   }
   
 `;

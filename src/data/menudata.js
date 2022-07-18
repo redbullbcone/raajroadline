@@ -21,7 +21,7 @@ export const menuItems = [
             { name: "ai-auditor", label: " AI Auditor " },
             { name: "hire-interns", label: " Hire Interns " },
             { name: "employee-monitoring", label: " Employee Monitoring " },
-            { name: "prepared-virtual-card", label: "  Prepaid Virtual Cards " },
+            { name: "virtual-prepaid-card", label: " Virtual Prepaid Cards " },
             { name: "microsoft-ads", label: "Microsoft Ads  " },
 
             //  { name: "about-us", label: "  " },

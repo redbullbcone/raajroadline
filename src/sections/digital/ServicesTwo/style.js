@@ -9,7 +9,7 @@ const Service = styled(Box)`
     padding-bottom: 70px;
   }
   @media (min-width: 992px) {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 50px;
   }
   .service-card-left-section .service-card-left-section-inner > div {
@@ -34,9 +34,11 @@ const Service = styled(Box)`
     line-height:1.5;
     font-weight: 600;
     margin-bottom:10px;
+    margin-top: 32px;
     @media (min-width: 992px) {
       font-size:16px;
       margin-bottom:10px;
+      margin-top: 0;
      }
      @media (min-width: 1170px) {
       font-size:18px;
@@ -56,25 +58,40 @@ const Service = styled(Box)`
 `;
 Service.Title = styled(Heading)`
   color:#000;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 700;
   letter-spacing: normal;
-  line-height: 1.25;
+  line-height: 30px;
   width: auto;
+
+  b{
+    font-weight:700;
+    color:#1A75FF;
+  }
   @media (min-width: 768px) {
     font-size: 18px;
   }
   @media (min-width: 992px) {
     font-size: 32px;
+    line-height: 40px;
   }
   @media (min-width: 1170px) {
-    font-size: 30px;
+        font-weight: 700;
+        font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -1px
   }
   @media (min-width: 1270px) {
-    font-size: 30px;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+    letter-spacing: -1px
   }
   @media (min-width: 1400px) {
-    font-size: 36px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 62px;
+    letter-spacing: -1px
   }
 `;
 Service.Subtitle = styled(Heading)`

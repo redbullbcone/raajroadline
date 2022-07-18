@@ -191,6 +191,32 @@ const Content = styled(Box)`
 
   }
 
+  .imgtwodown{
+
+    @media(min-width:992px){
+      width: 42%;
+      margin-top: 218px;
+      height: 400px;
+      margin-left: -25px;
+    }
+
+    @media(min-width:1170px){
+      width: 42%;
+      margin-top: 212px;
+      height: 407px;
+      margin-left: 0;
+    }
+
+    @media(min-width:1400px){
+    margin-bottom: 0;
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 143px;
+    height: 423px;
+    margin-left:0;
+    }
+  }
+
 
 `;
 Content.Title = styled(Heading)`
@@ -318,12 +344,15 @@ Content.ImageOne = styled(Box)`
   }
   @media (min-width: 1024px) {
     margin-bottom: 0;
-    width: 40%;
+    width: 50%;
+  }
+
+  @media(min-width:1170px){
+    width: 50%;
   }
 
   @media(min-width:1400px){
-    width: 50%;
-    height: 445px;
+    width: 47%;
 
   }
 `;
@@ -339,13 +368,15 @@ Content.ImageOneInner = styled(Box)`
   }
 
   @media(min-width:992px){
-    left: -86%;
+    left: -84%;
   }
-  @media(min-width:992px){
-    left: -86%;
+
+
+  @media(min-width:1170px){
+    left: -52%;
   }
   @media(min-width:1400px){
-    left: -45%;
+    left: -40%;
   }
 `;
 Content.ImageTwo = styled(Box)`
@@ -361,8 +392,24 @@ Content.ImageTwo = styled(Box)`
     transform: skewX(-15deg);
   }
   @media (min-width: 1024px) {
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 161px;
+    margin-left: -13px;
+  }
+
+  @media(min-width:1170px){
+    margin-left:0;
+    border-radius: 15px;
+    margin-top: 164px;
+
+  }
+
+  @media(min-width:1400px){
     margin-bottom: 0;
     width: 40%;
+    border-radius: 15px;
+    margin-top: 145px;
   }
 `;
 Content.ImageTwoInner = styled(Box)`

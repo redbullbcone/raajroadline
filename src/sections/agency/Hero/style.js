@@ -13,11 +13,26 @@ const Hero = styled(Box)`
     @media (min-width:768px) {
         padding-top: 145px;
         padding-bottom: 80px;
+        background-image: url(image/recruitment-agency/affiliate-bg.png);
+        background-size: cover;
     }
 
     @media (min-width:992px) {
-        padding-top: 260px;
-        padding-bottom: 195px;
+        padding-top: 113px;
+        padding-bottom: 44px;
+    }
+    @media(min-width:1024px){
+        padding-top: 113px;
+        padding-bottom: 35px;
+    }
+
+    @media(min-width:1170px){
+        padding-top: 168px;
+        padding-bottom: 83px;
+    }
+
+    @media(min-width:1400px){
+        padding-bottom: 169px;
     }
 
     @media (min-width:1600px) {

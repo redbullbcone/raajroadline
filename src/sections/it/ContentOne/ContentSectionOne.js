@@ -2,7 +2,7 @@ import React from 'react'
 import Content from './style'
 import SectionTitle from './Components/SectionTitle'
 import { Col, Container, Row } from 'react-bootstrap'
-export default function ContentSectionOne(){
+export default function   ContentSectionOne(){
 return(
 <Content>
   <Container>
@@ -44,26 +44,42 @@ return(
     </Row>
 
     <Row className="align-items-center justify-content-center">
-    <div className=" d-flex alt-card2 main-container">
+    <div className=" d-flex main-section3" >
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
-        <Content.Box className="txt-card3">
-        <SectionTitle title="Receive" title2="Invites" text="Immediately be notified about any job opportunities from clients eager to work with you. Easily view the terms and conditions of every project to make sure both parties' expectations are aligned and met. Have the freedom to choose which projects to work on, on your terms."
-        titleProps={{mb:"10px",as:"h2"}}
-        mb="69px" />
+        <Content.Box className="txt-card5">
+        <h3><span className='blue-h3'>Messaging</span> System</h3>
+        <p>Immediately be notified about any job opportunities from clients eager to work with you. Easily view the terms and conditions of every project to make sure both parties' expectations are aligned and met. Have the freedom to choose which projects to work on, on your terms.</p>
         </Content.Box>
         
       </Col>
       <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-1 order-lg-2">
-        <Content.Image className="image-card3">
-          <img src="image/it-services/screen2.png"  alt="content" className="resp-image main-img2 w-100"/>
+        <Content.Image className="image-card5">
+          <img src="image/it-services/screen7.png"  alt="content" className="resp-image main-img5 w-100"/>
+        </Content.Image>
+      </Col>
+    </div>
+    </Row>
+
+    <Row className="align-items-center justify-content-center">
+    <div className=" d-flex main-section3" >
+      <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-2 ">
+        <Content.Box className="txt-card6">
+        <h3><span className='blue-h3'>Proof</span> of Work</h3>
+        <p>Your work hours are automatically tracked to make sure you are paid accordingly to the effort and time spent on the project. Keep the clients constantly updated while meeting their expectations. Never be underpaid again and be properly compensated for your work!</p>
+        </Content.Box>
+        
+      </Col>
+      <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-1 order-lg-1">
+        <Content.Image className="image-card5">
+          <img src="image/it-services/screen6.png"  alt="content" className="resp-image main-img5 w-100"/>
         </Content.Image>
       </Col>
     </div>
     </Row>
 
     <Row className="align-items-center justify-content-center freelancer-alt-card">
-    <div className=" d-flex main-container">
-      <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-1 order-lg-1">
+    <div className=" d-flex main-container2">
+      <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-1 order-lg-2">
         <Content.Image className="image-card4">
           {/* <img src="image/it-services/blank.png"  alt="content" className="resp-image main-img4 w-100"/> */}
           <div className='cellphone-video'>
@@ -76,7 +92,7 @@ return(
         </div>
         </Content.Image>
       </Col>
-      <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-2 ">
+      <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
         <Content.Box className="txt-card4">
         <SectionTitle title="Get Paid" title2="Securely" text="With MRKT365 and Payoneer's partnership rest assured that all payments are securely transferred to your account. We handle all billing and invoicing directly with clients, so you can focus on more important tasks. Get paid on time, every time!"
         titleProps={{mb:"10px",as:"h2"}}
@@ -86,22 +102,7 @@ return(
     </div>
     </Row>
 
-    <Row className="align-items-center justify-content-center">
-    <div className=" d-flex main-section3" >
-      <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
-        <Content.Box className="txt-card5">
-        <h3><span className='blue-h3'>Proof</span> of Work</h3>
-        <p>Your work hours are automatically tracked to make sure you are paid accordingly to the effort and time spent on the project. Keep the clients constantly updated while meeting their expectations. Never be underpaid again and be properly compensated for your work!</p>
-        </Content.Box>
-        
-      </Col>
-      <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-1 order-lg-2">
-        <Content.Image className="image-card5">
-          <img src="image/it-services/screen3.png"  alt="content" className="resp-image main-img5 w-100"/>
-        </Content.Image>
-      </Col>
-    </div>
-    </Row>
+   
 
   </Container>
 </Content>

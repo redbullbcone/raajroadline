@@ -8,9 +8,9 @@ export default function ServicesSectionTwo() {
     <Service>
       <Container>
         <Row>
-          <Col xs="12" className="col-xl-5 col-lg-6 col-md-9 col-xs-10 order-2 order-lg-1 main-employee-monitiring" >
+          <Col xs="12" className="col-xl-6 col-lg-6 col-md-9 col-xs-10 order-2 order-lg-1 main-employee-monitiring" >
             <Service.Title as="h2" mb="40px" className="employe-monitoring-sec">
-            Feel Confident Knowledge that Everyone is Working on
+            <b>Feel Confident Knowledge</b><br /> that Everyone is Working<br /> on
             the Right Tasks
             </Service.Title>
            <Service.Text>
@@ -20,7 +20,7 @@ export default function ServicesSectionTwo() {
           </Col>
           <Col
             xs="12"
-            className="col-xxl-6 offset-xxl-1 col-xl-7 col-lg-6 col-md-11 order-1 order-lg-2 service-card-left-section"
+            className="col-xl-6 col-lg-6 col-md-11 order-1 order-lg-2 service-card-left-section"
           >
             <Service.Box mlXL="35px" mb="20px" mbLG="0px" className='service-card-left-section-inner'>
               <ServiceCard

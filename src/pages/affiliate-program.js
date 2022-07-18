@@ -4,11 +4,7 @@ import HeroSection from "~sections/AffiliatePlatform/Hero";
 import ServicesSectionOne from "~sections/intern/ServicesOne";
 import ServicesSectionTwo from "~sections/startup/ServicesTwo";
 import AboutSection from "~sections/startup/About";
-import ProcessSection from "~sections/startup/Process";
-import ProtfolioSection from "~sections/startup/Portfolio";
 import TestimonialSection from "~sections/startup/Testimonial";
-import BlogSection from "~sections/startup/Blog";
-import PromoSection from "~sections/startup/Promo";
 import FooterOne from "~sections/marketing/FooterOne";
 import HeaderButton from "~sections/marketing/Header"
 import CtaSection from "~sections/marketing/Cta"
@@ -111,15 +107,10 @@ export default function Startup() {
       <meta name="twitter:url" content="https://mrkt365.com/affiliates" />
       </Helmet>
       <HeroSection/>
-      <ServicesSectionOne ClassName="intern-features" title="Earn Affiliate Income with MRKT365" content={ServiceData}/>
+      <ServicesSectionOne ClassName="intern-features" title="How Does it Work?" content={ServiceData}/>
       <TestimonialSection />
       <ServicesSectionTwo />
       <AboutSection />
-      {/* <ProcessSection /> */}
-      {/* <ProtfolioSection /> */}
-
-      {/* <BlogSection /> */}
-      {/* <PromoSection /> */}
       <CounterSection/>
       <CtaSection />
       <FooterOne />

@@ -14,7 +14,7 @@ export default function HeroSection({headerimage,herotextBold,herotextBold2,hero
              
               <Hero.Title as="h2">
               {herotitle}<br />
-              {herotitle2}
+              <span className="orange-text">{herotitle2}</span>
               </Hero.Title>
               <Hero.Text>
               {herotext1}
@@ -26,7 +26,7 @@ export default function HeroSection({headerimage,herotextBold,herotextBold2,hero
               
              
               </Hero.Text>
-              <Hero.Buttons mt="30px" mtLG="50px">
+              <Hero.Buttons mt="30px" mtLG="50px" className="d-flex">
                 <Hero.Button
                   className="btn-hero-affiliate btn-affi-hero1"
                   to="/"

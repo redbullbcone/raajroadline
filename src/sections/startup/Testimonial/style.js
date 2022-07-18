@@ -44,11 +44,11 @@ Testimonial.Title = styled(Heading)`
         margin-bottom:36px;
     }
     @media (min-width:1170px) {
-        font-size:40px;
+        font-size:70px;
         margin-bottom:40px;
     }
     @media (min-width:1270px) {
-        font-size:42px;
+        font-size:70px;
         margin-bottom:42px;
     }
     @media (min-width:1400px) {

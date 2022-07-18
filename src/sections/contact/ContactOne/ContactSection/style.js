@@ -193,9 +193,8 @@ Contact.Button = styled(Button)`
   min-width: 180px;
   height: 56px;
   background-color: #ff5722 !important;
-  border-radius: 55px;
   color: #fff !important;
-  border-radius: 10px !important;
+  border-radius: 50px;
   &:hover {
     color: #fff !important;
     background-color: rgba(255, 87, 34, 0.7) !important;

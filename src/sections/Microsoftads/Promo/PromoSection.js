@@ -2,12 +2,13 @@ import React from 'react'
 import Promo from './style'
 import { Col, Container, Row } from 'react-bootstrap'
  
-export default function PromoSection({...rest}){
+export default function     PromoSection({...rest}){
 return(
 <Promo>
+  <Container>
     <Row className="justify-content-center">
       <Col className="col-xl-12 text-center">
-           <Promo.Title as="h2" className="text-center" mb="40px">Reaching over 1 billion <br /> people globally</Promo.Title>
+           <Promo.Title as="h2" className="text-center" mb="40px">Reaching over <b>1 billion</b> <br /> people globally</Promo.Title>
         <Promo className="map-box-counter" style={{backgroundImage: `url("image/microsoft-ads/world-map.png")`}}>
             {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
            <div className=" map-location location1">
@@ -84,13 +85,15 @@ return(
         </Promo>
       </Col>
     </Row>
+    </Container>
 
+    <Container>
     <Row className="justify-content-center">
       <Col className="col-xl-12 text-center">
         <Promo className="main-box-counter3">
             {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
            <Col className="col-md-12 promo-sec2">
-           <Promo.Title as="h2" fontsize="56px" className="text-center pink-main-heading">Microsoft Advertising is expanding in EMEA in 2021</Promo.Title>
+           <Promo.Title as="h2" fontsize="56px" className="text-center pink-main-heading"><b>Microsoft Advertising is Expanding</b> <br />in EMEA in 2021</Promo.Title>
            </Col>
             {/* <Promo.Button className="btn-torch-red"  as="a"  href="#"  sizeX="180px" sizeY="56px" mt="20px">Booking</Promo.Button> */}
         </Promo>
@@ -126,22 +129,9 @@ return(
          <Promo.Text className="bottom-text">*Comscore qSearch (custom) data for Bing and Microsoft Search Sites, September 2020</Promo.Text>
          </Col>    
     </Row>
+    </Container>
 
- 
-    <Row className="justify-content-center">
-      <Col className="col-xl-12 text-center">
-        <Promo.InnerWrapper className="main-box-counter" style={{backgroundImage: `url("image/microsoft-ads/microsoft-section-bg-image.png")`}}>
-            {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
-           <Col className="col-md-12 main-promo-sec">
-           <Promo.Title as="h2" fontColor="#fff" className="text-center">MRKT365 and Microsoft Partnership</Promo.Title>
-            <Promo.Text fontColor="#fff" className="text-center">Microsoft has become an integral part of many organizations around the world. As such, MRKT365 has decided to partner up with them to provide your business with better marketing services. With this partnership, you will now find Microsoft-certified experts at our marketplace, make use of Microsoft Advertising, scan your Microsoft Account for AI recommendations, or get cashback from your Microsoft account expenses with our VPC.
-             
-            </Promo.Text>
-           </Col>
-            {/* <Promo.Button className="btn-torch-red"  as="a"  href="#"  sizeX="180px" sizeY="56px" mt="20px">Booking</Promo.Button> */}
-        </Promo.InnerWrapper>
-      </Col>
-    </Row>
+    
   
 </Promo>
 

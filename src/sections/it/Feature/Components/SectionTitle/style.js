@@ -26,6 +26,7 @@ font-weight: 700;
 font-size: 45px;
 line-height: 54px;
 color:#262729;
+font-family:rubik;
 
 @media (min-width:768px) {
     font-size: 33px;

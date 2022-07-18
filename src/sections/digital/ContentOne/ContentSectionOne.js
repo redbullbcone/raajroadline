@@ -43,9 +43,23 @@ export default function ContentSectionOne() {
               <Content.ImageTwo mb="40px">
                 <img src="image/recruitment-agency/hand-shaking.png" alt="content" className="w-100"/>
               </Content.ImageTwo>
-              <Content.Text mb="30px" ptXL="30px">
-              MRKT365 is going to help your Recruitment<br /> Agency to <b>EARN MORE. INTEGRATE YOUR <br />TALENT POOL </b>into our marketplace and <br /> earn commission while the freelancers are <br />getting jobs. Use our <b>MARKETPLACE TO <br />HIRE TALENTS </b>for your clients and earn a <br /><b>50% </b>of our service fee up to $1000. 
-              </Content.Text>
+              <Content.Title mb="30px" ptXL="30px">
+                <b>Easy</b> as 1-2-3:
+              </Content.Title>
+              <div className="d-flex justify-content-between">
+              <div className="steps">
+              <img className="counter-icons" src="image/home-services/count.png" alt="content" />
+              <h5>Sign up </h5>
+              </div>
+              <div className="steps">
+              <img className="counter-icons2" src="image/home-services/count2.png" alt="content" />
+              <h5>Invite your<br />contacts</h5>
+              </div>
+              <div className="steps">
+              <img className="counter-icons3" src="image/home-services/count3.png" alt="content" />
+              <h5>Earn money<br />when they<br />earn</h5>
+              </div>
+              </div>
             </Col>
           </Row>
         </Content.InnerBlock>

@@ -3,7 +3,11 @@ import { Box } from '~styled'
 
 const Images = styled(Box)`
         z-index: 1;
-        padding-top: 60px;
+        margin-top: -72px;
+        @media(min-width:768px){
+            padding-top: 60px;
+
+        }
     
 
 `

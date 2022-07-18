@@ -649,13 +649,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 @media only screen and (max-width:1600px) {
 	.welcome-image--group-01__img-5 {
-		left: -120% !important;
+		left: -125% !important;
+    top: 95% !important;
 	}
 }
 @media only screen and (max-width:1399px) {
 	.welcome-image--group-01__img-5 {
-    left: -122% !important;
-    top: 90% !important;
+    left: -132% !important;
+    top: 100% !important;
 	}
 }
 @media only screen and (max-width:1240px) {
@@ -840,8 +841,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
   //---------------Hire intern -----------------------------
     .hire-intern-hero h2{
-      font-size: 50px;
-      line-height:75px;
+  
     }
 
     .hire-intern-hero p{
@@ -849,11 +849,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
       list-style: 27px;
     }
 
-    .hire-intern-hero .business-btn1{
-      font-size: 16px !important;
-      width: 200px !important;
-      height: 55px !important;
-    }
+
 
 
     .intern-promo-sec p{
@@ -881,10 +877,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
       font-weight: 500px !important;
     }
 
-    .get-started-sec p{
-      font-size: 18px !important;
-      line-height: 27px !important;
-    }
   //---------------Hire intern end -------------------------
 
   //---------------Pricing Page ----------------------------
@@ -893,17 +885,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
       font-size: 40px !important;
     }
 
-    .bottom-dash{
-      margin-left: 50px !important;
-    }
 
-    .pricing-card-top .bottom-dash{
-      margin-bottom: 70px !important;
-    }
 
-    .pricing-card-top{
-      min-height: 286px !important;
-    }
+
   //---------------Pricing page end ------------------------
   //---------------Contact Page ----------------------------
     .form-check-label{
@@ -929,9 +913,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     line-height: 27px !important;
   }
 
-  .PVC-hero-sec h2{
-    font-size: 50px !important;
-  }
+  // .PVC-hero-sec h2{
+  //   font-size: 50px !important;
+  // }
   .PVC-hero-sec p{
     font-size: 18px;
   }
@@ -1320,6 +1304,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   }
 }
 
-.white-btn{
+
+
+.site-header a.white-btn.btn { 
   color:#fff;
 }
+.scrolling.site-header a.white-btn.btn {
+   color:#000;
+  }

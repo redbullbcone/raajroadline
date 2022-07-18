@@ -17,6 +17,15 @@ const Pricing = styled(Box)`
         padding-top: 130px;
         padding-bottom: 130px;
     }
+
+    .bottom-dash{
+        @media(min-width:992px){
+            margin-left:22px;
+        }
+        @media(min-width:1170px){
+            margin-left: 50px;
+          }
+    }
 `
 Pricing.Button = styled(Box).attrs({className:"pricing-btn"})`
     display: flex;

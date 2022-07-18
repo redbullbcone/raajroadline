@@ -14,12 +14,23 @@ const Hero = styled(Box)`
   }
 
   @media (min-width: 1024px) {
-    padding-top: 260px;
-    padding-bottom: 195px;
+    padding-top: 150px;
+    padding-bottom:150px;
+    margin-bottom: -163px;
+
+  }
+
+  @media(min-width:1170px){
+    padding-top: 150px;
+    padding-bottom:0;
+    margin-bottom: -163px;
   }
 
   @media(min-width:1400px){
-    padding:249px 316px
+    padding-top: 150px;
+    padding-bottom:0;
+    margin-bottom: 0;
+
   }
 
   &::before {
@@ -32,36 +43,119 @@ const Hero = styled(Box)`
     position: absolute;
     z-index: -1;
   }
+
+  .hero-right{
+    display:none;
+
+    @media(min-width:768px){
+      display:block;
+    }
+  }
+  .hero-image{
+    position: relative;
+    top: -153px;
+   
+
+    @media(min-width:768px){
+      top: -132px;
+      width: calc(100% + 65px);
+    }
+
+    @media(min-width:992px){
+      top: -81px;
+      width: calc(100% + 65px);
+      left: -12px;
+    }
+    @media(min-width:1170px){
+      top: -132px;
+      width: calc(100% + 65px);
+    }
+    @media(min-width:1270px){
+      top: -132px;
+      width: calc(100% + 65px);
+
+    }
+    @media(min-width:1400px){
+      top: -132px;
+      width: calc(100% + 65px);
+
+    }
+  }
 `;
 
 Hero.Content = styled(Box)`
 .agency-btn1{
   background:#ff5722 !important;
   margin-right:27px;
+  position: relative;
+  left: -15px;
+  box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5);
+
+  &:hover {
+    background: #f98c6a !important;
+  }
+
+  @media(min-width:992px){
+  left: -38px;
+
+  }
+
+  @media(min-width:1170px){
+  left: -75px;
+  }
+
+
 }
 .agency-btn2{
   background:#3183ff !important;
+  box-shadow: -8px 8px 50px rgba(26, 117, 255, 0.5) !important;
+  position: relative;
+  left: -32px;
+
+
+  &:hover {
+    background: #4e92f9 !important;
+  }
+
 }
 .opac-word{
   opacity:1;
 }
 `;
 Hero.Text = styled(Paragraph)`
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 1.619;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
   margin-bottom: 55px;
-  opacity: 0.7;
+  text-align: left;
+
+  b{
+    color:#000;
+    font-weight:700;
+  }
+
   @media (min-width: 768px) {
     font-size: 18px;
   }
+  @media(min-wdidth:992px){
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  @media(min-wdidth:1170px){
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  @media(min-wdidth:1270px){
+    font-size: 16px;
+    line-height: 32px; 
+  }
 
   @media(min-width:1400px){
-    font-size:21px;
-    font-weight:400;
-    line-height:30px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 40px;
   }
 
  
@@ -72,6 +166,12 @@ Hero.Title = styled(Heading)`
   letter-spacing: normal;
   line-height: 1.2;
   margin-bottom: 25px;
+  text-align:left;
+
+  b{
+    color: #FF5722;
+    font-weight:700;
+  }
 
   @media (min-width: 480px) {
     font-size: 40px;
@@ -88,6 +188,8 @@ Hero.Title = styled(Heading)`
     font-weight:700;
     font-size:70px;
   }
+
+
 `;
 Hero.Icon = styled(Box)`
   min-width: 66px;
@@ -106,7 +208,7 @@ Hero.Icon = styled(Box)`
 `;
 
 Hero.Button = styled(Button)`
-  width: 180px;
+  width: 150px;
   height: 57.37px;
   font-weight: 600;
   font-size: 16px;
@@ -114,7 +216,11 @@ Hero.Button = styled(Button)`
   color: #fff !important;
   box-shadow: 0 20px 20px rgb(253 52 110 / 0%);
   transition: 0.4s;
-  border-radius: 10px!important;
+  border-radius: 50px!important;
+
+  @media(min-width:992px){
+    width: 180px;
+  }
 
   @media(min-width:1400px){
     font-weight: 400;

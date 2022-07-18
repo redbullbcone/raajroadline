@@ -4,9 +4,13 @@ import { Heading, Box, Paragraph } from '~styled'
 const SectionTitle = styled(Box)`
 .main-head{
     font-weight: 700;
-    font-size: 60px;
-    line-height: 58px;
-    margin-bottom:36px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 13px;
+
+    @meda(min-width:992px){
+        margin-bottom:36px;
+    }
 
     @media(min-width:1170px){
         font-size:50px;
@@ -17,6 +21,13 @@ const SectionTitle = styled(Box)`
         font-size: 60px;
         line-height: 58px;
         margin-bottom:36px;
+    }
+}
+
+h2{
+    b{
+        color:#1A75FF;
+        font-weight:700;
     }
 }
 `
@@ -62,6 +73,8 @@ color: #ff5722;
 
 `
 SectionTitle.Main = styled(Heading)`
+
+
 font-size: 32px;
 font-weight: 500;
 letter-spacing: normal;

@@ -180,9 +180,7 @@ Footer.SocialShareItem = styled(Box).attrs({
     transition: 0.4s;
     color: #fff;
     font-size: 21px;
-    &:hover {
-      color: #fd346e;
-    }
+    
   }
   &:first-child {
     a:before {

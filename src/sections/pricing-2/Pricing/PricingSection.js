@@ -31,7 +31,7 @@ return(
   <Container>
   <Pricing.Box pb="40px" pbXL="70px">
   <Row className="align-items-end justify-content-center">
-        <Col xs="12" className="col-xl-8 col-lg-7">
+        <Col xs="12" className="col-xl-12 col-lg-12">
           <Pricing.Box className="text-center text-lg-start ">
             <Pricing.Title className="pricing-head">Pricing Plans</Pricing.Title>
           </Pricing.Box>
@@ -51,7 +51,7 @@ return(
     <Row className="justify-content-center">
       {/* Single Table */}
       <Col xs="12" className="col-lg-4 col-md-6 col-sm-9 col-xs-10">
-          <PricingCard cardTitle={"Free"} cardText={"One User"} buttonname={"Choose Plan"} backgroundColor={"#442cd6"} />
+          <PricingCard cardTitle={"Free"} cardText={"One User"} buttonname={"Choose Plan"} backgroundColor={"#442cd6"} hoverBackgroundColor={"#8173d5"} />
       </Col>
       {/* Single Table */}
       <Col xs="12" className="col-lg-4 col-md-6 col-sm-9 col-xs-10">
@@ -59,7 +59,7 @@ return(
       </Col>
       {/* Single Table */}
       <Col xs="12" className="col-lg-4 col-md-6 col-sm-9 col-xs-10">
-          <PricingCard cardTitle={"Enterprise"} cardText={"Dedicated Support"} buttonname={"Contact Us"} backgroundColor={"#442cd6"} optionalText={'Custom Pricing'}/>
+          <PricingCard cardTitle={"Enterprise"} cardText={"Dedicated Support"} buttonname={"Contact Us"} backgroundColor={"#442cd6"} hoverBackgroundColor={"#8173d5"} optionalText={'Custom Pricing'}/>
       </Col>
     </Row>
   </Container>

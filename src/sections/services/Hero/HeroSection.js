@@ -7,7 +7,7 @@ import Hero from './style'
 
 export default function HeroSection(){
 return(
-<Hero style={{backgroundImage: `url("image/home-services/business-slider-new.jpg")`}}>
+<Hero style={{backgroundImage: ``}}>
   <Container>
     <Row className="align-items-center justify-content-center justify-content-md-start">
       {/* Welcome content Area */}

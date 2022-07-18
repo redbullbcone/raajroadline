@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { Box, Heading, Button, Paragraph } from "~styled";
 
 const Hero = styled(Box)`
+
+
   padding-top: 125px;
   padding-bottom: 60px;
   background-size: cover;
@@ -9,24 +11,27 @@ const Hero = styled(Box)`
   position: relative;
   z-index: 0;
   @media (min-width: 768px) {
+    background-image :url("image/employee/hero.png");
     padding-top: 100px;
     padding-bottom: 60px;
   }
   @media (min-width: 992px) {
-    padding-top: 120px;
-    padding-bottom: 80px;
+ 
+    padding-top: 251px;
+    padding-bottom: 154px;
+
   }
   @media (min-width: 1170px) {
     padding-top: 180px;
-    padding-bottom: 120px;
+    padding-bottom: 107px;
   }
   @media (min-width: 1270px) {
     padding-top: 220px;
-    padding-bottom: 160px;
+    padding-bottom:107px;
   }
   @media (min-width: 1400px) {
-    padding-top: 240px;
-    padding-bottom: 190px;
+    padding-top: 252px;
+    padding-bottom: 270px;
   }
 
   &::before {
@@ -54,29 +59,43 @@ Hero.Content = styled(Box)`
 }
 `;
 Hero.Text = styled(Paragraph)`
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 1.619;
-  margin-bottom: 55px;
+  line-height:30px;
   opacity: 1.0;
+
+  b{
+    font-weight:700;
+  }
   @media (min-width: 768px) {
     font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 55px;
+
   }
   @media (min-width: 992px) {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 30px;
   }
   @media (min-width: 1170px) {
-    font-size: 18px;
+    font-size: 21px;
+    line-height: 40px;
+
   }
 `;
 Hero.Title = styled(Heading)`
-  font-size: 21px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: normal;
-  line-height: 1;
+  line-height: 40px;
   margin-bottom: 20px;
+
+  b{
+    font-weight:700;
+    color:#FF5722;
+  }
   @media (min-width: 480px) {
     font-size: 24px;
   }
@@ -85,15 +104,23 @@ Hero.Title = styled(Heading)`
   }
   @media (min-width: 992px) {
     font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 36px;
   }
   @media (min-width: 1170px) {
     font-size: 48px;
+    line-height:52px;
+    margin-bottom: 56px;
   }
   @media (min-width: 1270px) {
     font-size: 54px;
+    line-height:60px;
+    margin-bottom: 56px;
   }
   @media (min-width: 1400px) {
-    font-size: 60px;
+    font-size: 66px;
+    line-height: 70px;
+    margin-bottom: 56px;
   }
 `;
 Hero.Icon = styled(Box)`
@@ -121,7 +148,7 @@ Hero.Button = styled(Button)`
   color: #fff !important;
   box-shadow: 0 20px 20px rgb(253 52 110 / 0%);
   transition: 0.4s;
-  border-radius: 10px!important;
+  border-radius: 50px!important;
 
   &:hover {
     

@@ -13,6 +13,8 @@ const Hero = styled(Box)`
     @media (min-width:768px) {
         padding-top: 145px;
         padding-bottom: 80px;
+        background-image: url(image/recruitment-agency/affiliate-hero-image.png);
+        background-size: cover;
     }
 
     @media (min-width:992px) {

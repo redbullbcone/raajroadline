@@ -17,18 +17,22 @@ const HeroImageGroup = styled(Box).attrs({className:"welcome-image-group-wrapper
     @media (min-width:992px) {
         position: absolute;
         width: 100%;
-        bottom: -1%;
-        right: -10%;
-        max-width: 543px;
+        bottom: -24%;
+        right: 0%;
+        max-width: 64%;
+
     }
 
     @media (min-width:1200px) {
         right: 0%;
-        max-width: 630px;
+        max-width: 58%;
+        left: 54%;
+        top: 2%;
     }
 
     @media (min-width:1400px) {
-        max-width: 815px;
+        max-width: 54%;
+        top: -3%;
     }
 `
 
@@ -79,18 +83,27 @@ HeroImageGroup.ImagesList = styled(Box)`
 
     
     @media (min-width:992px) {
-        max-width: 350px;        
-        top: 118px;
+        top: 112px;
+        max-width: 80%;
+        left: 20%;
+    }
+    @media (min-width:1024px) {
+        top: 98px;
+        max-width: 80%;
+        left: 20%;
     }
 
+
     @media (min-width:1170px) {
-        max-width: 407px;
         top: 96px;
+        max-width: 80%;
+        left: 0%;
     }
 
     @media (min-width:1400px) {
-        max-width: 525px;
         top: 164px;
+        max-width: 87%;
+
 
     }
         

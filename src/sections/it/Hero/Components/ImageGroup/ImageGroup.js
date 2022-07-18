@@ -5,7 +5,7 @@ export default function ImageGroup() {
     <HeroImageGroup>
       <HeroImageGroup.ImagesList>
         <img src="image/it-services/woman.png" alt="heroimg" className="w-100"/>
-        <HeroImageGroup.ImageOne>
+        {/* <HeroImageGroup.ImageOne>
           <img src="image/it-services/man.png" alt="heroimg" className="w-100"/>
         </HeroImageGroup.ImageOne>
         <HeroImageGroup.ImageTwo>
@@ -13,7 +13,7 @@ export default function ImageGroup() {
         </HeroImageGroup.ImageTwo>
         <HeroImageGroup.ImageThree>
           <img src="image/it-services/welcome-shape-l3-2.png" alt="heroimg" className="w-100"/>
-        </HeroImageGroup.ImageThree>
+        </HeroImageGroup.ImageThree> */}
       </HeroImageGroup.ImagesList>
     </HeroImageGroup>
   );

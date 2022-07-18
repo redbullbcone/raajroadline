@@ -7,30 +7,37 @@ const Hero = styled(Box)`
     position: relative;
     padding-bottom:70px;
     @media (min-width:768px) {
-        padding-top: 115px;
+        padding-top: 114px;
         padding-bottom: 110px;
     }
-
     @media (min-width:992px){
-        padding-top: 185px;
-        padding-bottom: 180px;
-        height:659px;
+        padding-top: 179px;
+        padding-bottom: 116px;
+
+    }
+
+    @media (min-width:1024px){
+        padding-top: 179px;
+        padding-bottom: 116px;
 
     }
 
     @media (min-width:1170px) {
         padding-top: 152px;
-        height:724px;
+        padding-bottom: 67px;
+    
     }
 
     @media (min-width:1270px) {
         padding-top: 152px;
-        height:724px;
+        padding-bottom: 42px;
+    
     }
 
     @media (min-width:1400px) {
-        padding-top: 220px;
-        height:975px;
+        padding-top: 170px;
+        padding-bottom: 177px;
+
     }
 
     .orange-text{
@@ -46,6 +53,7 @@ Hero.Title = styled(Heading)`
     line-height: 1.2068;
     margin-bottom: 21px;
     color: #25373f;
+    font-family: 'Rubik';
 
     @media (min-width:768px) {
         font-size: 45px;
@@ -136,21 +144,25 @@ Hero.Button = styled(Button) `
     @media (min-width:992px){
         width: 199px;
         font-size: 16px;
+        margin-top: 20px;
     }
 
     @media (min-width:1170px){
         width: 210px;
         font-size:18px;
+        margin-top: 20px;
     }
 
     @media (min-width:1270px){
         width: 210px;
         font-size:18px;
+        margin-top: 20px;
     }
 
     @media (min-width:1400px){
         width: 266px;
         font-size:21px;
+        margin-top: 20px;
     }
 
 `
@@ -159,7 +171,8 @@ Hero.BtnGroup = styled(Box)`
     margin-bottom: -20px;
 
     @media (min-width:992px) {
-        padding-top: 28px;
+        padding-top: 0px;
+        padding-bottom: 30px;
     }
 `
 

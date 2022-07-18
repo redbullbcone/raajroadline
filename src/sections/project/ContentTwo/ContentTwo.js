@@ -11,7 +11,7 @@ return(
   </Content.ContentShape> */}
     <Content.Block>
     <div className='DotShape'>
-      <img src="image/homepage/dot-animation.gif" alt="content" className="w-100"/>
+    <img src="image/intern/light-green-Dot.png" alt="content" className="w-100"/>
    </div>
   <Container>
     <Row className="align-items-center justify-content-center justify-content-lg-start backcolor2">
@@ -34,7 +34,7 @@ return(
   </Container>
   <div className='blueBackground'>
     <div className='DotShape'>
-      <img src="image/homepage/dot-animation.gif" alt="content" className="w-100"/>
+    <img src="image/intern/voilet.png" alt="content" className="w-100"/>
     </div>
   
   

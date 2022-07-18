@@ -126,7 +126,7 @@ return(
             </Footer.SocialShareItem>
             <Footer.SocialShareItem>
                 <a target="_blank" href="https://www.tiktok.com/@mrkt365">
-                <img src="image/logo/tictok-icon.jpg" />
+                <img src="image/logo/tik-tok.svg" />
                 </a>
             </Footer.SocialShareItem>
             <Footer.SocialShareItem>

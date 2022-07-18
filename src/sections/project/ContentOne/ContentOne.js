@@ -11,7 +11,7 @@ return(
     <Content.Inner className='backcolor'>
     <Container>
     <Content.SectionShape>
-      <img src="image/homepage/dot-animation.gif" alt="content" className="w-100"/>
+    <img src="image/intern/orange-Dot.png" alt="content" className="w-100"/>
     </Content.SectionShape>
     <Row className="align-items-center justify-content-center justify-content-lg-start convenience">
       <Col className="col-xl-5 col-lg-6 col-md-8 col-xs-10 order-2 order-lg-1">

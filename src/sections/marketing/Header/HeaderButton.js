@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import { Box } from '~styled'
 
 export const HeaderButtonWrapper = styled(Box)`
-  
+
+
     .btn{
         min-width:auto;
         height: 45px;
@@ -71,4 +72,4 @@ const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnOneClass,btnTwoText,.
     )
 }
 
-export default HeaderButton;
+export default HeaderButton;    

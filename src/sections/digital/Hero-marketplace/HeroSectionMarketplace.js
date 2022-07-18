@@ -20,18 +20,18 @@ export default function HeroSectionMarketplace() {
     // just checking again
 
     return (
-        <Hero backgroundImage="image/home-digital-agency/marketplace-bgimg.jpg">
+        <Hero>
             <Container>
-                <Row className="align-items-center justify-content-center">
-                    <Col className="col-xl-9">
+                <Row>
+                    <Col className="col-xl-6">
                         <Hero.Content className="text-center">
-                            <Hero.Title as="h1" fontColor="#fff">
-                                AI Powered Marketplace
+                            <Hero.Title as="h1" fontColor="#000">
+                                <b>AI Powered </b> <br />Marketplace
                             </Hero.Title>
-                            <Hero.Text fontColor="#fff">
-                                Get connected to Global Freelancers, Agencies, & Interns.{" "}
-                                <br className="d-none d-xs-block" /> Find experienced professionals and organizations
-                                to help <br className="d-none d-xs-block" /> Hire Interns from you finish any job at
+                            <Hero.Text fontColor="#000">
+                                Get <b>CONNECTED</b> to <b>GlOBAL FREELANCERS, AGENCIES,</b>
+                                <br className="d-none d-xs-block" />& <b>INTERNS.</b> Find <b>EXPERIENCED PROFESSIONALS</b> & 
+                                <br className="d-none d-xs-block" /><b>ORGANIZATION</b> to Help you Finish any Job at Hand.
                                 hand.
                             </Hero.Text>
                             <Hero.Button className="agency-btn1" onClick={goToMarketPlace}>
@@ -42,6 +42,12 @@ export default function HeroSectionMarketplace() {
                             </Hero.Button>
                         </Hero.Content>
                     </Col>
+                    <Col className="col-xl-6 hero-right">
+                        <div className="hero-image">
+                        <img src="image/ai-market/hero-image.png" alt="ai hero image" className="w-100"></img>
+                        </div>
+                    </Col>
+
                 </Row>
             </Container>
         </Hero>

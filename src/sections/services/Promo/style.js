@@ -21,21 +21,27 @@ const Promo = styled(Box)`
          }
 
         @media (min-width:1170px) {
-            margin-left:90px;
+            margin-left: -32px;
          }
 
         @media (min-width:1400px) {
-           margin-left:90px;
+            margin-left: -32px;
         }
 
     }
 `
 Promo.Title = styled(Heading)`
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
-    letter-spacing: normal;
-    line-height: 1.3;
+    letter-spacing: -1px;
+    color: #202020;
+    line-height:42px;
     margin-top: 15px;
+
+    b{
+        font-weight:700;
+        color: #1A75FF;
+    }
     @media (min-width:768px) {
       font-size: 38px;
     }
@@ -50,7 +56,8 @@ Promo.Title = styled(Heading)`
     }
 
     @media (min-width:1170px) {
-        font-size: 46px;
+        font-size: 60px;
+        line-height: 62px;
         margin-bottom:32px;
     }
 
@@ -67,24 +74,45 @@ Promo.Subtitle = styled(Heading)`
      
 `
 Promo.Text = styled(Paragraph)`
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 1.875;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+
+    @media(min-width:992px){
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    
+    @media(min-width:1170px){
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    
+    @media(min-width:1270px){
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    
+    @media(min-width:1400px){
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
 `
 
 Promo.InnerWrapper = styled(Box)`
  position: relative;
     z-index: 1;
-    padding-top: 50px;
-    padding-bottom: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px;
     background-position: center;
     background-size: cover;
-    
+    margin-bottom: 60px;
 
     @media (min-width:768px) {
+        margin-bottom:0;
         padding-top: 70px;
         padding-bottom: 80px;
         padding-left: 110px;
@@ -98,7 +126,6 @@ Promo.InnerWrapper = styled(Box)`
 
     &::before {
         content: "";
-        background-color: #adadad;
         mix-blend-mode: multiply;
         position: absolute;
         width: 100%;

@@ -48,7 +48,7 @@ margin-top: -116px;
             line-height: 70px;
         }
         @media (min-width:1400px){
-            font-weight: 500;
+            font-weight: 700;
             font-size: 72px;
             line-height:80px;
         }

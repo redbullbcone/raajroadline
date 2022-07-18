@@ -5,25 +5,23 @@ import Hero from "./style";
 
 export default function HeroSectionMarketplace() {
   return (
-    <Hero backgroundImage="image/home-agency/employee-monitoring-bgimg.png">
+    <Hero>
       <Container>
-        <Row className="align-items-center justify-content-center">
-          <Col className="col-xl-9">
-            <Hero.Content className="text-center">
-              <Hero.Title as="h1" fontColor="#fff">
-              Track & Improve Worker Productivity 
+        <Row>
+            <Hero.Content className="left">
+              <Hero.Title as="h1" fontColor="#000">
+              <b>Track & Improve</b><br />Team Productivity 
               </Hero.Title>
-              <Hero.Text fontColor="#fff">
-              Bring out the Best in your Remote Team with Proof of Work & <br className="d-none d-xs-block" />Productivity Tools that gets Work done.
+              <Hero.Text fontColor="#000">
+              Bring out the <b>Best</b> in your <b>Remote Team</b> with <b>Proof of Work</b> & <br className="d-none d-xs-block" /><b>Productivity Tools</b> that gets <b>Work done.</b>
               </Hero.Text>
-              <Hero.Button className="agency-btn1" as={Link} to="/">
+              {/* <Hero.Button className="agency-btn1" as={Link} to="/">
                 Sign Up for Free
               </Hero.Button>
               <Hero.Button className="agency-btn2" as={Link} to="/">
                 Book a Demo
-              </Hero.Button>
+              </Hero.Button> */}
             </Hero.Content>
-          </Col>
         </Row>
       </Container>
     </Hero>

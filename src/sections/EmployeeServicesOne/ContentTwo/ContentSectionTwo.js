@@ -23,7 +23,7 @@ export default function ContentSectionTwo({content},{...rest}){
         <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6 col-md-6 col-xs-12">
           <div className='business-altcard EMcard-sec'>
           <Content.Title as="h2">{row.title}<br />{row.title2}</Content.Title>
-          <div class="pink-line2"></div>
+          <div className={`pink-line2 ${(row.lineClass)}`}></div>
           <Content.Text>{row.text}<br /><br />{row.text2}<br /><br />{row.text3}</Content.Text>
           {/* <Content.Button></Content.Button> */}
           </div> 

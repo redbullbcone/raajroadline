@@ -9,7 +9,11 @@ const Content = styled(Box)`
     .flex-row-reverse.row {
         padding: 26px 0;
         margin-bottom: 20px;
-        text-align:right;
+        text-align:left;
+    }
+
+    .blue-line{
+        background:#1A75FF !important;
     }
     .flex-row-reverse.row .business-altcard {
         margin-left: 0px;
@@ -40,24 +44,24 @@ const Content = styled(Box)`
         background:#FF1A43;
         position: absolute;
         right: 40px;
-        left: auto;
+        left:0;
         @media (min-width: 576px) {
-            right: 0px;
+            left: 0px;
         }
         @media (min-width: 768x) {
-            right: 0px;
+            left: 0px;
         }
         @media (min-width: 992px) {
-            right: 10px;
+            left: 0px;
         }
         @media (min-width: 1170px) {
-            right: 20px;
+            left: 1px;
         }
         @media (min-width: 1270px) {
-            right: 30px;
+            left: 1px;
         }
         @media (min-width: 1400px) {
-            right: 40px;
+            left: 1px;
         }
     }
     .row .business-altcard .pink-line2 {
@@ -65,7 +69,7 @@ const Content = styled(Box)`
         height: 1px;
         background:#FF1A43;
         position: absolute;
-        left: 40px;
+        left:0;
         @media (min-width: 576px) {
             left: 0px;
         }
@@ -120,32 +124,38 @@ const Content = styled(Box)`
 `;
 
 Content.Title = styled(Heading)`
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.25;
-    padding-bottom: 25px;
-    margin-top:40px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom: 25px;
+        margin-top: 40px;
+
     @media (min-width: 576px) {
         font-size: 21px;
     }
     @media (min-width: 768x) {
         font-size: 22px;
+        line-height:30px;
         margin-top:60px;
     }
     @media (min-width: 992px) {
         font-size: 24px;
+        line-height:30px;
         margin-top:70px;
     }
     @media (min-width: 1170px) {
         font-size: 30px;
+        line-height:40px;
         margin-top:80px;
     }
     @media (min-width: 1270px) {
         font-size: 36px;
+        line-height:40px;
         margin-top:100px;
     }
     @media (min-width: 1400px) {
         font-size: 42px;
+        line-height:50px;
         margin-top:100px;
     }
 `;

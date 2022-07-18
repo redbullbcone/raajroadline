@@ -54,7 +54,7 @@ const FeatureSection = ({ ...rest }) => {
                 >
                   <TabNavWidget iconClass="fas fa-chart-line" text="Social Media Monitoring" className="nav-widget" mb="30px" mbLG="50px"/>
                 </Nav.Link>
-              </Feature.TabNavWrapper>
+                </Feature.TabNavWrapper>
             </Col>
             <Col xs="auto" className="col-xxl-9 col-lg-9 col-md-12 col-sm-12">
             <Tab.Content className="tab-content tab-content--feature">
@@ -64,13 +64,13 @@ const FeatureSection = ({ ...rest }) => {
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="As a Freelancer" text={'Sign up as a freelancer & use<br class="d-none d-lg-block" />our platform to find the<br class="d-none d-lg-block" />perfect job for you'}/>
+                    <TabContentWidget  title="Activity Tracking" text={'Always know how employees &<br class="d-none d-lg-block" />freelancers are using the time you<br class="d-none d-lg-block" />paid for'}/>
                   </Col>
                   <Col
                     className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="As  Business" text={"Browse our marketplace to find<br class='d-none d-lg-block' />amazing talents that are going to<br class='d-none d-lg-block' /> help you tackle your projects"}/>
+                    <TabContentWidget  title="Daily email reports" text={"Verify that the person doing the work is<br class='d-none d-lg-block' />the one you hired, don't pay extra fo<br class='d-none d-lg-block' />subcontractors"}/>
                   </Col>
                 </Row>
               </Tab.Pane>

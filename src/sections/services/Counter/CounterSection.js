@@ -15,7 +15,7 @@ export default function CounterSection() {
                 <LazyLoad>
                   <Counter.Single>
                   <Counter.Text className="d-flex get-started-sec">
-                    <img className="counter-icons" src="image/home-services/get-started-count-1.png" alt="content" />
+                    <img className="counter-icons" src="image/home-services/count.png" alt="content" />
                     <p className="counter-para">Sign up for free as an<br /> agency or client</p>
                     </Counter.Text>
                  
@@ -26,7 +26,7 @@ export default function CounterSection() {
                 <LazyLoad>
                   <Counter.Single>
                     <Counter.Text className="d-flex get-started-sec">
-                    <img className="counter-icons" src="image/home-services/get-started-count-2.png" alt="content" />
+                    <img className="counter-icons" src="image/home-services/count2.png" alt="content" />
                     <p className="counter-para">Create an internship<br /> and publish it</p>
                     </Counter.Text>
                   </Counter.Single>
@@ -36,7 +36,7 @@ export default function CounterSection() {
                 <LazyLoad>
                   <Counter.Single>
                   <Counter.Text className="d-flex get-started-sec">
-                  <img className="counter-icons" src="image/home-services/get-started-count-3.png" alt="content" />
+                  <img className="counter-icons" src="image/home-services/count3.png" alt="content" />
                     <p className="counter-para">Watch video interviews <br />and view profiles</p>
                     </Counter.Text>
                   </Counter.Single>
@@ -46,7 +46,7 @@ export default function CounterSection() {
                 <LazyLoad>
                   <Counter.Single>
                   <Counter.Text className="d-flex get-started-sec">
-                  <img className="counter-icons" src="image/home-services/get-started-count-4.png" alt="content" />
+                  <img className="counter-icons" src="image/home-services/count4.png" alt="content" />
                     <p className="counter-para">
                     Choose the intern that<br /> is right for you
                     </p>

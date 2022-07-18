@@ -1,17 +1,11 @@
 import React from "react";
 import { PageWrapper } from "~components/Core";
 import HeroSectionAuditor from "~sections/digital/Hero-auditor";
-import ServicesSection from '~sections/digital/Services'
-import AboutSection from "~sections/digital/About";
-import ContentSectionOne from "~sections/digital/ContentOne";
 import ContentSectionThree from "~sections/digital/ContentThree";
-import TeamSection from "~sections/digital/Team";
-import PortfolioSection from "~sections/digital/Portfolio";
-import PromoSection from "~sections/digital/Promo";
-import CounterSection from "~sections/marketing/Counter";
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne";
-import HeaderButton from "~sections/marketing/Header"
+import HeaderButton from "~sections/marketing/Header";
+import AboutSection  from "~sections/Aiauditor/About";
 import { Helmet } from "react-helmet";
 
 
@@ -55,14 +49,7 @@ export default function Auditor() {
 
       </Helmet>
       <HeroSectionAuditor />
-      {/* <ServicesSection /> */}
-      {/* <AboutSection /> */}
-      {/* <ContentSectionOne /> */}
       <ContentSectionThree />
-      {/* <TeamSection /> */}
-      {/* <PortfolioSection /> */}
-      {/* <PromoSection /> */}
-      {/* <CounterSection/> */}
       <CtaSection />
       <FooterOne/>
     </PageWrapper>
