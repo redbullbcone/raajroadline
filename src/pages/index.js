@@ -32,9 +32,9 @@ const header = {
 var reverserow = [
   {
    "title":"Businesses",
-   "text1":"Get connected with top-quality experts, interns, and agencies",
-   "text2":"Monitor multiple products with a single easy-to-use marketing dashboard",
-   "text3":"Perform AI audits, check your website health and connect any digital marketing channel",
+   "text1":"Get connected with & hire top-quality freelancers, interns, and agencies.",
+   "text2":"Transform your marketing decision-making process with our AI scans & dashboards.",
+   "text3":"Seamlessly connect & monitor your existing team’s or contractor's performance.",
    "imagePosition":"left",
    "src":"image/homepage/businesses.png",
    "imageclass":"bigImage",
@@ -45,12 +45,12 @@ var reverserow = [
   },
    {
     "title":"Freelancers",
-    "text1":"Find top clients who will need your expertise from all across the globe",
-    "text2":"Get your skill sets matched with the right job",
-    "text3":"Work when, wherever, and on what you like",
+    "text1":"Get matched with the right clients & work with international companies.",
+    "text2":"Work the way you like. Receive short-term, long-term, & continuous project offers.",
+    "text3":"Collect payments securely and promptly using our proof-of-work app.",
     "imagePosition":"right",
     "src":"image/homepage/freelancers.png",
-    "imageclass":"bigImage",
+    "imageclass":"bigImage respimg",
     "gifsrc":"image/homepage/dot-animation.gif",
    "gifimageclass":"dotImage",
     "alt":"Freelancers",
@@ -76,17 +76,17 @@ var reverserow = [
     "text3":"Work at the comfort of your home making it easier to continue your studies with an internship",
     "imagePosition":"right",
     "src":"image/homepage/interns.png",
-    "imageclass":"bigImage",
+    "imageclass":"bigImage respimg",
     "gifsrc":"image/homepage/dot-animation.gif",
    "gifimageclass":"dotImage",
     "alt":"Interns",
     "bgclass":"home-section-4",
    },
    {
-    "title":'Recruitment Agencies',
-    "text1":"Earn high comission rates with no deadline",
-    "text2":"Be provided with marketing material",
-    "text3":"Manage Freelancers with our Employee Monitoring System",
+    "title":'Recruiters',
+    "text1":"Place your candidates on a global stage",
+    "text2":"Earn high commission rates on all transactions",
+    "text3":"Receive ready-made marketing materials",
     "imagePosition":"left",
     "src":"image/homepage/recuritment-agencies.png",
     "imageclass":"bigImage",
@@ -97,12 +97,12 @@ var reverserow = [
    },
    {
     "title":'Affiliates',
-    "text1":"Get connected with top-quality experts, interns, and agencies",
-    "text2":"Perform AI audits, check your website health and connect any digital marketing channel",
-    "text3":"Monitor multiple products with a single easy-to-use marketing dashboard",
+    "text1":"Earn affiliate income from buyers & sellers on our marketplace",
+    "text2":"We operate around the globe",
+    "text3":"Get a professional dashboard with pre-made marketing materials",
     "imagePosition":"right",
     "src":"image/homepage/affiliate.png",
-    "imageclass":"bigImage",
+    "imageclass":"bigImage respimg",
     "gifsrc":"image/homepage/dot-animation.gif",
    "gifimageclass":"dotImage",
     "alt":"Affiliates",
@@ -188,12 +188,8 @@ export default function Marketing() {
         <meta name="twitter:url" content="https://mrkt365.com" />
         </Helmet>
         <HeroSection/>
-        <ContentSectionOne heading="Who is MRKT365 for?" content={reverserow}/>
-        {/* <ServiceSection/> */}
+        <ContentSectionOne heading="One platform for everyone & everything" content={reverserow}/>
         <FeatureSection/>
-        {/* <ContentSectionTwo/> */}
-        {/* <TestimonialSection heading="Provided Feature" data={Testimonialdata}/> */}
-
         <ServicesSectionOne title="Provided Features" content={ServiceData}/>
         <CounterSection/>
         <CtaSection />

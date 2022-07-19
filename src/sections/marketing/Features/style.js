@@ -88,10 +88,11 @@ const Feature = styled(Box)`
         }
     }
     .tab-contents h5 {
-        font-size: 18px;
+        font-size: 32px;
+        line-height: 40px;
     }
     .tab-contents p {
-        font-size: 16px;
+        font-size: 20px;
     }
     .feature-sec.col-auto > div {
         margin-bottom:50px;

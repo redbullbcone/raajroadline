@@ -30,6 +30,12 @@ export default function ContentSectionOne({heading,content},{...rest}){
       {/* Content Widgets */}
       <Col xs="auto" className="col-xxl-5 col-xl-5  col-lg-5  col-md-5 col-xs-5 business-altcard">
         <Content.Title as="h2">{row.title}</Content.Title>
+
+        <div className="resp-imagegroup">
+        <ImageGroup imageclass={row.imageclass} imageSrc={row.src} imageAlt={row.alt} mb="60px" mbLG="0" />
+        <ImageGroup gifimageclass={row.gifimageclass} gifimageSrc={row.gifsrc} gifimageAlt={row.gifalt} mb="60px" mbLG="0" />
+        </div>
+
         <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text1}</Content.Text></div>
         <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text2}</Content.Text></div>
         <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text3}</Content.Text></div>

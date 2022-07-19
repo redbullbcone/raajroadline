@@ -19,6 +19,11 @@ const Content = styled(Box)`
         font-size: 13px;
        }
     }
+    .resp-imagegroup{
+     
+
+        
+    }
     .home-section-1 {
         padding-top:0px;
         padding-bottom:100px;
@@ -43,7 +48,17 @@ const Content = styled(Box)`
         padding-top:100px;
         padding-bottom:100px;
     }
-    @media (min-width:320px) and (max-width:767px) {
+    @media (min-width:320px){
+        .home-section-1 {
+            padding-top:0px;
+            padding-bottom:0px;
+        }
+        .home-section-2,.home-section-3,.home-section-4,.home-section-5,.home-section-6 {
+            padding-top:10px !important;
+            padding-bottom:0px;
+        }
+    }
+    @media(max-width:767px) {
         .home-section-1 {
             padding-top:0px;
             padding-bottom:0px;
@@ -64,10 +79,12 @@ const Content = styled(Box)`
         }
     }
     .gif-ImageGroup {
+        display:none;
         position:relative;
         width: 100%;
         top: 0px;
         @media (min-width:768px) {
+            display:block;
             width: 85%;
             top: 55px;
         }
@@ -109,6 +126,66 @@ const Content = styled(Box)`
             top:0px;
         }
     }
+
+    .resp-imagegroup {
+        position:relative;
+        width: 100%;
+        top: 0px;
+        display:block;
+
+        margin-bottom:20px;
+
+        img{
+            width:82% !important;
+        }
+
+        @media(min-width:768px){
+            display:none;
+        }
+
+        @media (min-width:768px) {
+            width: 85%;
+            top: 55px;
+        }
+        @media (min-width:992px) {
+            width: 85%;
+            top: 55px;
+        }
+        @media (min-width:1170px) {
+            width: 85%;
+            top: 55px;
+        }
+        @media (min-width:1270px) {
+            width: 85%;
+            top: 55px;
+        }
+        @media (min-width:1400px) {
+            width: 100%;
+            top: 0px;
+        }
+    }
+    .resp-imagegroup .bigImage {
+        position:relative;
+        z-index:99;
+        top:0px;
+        left:20px;
+        @media (min-width:768px) {
+            position:absolute;
+            left:0px;
+        }
+    }
+    .resp-imagegroup .dotImage {
+        position:absolute;
+        z-index:90;
+        top:-45px;
+        left:0px;
+        @media (min-width:768px) {
+            position:absolute;
+            left:0px;
+            top:0px;
+        }
+    }
+
     .business-altcard {
         align-items: center !important;
     }

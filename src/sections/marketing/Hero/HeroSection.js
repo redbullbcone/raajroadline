@@ -40,7 +40,7 @@ export default function HeroSection() {
                     <Hero.Newsletter>
                     <form className="hero-form d-flex  flex-row justify-content-start">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="close" textTransform="capitalized">Join Now For Free</Button>
+                      <Button className="close" textTransform="capitalized">Start Now</Button>
                       <Button className="close2" textTransform="capitalized">Book a Demo</Button>
                     </form>
                   </Hero.Newsletter>

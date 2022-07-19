@@ -550,6 +550,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   top: 0px;
   position: absolute;
   padding: 0px 3px;
+  border:none;
 }
 /* Animations Sonar */
 .sonar-emitter {
@@ -933,6 +934,38 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .link-page{
   border-radius: 15px;
 }
+
+@media(max-width:481px){
+
+  .card-img{
+    width:30% !important;
+  }
+
+  .market.card-img-white{
+    left: 38.3% !important;
+    width:23%;
+  }
+  .auditor.card-img-white{
+    left: 39% !important;
+    width: 23%;
+  }
+  .pvc-cls.card-img-white{
+    left: 39.1% !important;
+    width: 23%;
+  }
+  .employee-cls.card-img-white{
+    left: 39% !important;
+    width: 23%;
+  }
+  .pink, .mustard, .cyan, .purple.link-page{
+    width: 80%;
+    height: 331px;
+    padding-bottom: 33px;
+    left: 33px;
+    position: relative;
+  }
+}
+
 .purple, .pink, .mustard, .cyan, .red, .blue, .orange   {
   transition: 1.0s all ease; /* vendorless fallback */
   -o-transition: 1.0s all ease; /* opera */
@@ -1045,7 +1078,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 @media(min-width:992px){
   .market {
-    left: 65px;
+    left: 65px !important;
     top: 40px;
   }
   .auditor {
@@ -1152,6 +1185,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   .arrow, .white-arrow:hover{
     background: transparent;
   }
+
+  .light-header .hamburgur{
+    border:none;
+  }
   
   
   
@@ -1238,7 +1275,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin: 0;
     height: auto;
     padding: 0 4px;
-    border-radius: 0px;
     min-width: auto;
   }
   .top-footer-sec h2 {
@@ -1276,16 +1312,19 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 @media only screen and (max-width:479px) {
   .site-navbar.navbar > div:last-child > a {
     font-size: 12px;
+    margin-left:5px;
   }
 }
 @media only screen and (max-width:420px) {
   .link-page:hover .white-arrow {
-    right: 104px;
+    right: 43px;
+    bottom: 49px;
   }
 }
 @media only screen and (max-width:413px) {
   .link-page:hover .white-arrow {
-    right: 102px;
+    right: 43px;
+    bottom: 49px;
   }
 }
 @media only screen and (max-width:395px) {
@@ -1295,7 +1334,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 @media only screen and (max-width:380px) {
   .link-page:hover .white-arrow {
-    right: 83px;
+    right: 43px;
+    bottom: 69px;
   }
 }
 @media only screen and (max-width:365px) {

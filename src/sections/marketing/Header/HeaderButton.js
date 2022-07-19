@@ -57,6 +57,11 @@ export const HeaderButtonWrapper = styled(Box)`
     
     }
 
+    .btn-2{
+        border-radius:50px;
+    }
+
+
     
 `
 const HeaderButton = ({btnOneLink,btnTwoLink,btnOneText,btnOneClass,btnTwoText,...rest})=>{

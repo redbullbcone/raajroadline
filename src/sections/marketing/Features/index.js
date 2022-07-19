@@ -61,49 +61,49 @@ const FeatureSection = ({ ...rest }) => {
               <Tab.Pane eventKey="first">
                 <Row className="align-items-center tab-contents">
                   <Col
-                    className="col-md-6 col-sm-6 col-xs-9"
+                    className="col-md-4 col-sm-4 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="Activity Tracking" text={'Always know how employees &<br class="d-none d-lg-block" />freelancers are using the time you<br class="d-none d-lg-block" />paid for'}/>
+                    <TabContentWidget  title="Activity Tracking" text={'Always know how employees & freelancers are using the time you paid for'}/>
                   </Col>
                   <Col
-                    className="col-md-6 col-sm-6 col-xs-9"
+                    className="col-md-4 col-sm-4 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="Daily email reports" text={"Verify that the person doing the work is<br class='d-none d-lg-block' />the one you hired, don't pay extra fo<br class='d-none d-lg-block' />subcontractors"}/>
+                    <TabContentWidget  title="Daily email reports" text={"Verify that the person doing the work is the one you hired, don't pay extra for subcontractors"}/>
                   </Col>
                 </Row>
               </Tab.Pane>
               <Tab.Pane eventKey="second">
                 <Row className="tab-contents">
                   <Col
-                    className="col-md-6 col-sm-6 col-xs-9"
+                    className="col-md-4 col-sm-4 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="As a Freelancer" text={' Sign up as a freelancer & <br class="d-none d-lg-block" />use our platform to find the perfect<br class="d-none d-lg-block" /> job for you'}/>
+                    <TabContentWidget  title="As a Freelancer" text={' Sign up as a freelancer & use our platform to find the perfect job for you'}/>
                   </Col>
                   <Col
-                    className="col-md-6 col-sm-6 col-xs-9"
+                    className="col-md-4 col-sm-4 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="As a Business " text={'Browse our marketplace to find<br class="d-none d-lg-block" /> amazing talents that are going <br class="d-none d-lg-block" /> to help you tackle your projects'}/>
+                    <TabContentWidget  title="As a Business " text={'Browse our marketplace to find amazing talents that are going  to help you tackle your projects'}/>
                   </Col>
                 </Row>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
                 <Row className="tab-contents">
                   <Col
-                    className="col-md-6 col-sm-6 col-xs-9"
+                    className="col-md-4 col-sm-4 col-xs-9"
                     xs="auto"
                   >
-                    <TabContentWidget  title="Reports & Data" text={'Optimize your business with<br class="d-none d-lg-block" /> reports and analytics from all <br class="d-none d-lg-block" /> of your social media channels'}/>
+                    <TabContentWidget  title="Reports & Data" text={'Optimize your business with reports and analytics from all  of your social media channels'}/>
                   </Col>
                   <Col
-                    className="col-md-6 col-sm-6 col-xs-9"
+                    className="col-md-4 col-sm-4 col-xs-9"
                     xs="auto"
                     
                   >
-                    <TabContentWidget  title="Lorem Ipsum " text={'simply dummy text of the printing<br class="d-none d-lg-block" />and typesetting industry. Lorem Ipsum has <br class="d-none d-lg-block" /> been the industry standard'}/>
+                    <TabContentWidget  title="Lorem Ipsum " text={'simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry standard'}/>
                   </Col>
                 </Row>
               </Tab.Pane>

@@ -9,7 +9,6 @@ const Card = styled(Box).attrs({className:"link-page"})`
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 33px;
     border-radius: 15px;
     transition: 0.4s;
     color:#25373f;
@@ -19,18 +18,25 @@ const Card = styled(Box).attrs({className:"link-page"})`
     text-align:center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    min-height:426px;
+    min-height:331px;
     position:relative;
     overflow:hidden;
-
 
     @media (min-width:575px) {
         padding-left: 5px;
         padding-right: 5px;
+        min-height:426px;
+        padding-bottom: 33px;
+
+
     }
     @media (min-width:768px)  {
         padding-left: 30px;
         padding-right: 30px;
+        min-height:426px;
+        padding-bottom: 33px;
+
+
     }
     @media (min-width:1240px) {
         padding-left: 10px;
@@ -91,6 +97,9 @@ const Card = styled(Box).attrs({className:"link-page"})`
     .nonid-icon-left-arrow:before{
         content: "\e903";
     }
+
+
+   
    
    
 `
@@ -113,7 +122,7 @@ Card.Icon = styled(Box).attrs({className:"card-icon"})`
         
 `
 Card.Title = styled(Heading)`
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 30px;
@@ -153,10 +162,10 @@ Card.Title = styled(Heading)`
 
 `
 Card.Text = styled(Paragraph)`
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: normal;
-        line-height: 1.86666;
+        line-height:20px;
         margin-bottom: 0px;
         opacity:.7;
         color:inherit;
