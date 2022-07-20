@@ -34,7 +34,7 @@ const FeatureSection = ({ ...rest }) => {
           defaultActiveKey="first"
         >
           <Feature.Tab>
-            <Col className="col-xxl-3 col-lg-3 col-md-12 col-xs-10 col-12">
+            <Col className="col-xxl-4 col-lg-8 col-md-12 col-xs-10 col-12">
               <Feature.TabNavWrapper className="nav row ms-0 me-0 feature-tabs" as={Nav}>
                 <Nav.Link
                   eventKey="first"
@@ -56,18 +56,18 @@ const FeatureSection = ({ ...rest }) => {
                 </Nav.Link>
                 </Feature.TabNavWrapper>
             </Col>
-            <Col xs="auto" className="col-xxl-9 col-lg-9 col-md-12 col-sm-12">
+            <Col xs="auto" className="col-xxl-8 col-lg-8 col-md-12 col-sm-12">
             <Tab.Content className="tab-content tab-content--feature">
               <Tab.Pane eventKey="first">
                 <Row className="align-items-center tab-contents">
                   <Col
-                    className="col-md-4 col-sm-4 col-xs-9"
+                    className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
                     <TabContentWidget  title="Activity Tracking" text={'Always know how employees & freelancers are using the time you paid for'}/>
                   </Col>
                   <Col
-                    className="col-md-4 col-sm-4 col-xs-9"
+                    className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
                     <TabContentWidget  title="Daily email reports" text={"Verify that the person doing the work is the one you hired, don't pay extra for subcontractors"}/>
@@ -77,13 +77,13 @@ const FeatureSection = ({ ...rest }) => {
               <Tab.Pane eventKey="second">
                 <Row className="tab-contents">
                   <Col
-                    className="col-md-4 col-sm-4 col-xs-9"
+                    className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
                     <TabContentWidget  title="As a Freelancer" text={' Sign up as a freelancer & use our platform to find the perfect job for you'}/>
                   </Col>
                   <Col
-                    className="col-md-4 col-sm-4 col-xs-9"
+                    className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
                     <TabContentWidget  title="As a Business " text={'Browse our marketplace to find amazing talents that are going  to help you tackle your projects'}/>
@@ -93,13 +93,13 @@ const FeatureSection = ({ ...rest }) => {
               <Tab.Pane eventKey="third">
                 <Row className="tab-contents">
                   <Col
-                    className="col-md-4 col-sm-4 col-xs-9"
+                    className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                   >
                     <TabContentWidget  title="Reports & Data" text={'Optimize your business with reports and analytics from all  of your social media channels'}/>
                   </Col>
                   <Col
-                    className="col-md-4 col-sm-4 col-xs-9"
+                    className="col-md-6 col-sm-6 col-xs-9"
                     xs="auto"
                     
                   >

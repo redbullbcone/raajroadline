@@ -38,13 +38,13 @@ return(
             <Link to="/agencies">Agencies</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/interns">Interns</Link>
+            <Link to="/internships">Interns</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/recruitment-agency">Recruitment Agencies</Link>
+            <Link to="/recruitment-agency">Recruiters</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/affiliate-program">Affiliate Program</Link>
+            <Link to="/affiliates">Affiliate Program</Link>
         </Footer.ListItems>
     </Footer.List>
 </Footer.Widgets>
@@ -54,10 +54,10 @@ return(
     <Footer.Title>Features</Footer.Title>
     <Footer.List>
         <Footer.ListItems>
-            <Link to="/marketplace">Marketplace</Link>
+            <Link to="/talent-marketplace">Marketplace</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/ai-auditor">AI Auditor</Link>
+            <Link to="/seo-auditor">AI Auditor</Link>
         </Footer.ListItems>
         <Footer.ListItems>
             <Link to="/hire-interns">Hire Interns</Link>
@@ -66,7 +66,7 @@ return(
             <Link to="/employee-monitoring">Employee Monitoring</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/prepared-virtual-card">Prepaid Virtual Cards</Link>
+            <Link to="/virtual-prepaid-card">Prepaid Virtual Cards</Link>
         </Footer.ListItems>
         <Footer.ListItems>
             <Link to="/microsoft-ads">Microsoft Advertising</Link>
@@ -82,16 +82,16 @@ return(
             <Link to="/pricing">Pricing</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Privacy Policy</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Terms and Conditions</Link>
+            <Link to="/terms-conditions">Terms and Conditions</Link>
         </Footer.ListItems>
         <Footer.ListItems>
             <Link to="/contact">Contact</Link>
         </Footer.ListItems>
         <Footer.ListItems>
-            <Link to="/">Tutorial Videos</Link>
+            <Link to="/videos">Tutorial Videos</Link>
         </Footer.ListItems>
     </Footer.List>
     </Footer.Widgets>

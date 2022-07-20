@@ -20,6 +20,13 @@ margin-top: -116px;
        }
    }
 
+    
+   .vpc-image{
+    @media(min-width:1400px){       
+        width: calc(100% + 155px);
+    }
+}
+
     .top-head {
         font-size: 36px;
         line-height: 42px;
@@ -122,9 +129,11 @@ margin-top: -116px;
 
     .video-card-text b{
         color: #1A75FF;
+        font-weight: 700;
     }
     .business-text-sec b {
         color: #1A75FF;
+        font-weight: 700;
 
     }
 
@@ -139,9 +148,7 @@ margin-top: -116px;
     .first-business-sec img {
         margin-bottom:40px !important; 
     }
-    .video-sec.business-video img {
-        margin-top:40px !important; 
-    }
+
     .blue-close {
         border: 2px solid #1A75FF;
         outline: none;
@@ -187,10 +194,12 @@ Content.Title = styled(Heading)`
         font-size:42px;
         margin-bottom:44px;
         line-height: 60px;
+
     }
     @media (min-width:1400px){
         font-weight: 500;
         font-size: 45px;
+        line-height: 62px;
     }
 
     
@@ -210,6 +219,7 @@ Content.Text = styled(Paragraph)`
     line-height: 30px;
     margin-bottom:54px;
     opacity:.7;
+    color: #262729;
 
     @media (min-width:992px){
         font-size: 16px;

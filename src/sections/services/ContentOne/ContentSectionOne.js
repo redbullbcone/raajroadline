@@ -15,14 +15,14 @@ export default function ContentSectionOne({heading},{...rest}){
         <Container>
           <Row className="align-items-center justify-content-center white-image first-business-sec">
             <Col xs="10" className="col-xl-6 col-lg-6 col-md-6 col-xs-6 ">
-              <ImageGroup imageclass="" imageSrc="image/marketing/screen1.png" imageAlt="" mb="60px" mbLG="0"/>
+              <ImageGroup imageclass="w-100" imageSrc="image/marketing/screen1.png" imageAlt="" mb="60px" mbLG="0"/>
             </Col>
             {/* <Col className="col-md-1"></Col> */}
             {/* Content Widgets */}
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
-              <Content.Title as="h2">We <b>Ensure</b> that the <br />freelancers you <b>Hire</b> are<br />the Ones <b>Doing</b> the Project</Content.Title>
-              <Content.Text>Our mission is to create a marketplace with top vendors at all price points. Domestic agencies often outsource their contracts overseas. We cut out the middle man for you and deliver the freelancers you need at the rate you want! We review all freelancers’ profiles before letting our AI suggest them to you.</Content.Text>
+              <Content.Title as="h2">Hire <b>World-Class </b><br />Talent</Content.Title>
+              <Content.Text>Our talent marketplace is populated by top freelancers, agencies, and interns at all price points. Avoid middlemen. We ensure that the people you hire are the ones doing the project. Receive AI recommendations when hiring. Our network offers flexible engagements from hourly, to fixed price, to full-time work.</Content.Text>
               <Button className="blue-close" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}
               </div>
@@ -36,8 +36,8 @@ export default function ContentSectionOne({heading},{...rest}){
   
     {/* Content Widgets */}
     <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard video-card-text">
-      <Content.Title as="h2">Take <b>Advantage</b> of our<br /> <b>Virtual Prepaid cards</b></Content.Title>
-      <Content.Text>Take control of your budget, use it more efficiently, and receive a cashbacl with our virtual prepaid cards. We have partnered with US Bank and Visa to provide our clients prepaid virtual cards to use towards their online marketing without submitting their main debit or credit card details. Hand out virtual prepaid cards to your decision makers while monitoring their spend.</Content.Text>
+      <Content.Title as="h2">Get one or more<br /> <b>Virtual Prepaid Cards</b></Content.Title>
+      <Content.Text>Take control of your budget and use it more efficiently. Receive a cashback when using our virtual prepaid cards. We have partnered with US Bank and Visa to provide our clients with prepaid virtual cards for their online marketing needs instead of using their personal credit cards. Hand out virtual prepaid cards to your managers & decision makers while controlling their spending.</Content.Text>
       <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
       {/* <Content.Button></Content.Button> */}
     </Col>
@@ -50,7 +50,7 @@ export default function ContentSectionOne({heading},{...rest}){
           type="video/mp4"
         />
       </video> */}
-      <ImageGroup imageclass="" imageSrc="image/businesses/virtual-card.png" imageAlt="" mb="60px" mbLG="0"/>
+      <ImageGroup imageclass="vpc-image" imageSrc="image/businesses/virtual-card.png" imageAlt="" mb="60px" mbLG="0"/>
 
 
     </Col>
@@ -72,8 +72,8 @@ export default function ContentSectionOne({heading},{...rest}){
             {/* Content Widgets */}
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
-              <Content.Title as="h2">Get <b>Intelligent Solutions</b><br />with our <b>AI Auditor</b></Content.Title>
-              <Content.Text>We trained our AI to deliver objective insights into your business's marketing campaigns. The AI Auditor will quickly identify on-site SEO, technical SEO, Adwords, and social media marketing issues. Finally, the AI will recommend to you the right freelancers to choose from to meet and exceed your specific needs.</Content.Text>
+              <Content.Title as="h2">Get <b>Faster, Smarter</b><br /><b> AI Marketing </b>solutions</Content.Title>
+              <Content.Text>Our AI Auditor delivers objective insights into your business's marketing campaigns. Use AI to quickly identify on-site SEO, technical SEO, SEM, and social media marketing issues holding you back. Get connected to freelancers and agencies based on your unique needs. Take your business to the next level.</Content.Text>
               <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}
               </div>

@@ -11,11 +11,11 @@ return(
     </Counter.Single>
     <Counter.Single>
         <Counter.Title as="h3" fontColor="#fff"><span className="counter"><img src="image/it-services/our-support-2.svg" /></span>%</Counter.Title>
-        <Counter.Text fontColor="#ffffffb3">Gain Access to Dashboards<br /> & Manage your Projects</Counter.Text>
+        <Counter.Text fontColor="#ffffffb3">Get Paid for Every Hour<br /> Use our Time Tracking App</Counter.Text>
     </Counter.Single>
     <Counter.Single>
         <Counter.Title as="h3" fontColor="#fff"><span className="counter"><img src="image/it-services/our-support-3.svg" /></span>+</Counter.Title>
-        <Counter.Text fontColor="#ffffffb3">Get quick & secure<br /> payments in USD</Counter.Text>
+        <Counter.Text fontColor="#ffffffb3">Receive quick & secure<br /> Payments in US Dollars</Counter.Text>
     </Counter.Single>
     </Counter.Wrapper>
 </Counter>

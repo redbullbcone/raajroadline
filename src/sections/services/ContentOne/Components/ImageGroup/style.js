@@ -4,7 +4,7 @@ import { Box } from '~styled'
 const Images = styled(Box)`
         z-index: 1;
         margin-top:25px;
-    
+   
 
 `
 Images.Four = styled(Box)`

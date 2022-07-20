@@ -3,7 +3,6 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Service = styled(Box)`
     padding-top: 60px;
-    background-color: rgba(169,210,255,0.1) !important;
     @media (min-width:768px) {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -20,7 +19,6 @@ const Service = styled(Box)`
         padding-top: 140px;
         padding-bottom: 140px;
     }
-    background:#f4f9fc;
     .how-to-get-started-section h4 {
         color:#000;
         padding-top:0px;

@@ -2,15 +2,9 @@ import React from "react"
 import { PageWrapper } from "~components/Core"
 import { Helmet } from 'react-helmet'
 import HeroSection from '~sections/services/Hero'
-import ServicesSection from '~sections/services/Services'
-import AboutSection from '~sections/services/About'
 import ContentSectionOne from '~sections/services/ContentOne/ContentSectionOne'
 import ContentVideoSectionOne from '~sections/VideoSections/ContentOne/ContentVideoSectionOne'
 import ProcessSection from '~sections/services/Process'
-import PromoSection from '~sections/services/Promo'
-import PricingSection from '~sections/services/Pricing'
-import TestimonialSection from '~sections/services/Testimonial'
-import ContactSection from '~sections/services/Contact'
 import CounterSection from "~sections/marketing/Counter"
 import CtaSection from "~sections/marketing/Cta"
 import FooterOne from "~sections/marketing/FooterOne"
@@ -26,7 +20,7 @@ const header = {
   buttonBlock: (
     <HeaderButton className="ms-auto d-none d-xs-inline-flex"
     btnOneText="Login"
-    btnTwoText="Sign Up Now"
+    btnTwoText="Sign Up"
     mr="15px"
     mrLG="0"/>
   ),
@@ -147,8 +141,8 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/KYC-white.svg",
-    whiteImage:"image/businesses/KYC-white.svg",
+    image:"image/businesses/KYC.svg",
+    whiteImage:"image/businesses/KYC.svg",
     bgImageClass:"orangeBg",
     title: "AML & KYC Verified",
     title2: "Freelancers",
@@ -219,15 +213,9 @@ export default function Services() {
       </Helmet>
       <HeroSection/>
       <ServicesSectionOne title="Everything You Need to Make Work Happen" content={ServiceData} />
-      {/* <ServicesSection/> */}
       <ContentSectionOne heading="Why Work With Us"/>
-      {/* <AboutSection/> */}
       <ProcessSection content={intergrations} />
      <ContentVideoSectionOne />
-      {/* <PromoSection/> */}
-      {/* <PricingSection/> */}
-      {/* <TestimonialSection/> */}
-    {/* <ContactSection/> */}
     <CounterSection/>
     <CtaSection />
     <FooterOne/>

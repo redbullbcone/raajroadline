@@ -50,12 +50,10 @@ const Content = styled(Box)`
     }
     @media (min-width:320px){
         .home-section-1 {
-            padding-top:0px;
-            padding-bottom:0px;
+          
         }
         .home-section-2,.home-section-3,.home-section-4,.home-section-5,.home-section-6 {
-            padding-top:10px !important;
-            padding-bottom:0px;
+          
         }
     }
     @media(max-width:767px) {

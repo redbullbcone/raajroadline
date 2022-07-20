@@ -10,7 +10,7 @@ return(
       <div className='d-flex section1'>
       <Col className="col-xl-7 col-lg-7 col-md-7 col-xs-7 order-2 order-lg-1 ">
         <Content.Box className="txt-card1">
-        <SectionTitle title="Stand" title2="Out" text="Building an amazing profile is your most valuable resource. Present yourself the best way possible so business have a strong reason to go after you. Share your career experience, define your skills and use your portfolio to show examples of your work and to draw more attention to your profile!"
+        <SectionTitle title="Stand" title2="Out" text="Create a professional landing page to manage and show off your skills, share your past work, and let potential clients know a little more about yourself. Enrich your profile by sharing your education, adding packages you offer, and creating a video interview about yourself to help you stand out."
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />
         </Content.Box>
@@ -34,7 +34,7 @@ return(
       </Col>
       <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-5 order-2 order-lg-2 ">
         <Content.Box className="text-card2">
-        <SectionTitle title="Your" title2="Dashboard" text="Have everything you need to find, create, and launch successful projects in one dashboard. Simple and interactive while being fully customizable, build the perfect dashboard by simply linking our third-party integrations. Never miss out on great career opportunities again."
+        <SectionTitle title="Find" title2="Freelance jobs" text="Browse our job board and apply to public job offers while you wait to be matched or invited to a project. Find projects that match your skills and abilities. Discover freelance gigs, fixed-cost projects, part-time and full-time freelancing jobs, and internships on MRKT365."
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />
         </Content.Box>
@@ -63,7 +63,7 @@ return(
     <Row className="align-items-center justify-content-center">
     <div className=" d-flex main-section3" >
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-2 ">
-        <Content.Box className="txt-card6">
+        <Content.Box className="txt-card4">
         <h3><span className='blue-h3'>Proof</span> of Work</h3>
         <p>Your work hours are automatically tracked to make sure you are paid accordingly to the effort and time spent on the project. Keep the clients constantly updated while meeting their expectations. Never be underpaid again and be properly compensated for your work!</p>
         </Content.Box>
@@ -93,7 +93,7 @@ return(
         </Content.Image>
       </Col>
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
-        <Content.Box className="txt-card4">
+        <Content.Box className="txt-card6">
         <SectionTitle title="Get Paid" title2="Securely" text="With MRKT365 and Payoneer's partnership rest assured that all payments are securely transferred to your account. We handle all billing and invoicing directly with clients, so you can focus on more important tasks. Get paid on time, every time!"
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />

@@ -16,8 +16,8 @@ export default function ContentVideoSectionOne({...rest}){
           <Row className="justify-content-center white-image first-business-sec">
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
-              <Content.Title as="h2"><b>Manage</b>Your Team with our<br /><b>Employee Monitoring </b>App</Content.Title>
-              <Content.Text>Measure the productivity of freelancers you hire and your existing employees. Our services include an easy to install tracking program. All activities completed by your team can be monitored and documented through our employee tracker.</Content.Text>
+              <Content.Title as="h2"><b>Manage </b>your team with<br /> our <b>Employee Monitoring App</b></Content.Title>
+              <Content.Text>Time is money. Get up-to-date productivity insights into tasks performed by the employees, freelancers, and agencies you hire. The MRKT365 Time Tracking app puts you back in control of your cost of labor. Start saving thousands on contractor and payroll costs.</Content.Text>
               <Button className="blue-close" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}
               </div>
@@ -42,8 +42,8 @@ export default function ContentVideoSectionOne({...rest}){
             {/* Content Widgets */}
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
-              <Content.Title as="h2"><b>Hire Virtual Interns</b> from all<br />over the <b>Globe</b></Content.Title>
-              <Content.Text>Add young talent to your team to boost understaffed projects. Find university-educated interns to work remotely on specified tasks. Our interns are ready to trade their hard work for experience. Interns can be students, recent graduates, or professionals who want to kickstart their careers with you from all over the world.</Content.Text>
+              <Content.Title as="h2"><b>Hire Virtual Interns</b><br />from around the <b>Globe</b></Content.Title>
+              <Content.Text>Add young talent to your team to boost understaffed projects. Find university-educated interns to work remotely on specified tasks. Our interns are ready to trade their hard work for experience. Interns can be international students, recent graduates, or professionals who want to kickstart their careers by helping your company.</Content.Text>
               <Button className="blue-close" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}
               </div>

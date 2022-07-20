@@ -55,7 +55,6 @@ const Container = styled(Box)
 
     .txt-card1{
         padding:20px;
-        background: #F6FBFF;
         border-radius: 15px;
         margin-top: 10px;
 
@@ -95,7 +94,6 @@ const Container = styled(Box)
         }
     }
     .txt-card3{
-        background: #F6FBFF;
         border-radius: 15px;
         position: relative;
         padding:20px;
@@ -103,7 +101,6 @@ const Container = styled(Box)
     .txt-card4{
         position: relative;
         padding: 10px;
-        background: #F6FBFF;
         border-radius: 15px;
     }
     .main-container2{
@@ -115,7 +112,6 @@ const Container = styled(Box)
         }
     }
     .txt-card5{
-        background: #F6FBFF;
         border-radius: 15px;
         position: relative;
         padding: 20px;
@@ -438,6 +434,13 @@ const Container = styled(Box)
 
 
     .txt-card4{
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            color: #262729;
+            opacity: 0.7;
+        }
 
         @media(min-width:992px){
             padding-left: 100px;
@@ -457,6 +460,13 @@ const Container = styled(Box)
             padding-left: 133px;
             padding-top: 30px;
             padding-right: 92px;
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+                color: #262729;
+                opacity: 0.7;
+            }
         
         }
 
@@ -464,7 +474,15 @@ const Container = styled(Box)
             padding-left: 133px;
             padding-top: 100px;
             padding-right: 120px;
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+                color: #262729;
+                opacity: 0.7;
+            }
         }
+  
     }
 
 

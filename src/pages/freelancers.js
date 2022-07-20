@@ -17,7 +17,7 @@ const header = {
     <HeaderButton
       className="ms-auto d-none d-xs-inline-flex"
       btnOneText="Login"
-      btnTwoText="Sign Up Now"
+      btnTwoText="Sign Up"
       mr="15px"
       mrLG="0"
     />
@@ -30,9 +30,9 @@ const ServiceData =[
     id:"ss1",
     image:"image/freelancers/globe.svg",
     whiteImage:"image/freelancers/globe-white.svg",
-    title: "Increase your",
-    title2:"Reach to a Global",
-    title3:"Marketplace",
+    title: "Reach",
+    title2:"Awesome Clients",
+    title3:"Globally",
     linkPage:"ai-auditor",
     cardbg:"cyan",
     whiteImageClass:"business-ai",
@@ -100,7 +100,7 @@ export default function HomeIt() {
         <meta name="twitter:url" content="https://mrkt365.com/freelancers" />
         </Helmet>
         <HeroSection/>
-        <ServicesSectionOne title="Discover Freelance Opportunities" content={ServiceData} />
+        <ServicesSectionOne title="Discover More Freelance Job Opportunities" content={ServiceData} />
         <FeatureSection/>
         <ContentSectionOne/>
         {/* <ProcessSection/> */}
