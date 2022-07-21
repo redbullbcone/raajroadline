@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>  
-	<script type="text/javascript">
-		function sendEmail() {
-			Email.send({
-				Host: "smtp.gmail.com",
-				Username : "<omrajak096@gmail.com>",
-				Password : "<NewPassword@123>",
-				To : '<omrajak096@gmail.com>',
-				From : "<omrajak096@gmail.com>",
-				Subject : "<email subject>",
-				Body : "<email body>",
-			})
-			.then(function(message){
-				alert("mail sent successfully")
-			});
-		}
-	</script>
+<title>Send Mail</title>
+<script src=
+	"https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script type="text/javascript">
+	function sendEmail() {
+	Email.send({
+		Host: "smtp.gmail.com",
+		Username: "omrajak096@gmail.com",
+		Password: "NewPassword@123",
+		To: 'omrajak096@gmail.com',
+		From: "omrajak096@gmail.com",
+		Subject: "Sending Email using javascript",
+		Body: "Well that was easy!!",
+	})
+		.then(function (message) {
+		alert("mail sent successfully")
+		});
+	}
+</script>
 </head>
-<body>  
-	<form method="post">
-		<input type="button" value="Send Email" onclick="sendEmail()"/>
-	</form>  
+
+<body>
+<form method="post">
+	<input type="button" value="Send Email"
+		onclick="sendEmail()" />
+</form>
 </body>
+
 </html>
