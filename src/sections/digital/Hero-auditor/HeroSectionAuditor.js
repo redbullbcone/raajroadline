@@ -11,10 +11,10 @@ export default function HeroSectionAuditor() {
           <Col>
             <Hero.Content>
               <Hero.Title as="h1" fontColor="#000">
-              <b>All your Marketing</b><br /> Data in One Dashboard
+              <b>Increase Site Traffic</b><br /> With our SEO Auditor
               </Hero.Title>
               <Hero.Text>
-              Use our <b>POWERFUL TOOLS</b> to get an overview of your<br /> business's marketing strategy & let our AI match you<br /> with <b>AMAZING TALENTS</b>
+              <b>Automate</b> your marketing with our <b>AI Auditor.</b><br /> Discover tailored <b>Solutions</b> & recommended<b> Problem Solvers.</b><br />
               </Hero.Text>
              
               <Hero.Button className="agency-btn1" as={Link} to="/">

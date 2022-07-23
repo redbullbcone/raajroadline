@@ -14,16 +14,16 @@ padding-top: 55px;
 
 @media (min-width:1170px) {
   padding-top: 51px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 @media (min-width:1270px) {
   padding-top: 61px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 @media (min-width:1400px) {
   padding-top: 61px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 `

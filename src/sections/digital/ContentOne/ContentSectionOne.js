@@ -21,7 +21,7 @@ export default function ContentSectionOne() {
                   <img
                     src="image/home-digital-agency/young-business.png"
                     alt="content"
-                    className="w-100 image-one"
+                    className="w-100 image-one bdr-17"
                   />
                   <div class="glow-wrap">
                       <i class="glow"></i>

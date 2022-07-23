@@ -14,12 +14,12 @@ const Service = styled(Box)`
         padding-bottom: 100px;
     }
     @media (min-width:1170px) {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 110px;
+        padding-bottom: 70px;
     }
     @media (min-width:1270px) {
-        padding-top: 140px;
-        padding-bottom: 140px;
+        padding-top: 110px;
+        padding-bottom: 70px;
     }
     background:#f4f9fc;
     .how-to-get-started-section h4 {

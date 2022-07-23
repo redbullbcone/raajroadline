@@ -23,16 +23,14 @@ export default function HeroSectionMarketplace() {
         <Hero>
             <Container>
                 <Row>
-                    <Col className="col-xl-6">
+                    <Col className="col-xl-7">
                         <Hero.Content className="text-center">
                             <Hero.Title as="h1" fontColor="#000">
-                                <b>AI Powered </b> <br />Marketplace
+                                <b>AI Powered </b> <br />Talent Marketplace
                             </Hero.Title>
                             <Hero.Text fontColor="#000">
-                                Get <b>CONNECTED</b> to <b>GlOBAL FREELANCERS, AGENCIES,</b>
-                                <br className="d-none d-xs-block" />& <b>INTERNS.</b> Find <b>EXPERIENCED PROFESSIONALS</b> & 
-                                <br className="d-none d-xs-block" /><b>ORGANIZATION</b> to Help you Finish any Job at Hand.
-                                hand.
+                            Browse our<b> EXTENSIVE TALENT POOL</b> and <b>PERSONALIZED</b>
+                                <br className="d-none d-xs-block" />recommendations for<b> FREELANCERS, AGENCIES, </b>and <b>INTERNS.</b>
                             </Hero.Text>
                             <Hero.Button className="agency-btn1" onClick={goToMarketPlace}>
                                 Find Talent
@@ -42,7 +40,7 @@ export default function HeroSectionMarketplace() {
                             </Hero.Button>
                         </Hero.Content>
                     </Col>
-                    <Col className="col-xl-6 hero-right">
+                    <Col className="col-xl-5 hero-right">
                         <div className="hero-image">
                         <img src="image/ai-market/hero-image.png" alt="ai hero image" className="w-100"></img>
                         </div>

@@ -2,22 +2,22 @@
 //         {
 //           id:"ss1",
 //           icon:"fas fa-layer-group",
-//           title: "Marketplace",
-//           text: "Get connected to Global Freelancers, Agencies, & Interns.",
+//           title: "Talent Marketplace",
+//           text: "Connect with top freelancers, agencies, and interns.",
 //           iconBackground:"#6001d3"
 //         },
 //         {
 //           id:"ss2",
 //           icon:"fas fa-bell",
 //           title: "AI Auditor",
-//           text: "All your Marketing Data, Analytics, and AI in One Dashboard",
+//           text: "Discover your next great marketing move or hire.",
 //           iconBackground:"#fd346e"
 //         },
 //         {
 //           id:"ss3",
 //           icon:"fas fa-envelope",
 //           title:"Prepaid Virtual Cards",
-//           text:"Earn up to 1.5% Cashback on Online Marketing Spend with MRKT365",
+//           text:"Earn up to 1.5% cashback on online marketing ad spend.",
 //           iconBackground:"#1de2cf"
 //         },
 //         {
@@ -25,7 +25,7 @@
 //           icon:"fas fa-chart-pie",
 //           title: "Employee Monitoring",
 //           text:
-//             "Bring out the Best in your Remote Team with Productivity Tools that gets Work done.",
+//             "Bring out the best in your remote team with our productivity tools.",
 //             iconBackground:"#ffd700"
 //         }
 //     ]

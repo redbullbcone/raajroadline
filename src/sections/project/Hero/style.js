@@ -5,7 +5,7 @@ const Hero = styled(Box)`
         padding-top: 100px;
         padding-bottom: 49px;
         position: relative;
-        margin-bottom: -59px;
+        // margin-bottom: -59px;
 
     .orange{
         color:#FF5722;
@@ -30,7 +30,7 @@ const Hero = styled(Box)`
     @media (min-width: 1366px) {
         padding-top: 120px;
         padding-bottom: 0;
-        margin-bottom: -111px;
+        // margin-bottom: -111px;
 
     }
 
@@ -143,16 +143,12 @@ top: 30px;
 position: relative;
 
 @media (min-width: 768px){
-    font-size: 18px;
-    top: 0;
-    line-height: 27px;
-}
-
-@media (min-width: 768px){
     font-size: 21px;
     top: 0;
-    line-height: 30px;
+    line-height: 40px;
 }
+
+
 `
 
 Hero.ContentBlock = styled(Box)`

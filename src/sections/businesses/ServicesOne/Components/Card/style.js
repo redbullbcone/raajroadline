@@ -6,10 +6,10 @@ const propToColor = (arg = "#1787FC" ) => transparentize(0.70, arg);
 const Card = styled(Box).attrs({className:"link-page"})`
     background-color: transparent;
     border: none;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 33px;
+    padding-bottom: 0px;
     border-radius: 15px;
     transition: 0.4s;
     color:#25373f;
@@ -19,7 +19,7 @@ const Card = styled(Box).attrs({className:"link-page"})`
     text-align:center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    min-height:426px;
+    min-height:318px;
     position:relative;
     overflow:hidden;
 

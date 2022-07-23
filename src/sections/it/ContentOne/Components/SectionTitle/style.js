@@ -4,7 +4,7 @@ import { Heading, Box, Paragraph } from '~styled'
 const SectionTitle = styled(Box)`
 .blue-txt{
     color:#1A75FF;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 .blue-txt1{
     color:#1A75FF;
@@ -25,14 +25,14 @@ padding-left: 6px;
 }
 
 @media(min-width:1120px){
-    font-size: 16px;
-    line-height: 30px;
+    line-height: 40px;
+    font-size: 21px;
 
 }
 
 @media(min-width:1400px){
-    line-height: 32px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 21px;
     font-weight: 400;
 }
 
@@ -58,7 +58,7 @@ line-height: 1.38095;
 }
 
 @media(min-width:992px){
-    font-size:32px;
+    font-size:45px;
     font-weight:700;
 }
 
@@ -77,7 +77,7 @@ line-height: 1.38095;
     font-weight: 500;
     font-size: 45px;
     line-height: 54px;
-    font-size: 45px;
+    font-size: 44px;
     margin-bottom:30px;
 }
 

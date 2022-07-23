@@ -13,7 +13,7 @@ const SiteNavbar = ({buttonBlock,darkLogo,customLogo,defaultLogo}) => {
         expand="lg"
         bg="dark"
         variant="dark"
-        className="site-navbar"
+        className="site-navbar full-height"
       >
         <Navbar.Brand href="/">
 

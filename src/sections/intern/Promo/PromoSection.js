@@ -10,13 +10,13 @@ return(
     <Row className="justify-content-center text-center">
       <Col className="col-xl-12">
         <Promo.Content>
-          <Promo.Title fontColor="#fff" as="h2" mb="63px">Discover Internship Opportunites </Promo.Title>
+          <Promo.Title fontColor="#fff" as="h2" mb="63px">Discover More Internship Opportunites </Promo.Title>
 
           <div className='promo-para text-white'>
             <p>
-            With the help of the MRKT365 internship program, students can gain valuable experience. They'll be 
+            Our internship platform connects businesses to students looking for valuable work experience to get ahead.
             <br />
-            working on a variety of projects that accelerate their career growth and prepare them for what's ahead  
+            Work on a variety of projects that will accelerate your career growth and prepare you for your dream job.
             </p>        
           </div>
 

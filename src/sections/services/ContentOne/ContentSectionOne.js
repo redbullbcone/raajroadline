@@ -36,7 +36,8 @@ export default function ContentSectionOne({heading},{...rest}){
   
     {/* Content Widgets */}
     <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard video-card-text">
-      <Content.Title as="h2">Get one or more<br /> <b>Virtual Prepaid Cards</b></Content.Title>
+      <Content.Title as="h2"><b>Take Advantage</b> of our<br/>
+Virtual Prepaid Cards</Content.Title>
       <Content.Text>Take control of your budget and use it more efficiently. Receive a cashback when using our virtual prepaid cards. We have partnered with US Bank and Visa to provide our clients with prepaid virtual cards for their online marketing needs instead of using their personal credit cards. Hand out virtual prepaid cards to your managers & decision makers while controlling their spending.</Content.Text>
       <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
       {/* <Content.Button></Content.Button> */}

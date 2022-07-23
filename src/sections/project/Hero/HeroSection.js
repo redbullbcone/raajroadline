@@ -11,14 +11,14 @@ import HeroShapeTwo from "~image/project-management/l2-hero-shape-1.png"
 import HeroShapeThree from "~image/project-management/l2-hero-shape-2.png"
 export default function HeroSection(){
   return(
-<Hero>
+<Hero className='demo-height'>
   <Container>
     <Row className="justify-content-center">
       <Col xs="12" className="col-xl-8 col-lg-11">
         <Hero.ContentBlock mb="0px">
           <span className='bigcircle'></span>
           <Hero.Title as="h1"><span className="orange">Global Virtual</span> <br /> Internships</Hero.Title>
-          <Hero.Text> <SuperTag value="We Match Global Companies to your profile so you can get<br><b> Valuable Experience & a Certificate of Completion.</b>"/>
+          <Hero.Text> <SuperTag value="Get matched with global companies and start building<br><b> The necessary skills your career path requires.</b>"/>
           <div className='green-circle'></div>
           </Hero.Text>
           {/* <Hero.TitleShape>

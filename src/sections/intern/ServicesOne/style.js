@@ -14,12 +14,12 @@ const Service = styled(Box)`
         padding-bottom: 100px;
     }
     @media (min-width:1170px) {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     @media (min-width:1270px) {
-        padding-top: 140px;
-        padding-bottom: 140px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     background:#f4f9fc;
     .how-to-get-started-section h4 {
@@ -30,6 +30,7 @@ const Service = styled(Box)`
         font-size:21px;
         line-height:30px;
         font-weight:700;
+        
     }
     .homepage-provide-feature .service-card p{
         color:#000;
@@ -62,6 +63,11 @@ const Service = styled(Box)`
         font-size: 32px;
         line-height: 40px;
         margin-bottom: 40px;
+
+        letter-spacing:-1px;
+
+        text-align:center;
+
         @media (min-width:992px) {
             font-size:50px;
             margin-bottom:36px;

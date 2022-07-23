@@ -87,7 +87,7 @@ export default function Marketplace() {
       </Helmet>
       <HeroSectionMarketplace />
       <ServicesSection />
-      <ContentSectionTwo title="Hire Freelancers for any job" content={ServiceData}/>
+      <ContentSectionTwo title="Hire Freelancers & Agencies for any job" content={ServiceData}/>
       <ServicesSectionTwo />
       <CounterSection/>
       <AboutSection />

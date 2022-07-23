@@ -106,6 +106,7 @@ border: none !important;
                 height: 90px;
                 background-color: #fff;
                 opacity:0.1;
+                display:none;
             }
         }
 
@@ -132,6 +133,7 @@ border: none !important;
                 width: 2px;
                 height: 68px;
                 background-color: transparent;
+                display:none;
             }
         }
 `
@@ -166,10 +168,12 @@ margin-bottom: 0;
     line-height: 22px;
 }
 @media(min-width:1170px){
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 32px;
   }
   @media(min-width:1270px){
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 32px;
   }
 `
 Counter.Box = styled(Box)`

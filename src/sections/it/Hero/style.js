@@ -51,7 +51,7 @@ Hero.Title = styled(Heading)`
     font-weight: 700;
     letter-spacing: -0.5px;
     line-height: 1.2068;
-    margin-bottom: 21px;
+    margin-bottom: 60px;
     color: #25373f;
     font-family: 'Rubik';
 
@@ -67,12 +67,12 @@ Hero.Title = styled(Heading)`
 
     @media (min-width:1170px){
         font-weight: 700;
-        font-size: 60px;
+        font-size: 70px;
         line-height: 70px;
     }
     @media (min-width:1270px){
         font-weight: 700;
-        font-size: 60px;
+        font-size: 70px;
         line-height: 70px;
     }
     @media (min-width:1400px){
@@ -109,19 +109,20 @@ Hero.Text = styled(Paragraph)`
     }
 
     @media (min-width:1170px){
-        font-size: 18px;
-        line-height:34px;
+        font-size: 21px;
+        line-height:40px;
     }
 
     @media (min-width:1270px){
-        font-size: 18px;
-        line-height:34px;
+        font-size: 21px;
+        line-height:40px;
     }
 
     @media (min-width:1400px){
-        font-size: 21px;
+      
         font-weight: 400;
-        line-height: 34px;
+        font-size: 21px;
+        line-height:40px;
 
     }
 `
@@ -148,21 +149,23 @@ Hero.Button = styled(Button) `
     }
 
     @media (min-width:1170px){
-        width: 210px;
-        font-size:18px;
+        width: 266px;
+        font-size:20px;
         margin-top: 20px;
     }
 
     @media (min-width:1270px){
-        width: 210px;
-        font-size:18px;
+        width: 266px;
+        font-size:20px;
         margin-top: 20px;
+        height:70px;
     }
 
     @media (min-width:1400px){
         width: 266px;
         font-size:21px;
         margin-top: 20px;
+        height:70px;
     }
 
 `

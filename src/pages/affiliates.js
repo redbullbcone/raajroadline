@@ -45,9 +45,9 @@ const ServiceData =[
     // icon:"fas fa-bell",
     image:"image/affiliate-program/files.svg",
     whiteImage:"image/affiliate-program/files-white.svg",
-    title: "Receive links ",
-    title2:"and promotional ",
-    title3:"material",
+    title: "Get a marketing ",
+    title2:"kit and referral",
+    title3:"links",
     whiteImageClass:"business-online",
     linkPage:"marketplace",
     cardbg:'pink',
@@ -58,8 +58,8 @@ const ServiceData =[
     // icon:"fas fa-envelope",
     image:"image/affiliate-program/message.svg",
     whiteImage:"image/affiliate-program/message-white.svg",
-    title: "Refer ",
-    title2:"freelancers &",
+    title: "Recommend",
+    title2:"freelancers and",
     title3:"businesses",
     linkPage:"ai-auditor",
     cardbg:"mustard",
@@ -107,7 +107,7 @@ export default function Startup() {
       <meta name="twitter:url" content="https://mrkt365.com/affiliates" />
       </Helmet>
       <HeroSection/>
-      <ServicesSectionOne ClassName="intern-features" title="How Does it Work?" content={ServiceData}/>
+      <ServicesSectionOne ClassName="intern-features" title="Start earning in 4 easy steps" content={ServiceData}/>
       <TestimonialSection />
       <ServicesSectionTwo />
       <AboutSection />

@@ -11,9 +11,9 @@ return(
     <Row className="align-items-center justify-content-center ">
       <Col xs="12" className="col-lg-12 col-xl-12 col-xxl-12 text-center">
         <Testimonial.Box >
-          <Testimonial.Title fontColor="#262729" as="h2">Why be an Affiliate?</Testimonial.Title>
+          <Testimonial.Title fontColor="#262729" as="h2">Why should you become a MRKT365 affiliate partner?</Testimonial.Title>
           <Testimonial.Content>
-        <p className="affiliate-para">The MRKT365 Partner Program is an easy way to increase your earnings. No matter who you refer, you will be compensated equally. However, the more you refer, the more you earn! Earn from Freelancers, Businesses, and VPC users or as an HR agency.</p>
+        <p className="affiliate-para">The MRKT365 Partners program is an easy way to increase your earnings while helping your network discover meaningful jobs or introducing them to great talent. Discover multiple new sources of affiliate revenue.</p>
         </Testimonial.Content>
         </Testimonial.Box> 
       </Col>

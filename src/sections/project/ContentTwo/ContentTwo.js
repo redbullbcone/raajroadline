@@ -26,7 +26,7 @@ return(
       <Col xs="12" className="col-xl-5 col-lg-5 col-md-5 col-xs-12">
         <Content.Box>
           <Content.Title as="h2"> <SuperTag value="International Reach"/> </Content.Title>
-          <Content.Text> <SuperTag value="Get global exposure working for top companies around the world that will give you mentorship and knowledge in your field of choice while you improve and learn new skills. Work on a variety of projects that will accelerate your career growth and prepare you for the future."/> </Content.Text>
+          <Content.Text> <SuperTag value="Get great exposure by working with top companies from around the world. Expand your mentorship opportunities in your dream industry. Gain more skills by working in new markets. Work on a variety of projects that will accelerate your international career growth."/> </Content.Text>
         </Content.Box>
       </Col>
 
@@ -42,8 +42,8 @@ return(
       <Row className="align-items-center justify-content-center justify-content-lg-start backcolor3">
       <Col className="col-xl-5 col-lg-6 col-md-8 col-xs-10 order-2 order-lg-1">
           <Content.Box className='become-a-freelancer-box'>
-            <Content.Title as="h2"> <SuperTag value="Become a freelancer"/> </Content.Title>
-            <Content.Text> <SuperTag value="We make it easy for students to find internships from top companies. We give you the opportunity to work remotely which makes it easier to reconcile your studies with an internship that is going to give you valuable experience and a certificate of completion at the end."/> </Content.Text>
+            <Content.Title as="h2"> <SuperTag value="Graduate to a freelancer"/> </Content.Title>
+            <Content.Text> <SuperTag value="Turn your hard work and experience into a new side hustle! Complete your internship and become a freelancer with MRKT365. Use your newfound skills to work with larger companies while earning money as an entrepreneur."/> </Content.Text>
           </Content.Box>
         </Col>
         <Col xs="12" className="col-xl-7 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-2 col-12">

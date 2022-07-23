@@ -13,8 +13,8 @@ export default function ServicesSectionTwo() {
           </Col>
           <Col className="col-lg-6 col-md-6 col-12">
           <div className="text-field">
-          <h2><b>Hire Agencies </b> for <br />Large Projects</h2>
-          <p>MRKT365 is the only resource you need to find the right company. With Reviews, Ratings and Verification, MRKT365 gives you the tools you need to hire agencies with confidence. Get matched with agencies directly or research yourself from a list of verified and reviewed agencies. Read reviews and browse project photos submitted by previous customers. See their whole team online before receiving an offer.</p>
+          <h2><b>Hire Agencies </b> for <br />Larger Projects</h2>
+          <p>Enlist a small army to tackle larger projects using our talent marketplace. Get matched to agencies with a proven track record and a large body of work. Work with trusted partners. Like our freelancers, all agencies on our platform must pass an AML and KYC background check before being listed on our talent marketplace.</p>
           </div>
           </Col>
         </Row>

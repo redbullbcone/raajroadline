@@ -18,8 +18,8 @@ export default function AboutusSection() {
               {/* Section Title */}
 
               <About.Content className="para-background-color1">
-                  <h1>Earn from<br /><b>Businesses</b></h1>
-                  <p>Top of the list of dreams for many small firms and solo professionals is to win lucrative work with big corporate clients. A few decent projects can keep your business very healthy.</p>
+                  <h1>Earn with<br /><b>Businesses</b></h1>
+                  <p>Drive businesses to our platform and earn when they hire freelancers or sell their services online. Reward business owners while rewarding yourself by introducing them to MRKT365.</p>
                   <Button className="blue-button-affi"> Learn More</Button>
 
               </About.Content>
@@ -33,8 +33,8 @@ export default function AboutusSection() {
         <Row className="align-items-center justify-content-center justify-content-lg-start section-affiliate-alt">
           <Col xs="12" className="col-xl-6 col-lg-6 col-md-5 col-xs-12">
             <About.Box className="second-sec">
-                  <h1>Earn from<br /><b>Recruitment Agencies</b></h1>
-                  <p>Earn more doing what you have already been doing. All it takes is to send promotional material and links to your network of freelancers. Earn from each freelancer who signs up and successfully gets a job which is done easier with our marketplace automation and AI recommendations.</p>
+                  <h1>Become a<br /><b>21st-Century Recruiter</b></h1>
+                  <p>Earn more doing what you have already been doing but in a more innovative way. Send ready-made promotional material and links to your network and start earning money. Stop struggling to collect your commissions, let us handle transactions while you watch your income grow through our affiliate dashboard.</p>
                   <Button className="blue-button-affi"> Learn More</Button>
 
               {/* <About.Title as="h2"> <SuperTag value=""/> </About.Title> */}
@@ -82,8 +82,8 @@ export default function AboutusSection() {
               {/* Section Title */}
               <About.Content className="para-background-color2">
                 
-                  <h1>Earn from our<b> VPC</b></h1>
-                  <p>Our VPC helps users track their marketing expenses which increases efficient use of resources and prevents overspending. Refer users that will benefit from using a VPC and get rewarded for it. Earn on each dollar spent when your referral uses their VPC.</p>
+                  <h1>Earn from<b> Virtual Card transactions</b></h1>
+                  <p>Earn a percentage of all transactions when you refer a new cardholder to our virtual prepaid card program. We offer Virtual Prepaid Cards to clients to help them regain control of their marketing budgets. Our cards provide a cashback and are used like regular credit cards.</p>
                  
                   <Button className="blue-button-affi"> Learn More</Button>
 

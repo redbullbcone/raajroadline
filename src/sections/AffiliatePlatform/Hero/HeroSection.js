@@ -14,7 +14,7 @@ return(
       <Col className="col-xxl-9 col-xl-9 col-lg-9 col-md-10">
         <Hero.Content className="business-hero">
           <Hero.Title as="h2" fontColor="#fff">MRKT365<br className="d-none d-sm-block"/><span>Affiliate Program</span></Hero.Title>
-          <Hero.Text fontColor="#fff"> Increase your <b>EARNINGS</b><br />Help others <b> GROW THEIR BRAND</b><br className="d-none d-sm-block" />Become a<b>MRKT365 AFFILIATE</b></Hero.Text>
+          <Hero.Text fontColor="#fff"> Choose the service that fits you <b>THE BEST.</b><br />Earn up to <b>$1000 PER REFERRAL.</b><br className="d-none d-sm-block" />It’s that<b> EASY.</b></Hero.Text>
            
 
 
@@ -24,7 +24,7 @@ return(
               <Hero.Box className="d-flex">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
                       <Button className="close" textTransform="capitalized">Apply Now</Button>
-                      <Button className="close2" textTransform="capitalized">Book a Demo</Button>
+                      {/* <Button className="close2" textTransform="capitalized">Book a Demo</Button> */}
                     
               </Hero.Box>
               {/* <Hero.NewsletterButton className="btn-torch-red" as={Link} to="/">Start for free</Hero.NewsletterButton> */}

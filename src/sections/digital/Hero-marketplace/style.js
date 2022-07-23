@@ -27,7 +27,7 @@ const Hero = styled(Box)`
   }
 
   @media(min-width:1400px){
-    padding-top: 150px;
+    padding-top: 215px;
     padding-bottom:0;
     margin-bottom: 0;
 
@@ -96,12 +96,12 @@ Hero.Content = styled(Box)`
   }
 
   @media(min-width:992px){
-  left: -38px;
+  left: -68px;
 
   }
 
   @media(min-width:1170px){
-  left: -75px;
+  left: -128px;
   }
 
 
@@ -110,7 +110,7 @@ Hero.Content = styled(Box)`
   background:#3183ff !important;
   box-shadow: -8px 8px 50px rgba(26, 117, 255, 0.5) !important;
   position: relative;
-  left: -32px;
+  left: -72px;
 
 
   &:hover {

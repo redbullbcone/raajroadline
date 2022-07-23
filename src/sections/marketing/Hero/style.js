@@ -27,7 +27,7 @@ const Hero = styled(Box)`
     }
     .close{
         margin-right:30px;
-        font-size:16px !important;
+        font-size:20px;
         color:#fff;
         box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
         background:#ff5722;
@@ -35,7 +35,7 @@ const Hero = styled(Box)`
         width:220px;
     }
     .close2{
-        font-size:16px !important;
+        font-size:16px;
         box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
         transition: 0.5s all ease;
         color:#fff;

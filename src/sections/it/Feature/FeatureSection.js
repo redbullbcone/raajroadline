@@ -8,7 +8,7 @@ return(
 <Feature backgroundColor="#fff">
   <Container>
     <Row>
-      <Col className="col-xl-12 col-lg-12 text-center">
+      <Col className="col-xl-12 col-lg-12 text-center our-support-tl">
         <Feature.Box>
           <SectionTitle title="Our Support" titleProps={{mb:"33px"}}/>
         </Feature.Box>

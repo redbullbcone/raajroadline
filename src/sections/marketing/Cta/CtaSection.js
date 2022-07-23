@@ -5,7 +5,7 @@ import Cta from './style';
 const CtaSection = () => {
 return(
 <>
-<Cta className="cta-section cta-section--l1 bg-blue-ribbon dark-mode-texts">
+<Cta className="cta-section cta-section--l1 bg-blue-ribbon dark-mode-texts cta-fullsec">
   <Cta.Shape className="footer__shape-1">
     <img src="image/marketing/footer-shape.png"  alt="cta shape" className="w-100"/>
   </Cta.Shape>
@@ -13,8 +13,7 @@ return(
     <Row className="justify-content-center">
       <Col className="col-lg-7 col-md-8 text-center top-footer-sec">
         <Cta.Box>
-          <Cta.Title as="h2" fontColor="#fff">It’s easy to get <br className="d-none d-xs-block" /> started.
-            Start now.</Cta.Title>
+          <Cta.Title as="h2" fontColor="#fff">Ready to get started?</Cta.Title>
           {/* Newsletter */}
           <Cta.Newsletter>
             <Form>

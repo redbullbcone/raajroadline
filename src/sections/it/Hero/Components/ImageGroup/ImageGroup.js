@@ -3,7 +3,7 @@ import HeroImageGroup from "./style";
 export default function ImageGroup() {
   return (
     <HeroImageGroup>
-      <HeroImageGroup.ImagesList>
+      <HeroImageGroup.ImagesList className="demo1">
         <img src="image/it-services/woman.png" alt="heroimg" className="w-100"/>
         {/* <HeroImageGroup.ImageOne>
           <img src="image/it-services/man.png" alt="heroimg" className="w-100"/>

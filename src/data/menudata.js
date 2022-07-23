@@ -9,7 +9,7 @@ export const menuItems = [
              { name: "freelancers", label: " Freelancers " },
              { name: "agencies", label: " Agencies " },
              { name: "internships", label: " Interns " },
-             { name: "recruitment-agency", label: " Recruiters  " },
+             { name: "recruiters", label: " Recruiters  " },
              { name: "affiliates", label: " Affiliate Program " },
              ],
          },

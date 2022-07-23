@@ -7,14 +7,14 @@ import Hero from './style'
 
 export default function HeroSection(){
 return(
-<Hero overlay="image/recruitment-agency/Ellipse.png" style={{backgroundImage: ``}}>
+<Hero className='demo-height' overlay="image/recruitment-agency/Ellipse.png" style={{backgroundImage: ``}}>
   <Container>
     <Row className="align-items-center justify-content-center justify-content-md-start">
       {/* Welcome content Area */}
       <Col className="col-xxl-9 col-xl-9 col-lg-9 col-md-10">
         <Hero.Content className="business-hero">
-          <Hero.Title as="h2" fontColor="#fff"><span>Connect</span> your Talent <br className="d-none d-sm-block"/>Pool to our <span>Global Market</span></Hero.Title>
-          <Hero.Text fontColor="#fff"> Commission Rates <b>up to $1000</b><br />Access to an <b> Afiliate Dashboard</b><br className="d-none d-sm-block" />No <b>Deadline Limitations</b></Hero.Text>
+          <Hero.Title as="h2" fontColor="#fff"><span>Connect</span> your Talent <br className="d-none d-sm-block"/>to our <span>Global Market</span></Hero.Title>
+          <Hero.Text fontColor="#fff"> Earn <b>up to $1000 </b>per referral<br />Track progress with an <b> Afiliate Dashboard</b><br className="d-none d-sm-block" /> <b>Lifetime </b>referral contracts</Hero.Text>
            
 
 

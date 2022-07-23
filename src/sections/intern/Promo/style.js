@@ -44,7 +44,7 @@ const Promo = styled(Box)`
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 40px;
     opacity: 0.7;
     margin-top: -39px;
 
@@ -53,7 +53,7 @@ const Promo = styled(Box)`
     }
     @media(min-width:1170px){
       font-size: 21px;
-      line-height: 28px;
+      line-height: 40px;
     }
 
     @media(min-width:1400px){
@@ -71,16 +71,22 @@ Promo.Title = styled(Heading)`
     line-height:30px;
     @media (min-width:768px) {
     font-size: 38px;
+    line-height:40px;
+
     }
     @media (min-width:992px) {
     font-size: 48px;
+    line-height:50px;
+    
     }
     @media (min-width:1170px) {
       font-size: 48px;
+      line-height:50px;
     }
     @media (min-width:1400px) {
         font-size: 70px;
         font-weight:700;
+        line-height:70px;
     }
 `
 

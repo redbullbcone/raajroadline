@@ -148,18 +148,18 @@ const About = styled(Box)`
         font-size: 16px;
         line-height: 24px;
         border: none;
-        width: 148px;
+        width: auto;
         padding: 15px 30px;
         transition: 1s all ease;
 
         @media(min-width:992px){
             font-size: 16px;
             line-height:32px;
-            width:160px;
+            width:auto;
         }
 
         @media(min-width:1400px){
-            width:180px;
+            width:auto;
         }
 
     }

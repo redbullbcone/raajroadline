@@ -22,7 +22,7 @@ const Hero = styled(Box)`
 
   @media(min-width:1170px){
     padding-top: 165px;
-    padding-bottom: 108px;
+    padding-bottom: 134px;
   }
 
   @media(min-width:1400px){
@@ -85,7 +85,7 @@ Hero.Content = styled(Box)`
 }
 `;
 Hero.Text = styled(Paragraph)`
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
@@ -103,13 +103,15 @@ Hero.Text = styled(Paragraph)`
   }
 
   @media (min-width: 1170px) {
-    font-size: 16px;
+    font-size: 21px;
+    line-height:40px;
     text-align:left;
 
   }
   
   @media (min-width: 1400px) {
     font-size: 21px;
+    line-height:40px;
     text-align:left;
 
   }
@@ -182,13 +184,19 @@ Hero.Button = styled(Button)`
 
   }
   @media (min-width: 1170px) {
-    width: 160px;
-    height: 50.37px;
+    width: 219.45px;
+    height: 70px;
+    font-weight: 700;
+font-size: 20px !important;
+line-height: 28px;
 
   }
   @media (min-width: 1400px) {
-    width: 180px;
-    height: 57.37px;
+    width: 219.45px;
+    height: 70px;
+    font-weight: 700;
+font-size: 20px !important;
+line-height: 28px !important;
 
   }
   

@@ -24,7 +24,7 @@ const Service = styled(Box)`
         padding-bottom: 95px;
     }
     .button-service-sec{
-        width: 234px;
+        width: 240px;
         background: #FF5722;
         border-radius: 50px;
         color:#fff;
@@ -43,7 +43,7 @@ const Service = styled(Box)`
         }
 
         @media(min-width:1170px){
-            width: 186px;
+            width: 192px;
             padding: 16px 25px;
         }
 
@@ -51,7 +51,7 @@ const Service = styled(Box)`
             font-weight: 600;
             font-size: 20px;
             line-height: 28px;
-            width: 234px;
+            width: 240px;
             padding: 21px 30px;
 
         }

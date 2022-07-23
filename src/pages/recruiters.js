@@ -32,12 +32,26 @@ const ServiceData =[
     // icon:"fas fa-layer-group",
     image:"image/recruitment-agency/graph.svg",
     whiteImage:"image/recruitment-agency/white-graph.svg",
-    title: "Earn 50% of our",
-    title2:"service fees up",
-    title3:"to $1000",
+    title: "Collect up to",
+    title2:"$1000 in service",
+    title3:"fees per user",
     linkPage:"ai-auditor",
     whiteImageClass:"business-ai",
     cardbg:'purple',
+  },
+  {
+    id:"ss3",
+    // icon:"fas fa-envelope",
+    image:"image/recruitment-agency/right-clock.svg",
+    whiteImage:"image/recruitment-agency/white-right-clock.svg",
+    title: "Collect half of",
+    title2:"the deal service",
+    title3:"fees",
+    linkPage:"ai-auditor",
+    cardbg:"mustard",
+    whiteImageClass:"business-ai",
+
+    
   },
   {
     id:"ss2",
@@ -52,20 +66,7 @@ const ServiceData =[
     cardbg:'pink',
     
   },
-  {
-    id:"ss3",
-    // icon:"fas fa-envelope",
-    image:"image/recruitment-agency/right-clock.svg",
-    whiteImage:"image/recruitment-agency/white-right-clock.svg",
-    title: "Monitor the work",
-    title2:"of freelancers or",
-    title3:"employees",
-    linkPage:"ai-auditor",
-    cardbg:"mustard",
-    whiteImageClass:"business-ai",
-
-    
-  },
+  
   {
     id:"ss4",
     // icon:"fas fa-chart-pie",
@@ -107,7 +108,7 @@ export default function Agency() {
 
       </Helmet>
       <HeroSection />
-      <ServicesSectionOne ClassName="intern-features" title="Earn Affiliate Income with MRKT365" content={ServiceData}/>
+      <ServicesSectionOne ClassName="intern-features" title="Earn more Affiliate Income" content={ServiceData}/>
       <ContentSectionOne />
       <AboutSection />
       <CtaSection />

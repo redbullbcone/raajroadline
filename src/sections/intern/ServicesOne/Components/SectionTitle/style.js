@@ -39,7 +39,7 @@ display: inline-block;
 SectionTitle.Main = styled(Heading)`
 font-size: 60px;
 font-weight: 700;
-letter-spacing: normal;
+letter-spacing: -1;
 line-height: 1.38095;
 @media (min-width:768px) {
     font-size: 33px;

@@ -9,7 +9,7 @@ export default function ContentSectionOne({heading,content},{...rest}){
   
   return(
 <>
-<Content backgroundColor="#fff" className='business-sec-altcards'>
+<Content backgroundColor="#fff" className='business-sec-altcards home-p1'>
   <Container>
   <h2 className='top-head  business-content-sec'>{heading}</h2>
   </Container>
@@ -36,9 +36,9 @@ export default function ContentSectionOne({heading,content},{...rest}){
         <ImageGroup gifimageclass={row.gifimageclass} gifimageSrc={row.gifsrc} gifimageAlt={row.gifalt} mb="60px" mbLG="0" />
         </div>
 
-        <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text1}</Content.Text></div>
-        <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text2}</Content.Text></div>
-        <div className='d-flex'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text3}</Content.Text></div>
+        <div className='d-flex alignItem-center'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text1}</Content.Text></div>
+        <div className='d-flex alignItem-center'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text2}</Content.Text></div>
+        <div className='d-flex alignItem-center'><span className='orange-tick'><img src="image/homepage/Done.svg" /></span><Content.Text>{row.text3}</Content.Text></div>
         <Button className="blue-close" textTransform="capitalized">Learn More</Button>
         {/* <Content.Button></Content.Button> */}
       </Col>

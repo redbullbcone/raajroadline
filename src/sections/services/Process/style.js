@@ -52,9 +52,12 @@ Process.Title = styled(Heading)
         line-height: 42px;
     }
     @media (min-width:992px) {
-        font-size: 48px;
-        line-height:60px;
+        font-size: 70px;
+        line-height:62px;
+        font-weight: 700;
     }
+
+
 `
 Process.Button = styled(Button)
 `

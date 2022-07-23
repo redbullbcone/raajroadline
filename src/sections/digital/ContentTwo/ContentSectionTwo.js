@@ -17,10 +17,10 @@ export default function ContentSectionTwo({ ...rest }) {
                 Why Work With Us?
               </Content.Title>
               <Content.Title as="h2">
-              <span className="blue-text">Sell</span> your services in <br /> our <span className="blue-text">marketplace</span>
+              <span className="blue-text">Expand</span> your client base with <br /> our <span className="blue-text">Marketplace</span>
               </Content.Title>
               <Content.Text>
-              MRKT365 is the only resource you need to find the businesses prospects of a right company, freelancer or intern. With Reviews,Ratings and Verification, MRKT365 gives you the tools zyou need to hire with confidence. Get matched with our users directly or research yourself from a list of verified and reviewed options.
+              Create a free business listing on our platform and start selling your services online to a whole new audience. Add multiple service packages and get paid in US dollars. Get matched to projects or browse our job board. Easily connect with new customers and reach your next revenue goal with MRKT365.
                  
               </Content.Text>
               <Content.Button
@@ -28,7 +28,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 pr="15px"
                 sizeY="56px"
                 sizeX="168px"
-                className="btn"
+                className="btn blue-close"
                 href="#"
                 mt="20px"
               >
@@ -99,10 +99,10 @@ export default function ContentSectionTwo({ ...rest }) {
             {/* Section Title */}
             <Content.Box className="right-side-para">
             <Content.Title as="h2">
-            <b className="blue-text">Manage</b> your Team with<br /> our <b className="blue-text">Employee Monitoring<br /> App</b>
+            <b className="blue-text">Manage</b> your remote Team <br /> with <b className="blue-text">confidence<br /></b>
               </Content.Title>
               <Content.Text>
-              Measure the productivity of freelancers you hire and your existing employees. Our services include an easy to install tracking program. All activities completed by your team can be monitored and documented through our employee tracker.
+              Increase the productivity of the freelancers you hire and your existing employees with our task monitoring app. Our easy-to-use monitoring app tracks time spent on tasks and automatically adds a work journal for each worker for your future approval.
                  
               </Content.Text>
               <Content.Button
@@ -110,7 +110,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 pr="15px"
                 sizeY="56px"
                 sizeX="168px"
-                className="btn"
+                className="btn blue-close"
                 href="#"
                 mt="40px"
               >
@@ -132,10 +132,10 @@ export default function ContentSectionTwo({ ...rest }) {
             <Content.Box className="left-para2">
            
               <Content.Title as="h2">
-              <span className="blue-text">Take advantage</span> of our<br /> Virtual Prepaid Card
+              <span className="blue-text">Earn instant ROI</span> on <br /> Marketing Campaigns
               </Content.Title>
               <Content.Text>
-              We have partnered with Visa and Amex to provide pre-paid virtual cards which you can use for online marketing, features, and its services without submitting your debit or credit card details. Spend only the money you’ve uploaded to your card and monitor how much you’re spending online.
+              We have partnered with Visa, Amex, & US Bank to provide reloadable prepaid virtual credit cards to businesses, managers, marketing agencies & their clients. Earn up to 1.5% cashback on ad spend from all cards under your account. Regain control of your marketing budget or the marketing accounts you manage.
                  
               </Content.Text>
               <Content.Button
@@ -143,7 +143,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 pr="15px"
                 sizeY="56px"
                 sizeX="168px"
-                className="btn"
+                className="btn blue-close"
                 href="#"
                 mt="40px"
               >
@@ -188,23 +188,23 @@ export default function ContentSectionTwo({ ...rest }) {
             <Content.Images>
                <Content.ImageOne>
                 <Content.ImageOneInner>
-                  <img
+                  {/* <img
                     src="image/home-digital-agency/22.png"
                     alt="content"
                     className="image5"
 
-                  />
+                  /> */}
                 </Content.ImageOneInner>
                
               </Content.ImageOne>
               <Content.ImageTwo className="imgtwodown">
                 <Content.ImageTwoInner>
-                  <img
+                  {/* <img
                     src="image/home-digital-agency/33.png"
                     alt="content"
                     className="image6"
 
-                  />
+                  /> */}
                 </Content.ImageTwoInner>
               </Content.ImageTwo>
             </Content.Images>
@@ -216,10 +216,10 @@ export default function ContentSectionTwo({ ...rest }) {
             {/* Section Title */}
             <Content.Box className="right-side-para">
             <Content.Title as="h2">
-            <span className="blue-text">Hire Interns</span> from<br /> All Over the Globe
+            <span className="blue-text">Hire Virtual Interns</span> to<br /> Fill in the Gaps
               </Content.Title>
               <Content.Text>
-              Add young talent to your team. Find university-educated interns to work remotely on your projects. Our interns are ready to their trade hard work for experience Interns can be students, recent graduates, or professionals who want to kick start their careers with you from all over the world.
+              Add young talent to your team to accelerate your projects. Find university-educated interns to work with your team remotely. Discover interns that are ready to trade hard work for experience. Interns can be students, recent graduates, or professionals who want to kick start their careers.
                  
               </Content.Text>
               <Content.Button
@@ -227,7 +227,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 pr="15px"
                 sizeY="56px"
                 sizeX="168px"
-                className="btn"
+                className="btn blue-close"
                 href="#"
                 mt="40px"
               >

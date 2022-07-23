@@ -180,13 +180,13 @@ Hero.Text = styled(Paragraph)`
     }
     @media (min-width: 1170px) {
         font-weight:500;
-        font-size:18px;
-        line-height:30px;
+        font-size:21px;
+        line-height:40px;
     }
     @media (min-width: 1400px) {
         font-weight:500;
         font-size:21px;
-        line-height:30px;
+        line-height:40px;
     }
 `
 
@@ -280,9 +280,13 @@ Hero.Newsletter =styled(Box)`
             right: 8px;
         }
         @media (min-width:768px){
-            height: 56px;
+            height: 64px;
             margin-top:8px;
             left: 2px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            width: 220px;
         }
 
        

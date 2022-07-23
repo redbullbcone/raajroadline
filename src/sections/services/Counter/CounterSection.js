@@ -10,6 +10,7 @@ export default function CounterSection() {
       <Counter>
         <Container>
          <h2 className="get-started-heading">How to Get Started</h2>
+
             <Row className="row justify-content-center text-center">
               <Col xs="6" className="col-6 col-lg-3 col-md-4 col-xs-6">
                 <LazyLoad>

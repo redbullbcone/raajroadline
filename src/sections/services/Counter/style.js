@@ -24,21 +24,21 @@ s}
   
   @media(min-width:1170px){
     text-align: left;
-    padding-top: 100px;
+    padding-top: 60px;
     font-size: 70px;
     font-weight: 700;
   }
   
   @media(min-width:1270px){
     text-align: left;
-    padding-top: 100px;
+    padding-top: 60px;
     font-size: 70px;
     font-weight: 700;
   }
   
   @media(min-width:1400px){
     text-align: left;
-    padding-top: 100px;
+    padding-top: 60px;
     font-size: 70px;
     font-weight: 700;
   }

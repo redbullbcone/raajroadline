@@ -119,8 +119,8 @@ margin-top: -116px;
     }
 
     .business-video{
-        padding-top:108px;
-        padding-bottom: 133px;
+        padding-top:120px;
+        padding-bottom: 100px;
     }
 
     .video-sec{
@@ -176,6 +176,7 @@ Content.Title = styled(Heading)`
     font-size: 30px;
     line-height: 42px;
     letter-spacing: -1px;
+    color: #262729;
     @media (min-width:768px) {
       font-size: 38px;
     }
@@ -186,20 +187,23 @@ Content.Title = styled(Heading)`
         margin-bottom: 30px;
     }
     @media (min-width:1170px) {
-        font-size:42px;
+        font-size:45px;
         margin-bottom:44px;
-        line-height: 60px;
+        line-height: 62px;
+        font-weight: 500;
     }
     @media (min-width:1270px){
-        font-size:42px;
+        font-size:45px;
         margin-bottom:44px;
-        line-height: 60px;
+        line-height: 62px;
+        font-weight: 500;
 
     }
     @media (min-width:1400px){
         font-weight: 500;
         font-size: 45px;
         line-height: 62px;
+        color: #262729;
     }
 
     

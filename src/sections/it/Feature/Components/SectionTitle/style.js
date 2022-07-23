@@ -37,15 +37,18 @@ font-family:rubik;
 }
 
 @media (min-width:1170px) {
-    font-size:60px;
+    font-size:70px;
 }
 
 @media (min-width:1270px) {
-    font-size:60px;
+    font-size:70px;
+    padding-bottom:30px;
 }
+
 
 @media (min-width:1400px) {
     font-size: 70px;
+    padding-bottom:30px;
 }
 
 `

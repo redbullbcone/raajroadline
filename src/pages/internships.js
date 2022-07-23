@@ -15,6 +15,7 @@ import PromoSection from '~sections/intern/Promo';
 
 
 
+
 const header = {
   headerClasses: "site-header site-header--menu-start light-header site-header--sticky",
   containerFluid:true,
@@ -105,7 +106,7 @@ export default function Project() {
         <PromoSection/>
         <ContentOne/>
         <ContentTwo/>
-        <ServicesSectionOne ClassName="intern-features" title="How to get started" content={ServiceData}/>
+        <ServicesSectionOne  ClassName="intern-features align-left1" title="How to Get Started" content={ServiceData}/>
         <CtaSection/> 
         <FooterOne />
     </PageWrapper>

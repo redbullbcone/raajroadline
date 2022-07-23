@@ -8,16 +8,16 @@ const Service = styled(Box)`
         padding-bottom: 80px;
     }
     @media (min-width:992px) {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-bottom:80px;
     }
     @media (min-width:1170px) {
-        padding-top: 120px;
+        padding-top: 100px;
         padding-bottom: 120px;
     }
     @media (min-width:1270px) {
-        padding-top: 140px;
-        padding-bottom: 140px;
+        padding-top: 100px;
+        padding-bottom: 120px;
     }
     .how-to-get-started-section h4 {
         color:#000;

@@ -46,13 +46,13 @@ const About = styled(Box)`
       @media(min-width:1170px){
         font-size: 16px;
         line-height: 32px;
-        width:70%;
-        margin-top:24px;
+        width:100%;
+        margin-top:50px;
       }
 
       @media(min-width:1270px){
-        font-size: 16px;
-        line-height: 32px;
+        font-size: 21px;
+        line-height: 40px;
       }
       @media(min-width:1400px){
         font-size: 21px;
@@ -72,20 +72,20 @@ const About = styled(Box)`
       }
 
       @media(min-width:1170px){
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 45px;
+        line-height: 54px;
         margin-bottom: 0;
 
       }
 
       @media(min-width:1270px){
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 45px;
+        line-height: 54px;
       }
 
       @media(min-width:1400px){
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 45px;
+        line-height: 54px;
       }
       
     }
@@ -114,22 +114,22 @@ const About = styled(Box)`
       }
 
       @media(min-width:1170px){
-        font-size:40px;
+        font-size:45px;
         line-height:50px;
       }
       @media(min-width:1270px){
-        font-size:40px;
-        line-height:50px;
+        font-size:45px;
+        line-height:54px;
 
       }
       @media(min-width:1400px){
-        font-size:50px;
-        line-height:60px;
+        font-size:45px;
+        line-height:54px;
 
       }
     }
-    background:#F4F9FC;
-    border-radius: 15px;
+    // background:#F4F9FC;
+    // border-radius: 15px;
     position: relative;
     padding:30px;
 
@@ -153,12 +153,12 @@ const About = styled(Box)`
       left: -30px;
     }
     @media (min-width: 1270px) {
-      padding-top: 140px;
-      padding-bottom: 140px;
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
     @media (min-width: 1400px) {
-      padding-top: 150px;
-      padding-bottom: 150px;
+      padding-top: 120px;
+      padding-bottom: 120px;
     }
   }
   .about-text-card2 h2,
@@ -175,11 +175,11 @@ const About = styled(Box)`
       line-height:40px;
     }
     @media (min-width: 1270px) {
-      font-size:40px;
-      line-height:48px;
+      font-size:45px;
+      line-height:54px;
     }
     @media (min-width: 1400px) {
-      font-size:48px;
+      font-size:45px;
       line-height:60px;
     }
   }
@@ -195,14 +195,14 @@ const About = styled(Box)`
     }
     @media (min-width: 1170px) {
       width:80%;
-      font-size: 18px;
-      line-height:38px;
+      font-size: 21px;
+      line-height:40px;
 
     }
     @media (min-width: 1270px) {
       width:80%;
-      font-size: 18px;
-      line-height:38px;
+      font-size: 21px;
+      line-height:40px;
 
     }
     @media (min-width: 1400px) {
@@ -291,7 +291,7 @@ const About = styled(Box)`
     position:relative;
 
     @media(min-width:992px){
-      padding-bottom:100px;
+      padding-bottom:0px;
       position:relative;
     }
   }
@@ -312,15 +312,15 @@ const About = styled(Box)`
       padding-bottom: 0;
     }
     @media (min-width: 1170px) {
-      padding-top: 130px;
+      padding-top: 70px;
       padding-bottom: 130px;
     }
     @media (min-width: 1270px) {
-      padding-top: 140px;
+      padding-top: 80px;
       padding-bottom: 140px;
     }
     @media (min-width: 1400px) {
-      padding-top: 150px;
+      padding-top: 100px;
       padding-bottom: 150px;
     }
   }
@@ -336,17 +336,17 @@ const About = styled(Box)`
     }
 
     @media(min-width:1170px){
-      font-size:40px;
-      line-height:50px;
+      font-size:45px;
+      line-height:54px;
     }
     @media(min-width:1270px){
-      font-size:40px;
-      line-height:50px;
+      font-size:45px;
+      line-height:54px;
 
     }
     @media(min-width:1400px){
-      font-size:50px;
-      line-height:60px;
+      font-size:45px;
+      line-height:54px;
 
     }
   }
@@ -367,17 +367,18 @@ const About = styled(Box)`
       line-height:27px;
     }
     @media (min-width: 1170px) {
-      width:80%;
-      font-size: 16px;
+      width:100%;
+      font-size: 21px;
+      line-height:40px;
     }
     @media (min-width: 1270px) {
-      width:80%;
-      font-size: 16px;
-      line-height:32px;
+      width:100%;
+      font-size: 21px;
+      line-height:40px;
 
     }
     @media (min-width: 1400px) {
-      width: 73%;
+      width: 90%;
       font-size: 21px;
       line-height:40px;
 

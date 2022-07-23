@@ -78,7 +78,7 @@ const ServiceData =[
 
 export default function HomeIt() {
   return (
-    <PageWrapper headerConfig={header}>
+    <PageWrapper  headerConfig={header}>
         <Helmet>
         <title>Find Freelance Projects Today | Join MRKT365</title>
         <meta name="description" content="Find the best freelancing jobs from around the world & connect with top companies. All you need is a laptop & an internet connection. Become a freelancer!" />
@@ -100,14 +100,10 @@ export default function HomeIt() {
         <meta name="twitter:url" content="https://mrkt365.com/freelancers" />
         </Helmet>
         <HeroSection/>
-        <ServicesSectionOne title="Discover More Freelance Job Opportunities" content={ServiceData} />
+        <ServicesSectionOne title="Discover More Freelance Job" content={ServiceData} />
         <FeatureSection/>
         <ContentSectionOne/>
-        {/* <ProcessSection/> */}
         <CtaSection/>
-        {/*
-        <TestimonialSection/>
-        <ContactSection/> */}
         <FooterOne/> 
     </PageWrapper>
   )

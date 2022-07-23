@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Box, Heading, Button, Paragraph } from "~styled";
 
 const Content = styled(Box)`
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 55px;
   
 
@@ -12,12 +12,12 @@ const Content = styled(Box)`
   }
 
   @media (min-width: 1024px) {
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top:40px;
+    padding-bottom: 90px;
   }
   @media (min-width: 1200px) {
-    padding-top: 130px;
-    padding-bottom: 135px;
+    padding-top: 40px;
+    padding-bottom: 90px;
   }
 
   @media(min-width:1400px){
@@ -27,7 +27,7 @@ const Content = styled(Box)`
   h2{
 
 
-    font-weight: 700;
+    font-weight: 600;
     font-size: 28px !important;
     line-height: 32px !important;
     letter-spacing: -1px;
@@ -36,25 +36,25 @@ const Content = styled(Box)`
 @media(min-width:992px){
   font-size:40px;
   line-height:60px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -1px;
   width: 516px;
   padding-right: 11px;
-  padding-top: 77px;
+  padding-top: 20px;
 }
 
 @media(min-width:1170px){
   margin-bottom:20px;
-  font-weight: 700;
-  font-size: 42px !important;
-  line-height: 50px !important;
+  font-weight: 600;
+  font-size: 45px !important;
+  line-height: 60px !important;
   width: 100%;
 
 }
 
 @media(min-width:1400px){
   margin-bottom:20px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 42px !important;
   line-height: 50px !important;
   width: 100%;
@@ -77,7 +77,7 @@ const Content = styled(Box)`
 
     @media(min-width:992px){
       flex-direction:row;
-      padding-bottom:90px;
+      padding-bottom:00px;
 
     }
   }
@@ -270,7 +270,8 @@ opacity: 0.7;
     width: 90%;
   }
   @media(min-width:1270px){
-    font-size:18px;
+    font-size:21px;
+    line-height:40px;
     width: 90%;
   }
 

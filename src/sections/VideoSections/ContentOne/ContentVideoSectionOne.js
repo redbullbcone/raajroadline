@@ -16,7 +16,7 @@ export default function ContentVideoSectionOne({...rest}){
           <Row className="justify-content-center white-image first-business-sec">
             <Col xs="auto" className="col-xxl-6 col-xl-6  col-lg-6  col-md-6 col-xs-6 business-altcard">
               <div className='business-text-sec'>
-              <Content.Title as="h2"><b>Manage </b>your team with<br /> our <b>Employee Monitoring App</b></Content.Title>
+              <Content.Title as="h2"><b>Manage </b>your team with <br />our <b>Employee Monitoring</b> App</Content.Title>
               <Content.Text>Time is money. Get up-to-date productivity insights into tasks performed by the employees, freelancers, and agencies you hire. The MRKT365 Time Tracking app puts you back in control of your cost of labor. Start saving thousands on contractor and payroll costs.</Content.Text>
               <Button className="blue-close" textTransform="capitalized">Learn More</Button>
               {/* <Content.Button></Content.Button> */}

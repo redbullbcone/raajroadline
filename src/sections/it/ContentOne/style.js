@@ -7,28 +7,29 @@ import {
 
 const Container = styled(Box)
 `
-    padding-top: 40px;
+
+    padding-top: 0px;
     padding-bottom: 36px;
 
     @media (min-width:768px) {
-        padding-top: 70px;
+        padding-top: 0px;
         padding-bottom: 55px;
     }
 
     @media (min-width:1024px) {
-        padding-top: 110px;
+        padding-top: 0px;
         padding-bottom: 100px;
     }
     @media (min-width:1170px) {
-        padding-top: 60px;
+        padding-top: 0px;
         padding-bottom: 200px;
     }
     @media (min-width:1270px) {
-        padding-top: 60px;
+        padding-top: 0px;
         padding-bottom: 200px;
     }
     @media (min-width:1400px) {
-        padding-top: 60px;
+        padding-top: 0px;
         padding-bottom: 200px;
     }
     .section1{
@@ -52,6 +53,8 @@ const Container = styled(Box)
             margin-bottom:0;
         }
     }
+
+    h2 {font-weight: 700;  margin-bottom: 24px;}
 
     .txt-card1{
         padding:20px;
@@ -78,7 +81,7 @@ const Container = styled(Box)
             padding-right: 390px;
             padding-left: 87px;
             padding-top: 30px;
-            width: calc(100% + 220px);
+            width: calc(100% + 333px);
             height: 57%;
             top: 135px;
         }
@@ -87,7 +90,7 @@ const Container = styled(Box)
             padding-right: 390px;
             padding-left: 87px;
             padding-top: 30px;
-            width: calc(100% + 220px);
+            width: calc(100% + 333px);
             height: 57%;
             top: 151px;
 
@@ -105,10 +108,10 @@ const Container = styled(Box)
     }
     .main-container2{
         @media(min-width:992px){
-            margin-top:100px;
+            margin-top:50px;
         }
         @media(min-width:1170px){
-            margin-top: 150px;
+            margin-top: 70px;
         }
     }
     .txt-card5{
@@ -135,14 +138,14 @@ const Container = styled(Box)
             }
 
             @media(min-width:1120px){
-                font-size: 16px;
-                line-height: 30px;
+                line-height: 40px;
+                font-size: 21px;
 
             }
 
             @media(min-width:1400px){
-                line-height: 32px;
-                font-size: 18px;
+                line-height: 40px;
+                font-size: 21px;
                 font-weight: 400;
             }
 
@@ -160,11 +163,11 @@ const Container = styled(Box)
             margin-bottom: 24px;
         }
         p{
-            font-size: 14px;
+            font-size: 21px;
             padding-left: 0;
             font-weight: 400;
             letter-spacing: normal;
-            line-height:24px;
+            line-height:40px;
             color:inherit;
 
 
@@ -174,14 +177,14 @@ const Container = styled(Box)
             }
 
             @media(min-width:1120px){
-                font-size: 16px;
-                line-height: 30px;
+                font-size: 21px;
+                line-height: 40px;
 
             }
 
             @media(min-width:1400px){
-                line-height: 32px;
-                font-size: 18px;
+                line-height: 40px;
+                font-size: 21px;
                 font-weight: 400;
             }
 
@@ -226,7 +229,7 @@ const Container = styled(Box)
         @media(min-width:1170px){
             padding-left: 80px;
             padding-right: 282px;
-            width: calc(100% + 150px);
+            width: calc(100% + 224px);
             height: 75%;
             top: 70px;
             padding-top: 50px;
@@ -236,7 +239,7 @@ const Container = styled(Box)
         @media(min-width:1270px){
             padding-left: 80px;
             padding-right: 282px;
-            width: calc(100% + 150px);
+            width: calc(100% + 224px);
             height: 75%;
             top: 70px;
             padding-top: 50px;
@@ -264,7 +267,7 @@ const Container = styled(Box)
         @media(min-width:1170px){
             padding-left: 80px;
             padding-right: 282px;
-            width: calc(100% + 150px);
+            width: calc(100% + 200px);
             height: 75%;
             top: 70px;
             padding-top: 50px;
@@ -274,7 +277,7 @@ const Container = styled(Box)
         @media(min-width:1270px){
             padding-left: 80px;
             padding-right: 282px;
-            width: calc(100% + 150px);
+            width: calc(100% + 200px);
             height: 75%;
             top: 70px;
             padding-top: 50px;
@@ -283,7 +286,7 @@ const Container = styled(Box)
         @media (min-width:1400px){
             padding-left: 80px;
             padding-right: 326px;
-            width: calc(100% + 150px);
+            width: calc(100% + 200px);
             height: 75%;
             top: 70px;
             padding-top: 50px;
@@ -345,18 +348,18 @@ const Container = styled(Box)
 
         @media(min-width:1170px){
             padding-left: 105px;
-            padding-top: 98px;
-            padding-right: 114px;
+            padding-top: 0px;
+            padding-right: 20px;
         }
         @media(min-width:1270px){
             padding-left: 105px;
-            padding-top: 98px;
-            padding-right: 114px;
+            padding-top: 0px;
+            padding-right: 20px;
         }
         @media(min-width:1400px){
             padding-left: 105px;
             padding-top: 60px;
-            padding-right: 106px;
+            padding-right: 101px;
         }
     }
 
@@ -375,28 +378,28 @@ const Container = styled(Box)
         flex-direction: column;
 
         @media(min-width:922px){
-            margin-top: 150px;
+            margin-top: 50px;
             margin-bottom: -80px;
             flex-direction:row;
 
         }
 
         @media(min-width:1170px){
-            margin-top: 95px;
+            margin-top: 70px;
             margin-bottom:60px;
 
         }
 
         @media(min-width:1400px){
             margin-bottom:60px;
-            margin-top: 80px;
+            margin-top: 70px;
         }
     }
 
   
 
     .main-container{
-        margin-top: 81px;
+        margin-top: 50px;
         margin-bottom: 63px;
         flex-direction:column;
 
@@ -405,7 +408,7 @@ const Container = styled(Box)
         }
         @media(min-width:992px){
             flex-direction:row;
-            margin-top: 61px;
+            margin-top: 60px;
             margin-bottom: 43px;
         }
         @media(min-width:1170px){
@@ -436,8 +439,8 @@ const Container = styled(Box)
     .txt-card4{
         p{
             font-weight: 400;
-            font-size: 18px;
-            line-height: 32px;
+            font-size: 21px;
+            line-height: 40px;
             color: #262729;
             opacity: 0.7;
         }
@@ -452,18 +455,18 @@ const Container = styled(Box)
         @media (min-width:1170px){
             padding-left: 133px;
             padding-top: 30px;
-            padding-right: 92px;
+            padding-right: 30px;
         
         }
 
         @media (min-width:1270px){
             padding-left: 133px;
             padding-top: 30px;
-            padding-right: 92px;
+            padding-right: 30px;
             p{
                 font-weight: 400;
-                font-size: 18px;
-                line-height: 32px;
+                font-size: 21px;
+                line-height: 40px;
                 color: #262729;
                 opacity: 0.7;
             }
@@ -473,11 +476,11 @@ const Container = styled(Box)
         @media (min-width:1400px){
             padding-left: 133px;
             padding-top: 100px;
-            padding-right: 120px;
+            padding-right: 30px;
             p{
                 font-weight: 400;
-                font-size: 18px;
-                line-height: 32px;
+                font-size: 21px;
+                line-height: 40px;
                 color: #262729;
                 opacity: 0.7;
             }

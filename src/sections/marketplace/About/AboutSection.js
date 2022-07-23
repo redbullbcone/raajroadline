@@ -12,7 +12,7 @@ export default function AboutusSection() {
           <Col xs="12" className="col-xl-6 col-lg-6 col-md-5 col-xs-12">
             <About.Box className="second-sec">
                   <h1><b>Hire Interns</b> to Fill in<br />the Gaps</h1>
-                  <p>Hire diverse early-career talent with MRKT365 from around the world with virtual internships. Our marketplace enables organizations to work with remote interns from global universities Want to focus your time on quality, and not quantity? Use our video interview features to digitally screen interns before the actual interview. Find the most engaged interns with MRKT365!</p>
+                  <p>Hire diverse talent from around the world with virtual internships. Our marketplace enables organizations to work with remote interns from top global universities. Collaborate with learners to tackle your short-term projects and discover better ways to boost your business practices. Solve your staffing shortages with eager virtual interns.</p>
                   <Button className="blue-button-affi"> Learn More</Button>
 
               {/* <About.Title as="h2"> <SuperTag value=""/> </About.Title> */}

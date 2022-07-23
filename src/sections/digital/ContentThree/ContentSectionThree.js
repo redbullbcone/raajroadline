@@ -25,10 +25,10 @@ export default function ContentSectionThree({ ...rest }) {
             <Content.Box className="ai-left-para-sec">
             
               <Content.Title as="h2">
-              <b>AI</b> Auditor
+              <b>Smart</b> Reporting
               </Content.Title>
               <Content.Text>
-              Our marketplace is a great opportunity to share with freelancers looking for a convenient and consistent way to get jobs. By referring them, not only are they rewarded with competitive paying jobs, but you are as well through commission. Immediately start getting rewarded the moment they land a job.
+              Find proven opportunities to boost website traffic used by thousands of businesses on search engines like Google and Bing. Scan your website for free to find technical SEO, social media, & PPC marketing opportunities with our AI auditor. Then turn opportunities into actionable results.
               </Content.Text>
              
             </Content.Box>
@@ -68,10 +68,10 @@ export default function ContentSectionThree({ ...rest }) {
             {/* Section Title */}
             <Content.Box className=" colored-bg ai-right-para">
             <Content.Title as="h2" className="ai-head2">
-            Use <b>Smart Tools</b> for <br /> Stong <b>Results</b>
+            Use <b>Smarter Tools</b> for <br /> Stonger <b>Results</b>
               </Content.Title>
               <Content.Text>
-              Get an overview of your business’s marketing strategy with our easy-to-understand dashboards. We will translate your data so you know where you stand and help you plan ahead.
+              Get an overview of your business’s marketing strategy with our easy-to-understand dashboards. We will translate your data so you know where you stand and find more ways to drive more sales.
                  
               </Content.Text>
               
@@ -92,10 +92,10 @@ export default function ContentSectionThree({ ...rest }) {
           {/* Section Title */}
           <Content.Box className="right-side-para">
           <Content.Title as="h2" className="tilt-head">
-          Get <b>Matched</b> to<br /> an <b>Expert</b>
+          Get <b>Matched</b> with<br /> Verified <b>Experts</b>
             </Content.Title>
             <Content.Text className="ai-para3">
-            Our AI will create a short list of candidates for you to choose from based on your requirements. We conduct an extensive KYC & AML screening with both automatic & manual verifications before our vendors are listed.
+            Based on your requirements, our platform generates a short list of candidates based on AI recommendations. All experts are screened through an advanced KYC & AML screening and verification before our vendors are shown.
                
             </Content.Text>
             
@@ -140,10 +140,10 @@ export default function ContentSectionThree({ ...rest }) {
             {/* Section Title */}
             <Content.Box className="right-side-para ai-last-para-colored">
             <Content.Title as="h2">
-            <b>Track</b> your <br />Marketing Campaigns, <br />Freelancers and Employees
+            <b>Visualize</b> data <br />Track Performance
               </Content.Title>
               <Content.Text >
-              Watch your revenue grow while outsourcing costs to reduce your expenses. Our platform allows you to add vendors chosen by our AI or your existing employees working from home.
+              Get an instant overview of results and who to attribute them to in your team. Increase team productivity when hiring freelancers or assigning tasks to employees.
                  
               </Content.Text>
               

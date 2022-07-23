@@ -63,8 +63,8 @@ const ServiceData =[
   },
   {
     id:"ss4",
-    image:"image/businesses/KYC-white.svg",
-    whiteImage:"image/businesses/KYC-white.svg",
+    image:"image/businesses/KYC.svg",
+    whiteImage:"image/businesses/KYC.svg",
     bgImageClass:"orangeBg",
     title: "AML & KYC Verified",
     title2: "Freelancers",

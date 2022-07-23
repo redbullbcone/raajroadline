@@ -10,8 +10,8 @@ export default function ServicesSectionTwo() {
         <Row className="align-items-center justify-content-center">
           <Col className="col-xl-5 col-lg-5 col-md-5 col-xs-12 order-2 order-lg-1">
             <Service.Box className='earn-from-section' >
-              <h1>Earn From <br /> <b>Freelancers</b></h1>
-              <p>Our marketplace is a great opportunity to share with freelancers looking for a convenient and consistent way to get jobs. By referring them, not only are they rewarded with competitive paying jobs, but you are as well through commission. Immediately start getting rewarded the moment they land a job.</p>
+              <h1>Earn with <br /> <b>Freelancers</b></h1>
+              <p>Share our marketplace to contacts in your network looking for part-time or full-time freelance work. Earn commissions each time your referral gets paid for a job, it’s a win-win. Introduce your contacts to a job marketplace with freelance jobs of all sizes across multiple industries.</p>
               <button className="blue-button-affi">Learn More</button>
             </Service.Box>
           </Col>

@@ -323,6 +323,7 @@ const SiteHeader = styled.div.attrs({
       &.show {
         left: 0%;
       }
+      
       &.collapsing {
         transition: height 0s;
         height: 100%;
@@ -447,6 +448,24 @@ const SiteHeader = styled.div.attrs({
       right: 0;
       width: 100%;
       z-index: 999;
+
+      position: fixed !important;
+      transition: 0.4s;
+
+      &.scrolling {
+        transform: translateY(-100%);
+        transition: 0.4s;
+        .site-navbar {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+      }
+
+      &.reveal-header {
+        transform: translateY(0%);
+        box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
+        z-index: 1000;
+      }
 
       @media (min-width: 992px) {
         position: fixed !important;

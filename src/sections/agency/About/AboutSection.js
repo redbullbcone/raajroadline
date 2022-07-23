@@ -18,8 +18,8 @@ return(
       </Col>
       <Col col="12" className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
         <About.Content  mt="40px" mtLG="0" mb="50px" mbLG="0" mlLG="30px" className="para1">
-          <h1> <b>High Commission</b> <br /> Rates With No Deadline</h1>
-          <p>Start earning immediately when your freelancers take up a project. Feel zero pressure knowing there is no deadline to your earnings until you reach the $1,000 mark. All that matters is how many freelancers you are able to sign up to the marketplace.</p>
+          <h1> <b>High Commissions</b> <br /> With No Deadlines</h1>
+          <p>Earn affiliate income from both ends of any deal. Bring new freelancers or clients. Affiliate contracts have no time deadlines and are eligible for up to $1,000 per referred user. The more talented each referred user is the faster you earn!</p>
         </About.Content>
       </Col>
     </Row>
@@ -28,12 +28,12 @@ return(
       
       <Col col="12" className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
         <About.Content mt="40px" mtLG="0" mb="50px" mbLG="0" mlLG="30px" className="about-text-card2">
-          <h1>Be provided with <br /><b>Marketing Material</b></h1>
-          <p>Get access to complete marketing material to help you promote, track, and create reports of everything affiliated-related. From various customizable banners to automated reports, have the freedom to fit them to your agency’s needs.</p>
+          <h1>Receive prepared <br /><b>Marketing Material</b></h1>
+          <p>Get access to a complete marketing kit to help you promote MRKT365 and explain to your contacts the benefits of our platform. Receives ready-made email, banner ads, SMS messages, and more with your own personalized signup link.</p>
         </About.Content>    
       </Col>
       <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-12">
-        <About.Image className="image2">
+        <About.Image >
           <img className="w-100" src="image/recruitment-agency/social-cubes.jpg" alt="about"/>
           {/* <Video id="LWZ7iytIA6k" className="video-btn sonar-emitter"> <i className="fa fa-play" /> </Video> */}
         </About.Image>
@@ -49,9 +49,25 @@ return(
       </Col>
       <Col col="12" className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
         <About.Content mt="40px" mtLG="0" mb="50px" mbLG="0" mlLG="30px" className="about-text-card3">
-        <h1><b>Manage Freelancers</b><br />with our Employee<br />Monitoring App</h1>
-          <p>Every freelancer that gets hired can be monitored with our easy to install tracking program. All completed activities are documented creating a great opportunity to measure productivity. This helps your client keep track of finished tasks and acts as proof of work for freelancers.</p>
+        <h1><b>Monitor & Manage</b><br />your Workforce<br /></h1>
+          <p>All vendors hired on our platform can be monitored with our easy-to-use tracking app. Automate project management so your staff and clients can measure productivity and simplify the billing process when hiring contractors.</p>
         </About.Content>
+      </Col>
+    </Row>
+
+    <Row className="align-items-center section-cards section2">
+      
+      <Col col="12" className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
+        <About.Content mt="40px" mtLG="0" mb="50px" mbLG="0" mlLG="30px" className="about-text-card2">
+          <h1>Track results with our <br /><b>Affiliate Dashboard</b></h1>
+          <p>Save time by logging into one easy-to-use affiliate dashboard. Affiliates can track their network's progress in real-time. Accurately monitor your prospective referrals by viewing their current clicks, leads, and sales.</p>
+        </About.Content>    
+      </Col>
+      <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-12">
+        <About.Image className="image2">
+          <img className="w-100" src="image/recruitment-agency/screen4.png" alt="about"/>
+          {/* <Video id="LWZ7iytIA6k" className="video-btn sonar-emitter"> <i className="fa fa-play" /> </Video> */}
+        </About.Image>
       </Col>
     </Row>
     {/*/ .about-us Content */}

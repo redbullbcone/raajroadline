@@ -129,7 +129,7 @@ Hero.Subtitle = styled(Heading)`
 Hero.Title = styled(Heading)`
         font-size: 50px;
         font-weight: 700;
-        letter-spacing: normal;
+        letter-spacing: -1px;
         line-height: 50px;
         margin-bottom: 25px;
         color:black;
