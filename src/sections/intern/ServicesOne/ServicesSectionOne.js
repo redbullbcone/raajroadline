@@ -6,7 +6,7 @@ import SectionTitle from './Components/SectionTitle'
 import  ServicesCard from "./Components/Card"
 export default function ServicesSectionOne({content, title}){
 return(
-<Service className="custom-background type03 cus-padd1">
+<Service className="custom-background type03 cus-padd1 healthy-Pass">
   <Container>
     <Row className="justify-content-center ">
       <Col className="col-xl-12 text-center service-section recruitment-agency-section">

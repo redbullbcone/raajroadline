@@ -164,12 +164,12 @@ Hero.Title = styled(Heading)`
             line-height: 42px;
         }
         @media (min-width: 1170px) {
-            font-size:48px;
-            line-height:54px;
+            font-size:60px;
+            line-height:66px;
         }
         @media (min-width: 1270px) {
-            font-size:54px;
-            line-height:60px;
+            font-size:60px;
+            line-height:66px;
         }
         @media (min-width: 1400px) {
             font-size:60px;
@@ -192,14 +192,21 @@ Hero.Text = styled(Paragraph)`
     margin-bottom: 10px;
     opacity:1;
     color:#000;
+    @media (max-width:767px){
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     @media (min-width:992px){
         font-size: 16px;
         line-height: 24px;
     }
     @media (min-width: 1024px) {
-        font-weight:4 00;
-        font-size:18px;
-        line-height:27px;
+        font-weight:400;
+        font-size:21px;
+        line-height:40px;
+        color: #262729;
+        opacity: 0.7;
        }
 `
 

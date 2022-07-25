@@ -5,8 +5,8 @@ const About = styled(Box)`
     padding-top: 60px;
     padding-bottom: 60px;
     @media (min-width:768px) {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .section-affiliate-alt {
@@ -88,16 +88,16 @@ const About = styled(Box)`
         }
         @media (min-width: 992px) {
             margin:40px 0 40px;
-            margin:60px 0 60px;
+            margin:40px 0 60px;
         }
         @media (min-width: 1170px) {
-            margin:80px 0 80px;
+            margin:40px 0 80px;
         }
         @media (min-width: 1270px) {
-            margin:80px 0 80px;
+            margin:0px 0 80px;
         }
         @media (min-width: 1400px) {
-            margin:80px 0 80px;
+            margin:0px 0 80px;
         }
     }
     .affi-image2 {
@@ -118,11 +118,11 @@ const About = styled(Box)`
             top: 0;
         }
         @media (min-width: 1270px) {
-            left: 5px;
+            left: -40px;
             top: 0;
         }
         @media (min-width: 1400px) {
-            left: -68px;
+            left: -40px;
             top: 8px;
             width: calc(100% + 153px);
             position: relative;
@@ -234,8 +234,8 @@ const About = styled(Box)`
             line-height: 32px;
         }
         @media (min-width: 1270px) {
-            font-size: 18px;
-            line-height: 32px;
+            font-size: 21px;
+            line-height: 40px;
         }
         @media (min-width: 1400px) {
             width:75%;
@@ -294,11 +294,11 @@ const About = styled(Box)`
             }
 
             @media(min-width:1170px){
-                font-size: 18px;
-                line-height: 32px;
+                font-size: 21px;
+                line-height: 40px;
                 margin-top: 48px;
                 margin-bottom: 55px;
-                width: 75%;
+                width: 90%;
             }
         }
     }
@@ -447,11 +447,11 @@ const About = styled(Box)`
             }
 
             @media(min-width:1170px){
-                font-size: 18px;
-                line-height: 32px;
+                font-size: 21px;
+                line-height: 40px;
                 margin-top: 48px;
                 margin-bottom: 55px;
-                width: 75%;
+                width: 90%;
             }
         }
       }

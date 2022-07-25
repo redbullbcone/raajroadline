@@ -5,7 +5,7 @@ import Service from "./style";
 
 export default function ServicesSectionTwo() {
   return (
-    <Service>
+    <Service className="Hire-Agencies">
         <Container>
         <Row>
           <Col className="col-lg-6 col-md-6 col-12">

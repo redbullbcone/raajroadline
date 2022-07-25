@@ -4,10 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap'
  
 export default function PromoSection({...rest}){
 return(
-<Promo overlay="image/hire-interns/Ellipse.png">
+<Promo className='why-create-sec' overlay="image/hire-interns/Ellipse.png">
     <Row className="justify-content-center">
       <Col className="col-xl-12 text-center">
-        <Promo.InnerWrapper style={{backgroundImage: `url("image/hire-interns/hire-intern-promo.png")`}}>
+        <Promo.InnerWrapper  style={{backgroundImage: `url("image/hire-interns/hire-intern-promo.png")`}}>
          <Container>
             {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
            <Col className="col-md-12 intern-promo-sec">

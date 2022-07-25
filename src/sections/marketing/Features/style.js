@@ -30,12 +30,14 @@ const Feature = styled(Box)`
             line-height: 48px;
         }
         @media (min-width:1170px) {
-            font-size: 42px;
-            line-height: 54px;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 66px;
         }
         @media (min-width:1270px) {
-            font-size: 48px;
-            line-height: 60px;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 66px;
         }   
     }
     .feature-sec .feature-title2 {
@@ -50,17 +52,20 @@ const Feature = styled(Box)`
             line-height: 36px;
         }
         @media (min-width:1170px) {
-            font-size: 42px;
-            line-height: 42px;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 66px;
         }
         @media (min-width:1270px) {
-            font-size: 48px;
-            line-height: 60px;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 66px;
         }  
     }
     .feature-sec p {
-        font-size: 18px;
-        line-height: 27px;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 34px;
     }
     .feature-tabs span {
         font-size: 14px;

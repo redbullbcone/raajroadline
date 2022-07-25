@@ -9,8 +9,8 @@ const About = styled(Box)`
     padding-bottom: 40px;
   }
   @media (min-width: 1024px) {
-    padding-top: 50px;
-    padding-bottom:50px;
+    padding-top: 120px;
+    padding-bottom:120px;
   }
 
   .blue-text{

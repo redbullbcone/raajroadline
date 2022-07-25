@@ -30,7 +30,7 @@ export default function ContentSectionOne({heading},{...rest}){
           </Row>
         </Container>
 
-        <div className='video-sec business-video'>
+        <div className='video-sec business-video type02'>
 <Container>
   <Row className="align-items-center justify-content-center white-image">
   

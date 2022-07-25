@@ -23,7 +23,7 @@ const Hero = styled(Box)`
   @media(min-width:1170px){
     padding-top: 150px;
     padding-bottom:0;
-    margin-bottom: -163px;
+    margin-bottom: 0px;
   }
 
   @media(min-width:1400px){
@@ -128,6 +128,7 @@ Hero.Text = styled(Paragraph)`
   line-height: 32px;
   margin-bottom: 55px;
   text-align: left;
+  color: #262729;
 
   b{
     color:#000;
@@ -135,21 +136,24 @@ Hero.Text = styled(Paragraph)`
   }
 
   @media (min-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 32px;
+
   }
-  @media(min-wdidth:992px){
+  @media(min-width:992px){
     font-size: 16px;
     line-height: 32px;
   }
 
-  @media(min-wdidth:1170px){
-    font-size: 16px;
-    line-height: 32px;
+  @media(min-width:1170px){
+    font-size: 21px;
+    line-height: 40px;
   }
 
   @media(min-wdidth:1270px){
-    font-size: 16px;
-    line-height: 32px; 
+    font-size: 21px;
+    line-height: 40px;
+   
   }
 
   @media(min-width:1400px){
@@ -182,7 +186,12 @@ Hero.Title = styled(Heading)`
   }
 
   @media (min-width: 1024px) {
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  @media (min-width: 1170px) {
+    line-height:70px;
+    font-size:70px;
   }
   @media(min-width:1400px){
     font-weight:700;

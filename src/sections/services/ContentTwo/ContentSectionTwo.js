@@ -14,7 +14,7 @@ export default function ContentSectionTwo({content},{...rest}){
    {content.map(row =>{
 
     return(
-    <Container>
+    <Container className='Convenience-sect'>
     <Row className={`align-items-center justify-content-space-between white-image ${(row.imagePosition == 'right') ? 'row d-flex flex-row-reverse' : ''} `}>
       <Col xs="10" className="col-xl-6 col-lg-6 col-md-6 col-12 ">
         <ImageGroup imageSrc={row.src} imageAlt={row.alt} mb="60px" mbLG="0"/>

@@ -7,7 +7,7 @@ import { SuperTag } from "~components";
 
 export default function CounterSection() {
   return (
-      <Counter className="d-flex flex-column align-items-center">
+      <Counter className="d-flex flex-column align-items-center stop-subcon">
          <h2 className="get-started-heading col-md-6 col-lg-8">Stop unknowingly hiring subcontractors.</h2>
         <Container>
             <Row className="row justify-content-center text-center">

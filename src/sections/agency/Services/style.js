@@ -4,7 +4,7 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 const Service = styled(Box)`
     padding-top: 50px;
     padding-bottom: 40px;
-    border-bottom:1px solid #dee2e6 !important;
+  
     @media (min-width:575px){
         padding-top: 55px;
         padding-bottom: 60px;

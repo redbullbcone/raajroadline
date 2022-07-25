@@ -155,7 +155,7 @@ Hero.Title = styled(Heading)`
 
          @media (min-width: 1170px) {
             font-weight:600;
-            font-size:60px;
+            font-size:70px;
             line-height:70px;
           }
           
@@ -195,13 +195,13 @@ Hero.Text = styled(Paragraph)`
     }
     @media (min-width: 1170px) {
         font-weight:500;
-        font-size:18px;
-        line-height:30px;
+        font-size:21px;
+        line-height:40px;
     }
     @media (min-width: 1400px) {
         font-weight:500;
         font-size:21px;
-        line-height:30px;
+        line-height:40px;
     }
 `
 

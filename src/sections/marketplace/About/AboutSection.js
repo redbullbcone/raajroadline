@@ -6,7 +6,7 @@ import About from "./style";
 
 export default function AboutusSection() {
   return (
-    <About className="resp-affiliate">
+    <About className="resp-affiliate hireIntens-sec">
 
       <Container>
         <Row className="align-items-center justify-content-center justify-content-lg-start section-affiliate-alt">

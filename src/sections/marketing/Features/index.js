@@ -32,8 +32,9 @@ const FeatureSection = ({ ...rest }) => {
         <Tab.Container
           id="left-tabs-example"
           defaultActiveKey="first"
+          className="home-tabSec"
         >
-          <Feature.Tab>
+          <Feature.Tab className="home-tabSec">
             <Col className="col-xxl-4 col-lg-4 col-md-12 col-xs-10 col-12">
               <Feature.TabNavWrapper className="nav row ms-0 me-0 feature-tabs" as={Nav}>
               <Nav.Link

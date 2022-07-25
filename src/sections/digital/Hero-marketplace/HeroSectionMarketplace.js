@@ -20,7 +20,7 @@ export default function HeroSectionMarketplace() {
     // just checking again
 
     return (
-        <Hero>
+        <Hero className="demo-height">
             <Container>
                 <Row>
                     <Col className="col-xl-7">

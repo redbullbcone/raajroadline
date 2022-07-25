@@ -3,7 +3,7 @@ import { Box, Heading,Button,Paragraph } from '~styled';
 
 const Service = styled(Box)`
     padding-top: 40px;
-    padding-bottom:100px;
+    padding-bottom:0px;
     @media (min-width: 768px) {
         padding-top: 40px;
     }
@@ -97,8 +97,8 @@ const Service = styled(Box)`
             width:88%;
         }
         @media (min-width:1270px) {
-            font-size:16px;
-            line-height:32px;
+            font-size:21px;
+            line-height:40px;
             width:88%;
         }
         @media (min-width:1400px) {

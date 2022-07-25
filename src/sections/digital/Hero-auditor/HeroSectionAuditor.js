@@ -5,7 +5,7 @@ import Hero from "./style";
 
 export default function HeroSectionAuditor() {
   return (
-    <Hero backgroundImage="image/home-digital-agency/ai-auditor-hero.png">
+    <Hero className="demo-height seo-auditor" backgroundImage="image/home-digital-agency/ai-auditor-hero.png">
       <Container>
         <Row>
           <Col>

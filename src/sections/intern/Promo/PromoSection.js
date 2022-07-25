@@ -5,7 +5,7 @@ import Promo from './style'
  
 export default function PromoSection({...rest}){
 return(
-<Promo backgroundColor="#1A75FF">
+<Promo backgroundColor="#1A75FF" className='intership-full'>
   <Container>
     <Row className="justify-content-center text-center">
       <Col className="col-xl-12">

@@ -185,13 +185,15 @@ Hero.Button = styled(Button)`
     }
 
     @media(min-width:992px){
-        width: 200px;
-        font-size: 16px;
+        width: 230px;
+        font-size: 20px;
         left: 38%;
+        height:74px;
     }
     @media(min-width:1400px){
         width: 230px;
         font-size: 21px;
+        height:74px;
     }
 `
 Hero.Image = styled(Box)`

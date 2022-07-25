@@ -6,7 +6,7 @@ import SectionTitle from './Components/SectionTitle'
 import  ServicesCard from "./Components/Card"
 export default function ServicesSectionOne({content, title}){
 return(
-<Service className="custom-background discover-tl padding-sec">
+<Service className="custom-background discover-tl business-sec1">
   <Container>
     <Row className="justify-content-center ">
       <Col className="col-xl-12 text-center service-section recruitment-agency-section">

@@ -6,7 +6,7 @@ import SectionTitle from './Components/SectionTitle'
 import Service from './style'
 export default function ServiceSection(){
 return(
-<Service backgroundColor="#f3f4f6">
+<Service backgroundColor="#f3f4f6" className='getProject-sec'>
   <Container>
     <Row className="row justify-content-center">
       <Col xs="12" className="col-xl-4 col-lg-5 col-md-6 col-sm-9 col-xs-10">

@@ -22,12 +22,15 @@ const Testimonial = styled(Box)`
         }
         @media (min-width:1170px) {
             font-size:16px;
+            line-height:40px;
         }
         @media (min-width:1270px) {
-            font-size:18px;
+            font-size:21px;
+            line-height:40px;
         }
         @media (min-width:1400px) {
-            font-size:18px;
+            font-size:21px;
+            line-height:40px;
         }
     }
 `
@@ -45,14 +48,17 @@ Testimonial.Title = styled(Heading)`
     }
     @media (min-width:1170px) {
         font-size:70px;
+        line-height:88px;
         margin-bottom:40px;
     }
     @media (min-width:1270px) {
         font-size:70px;
+        line-height:88px;
         margin-bottom:42px;
     }
     @media (min-width:1400px) {
-        font-size:54px;
+        font-size:70px;
+        line-height:88px;
         margin-bottom:50px;
     }
 `

@@ -7,7 +7,7 @@ import Hero from './style'
 
 export default function HeroHireInterns(){
 return(
-<Hero overlay="image/hire-interns/Ellipse.png">
+<Hero overlay="image/hire-interns/Ellipse.png" className='demo-height comple-YOur-sec'>
   <Container>
     <Row  className="align-items-center justify-content-center justify-content-md-start">
       <Col className="col-xxl-7 col-xl-7 col-lg-9 col-md-10">

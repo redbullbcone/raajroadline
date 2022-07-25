@@ -6,7 +6,7 @@ import SectionTitle from './Components/SectionTitle'
 import  ServicesCard from "./Components/Content"
 export default function ContentSectionTwo({content, title,title2}){
 return(
-<Service>
+<Service className='Hire-Freelancers'>
   <Container>
     <Row >
       <Col className="col-xl-12">

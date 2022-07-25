@@ -6,7 +6,7 @@ export default function ContentSectionFour () {
   return (
     <Content>
         <Content.InnerBlock>
-        <div class="main-box">
+        <div class="main-box seeHow-sec">
           <Container>
             <Row className="justify-content-center tracker-sec" >
               {/* about-us Content */}
@@ -51,7 +51,7 @@ export default function ContentSectionFour () {
             </Row>
           </Container>
         </div>
-        <Container>
+        <Container className="backgr-sec">
           <Row className="justify-content-center background-sec">
             <Col xs="12" className="col-lg-6 col-md-6 col-xs-12">
               <div className="background-right-sub-sec">

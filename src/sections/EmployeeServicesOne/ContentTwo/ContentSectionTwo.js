@@ -9,7 +9,7 @@ export default function ContentSectionTwo({content},{...rest}){
   
   return(
 <>
-<Content backgroundColor="#fff">
+<Content backgroundColor="#fff" className='vendor-matching'>
    {content.map(row =>{
     return(
       <Container>

@@ -4,7 +4,7 @@ import Card from './style'
 export default function ServicesCard({icon,title, image, text, text2,whiteImageClass,text3,cardbg,whiteImage, to,linkPage,iconBackground,...rest}){
 return(
 <a href={`/${linkPage}`} className={`${cardbg} link-page`}>
-<Card className="featurecard" itemCenter={true} backgroundColor="#fff"  {...rest}>
+<Card className="featurecard home-featurecard" itemCenter={true} backgroundColor="#fff"  {...rest}>
 {/* this belongs to above line -- iconBackground={iconBackground} */}
   {/* <Card.Icon as="div">
     <i className={icon} />

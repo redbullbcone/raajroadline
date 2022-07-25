@@ -78,11 +78,11 @@ const Service = styled(Box)`
         }
         @media (min-width:1270px) {
             font-size:60px;
-            margin-bottom:42px;
+            margin-bottom:100px;
         }
         @media (min-width:1400px) {
             font-size:70px;
-            margin-bottom:60px;
+            margin-bottom:120px;
         }
     }
 

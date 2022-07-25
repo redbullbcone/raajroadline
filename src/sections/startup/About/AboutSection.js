@@ -10,7 +10,7 @@ export default function AboutusSection() {
         <Row className="align-items-center justify-content-center g-0 section-affiliate">
           <Col xs="12" className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
             <About.Image className="affi-image">
-              <img src="image/home-startup/affiliates-1.jpg" alt="content" className="w-100"/>
+              <img src="image/home-startup/affiliates-1.png" alt="content" className="w-100"/>
             </About.Image>
           </Col>
           <Col className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
@@ -27,7 +27,8 @@ export default function AboutusSection() {
           </Col>
         </Row>
       </Container>
-      <div className="section-affiliate2">
+      <div className="section-affiliate2 type02">
+
       <Container>
         <Row className="align-items-center justify-content-center justify-content-lg-start section-affiliate-alt">
           <Col xs="12" className="col-xl-6 col-lg-6 col-md-5 col-xs-12">

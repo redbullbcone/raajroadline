@@ -234,8 +234,8 @@ const About = styled(Box)`
             line-height: 32px;
         }
         @media (min-width: 1270px) {
-            font-size: 18px;
-            line-height: 32px;
+            font-size: 21px;
+            line-height: 40px;
         }
         @media (min-width: 1400px) {
             width:75%;

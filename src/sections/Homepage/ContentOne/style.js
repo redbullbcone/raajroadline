@@ -91,11 +91,11 @@ const Content = styled(Box)`
             top: 55px;
         }
         @media (min-width:1170px) {
-            width: 85%;
+            width: 100%;
             top: 55px;
         }
         @media (min-width:1270px) {
-            width: 85%;
+            width: 100%;
             top: 55px;
         }
         @media (min-width:1400px) {

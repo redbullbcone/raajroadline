@@ -8,7 +8,7 @@ import Hero from "./style";
 
 export default function HeroSection() {
   return (
-      <Hero className="position-relative bg-default">
+      <Hero className="position-relative bg-default demo-height">
         <Container>
           <Row>
             {/* Welcome content Area */}

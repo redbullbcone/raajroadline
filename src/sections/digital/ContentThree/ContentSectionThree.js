@@ -5,7 +5,7 @@ import Content from "./style";
 export default function ContentSectionThree({ ...rest }) {
   return (
     <Content {...rest}>
-      <Container>
+      <Container className="smart-repo-sec">
         <Row className="back">
         <Col
             xs="12"
@@ -13,7 +13,7 @@ export default function ContentSectionThree({ ...rest }) {
           >
             <div className="ai-head-section">
             <Content.Title as="h1">
-               Find clarity when you need it most
+               Find <b>clarity</b> when you need it most
             </Content.Title>
             </div>
           </Col>
@@ -47,7 +47,7 @@ export default function ContentSectionThree({ ...rest }) {
         </Row>
       </Container>
 
-      <Container>
+      <Container className="smart-repo-sec use-Smarter">
       <Row className="align-items-center justify-content-center main-section2">
         <Col
             xs="12"
@@ -82,7 +82,7 @@ export default function ContentSectionThree({ ...rest }) {
       </Container>
 
       <div className="cyan-background">
-      <Container>
+      <Container className="smart-repo-sec get-match">
        <Row className="align-items-center justify-content-center">
         
         <Col
@@ -130,7 +130,7 @@ export default function ContentSectionThree({ ...rest }) {
       </Container>
       </div>
       
-      <Container>
+      <Container className="smart-repo-sec">
        <Row className="align-items-center justify-content-center ">
         
           <Col

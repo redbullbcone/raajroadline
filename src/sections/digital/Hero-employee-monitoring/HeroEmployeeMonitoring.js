@@ -5,7 +5,7 @@ import Hero from "./style";
 
 export default function HeroSectionMarketplace() {
   return (
-    <Hero>
+    <Hero className="demo-height trackImprove-sec">
       <Container>
         <Row>
             <Hero.Content className="left">
