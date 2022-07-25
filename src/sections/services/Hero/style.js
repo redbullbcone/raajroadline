@@ -84,8 +84,8 @@ const Hero = styled(Box)`
         outline: none;
         font-size: 16px;
         font-weight: 500;
-        color: #2a2833;
-        padding: 15px 0;
+        color: #fff;
+        font-weight:700;
         border-radius: 50px ;
         position: relative;
         overflow:hidden;
@@ -93,6 +93,7 @@ const Hero = styled(Box)`
         z-index:1;
         width: 200px;
         background:#ff5722;
+        padding: 15px 57px;
     }
     .close:hover {
         color:#fff;
@@ -106,8 +107,9 @@ const Hero = styled(Box)`
         outline: none;
         font-size: 16px;
         font-weight: 500;
-        color: #2a2833;
-        padding: 14px 0;
+        font-weight:700;
+        color:#fff;
+        padding: 14px 45px;
         border-radius: 50px ;
         position: relative;
         overflow:hidden;

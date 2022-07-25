@@ -12,13 +12,13 @@ return(
     <Row  className="align-items-center justify-content-center justify-content-md-start">
       <Col className="col-xxl-7 col-xl-7 col-lg-9 col-md-10">
         <Hero.Content className="hire-intern-hero">
-          <Hero.Title as="h2" fontColor="#000"><b>Complete</b> your Team   <br className="d-none d-sm-block"/>with <b>Eager Virtual</b> <br className="d-none d-sm-block"/>Interns</Hero.Title>
-          <Hero.Text fontColor="#000">We Match <b>SKILLED INTERNS</b> to your Organization to enable <br className="d-none d-sm-block" />you to Complete your projects <b>FASTER & UNDER BUDGET</b></Hero.Text>
+          <Hero.Title as="h2" fontColor="#000">Hire <b>Virtual Interns</b><br className="d-none d-sm-block"/> to <b>Complete</b> your team</Hero.Title>
+          <Hero.Text fontColor="#000">Complete your team by<b> HIRING EAGER INTERNS</b> to complete  <br className="d-none d-sm-block" />your projects faster and under budget</Hero.Text>
           <Hero.Newsletter mt="40px">
             <Form className="hero-form d-flex justify-content-between flex-row">
               <Hero.Box className="d-flex">
-                      <Button className="btn-primary text-white hero-btn1 business-btn1" textTransform="capitalized">Create an Internship</Button>
-                      <Button className="btn-light-blue text-white hero-btn2 intern-hero-btn-blue business-btn1 " textTransform="capitalized">Book a Demo</Button>
+                      <Button as={Link} to="https://platform.mrkt365.com/register" className="btn-primary text-white hero-btn1 business-btn1" textTransform="capitalized">Create an Internship</Button>
+                      <Button as={Link} to={"https://calendly.com/mrkt365-onboarding-team/book-a-platform-demo?month=2022-07"} className="btn-light-blue text-white hero-btn2 intern-hero-btn-blue business-btn1 " textTransform="capitalized">Book a Demo</Button>
                     
               </Hero.Box>
             </Form>

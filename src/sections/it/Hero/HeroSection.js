@@ -19,7 +19,7 @@ return(
           FREELANCERS</b> connect with <b>GREAT COMPANIES</b></Hero.Text>
             
           <Hero.BtnGroup>
-          <Hero.Button className="btn-primary btn-1 text-white" as={Link} to="/">Join as a freelancer</Hero.Button>
+          <Hero.Button className="btn-primary btn-1 text-white" as={Link} to="https://platform.mrkt365.com/register">Join as a freelancer</Hero.Button>
             {/* <Hero.Button className="btn-electric-violet-2 btn-2" as={Link} to="/">Get Started</Hero.Button> */}
           </Hero.BtnGroup>
         </div>

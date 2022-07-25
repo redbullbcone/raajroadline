@@ -29,7 +29,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 sizeY="56px"
                 sizeX="168px"
                 className="btn blue-close"
-                href="#"
+                href="/talent-marketplace"
                 mt="20px"
               >
                 Learn More
@@ -111,7 +111,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 sizeY="56px"
                 sizeX="168px"
                 className="btn blue-close"
-                href="#"
+                href="/employee-monitoring"
                 mt="40px"
               >
                 Learn More
@@ -144,7 +144,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 sizeY="56px"
                 sizeX="168px"
                 className="btn blue-close"
-                href="#"
+                href="/prepaid-virtual-cards"
                 mt="40px"
               >
                 Learn More
@@ -228,7 +228,7 @@ export default function ContentSectionTwo({ ...rest }) {
                 sizeY="56px"
                 sizeX="168px"
                 className="btn blue-close"
-                href="#"
+                href="/hire-interns"
                 mt="40px"
               >
                 Learn More

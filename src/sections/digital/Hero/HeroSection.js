@@ -17,10 +17,10 @@ export default function HeroSection() {
               Sell your <b className="opac-word">SERVICES </b>online | Hire specialized <b className="opac-word">FREELANCERS</b> |
                 <br className="d-none d-xs-block" /> Monitor your <b className="opac-word">EMPLOYEES</b> | Let us become <b className="opac-word">YOUR NEW FAVORITE SITE</b>
               </Hero.Text>
-              <Hero.Button className="agency-btn1" as={Link} to="/">
+              <Hero.Button className="agency-btn1" as={Link} to="https://platform.mrkt365.com/register">
               Join as an Agency
               </Hero.Button>
-              <Hero.Button className="agency-btn2" as={Link} to="/">
+              <Hero.Button className="agency-btn2" as={Link} to="https://calendly.com/mrkt365-onboarding-team/book-a-platform-demo?month=2022-07">
                 Book a Demo
               </Hero.Button>
             </Hero.Content>

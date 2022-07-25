@@ -8,7 +8,7 @@ import Hero from "./style";
 
 export default function HeroSection() {
   return (
-      <Hero className="position-relative bg-default demo-height">
+      <Hero className="position-relative bg-default">
         <Container>
           <Row>
             {/* Welcome content Area */}
@@ -40,8 +40,8 @@ export default function HeroSection() {
                     <Hero.Newsletter>
                     <form className="hero-form d-flex  flex-row justify-content-start">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="close" textTransform="capitalized">Start Now</Button>
-                      <Button className="close2" textTransform="capitalized">Book a Demo</Button>
+                      <Button className="close" textTransform="capitalized"><a href="https://platform.mrkt365.com/register">Join Now for Free</a></Button>
+                      {/* <Button className="close2" textTransform="capitalized">Book a Demo</Button> */}
                     </form>
                   </Hero.Newsletter>
                   {/* <Hero.NewsletterText>

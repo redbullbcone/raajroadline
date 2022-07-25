@@ -30,25 +30,25 @@ const header = {
 var reverserow = [
   {
    "title":"Convenience",
-   "text":"We make it easy to create an unpaid internship that is published to hundresds of students ready to apply.",
-   "text2":"We allow flexible internships to suite your companies unique needs. Our interns are available from 5 to 40 hours per week for anywhere between 1 to 4 months per internship.",
-   "text3":"Virtual interns are less time-intensive than traditional placements due to the global adoption remote of remote-working.", 
+   "text":"We make it easy to create unpaid or paid internships that reach hundreds of students ready to apply. We recruit, pre-screen, and interview, remote interns for you.",
+   "text2":"Offer flexible internships to suit your company's unique needs. Simply select the duration of your remote internship and find we will match ambitious interns from across the globe with your company.",
    "imagePosition":"left",
     "src":"image/marketing/Convenience.jpg",
     "alt":"",
   },
    {
     "title":"International Reach",
-    "text":"Reach new global markets by working with remote interns who speak the language and understand the culture.",
-    "text2":"Our interns come from a diverse range of nations and have a firm understanding of the English language.",
+    "text":"Gain access to diverse talent and pick from the brightest young minds.",
+    "text2":"Future-proof your workforce by hiring engaged candidates that are skilled and ready to complete projects.",
+    "text3":"Break into new global markets with remote interns who speak multiple languages and understand domestic markets.",
     "imagePosition":"right",
      "src":"image/marketing/international.jpg",
      "alt":"",
    },
    {
-    "title":"Top Talent",
-    "text":"Our interns are pre-selected by their respective universities before applying to MRKT365's internship program.",
-    "text2":"Effortlessly choose from dozens of interns by viewing ready-made video interviews conducted by us and prospective interns.",
+    "title":"Hire Skilled Interns",
+    "text":"Chose from the top students, graduates, and career-changers when creating a remote internship with MRKT365.",
+    "text2":"Our vetting process utilizes comprehensive online applications, online interviews, skills assessments, university checks, and background checks.",
     "imagePosition":"left",
      "src":"image/hire-interns/image3.png",
      "alt":"",
@@ -56,8 +56,8 @@ var reverserow = [
    },
    {
     "title":"No Obligations",
-    "text":"Don't pay unless you are satisfied with the intern after they are hired.",
-    "text2":"Pay as you go, choose the duration of your proposed internship, with a low connection fee of $100 per month per intern. There are no additional fees, that's it!", 
+    "text":"Add interns on a month-to-month basis and pay as you go. Pick the work hours that work for you.",
+    "text2":"Unlike traditional internships, virtual internships don’t involve limitations of proximity and visas. Simplify the legalities across borders when hiring interns remotely.", 
     "imagePosition":"right",
      "src":"image/marketing/no-obligations.jpg",
      "alt":"",
@@ -95,9 +95,8 @@ const ServiceData =[
     // icon:"fas fa-envelope",
     image:"image/hire-interns/medal.svg",
     whiteImage:"image/hire-interns/medal-white.svg",
-    title: "Fix Microsoft & Google",
-    title2:"verification issues",
-    text:"We will generate a certificate for interns upon program completion based on the skills they gained.",
+    title: "Internship Certificate",
+    text:"We will generate a certificate for interns upon program completion based on the skills they enhanced.",
     // title3:"businesses",
     // linkPage:"ai-auditor",
     cardbg:"cyan",
@@ -136,7 +135,7 @@ export default function HireInterns() {
       <HeroHireInterns/>
       <PromoSection/>
       <ContentSectionTwo content={reverserow}/>
-      <ServicesSectionOne ClassName="intern-features" title="Exchange Mentorship for " title2="Untapped Potential" content={ServiceData}/>
+      <ServicesSectionOne ClassName="intern-features" title="Trade Mentorship for " title2="Accelerated Deadlines" content={ServiceData}/>
       <CounterSection/>
       <CtaSection />
       <FooterOne/>

@@ -546,7 +546,7 @@ const Container = styled(Box)
         @media(min-width:992px){
             padding-left: 220px;
             padding-top: 25px;
-            padding-right: 60px;
+            padding-right: 50px;
             width: calc(100% + 156px);
             left: -193px;
             top: 150px;
@@ -555,7 +555,7 @@ const Container = styled(Box)
         @media (min-width:1170px){
             padding-left: 289px;
             padding-top: 25px;
-            padding-right: 60px;
+            padding-right: 50px;
             width: calc(100% + 156px);
             left: -193px;
             top: 150px;
@@ -565,7 +565,7 @@ const Container = styled(Box)
         @media (min-width:1270px){
             padding-left: 289px;
             padding-top: 25px;
-            padding-right: 60px;
+            padding-right: 50px;
             width: calc(100% + 156px);
             left: -193px;
             top: 150px;
@@ -575,7 +575,7 @@ const Container = styled(Box)
         @media (min-width:1400px){
             padding-left: 289px;
             padding-top: 25px;
-            padding-right: 60px;
+            padding-right: 50px;
             width: calc(100% + 156px);
             left: -193px;
             top: 150px;

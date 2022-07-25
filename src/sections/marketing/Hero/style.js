@@ -27,15 +27,19 @@ const Hero = styled(Box)`
     }
     .close{
         margin-right:30px;
-        font-size:20px;
+        font-size:16px !important;
         color:#fff;
         box-shadow: -8px 8px 50px rgba(255, 87, 34, 0.5) ;
         background:#ff5722;
         transition: 0.5s all ease;
         width:220px;
+
+        a{
+            color:#fff;
+        }
     }
     .close2{
-        font-size:16px;
+        font-size:16px !important;
         box-shadow: -8px 8px 50px rgba(80, 52, 252, 0.5);
         transition: 0.5s all ease;
         color:#fff;

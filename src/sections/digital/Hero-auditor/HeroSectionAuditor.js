@@ -17,10 +17,10 @@ export default function HeroSectionAuditor() {
               <b>Automate</b> your marketing with our <b>AI Auditor.</b><br /> Discover tailored <b>Solutions</b> & recommended<b> Problem Solvers.</b><br />
               </Hero.Text>
              
-              <Hero.Button className="agency-btn1" as={Link} to="/">
+              <Hero.Button className="agency-btn1" as={Link} to="https://platform.mrkt365.com/register">
                Start Now
               </Hero.Button>
-              <Hero.Button className="agency-btn2" as={Link} to="/">
+              <Hero.Button className="agency-btn2" as={Link} to="https://calendly.com/mrkt365-onboarding-team/book-a-platform-demo?month=2022-07">
                 Book a Demo
               </Hero.Button>
             </Hero.Content>

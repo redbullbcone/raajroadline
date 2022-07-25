@@ -23,7 +23,7 @@ return(
             <Form className="hero-form d-flex justify-content-between flex-row">
               <Hero.Box className="d-flex">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="close" textTransform="capitalized">Apply Now</Button>
+                      <Button className="close" textTransform="capitalized" as={Link} to="https://platform.mrkt365.com/register">Apply Now</Button>
                       {/* <Button className="close2" textTransform="capitalized">Book a Demo</Button> */}
                     
               </Hero.Box>

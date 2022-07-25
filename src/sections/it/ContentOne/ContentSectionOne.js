@@ -34,7 +34,7 @@ return(
       </Col>
       <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-5 order-2 order-lg-2 ">
         <Content.Box className="text-card2">
-        <SectionTitle title="Find" title2="Freelance Jobs" text="Browse our job board and apply to public job offers while you wait to be matched or invited to a project. Find projects that match your skills and abilities. Discover freelance gigs, fixed-cost projects, part-time and full-time freelancing jobs, and internships on MRKT365."
+        <SectionTitle title="Build" title2="Relationships" text="Collaborate with clients on our messenger. Our platform provides fast, simple, and secure messaging and file sharing for free. Receive notifications for project invites, payments, and more. Join MRKT365 and connect with the best entrepreneurs around the world!"
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />
         </Content.Box>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "./Components/SectionTitle";
@@ -13,7 +14,7 @@ export default function AboutusSection() {
             <About.Box className="second-sec">
                   <h1><b>Hire Interns</b> to Fill in<br />the Gaps</h1>
                   <p>Hire diverse talent from around the world with virtual internships. Our marketplace enables organizations to work with remote interns from top global universities. Collaborate with learners to tackle your short-term projects and discover better ways to boost your business practices. Solve your staffing shortages with eager virtual interns.</p>
-                  <Button className="blue-button-affi"> Learn More</Button>
+                  <a href="/hire-interns" className="blue-button-affi"> Learn More</a>
 
               {/* <About.Title as="h2"> <SuperTag value=""/> </About.Title> */}
 

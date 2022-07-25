@@ -44,12 +44,27 @@ const Hero = styled(Box)`
     position: absolute;
     z-index: -1;
   }
+
+  .agency-btn1{
+    box-shadow: -8px 8px 50px rgb(255 87 34 / 50%);
+  }
+  .agency-btn2{
+    box-shadow: -8px 8px 50px rgb(80 52 252 / 50%);
+  }
+
+  .agency-btn1:hover{
+    background: #f98c6a !important;
+  }
+
+  .agency-btn2:hover{
+    background: #4e92f9 !important;
+  }
 `;
 
 Hero.Content = styled(Box)`
 .agency-btn1{
   background:#ff5722 !important;
-  margin-right:16px;
+  margin-right:50px;
 }
 .agency-btn2{
   background:#3183ff !important;

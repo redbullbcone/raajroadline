@@ -29,13 +29,13 @@ export default function HeroSection({headerimage,herotextBold,herotextBold2,hero
               <Hero.Buttons mt="30px" mtLG="50px" className="d-flex">
                 <Hero.Button
                   className="btn-hero-affiliate btn-affi-hero1"
-                  to="/"
+                  to="https://platform.mrkt365.com/register"
                   as={Link}
                 >
                   Apply Now
                 </Hero.Button>
-                <Hero.Button className="btn-hero-affiliate btn-affi-hero2" to="/" as={Link}>
-                  Book a Demo
+                <Hero.Button className="btn-hero-affiliate btn-affi-hero2" to="https://calendly.com/mrkt365-onboarding-team/book-a-platform-demo?month=2022-07" as={Link}>
+                Schedule a Call
                 </Hero.Button>
               </Hero.Buttons>
             </Hero.Content>

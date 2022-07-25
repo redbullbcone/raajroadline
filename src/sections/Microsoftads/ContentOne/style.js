@@ -1029,7 +1029,7 @@ const Container = styled(Box)
             height: calc(100% + 90px);
             top: -75px;
             padding-left: 40px;
-            padding-right: 78px;
+            padding-right: 60px;
             padding-top: 30px;
             left: -14px;
         }
@@ -1039,7 +1039,7 @@ const Container = styled(Box)
             height: calc(100% + 90px);
             top: -75px;
             padding-left: 40px;
-            padding-right: 78px;
+            padding-right: 60px;
             padding-top: 30px;
             left: -14px;
         }
@@ -1049,7 +1049,7 @@ const Container = styled(Box)
             height: calc(100% + 90px);
             top: -75px;
             padding-left: 40px;
-            padding-right: 78px;
+            padding-right: 60px;
             padding-top: 30px;
             left: -14px;
 
@@ -1060,7 +1060,7 @@ const Container = styled(Box)
             height: calc(100% + 90px);
             top: -75px;
             padding-left: 40px;
-            padding-right: 78px;
+            padding-right: 60px;
             padding-top: 30px;
             left: -14px;
            

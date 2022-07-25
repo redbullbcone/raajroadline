@@ -155,7 +155,7 @@ margin-top: -116px;
         font-size: 16px;
         font-weight: 500;
         color: #fff;
-        padding: 14px 0;
+        padding: 14px 17px;
         border-radius: 50px ;
         position: relative;
         overflow:hidden;

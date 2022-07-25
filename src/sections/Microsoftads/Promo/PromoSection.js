@@ -8,7 +8,7 @@ return(
   <Container>
     <Row className="justify-content-center">
       <Col className="col-xl-12 text-center">
-           <Promo.Title as="h2" className="text-center" mb="40px">Reaching over <b>1 billion</b> <br /> people globally</Promo.Title>
+           <Promo.Title as="h2" className="text-center" mb="40px">Reach over <b>1 billion</b> <br /> people globally</Promo.Title>
         <Promo className="map-box-counter" style={{backgroundImage: `url("image/microsoft-ads/world-map.png")`}}>
             {/* <Promo.Subtitle fontColor="#ffce3e">Booking</Promo.Subtitle> */}
            <div className=" map-location location1">

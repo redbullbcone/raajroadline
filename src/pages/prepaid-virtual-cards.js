@@ -30,8 +30,8 @@ const header = {
       // icon:"fas fa-layer-group",
       image:"image/VPC/handshake.svg",
       whiteImage:"image/VPC/handshake-white.svg",
-      title: "Easy to use reloadable",
-      title2:"prepaid virtual cards",
+      title: "Reloadable Prepaid",
+      title2:"Virtual Credit cards",
       // linkPage:"ai-auditor",
       whiteImageClass:"business-ai",
       cardbg:'purple',
@@ -98,11 +98,11 @@ export default function vpc() {
                 herotitle="Virtual"
                 herotitle2="Prepaid Cards"
                 imageClass=""
-                herotext1={` Earn up to 1.5% Cashback on Online`}
-                herotext2={`Marketing Spend with MRKT365`}
-                herotext3={`Refillable Virtual Prepaid Credit Cards!`} />
+                herotext1={` Earn up to 1.5% Cashback Ad spend with`}
+                herotext2={`Reloadable Virtual Prepaid Credit Cards`}
+                 />
             <ServicesSectionOne ClassName="intern-features" title="Global Payment Solutions tailored" title2="for Businesses & Agencies" content={ServiceData}/>
-            <TestimonialSection />
+            {/* <TestimonialSection /> */}
             <ContentSectionOne/>
             <CtaSection />
             <FooterOne />

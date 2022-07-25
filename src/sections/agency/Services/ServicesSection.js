@@ -19,7 +19,7 @@ return(
         // titleProps={{mb:"10px",as:"h2"}}
         // mb="20px"
          />
-        <button className='button-service-sec'>Join as a business</button>
+        <a href="https://platform.mrkt365.com/register" className='button-service-sec'>Join as a business</a>
 
       </Col>
       {ServiceData.map(({ title,title2,title3, icon, image, text2, text3, text,cardbg,whiteImage,whiteImageClass,id,linkPage,  }) => {

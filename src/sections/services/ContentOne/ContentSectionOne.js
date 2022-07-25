@@ -23,7 +23,7 @@ export default function ContentSectionOne({heading},{...rest}){
               <div className='business-text-sec'>
               <Content.Title as="h2">Hire <b>World-Class </b><br />Talent</Content.Title>
               <Content.Text>Our talent marketplace is populated by top freelancers, agencies, and interns at all price points. Avoid middlemen. We ensure that the people you hire are the ones doing the project. Receive AI recommendations when hiring. Our network offers flexible engagements from hourly, to fixed price, to full-time work.</Content.Text>
-              <Button className="blue-close" textTransform="capitalized">Learn More</Button>
+              <a href="/talent-marketplace" className="blue-close" textTransform="capitalized">Learn More</a>
               {/* <Content.Button></Content.Button> */}
               </div>
             </Col>
@@ -39,7 +39,7 @@ export default function ContentSectionOne({heading},{...rest}){
       <Content.Title as="h2"><b>Take Advantage</b> of our<br/>
 Virtual Prepaid Cards</Content.Title>
       <Content.Text>Take control of your budget and use it more efficiently. Receive a cashback when using our virtual prepaid cards. We have partnered with US Bank and Visa to provide our clients with prepaid virtual cards for their online marketing needs instead of using their personal credit cards. Hand out virtual prepaid cards to your managers & decision makers while controlling their spending.</Content.Text>
-      <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
+      <a href="/prepaid-virtual-cards" className="blue-close blueclose-btn" textTransform="capitalized">Learn More</a >
       {/* <Content.Button></Content.Button> */}
     </Col>
     {/* <Col className="col-md-2"></Col> */}
@@ -75,7 +75,7 @@ Virtual Prepaid Cards</Content.Title>
               <div className='business-text-sec'>
               <Content.Title as="h2">Get <b>Faster, Smarter</b><br /><b> AI Marketing </b>solutions</Content.Title>
               <Content.Text>Our AI Auditor delivers objective insights into your business's marketing campaigns. Use AI to quickly identify on-site SEO, technical SEO, SEM, and social media marketing issues holding you back. Get connected to freelancers and agencies based on your unique needs. Take your business to the next level.</Content.Text>
-              <Button className="blue-close blueclose-btn" textTransform="capitalized">Learn More</Button>
+              <a href="/seo-auditor" className="blue-close blueclose-btn" textTransform="capitalized">Learn More</a>
               {/* <Content.Button></Content.Button> */}
               </div>
             </Col>

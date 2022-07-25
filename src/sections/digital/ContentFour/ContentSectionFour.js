@@ -14,12 +14,12 @@ export default function ContentSectionFour () {
                 <Content.Box className="EM-content-sec2">
                   
                   <Content.Title as="h2" mb="30px" mbXL="50px">
-                  <b>See How </b>our Tracker Helps Businesses Stay Ahead
+                  <b>Read About How </b>our Tracker Helps Businesses Stay Ahead
                   </Content.Title>
                   <div className="pink-line"></div>
 
                   <Content.Subtitle as="h6" mb="72px" className="subtitle-sec">
-                  Case study: How Healthy Pass Improved Efficiency and<br /> Customer Service with MRKT365
+                  Case study: Healthy Pass mobile web app development<br />
                   </Content.Subtitle>
 
 
@@ -30,13 +30,13 @@ export default function ContentSectionFour () {
                       <p>Increased Daily Users by 310%</p>
                     </div>
                     <div className="listitem2" >
-                    <p>Platform went into Production 3 Months Earlier</p>
+                    <p>Production deadline was met</p>
                     </div>
                     <div className="listitem3" >
-                      <p>Reduced Project Cost by 27%</p>
+                      <p>Project cost reduced by 27%</p>
                     </div>
                     <div className="listitem4">
-                      <p>Cut Admin Supervision Time in Half</p>
+                      <p>Reduced reporting time by 50%</p>
                     </div>
                   </div>
                 </Content.Box>
@@ -56,11 +56,11 @@ export default function ContentSectionFour () {
             <Col xs="12" className="col-lg-6 col-md-6 col-xs-12">
               <div className="background-right-sub-sec">
               <Content.Title as="h2" mb="30px" mbXL="50px" className="background-title">
-                  Background
+              Project Background
                 </Content.Title>
                 <hr className="blue-line"></hr>
               <Content.Text mb="30px" ptXL="30px">
-              Healthy Pass is a COVID 19 screening tool used to maintain live records & analytics of your visitors and employees. The company signed up for MRKT365 in December 2020 to hire a web developer. Healthy Pass was looking for a developer who could build a mobile web app that would connect with an encrypted database. They also needed an optical reader feature that could scan QR codes. They came to us as an early-stage startup looking not to break the bank on development costs.
+              Healthy Pass is a COVID 19 screening tool used to maintain live records & analytics of visitors and employees. The company signed up for MRKT365 in December 2020 searching for a web developer. Their project goal was to create a mobile web app that would connect to an existing encrypted database. They also required an image reader feature that could scan QR codes. As an early-stage startup, they were looking to not break the bank on development costs.
               </Content.Text>
               </div> 
             </Col>

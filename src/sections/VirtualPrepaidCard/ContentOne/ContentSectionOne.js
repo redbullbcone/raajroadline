@@ -11,7 +11,7 @@ return(
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
         <Content.Box className="txt-card1">
        
-        <h2>Pay <b>Securely &</b> <br />Discretely</h2>
+        <h2>Pay <b>Securely &</b> <br />Discreetly</h2>
         <p>Virtual cards are a secure way to pay online without using your personal credit card. Create cards easily on our platform for yourself, employees, agencies, and freelancers you would like to work with.</p>
 
         </Content.Box>
@@ -36,7 +36,7 @@ return(
       <Col xs="12" className="col-xl-6 col-lg-6 col-md-6 col-xs-5 order-2 order-lg-2 ">
         <Content.Box className="text-card2">
         <h2>Budget <b>Effectively</b></h2>
-        <p>Easily deposit your marketing budget across multiple cards and stop overpaying for services that you did not plan for. Take control of your finances and get more for your hard-earned money.</p>
+        <p>Easily deposit your marketing budget across multiple cards and stop overpaying for subscription services. Take control of your finances and start investing your money into smarter marketing that drives more sales.</p>
         </Content.Box>
         
       </Col>
@@ -48,7 +48,7 @@ return(
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
         <Content.Box className="txt-card3">
        <h2><b>Earn Cashback</b><br/>on marketing</h2>
-       <p>Immediately be notified about any job opportunities from clients eager to work with you. Easily view the terms and conditions of every project to make sure both parties' expectations are aligned and met. Have the freedom to choose which projects to work on, on your terms.</p>
+       <p>Start earning instant ROI on your online marketing campaigns. Earn up to 1.5% on Google, Facebook, and Microsoft advertising services. Use our cards to pay for hundreds of other online marketing services</p>
         </Content.Box>
         
       </Col>
@@ -77,8 +77,8 @@ return(
       </Col>
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-2 ">
         <Content.Box className="txt-card4">
-        <h2><b>Assign cards</b> to <br /> your clients</h2>
-        <p>Grow your agency by creating refillable virtual prepaid cards for your clients. Earn Cashback on your collective agency ad spend. Our cards work on both existing and new Google Ads, Bing Ads, and Facebook marketing client accounts.</p>
+        <h2><b>Assign Virtual Cards</b><br /> to  clients</h2>
+        <p>Grow your agency by creating reloadable virtual prepaid cards for your clients. Earn cashback on your collective agency ad spend. Our cards work on both existing and new Google Ads, Bing Ads, and Facebook marketing accounts.</p>
         </Content.Box>
       </Col>
     </div>
@@ -89,7 +89,7 @@ return(
       <Col className="col-xl-6 col-lg-6 col-md-6 col-xs-6 order-2 order-lg-1 ">
         <Content.Box className="txt-card5">
         <h2><span className='blue-h3'>Reloadable </span>Virtual Cards</h2>
-        <p>Our cards are refilled and re-used until they expire. Monitor your card balance on our platform. Our system makes it easy to request and refill cards. Refill multiple cards with our platform simultaneously. If you have questions or concerns our virtual card customer support team will help answer your questions and concerns.</p>
+        <p>Virtual cards can be refilled and re-used until they expire. Our platform makes it easy to request new cards or refill existing cards. Monitor card balances and reload multiple cards. Reach out to our virtual card customer support team when you have questions or concerns.</p>
         </Content.Box>
         
       </Col>

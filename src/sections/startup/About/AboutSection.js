@@ -14,17 +14,16 @@ export default function AboutusSection() {
             </About.Image>
           </Col>
           <Col className="col-xxl-6 col-lg-6 col-md-6 col-xs-12">
-            <About.Box>
               {/* Section Title */}
 
               <About.Content className="para-background-color1">
                   <h1>Earn with<br /><b>Businesses</b></h1>
                   <p>Drive businesses to our platform and earn when they hire freelancers or sell their services online. Reward business owners while rewarding yourself by introducing them to MRKT365.</p>
-                  <Button className="blue-button-affi"> Learn More</Button>
+                  
+                  <a href="/businesses" className="blue-button-affi" > Learn More</a>
 
               </About.Content>
               {/*/ .Section Title */}
-            </About.Box>
           </Col>
         </Row>
       </Container>
@@ -35,7 +34,7 @@ export default function AboutusSection() {
             <About.Box className="second-sec">
                   <h1>Become a<br /><b>21st-Century Recruiter</b></h1>
                   <p>Earn more doing what you have already been doing but in a more innovative way. Send ready-made promotional material and links to your network and start earning money. Stop struggling to collect your commissions, let us handle transactions while you watch your income grow through our affiliate dashboard.</p>
-                  <Button className="blue-button-affi"> Learn More</Button>
+                  <a className="blue-button-affi" href="/recruiters"> Learn More</a>
 
               {/* <About.Title as="h2"> <SuperTag value=""/> </About.Title> */}
 
@@ -85,7 +84,7 @@ export default function AboutusSection() {
                   <h1>Earn from<b> Virtual Card transactions</b></h1>
                   <p>Earn a percentage of all transactions when you refer a new cardholder to our virtual prepaid card program. We offer Virtual Prepaid Cards to clients to help them regain control of their marketing budgets. Our cards provide a cashback and are used like regular credit cards.</p>
                  
-                  <Button className="blue-button-affi"> Learn More</Button>
+                  <a className="blue-button-affi" href="/prepaid-virtual-cards"> Learn More</a>
 
               </About.Content>
               {/*/ .Section Title */}

@@ -42,8 +42,8 @@ const ServiceData =[
     // icon:"fas fa-bell",
     image:"image/employee/dollar.svg",
     whiteImage:"image/employee/dollar-white.svg",
-    title: "Hourly  ",
-    title2:"Billing ",
+    title: "Billing:  ",
+    title2:"Hourly ",
     whiteImageClass:"business-online",
     linkPage:"marketplace",
     cardbg:'pink',
@@ -54,8 +54,8 @@ const ServiceData =[
     // icon:"fas fa-envelope",
     image:"image/employee/clock.svg",
     whiteImage:"image/employee/clock-white.svg",
-    title: "Ongoing ",
-    title2:"Duration",
+    title: "Duration: ",
+    title2:"Ongoing",
     linkPage:"ai-auditor",
     cardbg:"mustard",
     whiteImageClass:"business-ai",
@@ -67,7 +67,7 @@ const ServiceData =[
     // icon:"fas fa-chart-pie",
     image:"image/employee/double-tick.svg",
     whiteImage:"image/employee/double-tick-white.svg",
-    title: "30 day Payment",
+    title: "30-day Payment",
     title2:"Schedule",
     cardbg:"cyan",
     whiteImageClass:"business-online",
@@ -81,16 +81,15 @@ const ServiceData =[
     {
      "title":"Vendor ",
      "title2":"Matching",
-     "text":"Our client was matched to multiple developers while posting their brief publicly. They chose Arun S. due to his specific expertise and experience with mobile apps.",
+     "text":"Healthy Pass was matched to multiple developers when posting their project publicly. They chose Arun S. due to his expertise and experience developing mobile apps.",
       "imagePosition":"right",
       "src":"image/employee/screen2.png",
       "alt":"",
       "lineClass":"blue-line",
     },
      {
-      "title":"Computer Screen ",
-      "title2":"Monitoring ",
-      "text":"Healthy Pass was able to witness periodic screenshots from the monitor of the remote worker they hired. They also utilized our tracker with their employees when they worked home due to the Pandemic. Our system also confirms the identity of the person doing the work, this allows you to avoid middlemen in your freelancer contract.",
+      "title":"Project Monitoring",
+      "text":"Healthy Pass was able to witness periodic screenshots from the monitor of the remote freelancer they hired. They also started using our tracker with their remote employees as they worked home due to the pandemic. Our app also confirms the identity of the person doing the work, allowing you to avoid middlemen with freelancer contracts.",
        "imagePosition":"left",
        "src":"image/employee/screen3.png",
        "alt":"",
@@ -98,9 +97,8 @@ const ServiceData =[
 
      },
      {
-      "title":"Detailed Reporting for your",
-      "title2":"Business",
-      "text":"Make time tracking easy. Receive time tracking reports with productivity-boosting insights. Pay teams and keep track of billable hours.",
+      "title":"Detailed Reporting",
+      "text":"Stop overpaying, make time tracking easy. Receive time tracking reports with productivity-boosting insights. Start paying your teams faster and with greater accuracy.",
        "imagePosition":"right",
        "src":"image/employee/screen4.png",
        "alt":"",
@@ -108,15 +106,15 @@ const ServiceData =[
      },
      {
       "title":"Plan Projects in Advance",
-      "text":"Healthy Pass was able to better organize their team by seeing the work patterns of their freelancers and employees. Their manager used this information to better delegate tasks and keep projects on schedule.",
+      "text":"Healthy Pass was able to better organize its team by monitoring the work patterns of its freelancers and employees. Management was able to use this data to better delegate tasks and meet development milestones on time.",
        "imagePosition":"left",
        "src":"image/employee/screen5.png",
        "alt":"",
      },
      {
-        "title":"Messaging",
-        "title2":"System",
-        "text":"Connect with your freelancers and employees over a secure messaging system controlled by you.",
+        "title":"Constant",
+        "title2":"Communication",
+        "text":"Healthy Pass and Arun were able to stay in contact with instant messaging when plans met reality. Freelancers receive project notifications to eliminate downtime. Draft deliverables were able to be exchanged between Arun and Healthy Pass employees using our project dropbox.",
          "imagePosition":"right",
          "src":"image/employee/screen6.png",
          "alt":"",
@@ -150,7 +148,7 @@ export default function Digital() {
       <HeroEmployeeMonitoring />
       <ServicesSectionTwo />
       <ContentSectionFour />
-      <ServicesSectionOne ClassName="intern-features" title="How Does it Work?" content={ServiceData}/>
+      <ServicesSectionOne ClassName="intern-features" title="Project Requirements for Health Pass" content={ServiceData}/>
       <ContentSectionTwo content={reverserow}/>
       <CtaSection />
       <FooterOne/>

@@ -20,8 +20,8 @@ return(
             <Form className="hero-form d-flex justify-content-between flex-row">
               <Hero.Box className="d-flex">
                       {/* <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/> */}
-                      <Button className="close-btn close" textTransform="capitalized">Start Now</Button>
-                      <Button className="close2 close2-btn" textTransform="capitalized">Book a Demo</Button>
+                     <a href="https://platform.mrkt365.com/register" className="close-btn close" textTransform="capitalized">Start Now</a>
+                      <a href="https://calendly.com/mrkt365-onboarding-team/book-a-platform-demo?month=2022-07" className="close2 close2-btn" textTransform="capitalized">Book a Demo</a>
                     
               </Hero.Box>
               {/* <Hero.NewsletterButton className="btn-torch-red" as={Link} to="/">Start for free</Hero.NewsletterButton> */}

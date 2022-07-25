@@ -18,7 +18,7 @@ export default function HeroSection(){
         <Hero.ContentBlock mb="0px">
           <span className='bigcircle'></span>
           <Hero.Title as="h1"><span className="orange">Global Virtual</span> <br /> Internships</Hero.Title>
-          <Hero.Text> <SuperTag value="Get matched with global companies and start building<br><b> The necessary skills your career path requires.</b>"/>
+          <Hero.Text> <SuperTag value="Get work experience and start building an awesome network"/>
           <div className='green-circle'></div>
           </Hero.Text>
           {/* <Hero.TitleShape>
@@ -28,7 +28,7 @@ export default function HeroSection(){
         </Hero.ContentBlock>
         
             <Form>
-            <Hero.Button  className=" btn btn-primary text-white ">Become an Intern</Hero.Button>
+          <Hero.Button  className=" btn btn-primary text-white " as={Link} to="https://platform.mrkt365.com/register" >Become an Intern</Hero.Button>
             </Form>
          
         {/* Newsletter */}

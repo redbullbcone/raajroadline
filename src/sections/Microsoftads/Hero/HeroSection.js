@@ -17,17 +17,17 @@ export default function HeroSection({headerimage,headerimage2,herotitle,herotitl
               <span>{herotitle2}</span>
               </Hero.Title>
               <Hero.Text>
-              <p>Reach a <b>wider, high-value audience</b> on the <b>fastest growing search </b>network Receive a<b>$250 USD free ad credit.</b>  Get<b> monthly free recommendation reports</b></p>
+              <p>Reach new audiences on the <b>fastest growing search</b> network Receive a free <b>$250 ad credit</b> on us.</p>
               
              
               </Hero.Text>
               <Hero.Buttons mt="30px" mtLG="50px">
                 <Hero.Button
                   className="btn-hero-affiliate btn-affi-hero1"
-                  to="/"
+                  to="https://platform.mrkt365.com/register"
                   as={Link}
                 >
-                  Receive your $250 credit now!
+                  Claim your $250 credit now!
                 </Hero.Button>
                 {/* <Hero.Button className="btn-hero-affiliate btn-affi-hero2" to="/" as={Link}>
                   Book a Demo

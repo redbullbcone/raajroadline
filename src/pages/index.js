@@ -42,6 +42,7 @@ var reverserow = [
    "gifimageclass":"dotImage",
    "alt":"Businesses",
    "bgclass":"home-section-1",
+   "link":" https://v2.mrkt365.com/businesses",
   },
    {
     "title":"Freelancers",
@@ -55,6 +56,7 @@ var reverserow = [
    "gifimageclass":"dotImage",
     "alt":"Freelancers",
     "bgclass":"home-section-2",
+    "link":"https://v2.mrkt365.com/freelancers",
    },
    {
     "title":"Agencies",
@@ -68,6 +70,7 @@ var reverserow = [
    "gifimageclass":"dotImage",
     "alt":"Agencies",
     "bgclass":"home-section-3",
+    "link":"https://v2.mrkt365.com/agencies",
    },
    {
     "title":"Interns",
@@ -81,6 +84,8 @@ var reverserow = [
    "gifimageclass":"dotImage",
     "alt":"Interns",
     "bgclass":"home-section-4",
+    "link":" https://v2.mrkt365.com/internships",
+
    },
    {
     "title":'Recruiters',
@@ -94,6 +99,7 @@ var reverserow = [
    "gifimageclass":"dotImage",
     "alt":"Recruitment Agencies",
     "bgclass":"home-section-5",
+    "link":"https://v2.mrkt365.com/recruiters",
    },
    {
     "title":'Affiliates',
@@ -107,6 +113,7 @@ var reverserow = [
    "gifimageclass":"dotImage",
     "alt":"Affiliates",
     "bgclass":"home-section-6",
+    "link":"https://v2.mrkt365.com/affiliates",
    }
 ];
 
@@ -119,7 +126,7 @@ const ServiceData =[
     text: "Connect with top",
     text2:"Freelancers, Agencies,",
     text3:" and Interns.",
-    linkPage:"marketplace",
+    linkPage:"talent-marketplace",
     cardbg:"purple",
     whiteImageClass:"market",
   },
@@ -133,6 +140,7 @@ const ServiceData =[
     text3: "move or hire.",
     cardbg:"pink",
     whiteImageClass:"auditor",
+    linkPage:"seo-auditor",
 
   },
   {
@@ -145,6 +153,7 @@ const ServiceData =[
     text3:"our Productivity Tools",
     cardbg:"mustard",
     whiteImageClass:"pvc-cls",
+    linkPage:"employee-monitoring",
 
   },
   {
@@ -157,6 +166,7 @@ const ServiceData =[
     text3:"marketing ad spend.",
     cardbg:"cyan",
     whiteImageClass:"employee-cls",
+    linkPage:"prepaid-virtual-cards",
 
 
   }

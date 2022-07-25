@@ -29,13 +29,13 @@ export default function HeroSectionMarketplace() {
                                 <b>AI Powered </b> <br />Talent Marketplace
                             </Hero.Title>
                             <Hero.Text fontColor="#000">
-                            Browse our<b> EXTENSIVE TALENT POOL</b> and <b>PERSONALIZED</b>
+                            Browse our<b> EXTENSIVE TALENT POOL</b> and get <b>PERSONALIZED</b>
                                 <br className="d-none d-xs-block" />recommendations for<b> FREELANCERS, AGENCIES, </b>and <b>INTERNS.</b>
                             </Hero.Text>
-                            <Hero.Button className="agency-btn1" onClick={goToMarketPlace}>
+                            <Hero.Button className="agency-btn1" as={Link} to="https://platform.mrkt365.com/register">
                                 Find Talent
                             </Hero.Button>
-                            <Hero.Button className="agency-btn2" as={Link} to="/">
+                            <Hero.Button className="agency-btn2" as={Link} to="https://calendly.com/mrkt365-onboarding-team/book-a-platform-demo?month=2022-07">
                                 Book a Demo
                             </Hero.Button>
                         </Hero.Content>
