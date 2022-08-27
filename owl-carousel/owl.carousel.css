@@ -34,11 +34,14 @@
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
+    width: 100%;
 }
 .owl-carousel .owl-item img {
     display: block;
     width: 100%;
     -webkit-transform-style: preserve-3d;
+    max-height: 140px;
+
 }
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {

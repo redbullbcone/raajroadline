@@ -222,6 +222,8 @@ span {
 }
 p {
     padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 30px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -1161,7 +1163,7 @@ a.download-link span i{
 }
 
 .img-bkg01{
-    background-image: url('../img/pics/img-bkg01.jpg');
+    background-image: url('../images-tankers/offer-tankers.jpg');
 }
 
 .img-bkg02{
@@ -1522,6 +1524,7 @@ blockquote{
     display: block;
     margin: 0 auto;
     vertical-align: middle;
+    max-height: 114px;
 }
 
 .clients-li li:hover img{
@@ -1605,6 +1608,9 @@ blockquote{
     display: block;
     padding-top: 12px;
     text-transform: uppercase;
+}
+.client-say h3{
+    padding-bottom: 10px !important;
 }
 
 .custom-heading::after{
@@ -1966,6 +1972,8 @@ blockquote{
 
 .fa-ul.large-icons li{
     margin-bottom: 20px;
+    list-style: disc;
+    font-size: 21px;
 }
 
 .fa-ul.large-icons li:last-child{
@@ -1984,15 +1992,17 @@ blockquote{
     height: 30px;
 }
 
-.fa-ul.large-icons .li-content{
-    padding-left: 40px;
-}
-
 .fa-ul.large-icons .li-content h4{
     padding-top: 3px;
 }
 
-
+.li-content h3{
+    color: #777;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 /*  7.17. NUMBERS COUNTER
     ------------------------------------------------------------------------- */
@@ -2098,6 +2108,7 @@ blockquote{
 .service-feature-box .service-media{
     position: relative;
     overflow: hidden;
+    max-height: 215px;
 }
 
 .service-feature-box .service-media img{
@@ -2149,6 +2160,7 @@ blockquote{
 .service-feature-box .service-body{
     background-color: #fff;
     padding: 20px;
+    min-height: 565px;
 }
 
 
@@ -4030,4 +4042,29 @@ blockquote{
 
 .logo{
     margin-top:-12px;
+}
+
+.about-cmpny{
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.services-ul li{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.submit{
+    background: #205a8f;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 30px;
+}
+
+.contact-add, .contact-mail{
+    font-size: 14px;
+    line-height: 26px;
 }
